@@ -1,0 +1,41 @@
+                   
+                    2 3 8 6 1
+                2 3 8           6 1
+            2 3         8   
+       sub arreglos "más bajo nivel"
+       | 2 | 3 |        no hay inversiones
+       | 8 |            no hay inversiones
+       COMBINAMOS
+       | 2 | > | 8 |    no hay inversiones
+       | 3 | > | 8 |    no hay inversiones
+
+       sub arreglos n - 1 nivel
+       
+       | 2 | 3 | 8 |    no hay inversiones
+       | 6 | 1 |        hay una inversion
+       COMBINAMOS
+       | 2 | > | 6 |    no hay inversiones
+       | 2 | > | 1 |    no hay inversiones
+       | 3 | > | 6 |    no hay inversiones
+       | 3 | > | 1 |    hay una inversion
+       | 8 | > | 6 |    hay una inversion
+       | 8 | > | 1 |    hay una inversion
+
+       Se realizaron 12 comparaciones, no es de órden O(n²) es aproximadamente O(n log(n) )
+       
+
+
+---------------------- para el BIT ----------------------------------
+
+                 5 = 00000101     = 00000101
+                -5 = 11111010 + 1 = 11111011
+                    5 & (-5 + 1)  = 00000001 
+
+
+
+
+       
+
+       
+
+    
