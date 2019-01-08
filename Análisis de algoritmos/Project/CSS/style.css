@@ -1,0 +1,93 @@
+.style_table1 table {
+	margin:auto;
+	width: 800px;
+	border-collapse: collapse;
+	overflow: hidden;
+	box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+.style_table1 tr{
+	padding: 15px 10px;
+	background-color: rgba(247,94,37,0.9);
+	color: #fff;
+}
+
+.style_table1 td {
+	padding: 15px 10px;
+	background-color: rgba(247,94,37,0.9);
+	color: #fff;
+	text-align:center;
+}
+
+.style_table1 tbody tr:hover {
+	background-color: rgba(255, 255, 255, 0.9);
+}
+
+.style_table1 tbody td {
+	position: relative;
+}
+
+.style_table1 tbody td:hover:before {
+	content: "";
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: -9999px;
+	bottom: -9999px;
+	background-color: rgba(255,255,255,0.9);
+	z-index: -2;
+}
+
+.style_table1 thead td {
+	background-color: #55608f;
+}
+
+.style_table1 .solucion {
+	background-color: rgba(63, 224, 60, 0.9);
+}
+
+.style_table1 .tomados {
+	background-color: rgba(29, 186, 255, 0.9);
+}
+
+.style_table1 .num_elements {
+	center: center;
+	background-color: rgba(255, 29, 64, 0.9);
+}
+
+.style_table1 .ceros {
+	background-color: rgba(255, 175, 29, 0.9);
+}
+
+.div_dragdrop {
+    width: 130px;
+    height: 90px;
+    padding: 10px;
+    border: 1px solid #84C3BE;
+	border-radius: 10px;
+	background-color: rgba(132, 195, 190, 0.9);
+}
+
+.div_dragdrop:hover {
+    border: 2px dashed #000;
+}
+
+#articulos_sel{
+	text-align: center;
+	visibility: hidden;
+	font-family: "Homer Simpson", cursive;
+	color: rgba(255, 117, 020,0.9);
+}
+
+#titulo_tabla{
+	text-align:center;
+	visibility: hidden;
+	font-family: "Homer Simpson", cursive;
+	color: rgba(63, 224, 60, 0.9)
+}
+
+.titulo_objetos{
+	text-align:center;
+	font-family: "Homer Simpson", cursive;
+	color: rgba(001,093,082,0.9);
+}

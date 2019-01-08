@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    
+    <link rel="stylesheet" type="text/css" href="CSS/style_table.css">
+    <link rel="stylesheet" type="text/css" href="CSS/style.css">
+    <link rel="stylesheet" type="text/css" href="FRAMEWORKS/bootstrap-4.1/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="FRAMEWORKS/bootstrap-4.1/css/bootstrap-grid.css">
+    <link rel="stylesheet" type="text/css" href="FRAMEWORKS/bootstrap-4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="FRAMEWORKS/bootstrap-4.1/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" type="text/css" href="FRAMEWORKS/bootstrap-4.1/css/bootstrap-reboot.css">
+    <link rel="stylesheet" type="text/css" href="FRAMEWORKS/bootstrap-4.1/css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.2.0/styles/default.min.css">
+
+    <script src="FRAMEWORKS/highlight/highlight.pack.js"></script>
+
+    <title>Animation</title>
+    <script type='text/javascript'>
+        hljs.initHighlightingOnLoad();
+    </script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand">Animation</a>
+        <div class="collapse navbar-collapse" id="navbarTogglerGoSimulation">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Index<span class="sr-only">(current)</span></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <br />
+    <div class="container">
+        <div class="modal-content">
+            <form class="form">
+                <div class="modal-body">
+                    <label class="sr-only" for="NItems">Number of items</label>
+                    <input type="text" class="form-control md-2 mr-sm-2" id="inputNItems" placeholder="Number of items" />
+                    <label class="sr-only" for="KSize">Max size of the knapsack</label>
+                    <input type="text" class="form-control md-2 mr-sm-2" id="inputKMaxSize" placeholder="Max size of the knapsack" />
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" onclick='location.reload(true);'>Clear</button>
+                    <button type="button" class="btn btn-primary" id="btnSend">Send</button>
+                </div>
+            </form>
+        </div>
+
+		<br>
+		<div class="container">
+			<div class="modal-content">
+				<div class="modal-body">
+					<h2 class="titulo_objetos">Objetos disponibles</h2>
+					<br>
+					<img id="gafas" src="IMAGENES/gafas.png" draggable="true" ondragstart="drag(event, 'gafas')" width="70"
+						height="69" >
+					<img id="celular" src="IMAGENES/celular.png" draggable="true" ondragstart="drag(event, 'celular')" width="70"
+						height="60">
+					<img id="laptop" src="IMAGENES/laptop.png" draggable="true" ondragstart="drag(event, 'laptop')" width="70"
+						height="60">
+					<img id="television" src="IMAGENES/television.png" draggable="true" ondragstart="drag(event, 'television')"
+						width="70" height="60">
+					<img id="reloj" src="IMAGENES/reloj.png" draggable="true" ondragstart="drag(event, 'reloj')" width="65"
+						height="60">
+					<img id="audifonos" src="IMAGENES/audifonos.png" draggable="true" ondragstart="drag(event, 'audifonos')"
+						width="70" height="60">
+					<img id="joyas" src="IMAGENES/joyas.png" draggable="true" ondragstart="drag(event, 'joyas')" width="70"
+						height="60">
+					<img id="jarron" src="IMAGENES/jarron.png" draggable="true" ondragstart="drag(event, 'jarron')" width="70"
+						height="60">
+					<img id="videojuego" src="IMAGENES/videojuego.png" draggable="true" ondragstart="drag(event, 'videojuego')"
+						width="70" height="60">
+					<img id="chamarra" src="IMAGENES/chamarra.png" draggable="true" ondragstart="drag(event, 'chamarra')" width="70"
+						height="60">
+					<img id="tennis" src="IMAGENES/tennis.png" draggable="true" ondragstart="drag(event, 'tennis')" width="85"
+						height="60">
+					<img id="camara" src="IMAGENES/camara.png" draggable="true" ondragstart="drag(event, 'camara')" width="70"
+						height="60">
+					<img id="herramientas" src="IMAGENES/herramientas.png" draggable="true" ondragstart="drag(event, 'herramientas')"
+						width="70" height="60">
+					<img id="tablet" src="IMAGENES/tablet.png" draggable="true" ondragstart="drag(event, 'tablet')" width="70"
+						height="60">
+					<img id="perfume" src="IMAGENES/perfume.png" draggable="true" ondragstart="drag(event, 'perfume')" width="70"
+						height="60">
+				</div>
+			</div>
+		</div>
+		<br>
+		
+		
+        <div>
+            <div>
+                <div>
+                    <div class="modal-content">
+                        <div class="col-ms-12 mt-5" align="center">
+                            <form class="form">
+                                <table class="table" id="tblItems">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col" style="color: black;">Items</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                    </tbody>
+                                </table>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" id="btnClearItems" onclick='location.reload(true);'>Clear</button>
+                                    <button type="button" class="btn btn-primary" id="btnSendItems">Send</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <pre>
+            <code class="cpp">
+<code id="line01">int KNAPSACK(int S){</code>
+    <code id="line02">int size = items.size();</code>
+    <code id="line03">int DP[size + 1][S + 1];</code>
+    <code id="line04">for(int i = 0; i <= size; i++){</code>
+        <code id="line05">for(int curr_s = 0; curr_s <= S; curr_s++){</code>
+            <code id="line06">if(i == 0 || curr_s == 0)</code>
+                <code id="line07">DP[i][curr_s] = 0;</code>
+            <code id="line08">else if(items[i - 1].S <= curr_s){</code>
+                <code id="line09">DP[i][curr_s] = max( (items[i - 1].V + DP[i-1][curr_s-items[i-1].S]), DP[i-1][curr_s] );</code>
+            <code id="line10">} else {</code>
+                <code id="line11">DP[i][curr_s] = DP[i-1][curr_s];</code>
+            <code id="line12">}</code>
+        <code id="line13">}</code>
+    <code id="line14">}</code>
+    <code id="line15">return DP[size][S];</code>
+<code id="line16">}</code>
+            </code>
+            </pre>
+            <br />
+            <div class="container">
+                <div class="modal-content">
+					<div class="modal-body">
+					<h2 id="titulo_tabla">Tabla de decisiones</h2>
+					<br>
+					<div class="row">
+						<table class="style_table1" id="table" align="center">
+							<thead></thead>
+							<tbody></tbody>
+						</table>					
+					</div>
+					<br>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary" id="Step">Step</button>
+                    </div>
+				</div>				
+            </div>
+            <br />
+        </div>
+        <br>
+        <div>
+            <div class="card">
+                <div class="card-header">
+                    <br>
+                    <h2 id="articulos_sel" align="center"> Objetos Tomados </h2>
+					<br>
+                </div>
+                <div class="card-content">
+                    <div id="articulos">
+					<br>
+                        <ul id="listado">
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/popper.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/js/bootstrap.min.js"></script>
+        <script src="FRAMEWORKS/anime/anime.min.js"></script>
+        <script src="JS/knapsack.js"></script>
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.2.0/highlight.min.js"></script>
+</body>
+
+</html>

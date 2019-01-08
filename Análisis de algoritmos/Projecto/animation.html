@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="FRAMEWORKS/bootstrap-4.1/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="FRAMEWORKS/bootstrap-4.1/css/bootstrap-grid.css">
+    <link rel="stylesheet" type="text/css" href="FRAMEWORKS/bootstrap-4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="FRAMEWORKS/bootstrap-4.1/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" type="text/css" href="FRAMEWORKS/bootstrap-4.1/css/bootstrap-reboot.css">
+    <link rel="stylesheet" type="text/css" href="FRAMEWORKS/bootstrap-4.1/css/bootstrap-reboot.min.css">
+    <title>Animation</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand">Animation</a>
+        <div class="collapse navbar-collapse" id="navbarTogglerGoSimulation">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Index<span class="sr-only">(current)</span></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="modal-content">
+            <form class="form">
+                <div class="modal-body">
+                    <label class="sr-only" for="NItems">Number of items</label>
+                    <input type="text" class="form-control md-2 mr-sm-2" id="inputNItems" placeholder="Number of items" />
+                    <label class="sr-only" for="KSize">Max size of the knapsack</label>
+                    <input type="text" class="form-control md-2 mr-sm-2" id="inputKMaxSize" placeholder="Max size of the knapsack"/>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary">Clear</button>
+                    <button type="button" class="btn btn-primary" id="btnSend">Send</button>
+                </div>
+            </form>
+        </div>
+
+        <div>
+            <div class="modal-content">
+                <div class="col-ms-12 mt-5" align="center">
+                    <form>
+                        <table class="table" id="tblItems">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Items</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                            </tbody>
+                        </table>
+                        <button type="button" class="btn btn-secondary" id="btnClearItems">Clear</button>
+                        <button type="button" class="btn btn-primfary" id="btnSendItems">Send</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-ms-12 mt-5" align="center">
+                <table class="table" id="table">
+                    <thead></thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="JS/knapsack.js"></script>
+</body>
+
+</html>
