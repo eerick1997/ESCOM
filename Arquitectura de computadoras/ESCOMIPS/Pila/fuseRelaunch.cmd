@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "/home/erick/Documentos/GitHub/Computer-architecture/ESCOMIPS/Pila/STACK_T_isim_beh.exe" -prj "/home/erick/Documentos/GitHub/Computer-architecture/ESCOMIPS/Pila/STACK_T_beh.prj" "work.STACK_T" 

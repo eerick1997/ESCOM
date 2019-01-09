@@ -1,0 +1,33 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+entity NIVEL is
+    Port ( CLK, CLR : in  STD_LOGIC;
+           NA : out  STD_LOGIC);
+end NIVEL;
+
+architecture DETECTOR of NIVEL is
+SIGNAL RE, FE: STD_LOGIC;
+begin
+	
+	PRE: PROCESS(CLK, CLR) BEGIN
+		IF(CLR = '1') THEN
+			RE <= '0';
+		ELSIF(RISING_EDGE(CLK)) THEN
+			RE <= NOT RE;
+		END IF;
+	END PROCESS PRE;
+
+--COLORCAR EL OTRO FF
+
+	PRE2: PROCESS(CLK, CLR) BEGIN
+		IF(CLR = '1') THEN
+			FE <= '0';
+		ELSIF(FALLING_EDGE(CLK)) THEN
+			FE <= NOT FE;
+		END IF;
+	END PROCESS PRE2;
+	
+	NA <= RE XOR FE;
+end DETECTOR;
+

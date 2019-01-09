@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\kaimo\Documents\Github\Computer-architecture\ESCOMIPS\ESCOMIPS\PROCESADOR.ncd
+OUTFILE=C:\Users\kaimo\Documents\Github\Computer-architecture\ESCOMIPS\ESCOMIPS\PROCESADOR.bit
+FAMILY=Artix7
+PART=xc7a100t-3csg324
+WORKINGDIR=C:\Users\kaimo\Documents\Github\Computer-architecture\ESCOMIPS\ESCOMIPS
+LICENSE=WebPack
+USER_INFO=__0_0_0

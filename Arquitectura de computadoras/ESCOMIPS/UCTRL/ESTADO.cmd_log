@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "/home/erick/Documentos/GitHub/Computer-architecture/ESCOMIPS/UCTRL/ESTADO.xst" -ofn "/home/erick/Documentos/GitHub/Computer-architecture/ESCOMIPS/UCTRL/ESTADO.syr" 

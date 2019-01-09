@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<document>
+<!--The data in this file is primarily intended for consumption by Xilinx tools.
+The structure and the elements are likely to change over the next few releases.
+This means code written to parse this file will need to be revisited each subsequent release.-->
+<application name="pn" timeStamp="Wed Dec  5 14:57:55 2018">
+<section name="Project Information" visible="false">
+<property name="ProjectID" value="D0FD4A98E46347A4A22FE17722B009CE" type="project"/>
+<property name="ProjectIteration" value="8" type="project"/>
+<property name="ProjectFile" value="/home/erick/Documentos/GitHub/Computer-architecture/ESCOMIPS/ESCOMIPS/ESCOMIPS.xise" type="project"/>
+<property name="ProjectCreationTimestamp" value="2018-12-01T11:49:58" type="project"/>
+</section>
+<section name="Project Statistics" visible="true">
+<property name="PROP_Enable_Message_Filtering" value="false" type="design"/>
+<property name="PROP_LastAppliedGoal" value="Balanced" type="design"/>
+<property name="PROP_LastAppliedStrategy" value="Xilinx Default (unlocked)" type="design"/>
+<property name="PROP_ManualCompileOrderImp" value="false" type="design"/>
+<property name="PROP_PropSpecInProjFile" value="Store all values" type="design"/>
+<property name="PROP_SelectedInstanceHierarchicalPath" value="/PROCESADOR" type="process"/>
+<property name="PROP_Simulator" value="Modelsim-SE Verilog" type="design"/>
+<property name="PROP_SynthTopFile" value="changed" type="process"/>
+<property name="PROP_Top_Level_Module_Type" value="HDL" type="design"/>
+<property name="PROP_UseSmartGuide" value="false" type="design"/>
+<property name="PROP_intProjectCreationTimestamp" value="2018-12-01T11:49:58" type="design"/>
+<property name="PROP_intWbtProjectID" value="D0FD4A98E46347A4A22FE17722B009CE" type="design"/>
+<property name="PROP_intWbtProjectIteration" value="8" type="process"/>
+<property name="PROP_intWorkingDirLocWRTProjDir" value="Same" type="design"/>
+<property name="PROP_intWorkingDirUsed" value="No" type="design"/>
+<property name="PROP_lockPinsUcfFile" value="changed" type="process"/>
+<property name="PROP_selectedSimRootSourceNode_behav" value="work.PROCESADOR" type="process"/>
+<property name="PROP_selectedSimRootSourceNode_map" value="work.TB_ESCOMIPS" type="process"/>
+<property name="PROP_selectedSimRootSourceNode_par" value="work.TB_ESCOMIPS" type="process"/>
+<property name="PROP_selectedSimRootSourceNode_translate" value="work.TB_PROCESADOR" type="process"/>
+<property name="PROP_selectedSimSourceNode" value="uut" type="process"/>
+<property name="PROP_AutoTop" value="true" type="design"/>
+<property name="PROP_DevFamily" value="Artix7" type="design"/>
+<property name="PROP_DevDevice" value="xc7a100t" type="design"/>
+<property name="PROP_DevFamilyPMName" value="artix7" type="design"/>
+<property name="PROP_DevPackage" value="csg324" type="design"/>
+<property name="PROP_Synthesis_Tool" value="XST (VHDL/Verilog)" type="design"/>
+<property name="PROP_DevSpeed" value="-3" type="design"/>
+<property name="PROP_PreferredLanguage" value="Verilog" type="design"/>
+<property name="FILE_UCF" value="1" type="source"/>
+<property name="FILE_VHDL" value="17" type="source"/>
+</section>
+</application>
+</document>

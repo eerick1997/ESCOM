@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<DeviceUsageSummary rev="7">
+<DesignStatistics TimeStamp="Fri Oct  5 12:04:01 2018"><group name="MiscellaneousStatistics">
+<item name="AGG_BONDED_IO" rev="7">
+<attrib name="value" value="42"/></item>
+<item name="AGG_IO" rev="7">
+<attrib name="value" value="42"/></item>
+<item name="AGG_SLICE" rev="7">
+<attrib name="value" value="16"/></item>
+<item name="NUM_BONDED_IOB" rev="7">
+<attrib name="value" value="42"/></item>
+<item name="NUM_BSLUTONLY" rev="7">
+<attrib name="value" value="64"/></item>
+<item name="NUM_BSUSED" rev="7">
+<attrib name="value" value="64"/></item>
+<item name="NUM_BUFG" rev="7">
+<attrib name="value" value="1"/></item>
+<item name="NUM_SLICEM" rev="7">
+<attrib name="value" value="16"/></item>
+<item name="NUM_SLICE_CONTROLSET" rev="7">
+<attrib name="value" value="1"/></item>
+<item name="NUM_SLICE_CYINIT" rev="7">
+<attrib name="value" value="64"/></item>
+<item name="NUM_SLICE_F7MUX" rev="7">
+<attrib name="value" value="32"/></item>
+<item name="NUM_SLICE_F8MUX" rev="7">
+<attrib name="value" value="16"/></item>
+<item name="NUM_SPRAM_O6ONLY" rev="7">
+<attrib name="value" value="64"/></item>
+</group>
+</DesignStatistics>
+<CmdHistory>
+</CmdHistory>
+</DeviceUsageSummary>

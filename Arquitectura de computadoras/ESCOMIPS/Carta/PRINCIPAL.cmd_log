@@ -1,0 +1,17 @@
+xst -intstyle ise -ifn "/home/erick/Documentos/GitHub/Computer-architecture/ESCOMIPS/Carta/PRINCIPAL.xst" -ofn "/home/erick/Documentos/GitHub/Computer-architecture/ESCOMIPS/Carta/PRINCIPAL.syr" 
+xst -intstyle ise -ifn "/home/erick/Documentos/GitHub/Computer-architecture/ESCOMIPS/Carta/PRINCIPAL.xst" -ofn "/home/erick/Documentos/GitHub/Computer-architecture/ESCOMIPS/Carta/PRINCIPAL.syr" 
+xst -intstyle ise -ifn "/home/erick/Documentos/GitHub/Computer-architecture/ESCOMIPS/Carta/PRINCIPAL.xst" -ofn "/home/erick/Documentos/GitHub/Computer-architecture/ESCOMIPS/Carta/PRINCIPAL.syr" 
+xst -intstyle ise -ifn "/home/erick/Documentos/GitHub/Computer-architecture/ESCOMIPS/Carta/PRINCIPAL.xst" -ofn "/home/erick/Documentos/GitHub/Computer-architecture/ESCOMIPS/Carta/PRINCIPAL.syr" 
+xst -intstyle ise -ifn "/home/erick/Documentos/GitHub/Computer-architecture/ESCOMIPS/Carta/PRINCIPAL.xst" -ofn "/home/erick/Documentos/GitHub/Computer-architecture/ESCOMIPS/Carta/PRINCIPAL.syr" 
+xst -intstyle ise -ifn "/home/erick/Documentos/GitHub/Computer-architecture/ESCOMIPS/Carta/PRINCIPAL.xst" -ofn "/home/erick/Documentos/GitHub/Computer-architecture/ESCOMIPS/Carta/PRINCIPAL.syr" 
+xst -intstyle ise -ifn "/home/erick/Documentos/GitHub/Computer-architecture/ESCOMIPS/Carta/PRINCIPAL.xst" -ofn "/home/erick/Documentos/GitHub/Computer-architecture/ESCOMIPS/Carta/PRINCIPAL.syr" 
+xst -intstyle ise -ifn "/home/erick/Documentos/GitHub/Computer-architecture/ESCOMIPS/Carta/PRINCIPAL.xst" -ofn "/home/erick/Documentos/GitHub/Computer-architecture/ESCOMIPS/Carta/PRINCIPAL.syr" 
+xst -intstyle ise -ifn "/home/erick/Documentos/GitHub/Computer-architecture/ESCOMIPS/Carta/PRINCIPAL.xst" -ofn "/home/erick/Documentos/GitHub/Computer-architecture/ESCOMIPS/Carta/PRINCIPAL.syr" 
+xst -intstyle ise -ifn "/home/erick/Documentos/GitHub/Computer-architecture/ESCOMIPS/Carta/PRINCIPAL.xst" -ofn "/home/erick/Documentos/GitHub/Computer-architecture/ESCOMIPS/Carta/PRINCIPAL.syr" 
+xst -intstyle ise -ifn "/home/erick/Documentos/GitHub/Computer-architecture/ESCOMIPS/Carta/PRINCIPAL.xst" -ofn "/home/erick/Documentos/GitHub/Computer-architecture/ESCOMIPS/Carta/PRINCIPAL.syr" 
+xst -intstyle ise -ifn "/home/erick/Documentos/GitHub/Computer-architecture/ESCOMIPS/Carta/PRINCIPAL.xst" -ofn "/home/erick/Documentos/GitHub/Computer-architecture/ESCOMIPS/Carta/PRINCIPAL.syr" 
+xst -intstyle ise -ifn "/home/erick/Documentos/GitHub/Computer-architecture/ESCOMIPS/Carta/PRINCIPAL.xst" -ofn "/home/erick/Documentos/GitHub/Computer-architecture/ESCOMIPS/Carta/PRINCIPAL.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc contrainsts_carta.ucf -p xc7a100t-csg324-2 PRINCIPAL.ngc PRINCIPAL.ngd  
+map -intstyle ise -p xc7a100t-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PRINCIPAL_map.ncd PRINCIPAL.ngd PRINCIPAL.pcf 
+par -w -intstyle ise -ol high -mt off PRINCIPAL_map.ncd PRINCIPAL.ncd PRINCIPAL.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PRINCIPAL.twx PRINCIPAL.ncd -o PRINCIPAL.twr PRINCIPAL.pcf -ucf contrainsts_carta.ucf 

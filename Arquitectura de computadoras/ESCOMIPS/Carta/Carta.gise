@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="Carta.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="CONTADOR.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="CONTADOR.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="CONTADOR.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="CONTROL.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="CONTROL.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="CONTROL.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="CONVERTIDOR.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="CONVERTIDOR.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="CONVERTIDOR.xst"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="PRINCIPAL.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="PRINCIPAL.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="PRINCIPAL.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="PRINCIPAL.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="PRINCIPAL.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="PRINCIPAL.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="PRINCIPAL.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="PRINCIPAL.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="PRINCIPAL.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="PRINCIPAL.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="PRINCIPAL.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="PRINCIPAL.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="PRINCIPAL.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="PRINCIPAL.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="PRINCIPAL.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="PRINCIPAL.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="PRINCIPAL.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="PRINCIPAL.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="PRINCIPAL.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="PRINCIPAL_envsettings.html"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="PRINCIPAL_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="PRINCIPAL_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="PRINCIPAL_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="PRINCIPAL_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="PRINCIPAL_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="PRINCIPAL_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="PRINCIPAL_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="PRINCIPAL_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="PRINCIPAL_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="PRINCIPAL_par.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="PRINCIPAL_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="PRINCIPAL_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="PRINCIPAL_usage.xml"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="PRINCIPAL_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="REGISTRO.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="REGISTRO.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="REGISTRO.xst"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/par.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/trce.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1540873089" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1540873089">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1540873089" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="3319069860208025379" xil_pn:start_ts="1540873089">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1540873089" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="5375966594907926986" xil_pn:start_ts="1540873089">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1540873089" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1540873089">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1540873089" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="2661348270282978565" xil_pn:start_ts="1540873089">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1540873089" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="3206529612922900429" xil_pn:start_ts="1540873089">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1540873089" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="1161502373569752852" xil_pn:start_ts="1540873089">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1540917807" xil_pn:in_ck="3101262962536089829" xil_pn:name="TRANEXT_xstsynthesize_virtex6" xil_pn:prop_ck="1247423208558540305" xil_pn:start_ts="1540917794">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="PRINCIPAL.lso"/>
+      <outfile xil_pn:name="PRINCIPAL.ngc"/>
+      <outfile xil_pn:name="PRINCIPAL.ngr"/>
+      <outfile xil_pn:name="PRINCIPAL.prj"/>
+      <outfile xil_pn:name="PRINCIPAL.stx"/>
+      <outfile xil_pn:name="PRINCIPAL.syr"/>
+      <outfile xil_pn:name="PRINCIPAL.xst"/>
+      <outfile xil_pn:name="PRINCIPAL_xst.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1540917865" xil_pn:in_ck="7145270310013917678" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="-7214401770912638566" xil_pn:start_ts="1540917865">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="InputChanged"/>
+    </transform>
+    <transform xil_pn:end_ts="1540917875" xil_pn:in_ck="-1878545051743716906" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-5461756045473078395" xil_pn:start_ts="1540917865">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="InputChanged"/>
+      <outfile xil_pn:name="PRINCIPAL.bld"/>
+      <outfile xil_pn:name="PRINCIPAL.ngd"/>
+      <outfile xil_pn:name="PRINCIPAL_ngdbuild.xrpt"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1540917911" xil_pn:in_ck="-8805493189849136009" xil_pn:name="TRANEXT_map_virtex7" xil_pn:prop_ck="-2543691145936091892" xil_pn:start_ts="1540917875">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="InputChanged"/>
+      <outfile xil_pn:name="PRINCIPAL.pcf"/>
+      <outfile xil_pn:name="PRINCIPAL_map.map"/>
+      <outfile xil_pn:name="PRINCIPAL_map.mrp"/>
+      <outfile xil_pn:name="PRINCIPAL_map.ncd"/>
+      <outfile xil_pn:name="PRINCIPAL_map.ngm"/>
+      <outfile xil_pn:name="PRINCIPAL_map.xrpt"/>
+      <outfile xil_pn:name="PRINCIPAL_summary.xml"/>
+      <outfile xil_pn:name="PRINCIPAL_usage.xml"/>
+      <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1540917960" xil_pn:in_ck="6907291635457939888" xil_pn:name="TRANEXT_par_virtex5" xil_pn:prop_ck="-2283627392121029586" xil_pn:start_ts="1540917911">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="InputChanged"/>
+      <outfile xil_pn:name="PRINCIPAL.ncd"/>
+      <outfile xil_pn:name="PRINCIPAL.pad"/>
+      <outfile xil_pn:name="PRINCIPAL.par"/>
+      <outfile xil_pn:name="PRINCIPAL.ptwx"/>
+      <outfile xil_pn:name="PRINCIPAL.unroutes"/>
+      <outfile xil_pn:name="PRINCIPAL.xpi"/>
+      <outfile xil_pn:name="PRINCIPAL_pad.csv"/>
+      <outfile xil_pn:name="PRINCIPAL_pad.txt"/>
+      <outfile xil_pn:name="PRINCIPAL_par.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1540917960" xil_pn:in_ck="1661201428298156403" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416184" xil_pn:start_ts="1540917940">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="InputChanged"/>
+      <outfile xil_pn:name="PRINCIPAL.twr"/>
+      <outfile xil_pn:name="PRINCIPAL.twx"/>
+      <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
+    </transform>
+    <transform xil_pn:name="TRAN_postSynthesisSimModel">
+      <status xil_pn:value="AbortedRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="InputAdded"/>
+      <status xil_pn:value="InputRemoved"/>
+    </transform>
+  </transforms>
+
+</generated_project>

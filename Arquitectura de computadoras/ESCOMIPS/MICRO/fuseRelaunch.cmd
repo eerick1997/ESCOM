@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "/home/erick/Documentos/GitHub/Computer-architecture/ESCOMIPS/MICRO/aiura_isim_beh.exe" -prj "/home/erick/Documentos/GitHub/Computer-architecture/ESCOMIPS/MICRO/aiura_beh.prj" "work.aiura" 

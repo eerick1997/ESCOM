@@ -1,0 +1,265 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+/opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/trce -intstyle ise -v 3 -s 2 -n
+3 -fastpaths -xml ARCHIVO_DE_REGISTROS.twx ARCHIVO_DE_REGISTROS.ncd -o
+ARCHIVO_DE_REGISTROS.twr ARCHIVO_DE_REGISTROS.pcf
+
+Design file:              ARCHIVO_DE_REGISTROS.ncd
+Physical constraint file: ARCHIVO_DE_REGISTROS.pcf
+Device,package,speed:     xc7a100t,csg324,C,-2 (PRODUCTION 1.10 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock CLK
+------------+------------+------------+------------+------------+------------------+--------+
+            |Max Setup to|  Process   |Max Hold to |  Process   |                  | Clock  |
+Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s) | Phase  |
+------------+------------+------------+------------+------------+------------------+--------+
+ADDR_RD1<0> |    2.326(R)|      SLOW  |    0.891(R)|      SLOW  |CLK_BUFGP         |   0.000|
+ADDR_RD1<1> |    2.308(R)|      SLOW  |    0.981(R)|      SLOW  |CLK_BUFGP         |   0.000|
+ADDR_RD1<2> |    2.126(R)|      SLOW  |    1.018(R)|      SLOW  |CLK_BUFGP         |   0.000|
+ADDR_RD1<3> |    1.954(R)|      SLOW  |    1.167(R)|      SLOW  |CLK_BUFGP         |   0.000|
+ADDR_WR<0>  |    0.342(R)|      FAST  |    2.558(R)|      SLOW  |CLK_BUFGP         |   0.000|
+ADDR_WR<1>  |    0.765(R)|      FAST  |    1.608(R)|      SLOW  |CLK_BUFGP         |   0.000|
+ADDR_WR<2>  |    0.838(R)|      FAST  |    1.474(R)|      SLOW  |CLK_BUFGP         |   0.000|
+ADDR_WR<3>  |    0.313(R)|      FAST  |    2.572(R)|      SLOW  |CLK_BUFGP         |   0.000|
+DIR         |    2.524(R)|      SLOW  |    1.022(R)|      SLOW  |CLK_BUFGP         |   0.000|
+SHAMT<0>    |    1.985(R)|      SLOW  |    1.495(R)|      SLOW  |CLK_BUFGP         |   0.000|
+SHAMT<1>    |    1.830(R)|      SLOW  |    1.337(R)|      SLOW  |CLK_BUFGP         |   0.000|
+SHAMT<2>    |    1.351(R)|      FAST  |    1.871(R)|      SLOW  |CLK_BUFGP         |   0.000|
+SHAMT<3>    |    1.279(R)|      FAST  |    1.635(R)|      SLOW  |CLK_BUFGP         |   0.000|
+SHE         |    1.509(R)|      SLOW  |    1.543(R)|      SLOW  |CLK_BUFGP         |   0.000|
+WD<0>       |    0.454(R)|      FAST  |    1.671(R)|      SLOW  |CLK_BUFGP         |   0.000|
+WD<1>       |    1.190(R)|      FAST  |    0.552(R)|      SLOW  |CLK_BUFGP         |   0.000|
+WD<2>       |    0.306(R)|      FAST  |    1.931(R)|      SLOW  |CLK_BUFGP         |   0.000|
+WD<3>       |    0.597(R)|      FAST  |    1.358(R)|      SLOW  |CLK_BUFGP         |   0.000|
+WD<4>       |    0.388(R)|      FAST  |    1.806(R)|      SLOW  |CLK_BUFGP         |   0.000|
+WD<5>       |    0.185(R)|      FAST  |    2.017(R)|      SLOW  |CLK_BUFGP         |   0.000|
+WD<6>       |    0.250(R)|      FAST  |    1.930(R)|      SLOW  |CLK_BUFGP         |   0.000|
+WD<7>       |    0.401(R)|      FAST  |    1.647(R)|      SLOW  |CLK_BUFGP         |   0.000|
+WD<8>       |    0.231(R)|      FAST  |    1.798(R)|      SLOW  |CLK_BUFGP         |   0.000|
+WD<9>       |    0.337(R)|      FAST  |    1.871(R)|      SLOW  |CLK_BUFGP         |   0.000|
+WD<10>      |    0.339(R)|      FAST  |    1.723(R)|      SLOW  |CLK_BUFGP         |   0.000|
+WD<11>      |    0.448(R)|      FAST  |    1.574(R)|      SLOW  |CLK_BUFGP         |   0.000|
+WD<12>      |    0.344(R)|      FAST  |    1.836(R)|      SLOW  |CLK_BUFGP         |   0.000|
+WD<13>      |    0.354(R)|      FAST  |    1.704(R)|      SLOW  |CLK_BUFGP         |   0.000|
+WD<14>      |    0.501(R)|      FAST  |    1.679(R)|      SLOW  |CLK_BUFGP         |   0.000|
+WD<15>      |    0.481(R)|      FAST  |    1.661(R)|      SLOW  |CLK_BUFGP         |   0.000|
+WR          |    0.176(R)|      FAST  |    2.499(R)|      SLOW  |CLK_BUFGP         |   0.000|
+------------+------------+------------+------------+------------+------------------+--------+
+
+Clock CLK to Pad
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+DINOUT1<0>  |        10.932(R)|      SLOW  |         4.483(R)|      FAST  |CLK_BUFGP         |   0.000|
+DINOUT1<1>  |        10.902(R)|      SLOW  |         4.533(R)|      FAST  |CLK_BUFGP         |   0.000|
+DINOUT1<2>  |        10.605(R)|      SLOW  |         4.212(R)|      FAST  |CLK_BUFGP         |   0.000|
+DINOUT1<3>  |        10.946(R)|      SLOW  |         4.493(R)|      FAST  |CLK_BUFGP         |   0.000|
+DINOUT1<4>  |        10.984(R)|      SLOW  |         4.435(R)|      FAST  |CLK_BUFGP         |   0.000|
+DINOUT1<5>  |        10.388(R)|      SLOW  |         4.117(R)|      FAST  |CLK_BUFGP         |   0.000|
+DINOUT1<6>  |        10.902(R)|      SLOW  |         4.489(R)|      FAST  |CLK_BUFGP         |   0.000|
+DINOUT1<7>  |        10.648(R)|      SLOW  |         4.316(R)|      FAST  |CLK_BUFGP         |   0.000|
+DINOUT1<8>  |        10.873(R)|      SLOW  |         4.367(R)|      FAST  |CLK_BUFGP         |   0.000|
+DINOUT1<9>  |         9.228(R)|      SLOW  |         3.514(R)|      FAST  |CLK_BUFGP         |   0.000|
+DINOUT1<10> |         9.652(R)|      SLOW  |         3.697(R)|      FAST  |CLK_BUFGP         |   0.000|
+DINOUT1<11> |         9.391(R)|      SLOW  |         3.576(R)|      FAST  |CLK_BUFGP         |   0.000|
+DINOUT1<12> |         9.341(R)|      SLOW  |         3.568(R)|      FAST  |CLK_BUFGP         |   0.000|
+DINOUT1<13> |         9.731(R)|      SLOW  |         3.745(R)|      FAST  |CLK_BUFGP         |   0.000|
+DINOUT1<14> |         9.407(R)|      SLOW  |         3.697(R)|      FAST  |CLK_BUFGP         |   0.000|
+DINOUT1<15> |         9.815(R)|      SLOW  |         3.870(R)|      FAST  |CLK_BUFGP         |   0.000|
+DOUT2<0>    |         9.721(R)|      SLOW  |         3.812(R)|      FAST  |CLK_BUFGP         |   0.000|
+DOUT2<1>    |         9.621(R)|      SLOW  |         3.771(R)|      FAST  |CLK_BUFGP         |   0.000|
+DOUT2<2>    |         9.646(R)|      SLOW  |         3.671(R)|      FAST  |CLK_BUFGP         |   0.000|
+DOUT2<3>    |        10.490(R)|      SLOW  |         4.089(R)|      FAST  |CLK_BUFGP         |   0.000|
+DOUT2<4>    |         9.638(R)|      SLOW  |         3.655(R)|      FAST  |CLK_BUFGP         |   0.000|
+DOUT2<5>    |        10.457(R)|      SLOW  |         4.123(R)|      FAST  |CLK_BUFGP         |   0.000|
+DOUT2<6>    |         9.703(R)|      SLOW  |         3.823(R)|      FAST  |CLK_BUFGP         |   0.000|
+DOUT2<7>    |         9.641(R)|      SLOW  |         3.785(R)|      FAST  |CLK_BUFGP         |   0.000|
+DOUT2<8>    |         9.837(R)|      SLOW  |         3.762(R)|      FAST  |CLK_BUFGP         |   0.000|
+DOUT2<9>    |         9.521(R)|      SLOW  |         3.642(R)|      FAST  |CLK_BUFGP         |   0.000|
+DOUT2<10>   |         9.544(R)|      SLOW  |         3.632(R)|      FAST  |CLK_BUFGP         |   0.000|
+DOUT2<11>   |         9.470(R)|      SLOW  |         3.625(R)|      FAST  |CLK_BUFGP         |   0.000|
+DOUT2<12>   |         9.386(R)|      SLOW  |         3.568(R)|      FAST  |CLK_BUFGP         |   0.000|
+DOUT2<13>   |        10.893(R)|      SLOW  |         4.314(R)|      FAST  |CLK_BUFGP         |   0.000|
+DOUT2<14>   |         9.702(R)|      SLOW  |         3.830(R)|      FAST  |CLK_BUFGP         |   0.000|
+DOUT2<15>   |        10.255(R)|      SLOW  |         4.046(R)|      FAST  |CLK_BUFGP         |   0.000|
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock to Setup on destination clock CLK
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+CLK            |    4.264|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+ADDR_RD1<0>    |DINOUT1<0>     |    8.698|
+ADDR_RD1<0>    |DINOUT1<1>     |    8.683|
+ADDR_RD1<0>    |DINOUT1<2>     |    8.364|
+ADDR_RD1<0>    |DINOUT1<3>     |    8.712|
+ADDR_RD1<0>    |DINOUT1<4>     |    8.753|
+ADDR_RD1<0>    |DINOUT1<5>     |    8.159|
+ADDR_RD1<0>    |DINOUT1<6>     |    8.789|
+ADDR_RD1<0>    |DINOUT1<7>     |    8.550|
+ADDR_RD1<0>    |DINOUT1<8>     |    8.753|
+ADDR_RD1<0>    |DINOUT1<9>     |    7.115|
+ADDR_RD1<0>    |DINOUT1<10>    |    7.531|
+ADDR_RD1<0>    |DINOUT1<11>    |    7.272|
+ADDR_RD1<0>    |DINOUT1<12>    |    7.388|
+ADDR_RD1<0>    |DINOUT1<13>    |    7.771|
+ADDR_RD1<0>    |DINOUT1<14>    |    7.469|
+ADDR_RD1<0>    |DINOUT1<15>    |    7.862|
+ADDR_RD1<1>    |DINOUT1<0>     |    8.492|
+ADDR_RD1<1>    |DINOUT1<1>     |    8.480|
+ADDR_RD1<1>    |DINOUT1<2>     |    8.162|
+ADDR_RD1<1>    |DINOUT1<3>     |    8.512|
+ADDR_RD1<1>    |DINOUT1<4>     |    8.644|
+ADDR_RD1<1>    |DINOUT1<5>     |    8.050|
+ADDR_RD1<1>    |DINOUT1<6>     |    8.768|
+ADDR_RD1<1>    |DINOUT1<7>     |    8.532|
+ADDR_RD1<1>    |DINOUT1<8>     |    8.736|
+ADDR_RD1<1>    |DINOUT1<9>     |    7.100|
+ADDR_RD1<1>    |DINOUT1<10>    |    7.374|
+ADDR_RD1<1>    |DINOUT1<11>    |    7.115|
+ADDR_RD1<1>    |DINOUT1<12>    |    7.186|
+ADDR_RD1<1>    |DINOUT1<13>    |    7.567|
+ADDR_RD1<1>    |DINOUT1<14>    |    7.264|
+ADDR_RD1<1>    |DINOUT1<15>    |    7.654|
+ADDR_RD1<2>    |DINOUT1<0>     |    8.390|
+ADDR_RD1<2>    |DINOUT1<1>     |    8.368|
+ADDR_RD1<2>    |DINOUT1<2>     |    8.067|
+ADDR_RD1<2>    |DINOUT1<3>     |    8.407|
+ADDR_RD1<2>    |DINOUT1<4>     |    8.599|
+ADDR_RD1<2>    |DINOUT1<5>     |    7.996|
+ADDR_RD1<2>    |DINOUT1<6>     |    8.373|
+ADDR_RD1<2>    |DINOUT1<7>     |    8.127|
+ADDR_RD1<2>    |DINOUT1<8>     |    8.348|
+ADDR_RD1<2>    |DINOUT1<9>     |    6.702|
+ADDR_RD1<2>    |DINOUT1<10>    |    7.241|
+ADDR_RD1<2>    |DINOUT1<11>    |    6.973|
+ADDR_RD1<2>    |DINOUT1<12>    |    7.111|
+ADDR_RD1<2>    |DINOUT1<13>    |    7.502|
+ADDR_RD1<2>    |DINOUT1<14>    |    7.182|
+ADDR_RD1<2>    |DINOUT1<15>    |    7.582|
+ADDR_RD1<3>    |DINOUT1<0>     |    8.272|
+ADDR_RD1<3>    |DINOUT1<1>     |    8.250|
+ADDR_RD1<3>    |DINOUT1<2>     |    7.944|
+ADDR_RD1<3>    |DINOUT1<3>     |    8.284|
+ADDR_RD1<3>    |DINOUT1<4>     |    8.426|
+ADDR_RD1<3>    |DINOUT1<5>     |    7.824|
+ADDR_RD1<3>    |DINOUT1<6>     |    8.224|
+ADDR_RD1<3>    |DINOUT1<7>     |    7.978|
+ADDR_RD1<3>    |DINOUT1<8>     |    8.194|
+ADDR_RD1<3>    |DINOUT1<9>     |    6.548|
+ADDR_RD1<3>    |DINOUT1<10>    |    6.981|
+ADDR_RD1<3>    |DINOUT1<11>    |    6.714|
+ADDR_RD1<3>    |DINOUT1<12>    |    7.051|
+ADDR_RD1<3>    |DINOUT1<13>    |    7.442|
+ADDR_RD1<3>    |DINOUT1<14>    |    7.127|
+ADDR_RD1<3>    |DINOUT1<15>    |    7.527|
+ADDR_RD2<0>    |DOUT2<0>       |    8.761|
+ADDR_RD2<0>    |DOUT2<1>       |    8.676|
+ADDR_RD2<0>    |DOUT2<2>       |    8.679|
+ADDR_RD2<0>    |DOUT2<3>       |    9.530|
+ADDR_RD2<0>    |DOUT2<4>       |    8.795|
+ADDR_RD2<0>    |DOUT2<5>       |    9.616|
+ADDR_RD2<0>    |DOUT2<6>       |    8.725|
+ADDR_RD2<0>    |DOUT2<7>       |    8.678|
+ADDR_RD2<0>    |DOUT2<8>       |    8.852|
+ADDR_RD2<0>    |DOUT2<9>       |    8.543|
+ADDR_RD2<0>    |DOUT2<10>      |    8.838|
+ADDR_RD2<0>    |DOUT2<11>      |    8.766|
+ADDR_RD2<0>    |DOUT2<12>      |    8.293|
+ADDR_RD2<0>    |DOUT2<13>      |    9.793|
+ADDR_RD2<0>    |DOUT2<14>      |    8.624|
+ADDR_RD2<0>    |DOUT2<15>      |    9.162|
+ADDR_RD2<1>    |DOUT2<0>       |    7.456|
+ADDR_RD2<1>    |DOUT2<1>       |    7.374|
+ADDR_RD2<1>    |DOUT2<2>       |    7.378|
+ADDR_RD2<1>    |DOUT2<3>       |    8.231|
+ADDR_RD2<1>    |DOUT2<4>       |    7.668|
+ADDR_RD2<1>    |DOUT2<5>       |    8.489|
+ADDR_RD2<1>    |DOUT2<6>       |    7.865|
+ADDR_RD2<1>    |DOUT2<7>       |    7.821|
+ADDR_RD2<1>    |DOUT2<8>       |    7.996|
+ADDR_RD2<1>    |DOUT2<9>       |    7.689|
+ADDR_RD2<1>    |DOUT2<10>      |    7.860|
+ADDR_RD2<1>    |DOUT2<11>      |    7.788|
+ADDR_RD2<1>    |DOUT2<12>      |    7.529|
+ADDR_RD2<1>    |DOUT2<13>      |    9.027|
+ADDR_RD2<1>    |DOUT2<14>      |    7.857|
+ADDR_RD2<1>    |DOUT2<15>      |    8.392|
+ADDR_RD2<2>    |DOUT2<0>       |    7.210|
+ADDR_RD2<2>    |DOUT2<1>       |    7.118|
+ADDR_RD2<2>    |DOUT2<2>       |    7.139|
+ADDR_RD2<2>    |DOUT2<3>       |    7.982|
+ADDR_RD2<2>    |DOUT2<4>       |    7.250|
+ADDR_RD2<2>    |DOUT2<5>       |    8.062|
+ADDR_RD2<2>    |DOUT2<6>       |    7.711|
+ADDR_RD2<2>    |DOUT2<7>       |    7.657|
+ADDR_RD2<2>    |DOUT2<8>       |    7.849|
+ADDR_RD2<2>    |DOUT2<9>       |    7.532|
+ADDR_RD2<2>    |DOUT2<10>      |    7.661|
+ADDR_RD2<2>    |DOUT2<11>      |    7.580|
+ADDR_RD2<2>    |DOUT2<12>      |    7.519|
+ADDR_RD2<2>    |DOUT2<13>      |    9.027|
+ADDR_RD2<2>    |DOUT2<14>      |    7.840|
+ADDR_RD2<2>    |DOUT2<15>      |    8.385|
+ADDR_RD2<3>    |DOUT2<0>       |    8.850|
+ADDR_RD2<3>    |DOUT2<1>       |    8.758|
+ADDR_RD2<3>    |DOUT2<2>       |    8.774|
+ADDR_RD2<3>    |DOUT2<3>       |    9.617|
+ADDR_RD2<3>    |DOUT2<4>       |    8.864|
+ADDR_RD2<3>    |DOUT2<5>       |    9.677|
+ADDR_RD2<3>    |DOUT2<6>       |    8.522|
+ADDR_RD2<3>    |DOUT2<7>       |    8.468|
+ADDR_RD2<3>    |DOUT2<8>       |    8.941|
+ADDR_RD2<3>    |DOUT2<9>       |    8.624|
+ADDR_RD2<3>    |DOUT2<10>      |    8.451|
+ADDR_RD2<3>    |DOUT2<11>      |    8.371|
+ADDR_RD2<3>    |DOUT2<12>      |    8.333|
+ADDR_RD2<3>    |DOUT2<13>      |    9.841|
+ADDR_RD2<3>    |DOUT2<14>      |    8.659|
+ADDR_RD2<3>    |DOUT2<15>      |    9.204|
+---------------+---------------+---------+
+
+
+Analysis completed Fri Oct 19 23:26:32 2018 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 754 MB
+
+
+

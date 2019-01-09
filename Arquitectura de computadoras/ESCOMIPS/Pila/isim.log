@@ -1,0 +1,13 @@
+ISim log file
+Running: /home/erick/Documentos/GitHub/Computer-architecture/ESCOMIPS/Pila/STACK_T_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb /home/erick/Documentos/GitHub/Computer-architecture/ESCOMIPS/Pila/STACK_T_isim_beh.wdb 
+ISim P.20131013 (signature 0xfbc00daa)
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /stack_t/uut/ : Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+at 0 ps, Instance /stack_t/uut/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+Finished circuit initialization process.
+# exit 0

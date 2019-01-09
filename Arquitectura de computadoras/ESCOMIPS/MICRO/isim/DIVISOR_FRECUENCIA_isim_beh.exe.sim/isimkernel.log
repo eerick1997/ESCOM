@@ -1,0 +1,28 @@
+Command line:
+   DIVISOR_FRECUENCIA_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  41419
+
+Fri Dec  7 08:33:34 2018
+
+
+ Elaboration Time: 0.16 sec
+
+ Current Memory Usage: 205.328 Meg
+
+ Total Signals          : 4
+ Total Nets             : 4
+ Total Signal Drivers   : 2
+ Total Blocks           : 2
+ Total Primitive Blocks : 2
+ Total Processes        : 1
+ Total Traceable Variables  : 9
+ Total Scalar Nets and Variables : 365
+
+ Total Simulation Time: 0.17 sec
+
+ Current Memory Usage: 280.83 Meg
+
+Fri Dec  7 08:33:40 2018
+

@@ -1,0 +1,339 @@
+Release 14.7 - xst P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.07 secs
+ 
+--> 
+Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.08 secs
+ 
+--> 
+Reading design: MEMP.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "MEMP.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "MEMP"
+Output Format                      : NGC
+Target Device                      : xc7a100t-2-csg324
+
+---- Source Options
+Top Module Name                    : MEMP
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 32
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "/home/erick/Documentos/Software/Xilinx/MEMP/MEMP.vhd" into library work
+Parsing entity <MEMP>.
+Parsing architecture <MEMORIA> of entity <memp>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating entity <MEMP> (architecture <MEMORIA>) with generics from library <work>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <MEMP>.
+    Related source file is "/home/erick/Documentos/Software/Xilinx/MEMP/MEMP.vhd".
+        BADDR = 16
+        BDATA = 25
+    Found 25-bit register for signal <D>.
+    Found 65536x25-bit Read Only RAM for signal <A[15]_GND_5_o_wide_mux_0_OUT>
+    Summary:
+	inferred   1 RAM(s).
+	inferred  25 D-type flip-flop(s).
+Unit <MEMP> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 1
+ 65536x25-bit single-port Read Only RAM                : 1
+# Registers                                            : 1
+ 25-bit register                                       : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+Synthesizing (advanced) Unit <MEMP>.
+INFO:Xst:3226 - The RAM <Mram_A[15]_GND_5_o_wide_mux_0_OUT> will be implemented as a BLOCK RAM, absorbing the following register(s): <D>
+    -----------------------------------------------------------------------
+    | ram_type           | Block                               |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 65536-word x 25-bit                 |          |
+    |     mode           | write-first                         |          |
+    |     clkA           | connected to signal <CLK>           | rise     |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <A>             |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to signal <D>             |          |
+    -----------------------------------------------------------------------
+    | optimization       | speed                               |          |
+    -----------------------------------------------------------------------
+Unit <MEMP> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 1
+ 65536x25-bit single-port block Read Only RAM          : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <MEMP> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block MEMP, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : MEMP.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 2
+#      GND                         : 1
+#      VCC                         : 1
+# RAMS                             : 50
+#      RAMB36E1                    : 50
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 41
+#      IBUF                        : 16
+#      OBUF                        : 25
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 7a100tcsg324-2 
+
+
+Slice Logic Utilization: 
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:      0
+   Number with an unused Flip Flop:       0  out of      0         
+   Number with an unused LUT:             0  out of      0         
+   Number of fully used LUT-FF pairs:     0  out of      0         
+   Number of unique control sets:         0
+
+IO Utilization: 
+ Number of IOs:                          42
+ Number of bonded IOBs:                  42  out of    210    20%  
+
+Specific Feature Utilization:
+ Number of Block RAM/FIFO:               50  out of    135    37%  
+    Number using Block RAM only:         50
+ Number of BUFG/BUFGCTRLs:                1  out of     32     3%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CLK                                | BUFGP                  | 50    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------------------------+------------------------------------------+-------+
+Control Signal                                       | Buffer(FF name)                          | Load  |
+-----------------------------------------------------+------------------------------------------+-------+
+N111(Mram_A[15]_GND_5_o_wide_mux_0_OUT71:CASCADEOUTA)| NONE(Mram_A[15]_GND_5_o_wide_mux_0_OUT7) | 1     |
+N13(Mram_A[15]_GND_5_o_wide_mux_0_OUT51:CASCADEOUTA) | NONE(Mram_A[15]_GND_5_o_wide_mux_0_OUT5) | 1     |
+N15(Mram_A[15]_GND_5_o_wide_mux_0_OUT61:CASCADEOUTA) | NONE(Mram_A[15]_GND_5_o_wide_mux_0_OUT6) | 1     |
+N17(Mram_A[15]_GND_5_o_wide_mux_0_OUT101:CASCADEOUTA)| NONE(Mram_A[15]_GND_5_o_wide_mux_0_OUT10)| 1     |
+N19(Mram_A[15]_GND_5_o_wide_mux_0_OUT81:CASCADEOUTA) | NONE(Mram_A[15]_GND_5_o_wide_mux_0_OUT8) | 1     |
+N21(Mram_A[15]_GND_5_o_wide_mux_0_OUT91:CASCADEOUTA) | NONE(Mram_A[15]_GND_5_o_wide_mux_0_OUT9) | 1     |
+N23(Mram_A[15]_GND_5_o_wide_mux_0_OUT131:CASCADEOUTA)| NONE(Mram_A[15]_GND_5_o_wide_mux_0_OUT13)| 1     |
+N25(Mram_A[15]_GND_5_o_wide_mux_0_OUT111:CASCADEOUTA)| NONE(Mram_A[15]_GND_5_o_wide_mux_0_OUT11)| 1     |
+N27(Mram_A[15]_GND_5_o_wide_mux_0_OUT121:CASCADEOUTA)| NONE(Mram_A[15]_GND_5_o_wide_mux_0_OUT12)| 1     |
+N29(Mram_A[15]_GND_5_o_wide_mux_0_OUT161:CASCADEOUTA)| NONE(Mram_A[15]_GND_5_o_wide_mux_0_OUT16)| 1     |
+N3(Mram_A[15]_GND_5_o_wide_mux_0_OUT110:CASCADEOUTA) | NONE(Mram_A[15]_GND_5_o_wide_mux_0_OUT1) | 1     |
+N31(Mram_A[15]_GND_5_o_wide_mux_0_OUT141:CASCADEOUTA)| NONE(Mram_A[15]_GND_5_o_wide_mux_0_OUT14)| 1     |
+N33(Mram_A[15]_GND_5_o_wide_mux_0_OUT151:CASCADEOUTA)| NONE(Mram_A[15]_GND_5_o_wide_mux_0_OUT15)| 1     |
+N35(Mram_A[15]_GND_5_o_wide_mux_0_OUT191:CASCADEOUTA)| NONE(Mram_A[15]_GND_5_o_wide_mux_0_OUT19)| 1     |
+N37(Mram_A[15]_GND_5_o_wide_mux_0_OUT171:CASCADEOUTA)| NONE(Mram_A[15]_GND_5_o_wide_mux_0_OUT17)| 1     |
+N39(Mram_A[15]_GND_5_o_wide_mux_0_OUT181:CASCADEOUTA)| NONE(Mram_A[15]_GND_5_o_wide_mux_0_OUT18)| 1     |
+N41(Mram_A[15]_GND_5_o_wide_mux_0_OUT221:CASCADEOUTA)| NONE(Mram_A[15]_GND_5_o_wide_mux_0_OUT22)| 1     |
+N43(Mram_A[15]_GND_5_o_wide_mux_0_OUT201:CASCADEOUTA)| NONE(Mram_A[15]_GND_5_o_wide_mux_0_OUT20)| 1     |
+N45(Mram_A[15]_GND_5_o_wide_mux_0_OUT211:CASCADEOUTA)| NONE(Mram_A[15]_GND_5_o_wide_mux_0_OUT21)| 1     |
+N47(Mram_A[15]_GND_5_o_wide_mux_0_OUT251:CASCADEOUTA)| NONE(Mram_A[15]_GND_5_o_wide_mux_0_OUT25)| 1     |
+N49(Mram_A[15]_GND_5_o_wide_mux_0_OUT231:CASCADEOUTA)| NONE(Mram_A[15]_GND_5_o_wide_mux_0_OUT23)| 1     |
+N5(Mram_A[15]_GND_5_o_wide_mux_0_OUT26:CASCADEOUTA)  | NONE(Mram_A[15]_GND_5_o_wide_mux_0_OUT2) | 1     |
+N51(Mram_A[15]_GND_5_o_wide_mux_0_OUT241:CASCADEOUTA)| NONE(Mram_A[15]_GND_5_o_wide_mux_0_OUT24)| 1     |
+N7(Mram_A[15]_GND_5_o_wide_mux_0_OUT31:CASCADEOUTA)  | NONE(Mram_A[15]_GND_5_o_wide_mux_0_OUT3) | 1     |
+N9(Mram_A[15]_GND_5_o_wide_mux_0_OUT41:CASCADEOUTA)  | NONE(Mram_A[15]_GND_5_o_wide_mux_0_OUT4) | 1     |
+-----------------------------------------------------+------------------------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -2
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 124.00 secs
+Total CPU time to Xst completion: 123.43 secs
+ 
+--> 
+
+
+Total memory usage is 1718692 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

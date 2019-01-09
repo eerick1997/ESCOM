@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="ARCHIVO_REGISTROS.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="ARCHIVO_DE_REGISTROS.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="ARCHIVO_DE_REGISTROS.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="ARCHIVO_DE_REGISTROS.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="ARCHIVO_DE_REGISTROS.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="ARCHIVO_DE_REGISTROS.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="ARCHIVO_DE_REGISTROS.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="ARCHIVO_DE_REGISTROS.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="ARCHIVO_DE_REGISTROS.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="ARCHIVO_DE_REGISTROS.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="ARCHIVO_DE_REGISTROS.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="ARCHIVO_DE_REGISTROS.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="ARCHIVO_DE_REGISTROS.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="ARCHIVO_DE_REGISTROS.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="ARCHIVO_DE_REGISTROS.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="ARCHIVO_DE_REGISTROS.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="ARCHIVO_DE_REGISTROS.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="ARCHIVO_DE_REGISTROS.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="ARCHIVO_DE_REGISTROS.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="ARCHIVO_DE_REGISTROS.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="ARCHIVO_DE_REGISTROS_envsettings.html"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="ARCHIVO_DE_REGISTROS_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="ARCHIVO_DE_REGISTROS_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="ARCHIVO_DE_REGISTROS_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="ARCHIVO_DE_REGISTROS_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="ARCHIVO_DE_REGISTROS_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="ARCHIVO_DE_REGISTROS_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="ARCHIVO_DE_REGISTROS_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="ARCHIVO_DE_REGISTROS_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="ARCHIVO_DE_REGISTROS_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="ARCHIVO_DE_REGISTROS_par.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="ARCHIVO_DE_REGISTROS_preroute.twr" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="ARCHIVO_DE_REGISTROS_preroute.twx" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="ARCHIVO_DE_REGISTROS_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="ARCHIVO_DE_REGISTROS_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="ARCHIVO_DE_REGISTROS_usage.xml"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="ARCHIVO_DE_REGISTROS_xst.xrpt"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="TB2_ARCHIVO_REGISTROS_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="TB2_ARCHIVO_REGISTROS_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="TB_ARCHIVO_REGISTROS_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="TB_ARCHIVO_REGISTROS_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="TB_ARCHIVO_REGISTROS_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="TB_ARCHIVO_REGISTROS_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/par.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/trce.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1539996766" xil_pn:name="TRANEXT_compLibraries2_virtex5" xil_pn:prop_ck="5438683702708918982" xil_pn:start_ts="1539996766">
+      <status xil_pn:value="FailedRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1539875833" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1539875833">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1540009127" xil_pn:in_ck="-8785449993597937225" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1540009127">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="ARCHIVO_DE_REGISTROS.vhd"/>
+      <outfile xil_pn:name="TB_ARCHIVO_REGISTROS.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1540006800" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-7640117633970181096" xil_pn:start_ts="1540006800">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1540006800" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="2446358337973935606" xil_pn:start_ts="1540006800">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1539875833" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="543154028554898277" xil_pn:start_ts="1539875833">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1540009147" xil_pn:in_ck="-8785449993597937225" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1540009147">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="ARCHIVO_DE_REGISTROS.vhd"/>
+      <outfile xil_pn:name="TB_ARCHIVO_REGISTROS.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1540009151" xil_pn:in_ck="-8785449993597937225" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-6466612374421147872" xil_pn:start_ts="1540009147">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="TB_ARCHIVO_REGISTROS_beh.prj"/>
+      <outfile xil_pn:name="TB_ARCHIVO_REGISTROS_isim_beh.exe"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1540009152" xil_pn:in_ck="448744946439227217" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="6092022421212012525" xil_pn:start_ts="1540009151">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputRemoved"/>
+      <status xil_pn:value="OutputChanged"/>
+      <status xil_pn:value="OutputRemoved"/>
+    </transform>
+    <transform xil_pn:end_ts="1539997190" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1539997190">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1539997190" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="6448953314327591582" xil_pn:start_ts="1539997190">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1539997190" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="543154028554898277" xil_pn:start_ts="1539997190">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1539997190" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1539997190">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1539997190" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="-7859195609128709376" xil_pn:start_ts="1539997190">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1539997190" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="3206529612922900429" xil_pn:start_ts="1539997190">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1539997190" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-3179527421264237265" xil_pn:start_ts="1539997190">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1540009492" xil_pn:in_ck="4091551106859896965" xil_pn:name="TRANEXT_xstsynthesize_virtex6" xil_pn:prop_ck="2016614295008640492" xil_pn:start_ts="1540009479">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="ARCHIVO_DE_REGISTROS.lso"/>
+      <outfile xil_pn:name="ARCHIVO_DE_REGISTROS.ngc"/>
+      <outfile xil_pn:name="ARCHIVO_DE_REGISTROS.ngr"/>
+      <outfile xil_pn:name="ARCHIVO_DE_REGISTROS.prj"/>
+      <outfile xil_pn:name="ARCHIVO_DE_REGISTROS.stx"/>
+      <outfile xil_pn:name="ARCHIVO_DE_REGISTROS.syr"/>
+      <outfile xil_pn:name="ARCHIVO_DE_REGISTROS.xst"/>
+      <outfile xil_pn:name="ARCHIVO_DE_REGISTROS_xst.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1539997202" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="-1648243234706513099" xil_pn:start_ts="1539997202">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1540009516" xil_pn:in_ck="4091551106859888219" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-4101495366269559232" xil_pn:start_ts="1540009506">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="ARCHIVO_DE_REGISTROS.bld"/>
+      <outfile xil_pn:name="ARCHIVO_DE_REGISTROS.ngd"/>
+      <outfile xil_pn:name="ARCHIVO_DE_REGISTROS_ngdbuild.xrpt"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1540009554" xil_pn:in_ck="4091551106859888220" xil_pn:name="TRANEXT_map_virtex7" xil_pn:prop_ck="-2543691145936091892" xil_pn:start_ts="1540009516">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="ARCHIVO_DE_REGISTROS.pcf"/>
+      <outfile xil_pn:name="ARCHIVO_DE_REGISTROS_map.map"/>
+      <outfile xil_pn:name="ARCHIVO_DE_REGISTROS_map.mrp"/>
+      <outfile xil_pn:name="ARCHIVO_DE_REGISTROS_map.ncd"/>
+      <outfile xil_pn:name="ARCHIVO_DE_REGISTROS_map.ngm"/>
+      <outfile xil_pn:name="ARCHIVO_DE_REGISTROS_map.xrpt"/>
+      <outfile xil_pn:name="ARCHIVO_DE_REGISTROS_summary.xml"/>
+      <outfile xil_pn:name="ARCHIVO_DE_REGISTROS_usage.xml"/>
+      <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1540009592" xil_pn:in_ck="6372307838124559221" xil_pn:name="TRANEXT_par_virtex5" xil_pn:prop_ck="-2283627392121029586" xil_pn:start_ts="1540009554">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="ARCHIVO_DE_REGISTROS.ncd"/>
+      <outfile xil_pn:name="ARCHIVO_DE_REGISTROS.pad"/>
+      <outfile xil_pn:name="ARCHIVO_DE_REGISTROS.par"/>
+      <outfile xil_pn:name="ARCHIVO_DE_REGISTROS.ptwx"/>
+      <outfile xil_pn:name="ARCHIVO_DE_REGISTROS.unroutes"/>
+      <outfile xil_pn:name="ARCHIVO_DE_REGISTROS.xpi"/>
+      <outfile xil_pn:name="ARCHIVO_DE_REGISTROS_pad.csv"/>
+      <outfile xil_pn:name="ARCHIVO_DE_REGISTROS_pad.txt"/>
+      <outfile xil_pn:name="ARCHIVO_DE_REGISTROS_par.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1540009592" xil_pn:in_ck="4091551106859888088" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416184" xil_pn:start_ts="1540009577">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="ARCHIVO_DE_REGISTROS.twr"/>
+      <outfile xil_pn:name="ARCHIVO_DE_REGISTROS.twx"/>
+      <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1540009759" xil_pn:in_ck="6372307838124559221" xil_pn:name="TRAN_preRouteTrce" xil_pn:prop_ck="722859607460791352" xil_pn:start_ts="1540009744">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="ARCHIVO_DE_REGISTROS_preroute.twr"/>
+      <outfile xil_pn:name="ARCHIVO_DE_REGISTROS_preroute.twx"/>
+      <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
+    </transform>
+  </transforms>
+
+</generated_project>

@@ -1,0 +1,102 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+/opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/trce -intstyle ise -v 3 -s 3 -n
+3 -fastpaths -xml PROCESADOR.twx PROCESADOR.ncd -o PROCESADOR.twr
+PROCESADOR.pcf -ucf restricciones.ucf
+
+Design file:              PROCESADOR.ncd
+Physical constraint file: PROCESADOR.pcf
+Device,package,speed:     xc7a100t,csg324,C,-3 (PRODUCTION 1.10 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock CLK
+------------+------------+------------+------------+------------+------------------+--------+
+            |Max Setup to|  Process   |Max Hold to |  Process   |                  | Clock  |
+Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s) | Phase  |
+------------+------------+------------+------------+------------+------------------+--------+
+CLR         |    0.960(R)|      FAST  |    1.227(R)|      SLOW  |CLK_BUFGP         |   0.000|
+            |    0.632(F)|      FAST  |    0.840(F)|      SLOW  |CLK_BUFGP         |   0.000|
+------------+------------+------------+------------+------------+------------------+--------+
+
+Clock CLK to Pad
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+DATAIN<0>   |        15.416(R)|      SLOW  |         4.798(R)|      FAST  |CLK_BUFGP         |   0.000|
+            |        14.207(F)|      SLOW  |         5.397(F)|      FAST  |CLK_BUFGP         |   0.000|
+DATAIN<1>   |        15.614(R)|      SLOW  |         4.922(R)|      FAST  |CLK_BUFGP         |   0.000|
+            |        14.417(F)|      SLOW  |         5.534(F)|      FAST  |CLK_BUFGP         |   0.000|
+DATAIN<2>   |        15.480(R)|      SLOW  |         4.854(R)|      FAST  |CLK_BUFGP         |   0.000|
+            |        14.264(F)|      SLOW  |         5.506(F)|      FAST  |CLK_BUFGP         |   0.000|
+DATAIN<3>   |        14.395(R)|      SLOW  |         4.164(R)|      FAST  |CLK_BUFGP         |   0.000|
+            |        13.194(F)|      SLOW  |         4.820(F)|      FAST  |CLK_BUFGP         |   0.000|
+DATAIN<4>   |        15.585(R)|      SLOW  |         4.762(R)|      FAST  |CLK_BUFGP         |   0.000|
+            |        14.274(F)|      SLOW  |         5.419(F)|      FAST  |CLK_BUFGP         |   0.000|
+DATAIN<5>   |        14.260(R)|      SLOW  |         4.010(R)|      FAST  |CLK_BUFGP         |   0.000|
+            |        12.950(F)|      SLOW  |         4.667(F)|      FAST  |CLK_BUFGP         |   0.000|
+DATAIN<6>   |        15.220(R)|      SLOW  |         4.573(R)|      FAST  |CLK_BUFGP         |   0.000|
+            |        13.912(F)|      SLOW  |         5.258(F)|      FAST  |CLK_BUFGP         |   0.000|
+DATAIN<7>   |        14.778(R)|      SLOW  |         4.344(R)|      FAST  |CLK_BUFGP         |   0.000|
+            |        13.470(F)|      SLOW  |         5.042(F)|      FAST  |CLK_BUFGP         |   0.000|
+DATAIN<8>   |        15.541(R)|      SLOW  |         4.795(R)|      FAST  |CLK_BUFGP         |   0.000|
+            |        14.233(F)|      SLOW  |         5.513(F)|      FAST  |CLK_BUFGP         |   0.000|
+DATAIN<9>   |        14.589(R)|      SLOW  |         4.160(R)|      FAST  |CLK_BUFGP         |   0.000|
+            |        13.296(F)|      SLOW  |         4.882(F)|      FAST  |CLK_BUFGP         |   0.000|
+DATAIN<10>  |        15.300(R)|      SLOW  |         4.641(R)|      FAST  |CLK_BUFGP         |   0.000|
+            |        13.988(F)|      SLOW  |         5.364(F)|      FAST  |CLK_BUFGP         |   0.000|
+DATAIN<11>  |        14.516(R)|      SLOW  |         4.142(R)|      FAST  |CLK_BUFGP         |   0.000|
+            |        13.214(F)|      SLOW  |         4.865(F)|      FAST  |CLK_BUFGP         |   0.000|
+DATAIN<12>  |        14.978(R)|      SLOW  |         4.481(R)|      FAST  |CLK_BUFGP         |   0.000|
+            |        13.671(F)|      SLOW  |         5.197(F)|      FAST  |CLK_BUFGP         |   0.000|
+DATAIN<13>  |        14.506(R)|      SLOW  |         4.178(R)|      FAST  |CLK_BUFGP         |   0.000|
+            |        13.198(F)|      SLOW  |         4.890(F)|      FAST  |CLK_BUFGP         |   0.000|
+DATAIN<14>  |        15.164(R)|      SLOW  |         4.706(R)|      FAST  |CLK_BUFGP         |   0.000|
+            |        13.856(F)|      SLOW  |         5.335(F)|      FAST  |CLK_BUFGP         |   0.000|
+DATAIN<15>  |        15.208(R)|      SLOW  |         4.728(R)|      FAST  |CLK_BUFGP         |   0.000|
+            |        13.900(F)|      SLOW  |         5.344(F)|      FAST  |CLK_BUFGP         |   0.000|
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock to Setup on destination clock CLK
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+CLK            |   24.930|   22.667|    9.949|    8.133|
+---------------+---------+---------+---------+---------+
+
+
+Analysis completed Fri Dec  7 10:41:44 2018 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 1202 MB
+
+
+

@@ -1,0 +1,27 @@
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib secureip -o /home/erick/Documentos/GitHub/Computer-architecture/ESCOMIPS/Pila/STACK_T_isim_beh.exe -prj /home/erick/Documentos/GitHub/Computer-architecture/ESCOMIPS/Pila/STACK_T_beh.prj work.STACK_T 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "/home/erick/Documentos/GitHub/Computer-architecture/ESCOMIPS/Pila/Pila.vhd" into library work
+Parsing VHDL file "/home/erick/Documentos/GitHub/Computer-architecture/ESCOMIPS/Pila/Pila_TB.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 88968 KB
+Fuse CPU Usage: 1240 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package textio
+Compiling package std_logic_textio
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling package numeric_std
+Compiling architecture program of entity STACK [\STACK(16,4)\]
+Compiling architecture behavior of entity stack_t
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 10 VHDL Units
+Built simulation executable /home/erick/Documentos/GitHub/Computer-architecture/ESCOMIPS/Pila/STACK_T_isim_beh.exe
+Fuse Memory Usage: 668964 KB
+Fuse CPU Usage: 1360 ms
+GCC CPU Usage: 270 ms

@@ -1,0 +1,16 @@
+xst -intstyle ise -ifn "/home/erick/Documentos/GitHub/Computer-architecture/ESCOMIPS/Pila/Pila.xst" -ofn "/home/erick/Documentos/GitHub/Computer-architecture/ESCOMIPS/Pila/Pila.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-2 Pila.ngc Pila.ngd  
+map -intstyle ise -p xc7a100t-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Pila_map.ncd Pila.ngd Pila.pcf 
+par -w -intstyle ise -ol high -mt off Pila_map.ncd Pila.ncd Pila.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Pila.twx Pila.ncd -o Pila.twr Pila.pcf 
+xst -intstyle ise -ifn "/home/erick/Documentos/GitHub/Computer-architecture/ESCOMIPS/Pila/Pila.xst" -ofn "/home/erick/Documentos/GitHub/Computer-architecture/ESCOMIPS/Pila/Pila.syr" 
+xst -intstyle ise -ifn "/home/erick/Documentos/GitHub/Computer-architecture/ESCOMIPS/Pila/Pila.xst" -ofn "/home/erick/Documentos/GitHub/Computer-architecture/ESCOMIPS/Pila/Pila.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-2 Pila.ngc Pila.ngd  
+map -intstyle ise -p xc7a100t-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Pila_map.ncd Pila.ngd Pila.pcf 
+par -w -intstyle ise -ol high -mt off Pila_map.ncd Pila.ncd Pila.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Pila.twx Pila.ncd -o Pila.twr Pila.pcf 
+xst -intstyle ise -ifn "/home/erick/Documentos/GitHub/Computer-architecture/ESCOMIPS/Pila/Pila.xst" -ofn "/home/erick/Documentos/GitHub/Computer-architecture/ESCOMIPS/Pila/Pila.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-2 Pila.ngc Pila.ngd  
+map -intstyle ise -p xc7a100t-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Pila_map.ncd Pila.ngd Pila.pcf 
+par -w -intstyle ise -ol high -mt off Pila_map.ncd Pila.ncd Pila.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Pila.twx Pila.ncd -o Pila.twr Pila.pcf 

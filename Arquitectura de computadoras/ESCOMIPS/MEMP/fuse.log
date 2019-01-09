@@ -1,0 +1,26 @@
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib secureip -o /home/erick/Documentos/Software/Xilinx/MEMP/TB_MEMP_isim_beh.exe -prj /home/erick/Documentos/Software/Xilinx/MEMP/TB_MEMP_beh.prj work.TB_MEMP 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "/home/erick/Documentos/Software/Xilinx/MEMP/MEMP.vhd" into library work
+Parsing VHDL file "/home/erick/Documentos/Software/Xilinx/MEMP/TB_MEMP.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 88456 KB
+Fuse CPU Usage: 1720 ms
+Compiling package standard
+Compiling package textio
+Compiling package std_logic_1164
+Compiling package std_logic_textio
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling architecture memoria of entity MEMP [\MEMP(16,25)\]
+Compiling architecture behavior of entity tb_memp
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 9 VHDL Units
+Built simulation executable /home/erick/Documentos/Software/Xilinx/MEMP/TB_MEMP_isim_beh.exe
+Fuse Memory Usage: 664540 KB
+Fuse CPU Usage: 2420 ms
+GCC CPU Usage: 3930 ms

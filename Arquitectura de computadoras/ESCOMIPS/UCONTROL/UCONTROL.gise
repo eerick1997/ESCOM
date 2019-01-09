@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="UCONTROL.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="CONDICION.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="CONDICION.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="CONDICION.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="CONDICION.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="CONDICION.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="CONDICION.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="CONDICION.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="CONDICION.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="CONDICION_summary.html"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="CONDICION_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="CONTROL.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="CONTROL.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="CONTROL.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="ESTADO.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="ESTADO.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="ESTADO.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="FUNCION.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="FUNCION.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="FUNCION.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="INSTRUCCION.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="INSTRUCCION.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="INSTRUCCION.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="NIVEL.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="NIVEL.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="NIVEL.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="OPERACION.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="OPERACION.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="OPERACION.xst"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="PRINCIPAL.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="PRINCIPAL.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="PRINCIPAL.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="PRINCIPAL.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="PRINCIPAL.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="PRINCIPAL.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="PRINCIPAL.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="PRINCIPAL.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="PRINCIPAL.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="PRINCIPAL.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="PRINCIPAL_envsettings.html"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="PRINCIPAL_ngdbuild.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="PRINCIPAL_summary.html"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="PRINCIPAL_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="TB_control_stx_translate.prj"/>
+    <file xil_pn:branch="PostTranslateSimulation" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="TestBench_UCONTROL_isim_translate.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="TestBench_UCONTROL_isim_translate.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="TestBench_UCONTROL_stx_translate.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="TestBench_UCONTROL_translate.prj"/>
+    <file xil_pn:branch="PostTranslateSimulation" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="TestBench_control_isim_translate.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="TestBench_control_stx_translate.prj"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="PostTranslateSimulation" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="PostTranslateSimulation" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="netgen"/>
+    <file xil_pn:branch="PostTranslateSimulation" xil_pn:fileType="FILE_NETGEN_REPORT" xil_pn:name="netgen/translate/PRINCIPAL_translate.nlf"/>
+    <file xil_pn:branch="PostTranslateSimulation" xil_pn:fileType="FILE_VERILOG" xil_pn:name="netgen/translate/PRINCIPAL_translate.v"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:branch="PostTranslateSimulation" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1543646760" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1543646760">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1543647064" xil_pn:in_ck="-5593073892194770548" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1543647064">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="InputAdded"/>
+      <status xil_pn:value="InputChanged"/>
+      <outfile xil_pn:name="CONDICION.vhd"/>
+      <outfile xil_pn:name="CONTROL.vhd"/>
+      <outfile xil_pn:name="ESTADO.vhd"/>
+      <outfile xil_pn:name="INSTRUCCION.vhd"/>
+      <outfile xil_pn:name="MEM_FUNC.vhd"/>
+      <outfile xil_pn:name="MEM_OPER.vhd"/>
+      <outfile xil_pn:name="NIVEL.vhd"/>
+      <outfile xil_pn:name="PRINCIPAL.vhd"/>
+      <outfile xil_pn:name="PaqueteControl.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1543646760" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="5917217509834150101" xil_pn:start_ts="1543646760">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1543646760" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="1924908219328447091" xil_pn:start_ts="1543646760">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1543646760" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-1625314463120241295" xil_pn:start_ts="1543646760">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1543599277" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1543599277">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1543646811" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="7080319673303493097" xil_pn:start_ts="1543646811">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1543646811" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="-1625314463120241295" xil_pn:start_ts="1543646811">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1543599277" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1543599277">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1543646811" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="3822251279486499851" xil_pn:start_ts="1543646811">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1543599277" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="3206529612922900429" xil_pn:start_ts="1543599277">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1543646811" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="6871318822396425211" xil_pn:start_ts="1543646811">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1543647233" xil_pn:in_ck="-5593073892194770548" xil_pn:name="TRANEXT_xstsynthesize_virtex6" xil_pn:prop_ck="-7571831870546368562" xil_pn:start_ts="1543647219">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="CONDICION.ngr"/>
+      <outfile xil_pn:name="PRINCIPAL.lso"/>
+      <outfile xil_pn:name="PRINCIPAL.ngc"/>
+      <outfile xil_pn:name="PRINCIPAL.ngr"/>
+      <outfile xil_pn:name="PRINCIPAL.prj"/>
+      <outfile xil_pn:name="PRINCIPAL.stx"/>
+      <outfile xil_pn:name="PRINCIPAL.syr"/>
+      <outfile xil_pn:name="PRINCIPAL.xst"/>
+      <outfile xil_pn:name="PRINCIPAL_xst.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1543647233" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="4533070369074167350" xil_pn:start_ts="1543647233">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1543647241" xil_pn:in_ck="8563928222582095592" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-2077823338937799454" xil_pn:start_ts="1543647233">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <outfile xil_pn:name="PRINCIPAL.bld"/>
+      <outfile xil_pn:name="PRINCIPAL.ngd"/>
+      <outfile xil_pn:name="PRINCIPAL_ngdbuild.xrpt"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1543647244" xil_pn:in_ck="8563928222582095593" xil_pn:name="TRAN_postXlateSimModel" xil_pn:prop_ck="6245484336975381552" xil_pn:start_ts="1543647241">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="netgen"/>
+      <outfile xil_pn:name="netgen/translate/PRINCIPAL_translate.nlf"/>
+      <outfile xil_pn:name="netgen/translate/PRINCIPAL_translate.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1543647701" xil_pn:in_ck="912581770275364837" xil_pn:name="TRAN_copyPost-TranslateAbstractToPreSimulation" xil_pn:start_ts="1543647701">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="TestBench_UCONTROL.vhd"/>
+      <outfile xil_pn:name="netgen/translate/PRINCIPAL_translate.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1543647706" xil_pn:in_ck="912581770275364837" xil_pn:name="TRAN_ISimulatePostTranslateModelRunFuse" xil_pn:prop_ck="8437641402554549296" xil_pn:start_ts="1543647701">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="TestBench_UCONTROL_isim_translate.exe"/>
+      <outfile xil_pn:name="TestBench_UCONTROL_translate.prj"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1543647706" xil_pn:in_ck="6027240982394614769" xil_pn:name="TRAN_ISimulatePostTranslateModel" xil_pn:prop_ck="-3682483242038554012" xil_pn:start_ts="1543647706">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="TestBench_UCONTROL_isim_translate.wdb"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+    </transform>
+  </transforms>
+
+</generated_project>

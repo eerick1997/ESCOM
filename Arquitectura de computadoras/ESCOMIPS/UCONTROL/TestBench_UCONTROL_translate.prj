@@ -1,0 +1,2 @@
+verilog work "netgen/translate/PRINCIPAL_translate.v"
+vhdl work "TestBench_UCONTROL.vhd"

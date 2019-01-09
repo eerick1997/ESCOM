@@ -1,0 +1,30 @@
+Command line:
+   TestBench_control_isim_translate.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  36465
+
+Sat Dec  1 00:54:10 2018
+
+
+ Elaboration Time: 0.17 sec
+
+ Current Memory Usage: 207.528 Meg
+
+ Total Signals          : 7
+ Total Nets             : 36
+ Total Signal Drivers   : 6
+ Total Blocks           : 6
+ Total Primitive Blocks : 6
+ Total Processes        : 2
+ Total Traceable Variables  : 14
+ Total Scalar Nets and Variables : 936
+In process TestBench_UCONTROL.vhd:stim_proc 
+ 
+
+ Total Simulation Time: 0.25 sec
+
+ Current Memory Usage: 283.03 Meg
+
+Sat Dec  1 00:56:35 2018
+

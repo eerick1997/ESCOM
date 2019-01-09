@@ -1,0 +1,28 @@
+xst -intstyle ise -ifn "/home/erick/Documentos/Software/Xilinx/ARCHIVO_REGISTROS/ARCHIVO_DE_REGISTROS.xst" -ofn "/home/erick/Documentos/Software/Xilinx/ARCHIVO_REGISTROS/ARCHIVO_DE_REGISTROS.syr" 
+xst -intstyle ise -ifn "/home/erick/Documentos/Software/Xilinx/ARCHIVO_REGISTROS/ARCHIVO_DE_REGISTROS.xst" -ofn "/home/erick/Documentos/Software/Xilinx/ARCHIVO_REGISTROS/ARCHIVO_DE_REGISTROS.syr" 
+xst -intstyle ise -ifn "/home/erick/Documentos/Software/Xilinx/ARCHIVO_REGISTROS/ARCHIVO_DE_REGISTROS.xst" -ofn "/home/erick/Documentos/Software/Xilinx/ARCHIVO_REGISTROS/ARCHIVO_DE_REGISTROS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-2 ARCHIVO_DE_REGISTROS.ngc ARCHIVO_DE_REGISTROS.ngd  
+map -intstyle ise -p xc7a100t-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o ARCHIVO_DE_REGISTROS_map.ncd ARCHIVO_DE_REGISTROS.ngd ARCHIVO_DE_REGISTROS.pcf 
+par -w -intstyle ise -ol high -mt off ARCHIVO_DE_REGISTROS_map.ncd ARCHIVO_DE_REGISTROS.ncd ARCHIVO_DE_REGISTROS.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml ARCHIVO_DE_REGISTROS.twx ARCHIVO_DE_REGISTROS.ncd -o ARCHIVO_DE_REGISTROS.twr ARCHIVO_DE_REGISTROS.pcf 
+xst -intstyle ise -ifn "/home/erick/Documentos/Software/Xilinx/ARCHIVO_REGISTROS/ARCHIVO_DE_REGISTROS.xst" -ofn "/home/erick/Documentos/Software/Xilinx/ARCHIVO_REGISTROS/ARCHIVO_DE_REGISTROS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-2 ARCHIVO_DE_REGISTROS.ngc ARCHIVO_DE_REGISTROS.ngd  
+map -intstyle ise -p xc7a100t-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o ARCHIVO_DE_REGISTROS_map.ncd ARCHIVO_DE_REGISTROS.ngd ARCHIVO_DE_REGISTROS.pcf 
+par -w -intstyle ise -ol high -mt off ARCHIVO_DE_REGISTROS_map.ncd ARCHIVO_DE_REGISTROS.ncd ARCHIVO_DE_REGISTROS.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml ARCHIVO_DE_REGISTROS.twx ARCHIVO_DE_REGISTROS.ncd -o ARCHIVO_DE_REGISTROS.twr ARCHIVO_DE_REGISTROS.pcf 
+xst -intstyle ise -ifn "/home/erick/Documentos/Software/Xilinx/ARCHIVO_REGISTROS/ARCHIVO_DE_REGISTROS.xst" -ofn "/home/erick/Documentos/Software/Xilinx/ARCHIVO_REGISTROS/ARCHIVO_DE_REGISTROS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-2 ARCHIVO_DE_REGISTROS.ngc ARCHIVO_DE_REGISTROS.ngd  
+map -intstyle ise -p xc7a100t-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o ARCHIVO_DE_REGISTROS_map.ncd ARCHIVO_DE_REGISTROS.ngd ARCHIVO_DE_REGISTROS.pcf 
+par -w -intstyle ise -ol high -mt off ARCHIVO_DE_REGISTROS_map.ncd ARCHIVO_DE_REGISTROS.ncd ARCHIVO_DE_REGISTROS.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml ARCHIVO_DE_REGISTROS.twx ARCHIVO_DE_REGISTROS.ncd -o ARCHIVO_DE_REGISTROS.twr ARCHIVO_DE_REGISTROS.pcf 
+xst -intstyle ise -ifn "/home/erick/Documentos/GitHub/Computer-architecture/ESCOMIPS/ARCHIVO_REGISTROS/ARCHIVO_DE_REGISTROS.xst" -ofn "/home/erick/Documentos/GitHub/Computer-architecture/ESCOMIPS/ARCHIVO_REGISTROS/ARCHIVO_DE_REGISTROS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-2 ARCHIVO_DE_REGISTROS.ngc ARCHIVO_DE_REGISTROS.ngd  
+map -intstyle ise -p xc7a100t-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o ARCHIVO_DE_REGISTROS_map.ncd ARCHIVO_DE_REGISTROS.ngd ARCHIVO_DE_REGISTROS.pcf 
+par -w -intstyle ise -ol high -mt off ARCHIVO_DE_REGISTROS_map.ncd ARCHIVO_DE_REGISTROS.ncd ARCHIVO_DE_REGISTROS.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml ARCHIVO_DE_REGISTROS.twx ARCHIVO_DE_REGISTROS.ncd -o ARCHIVO_DE_REGISTROS.twr ARCHIVO_DE_REGISTROS.pcf 
+xst -intstyle ise -ifn "/home/erick/Documentos/GitHub/Computer-architecture/ESCOMIPS/ARCHIVO_REGISTROS/ARCHIVO_DE_REGISTROS.xst" -ofn "/home/erick/Documentos/GitHub/Computer-architecture/ESCOMIPS/ARCHIVO_REGISTROS/ARCHIVO_DE_REGISTROS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-2 ARCHIVO_DE_REGISTROS.ngc ARCHIVO_DE_REGISTROS.ngd  
+map -intstyle ise -p xc7a100t-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o ARCHIVO_DE_REGISTROS_map.ncd ARCHIVO_DE_REGISTROS.ngd ARCHIVO_DE_REGISTROS.pcf 
+par -w -intstyle ise -ol high -mt off ARCHIVO_DE_REGISTROS_map.ncd ARCHIVO_DE_REGISTROS.ncd ARCHIVO_DE_REGISTROS.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml ARCHIVO_DE_REGISTROS.twx ARCHIVO_DE_REGISTROS.ncd -o ARCHIVO_DE_REGISTROS.twr ARCHIVO_DE_REGISTROS.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml ARCHIVO_DE_REGISTROS_preroute.twx ARCHIVO_DE_REGISTROS_map.ncd -o ARCHIVO_DE_REGISTROS_preroute.twr ARCHIVO_DE_REGISTROS.pcf 

@@ -1,0 +1,30 @@
+Command line:
+   Pila_TB_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  53303
+
+Thu Oct 25 20:58:26 2018
+
+
+ Elaboration Time: 0.11 sec
+
+ Current Memory Usage: 218.001 Meg
+
+ Total Signals          : 18
+ Total Nets             : 313
+ Total Signal Drivers   : 10
+ Total Blocks           : 8
+ Total Primitive Blocks : 7
+ Total Processes        : 6
+ Total Traceable Variables  : 21
+ Total Scalar Nets and Variables : 1338
+In process Pila_TB.vhd:stim_proc 
+ 
+
+ Total Simulation Time: 0.15 sec
+
+ Current Memory Usage: 293.503 Meg
+
+Thu Oct 25 21:03:01 2018
+

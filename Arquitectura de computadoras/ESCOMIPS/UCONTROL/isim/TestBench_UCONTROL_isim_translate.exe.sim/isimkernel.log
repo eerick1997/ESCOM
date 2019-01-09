@@ -1,0 +1,10 @@
+Command line:
+   TestBench_UCONTROL_isim_translate.exe
+     -simmode  gui
+     -simrunnum  1
+     -socket  40721
+
+Sat Dec  1 01:04:09 2018
+
+
+ Elaboration Time: 0.13 sec

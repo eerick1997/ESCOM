@@ -1,0 +1,45 @@
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib simprims_ver -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o /home/erick/Documentos/GitHub/Computer-architecture/ESCOMIPS/UCONTROL/TestBench_UCONTROL_isim_translate.exe -prj /home/erick/Documentos/GitHub/Computer-architecture/ESCOMIPS/UCONTROL/TestBench_UCONTROL_translate.prj work.TestBench_UCONTROL work.glbl 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "/home/erick/Documentos/GitHub/Computer-architecture/ESCOMIPS/UCONTROL/netgen/translate/PRINCIPAL_translate.v" into library work
+Parsing VHDL file "/home/erick/Documentos/GitHub/Computer-architecture/ESCOMIPS/UCONTROL/TestBench_UCONTROL.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 88112 KB
+Fuse CPU Usage: 1240 ms
+Compiling module glbl
+Compiling module ffsrce
+Compiling module X_FF
+Compiling module x_lut2_mux4
+Compiling module X_LUT2(INIT=4'b1000)
+Compiling module X_LUT6(INIT=64'b1111111111111111...
+Compiling module X_LUT5(INIT=32'b0101010101010101...
+Compiling module X_LUT4(INIT=16'b1111111101000101...
+Compiling module X_BUF
+Compiling module mux
+Compiling module X_MUX2
+Compiling module X_INV
+Compiling module X_IPAD
+Compiling module X_OPAD
+Compiling module X_CKBUF
+Compiling module X_OBUF
+Compiling module X_ZERO
+Compiling module X_ONE
+Compiling module PRINCIPAL
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling package textio
+Compiling package std_logic_textio
+Compiling package vl_types
+Compiling architecture behavior of entity testbench_ucontrol
+Time Resolution for simulation is 1ps.
+Compiled 8 VHDL Units
+Compiled 56 Verilog Units
+Built simulation executable /home/erick/Documentos/GitHub/Computer-architecture/ESCOMIPS/UCONTROL/TestBench_UCONTROL_isim_translate.exe
+Fuse Memory Usage: 669552 KB
+Fuse CPU Usage: 1710 ms
+GCC CPU Usage: 2720 ms

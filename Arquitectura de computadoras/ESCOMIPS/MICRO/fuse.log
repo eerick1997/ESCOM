@@ -1,0 +1,54 @@
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib secureip -o /home/erick/Documentos/GitHub/Computer-architecture/ESCOMIPS/MICRO/aiura_isim_beh.exe -prj /home/erick/Documentos/GitHub/Computer-architecture/ESCOMIPS/MICRO/aiura_beh.prj work.aiura 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "/home/erick/Documentos/GitHub/Computer-architecture/ESCOMIPS/MICRO/PaqueteControl.vhd" into library work
+Parsing VHDL file "/home/erick/Documentos/GitHub/Computer-architecture/ESCOMIPS/MICRO/OPERACION.vhd" into library work
+Parsing VHDL file "/home/erick/Documentos/GitHub/Computer-architecture/ESCOMIPS/MICRO/NIVEL.vhd" into library work
+Parsing VHDL file "/home/erick/Documentos/GitHub/Computer-architecture/ESCOMIPS/MICRO/INSTRUCCION.vhd" into library work
+Parsing VHDL file "/home/erick/Documentos/GitHub/Computer-architecture/ESCOMIPS/MICRO/FUNCION.vhd" into library work
+Parsing VHDL file "/home/erick/Documentos/GitHub/Computer-architecture/ESCOMIPS/MICRO/ESTADO.vhd" into library work
+Parsing VHDL file "/home/erick/Documentos/GitHub/Computer-architecture/ESCOMIPS/MICRO/CONTROL.vhd" into library work
+Parsing VHDL file "/home/erick/Documentos/GitHub/Computer-architecture/ESCOMIPS/MICRO/CONDICION.vhd" into library work
+Parsing VHDL file "/home/erick/Documentos/GitHub/Computer-architecture/ESCOMIPS/MICRO/PRINCIPAL_CONTROL.vhd" into library work
+Parsing VHDL file "/home/erick/Documentos/GitHub/Computer-architecture/ESCOMIPS/MICRO/PILA.vhd" into library work
+Parsing VHDL file "/home/erick/Documentos/GitHub/Computer-architecture/ESCOMIPS/MICRO/PaqueteEscomips.vhd" into library work
+Parsing VHDL file "/home/erick/Documentos/GitHub/Computer-architecture/ESCOMIPS/MICRO/MEMORIA_PROGRAMA.vhd" into library work
+Parsing VHDL file "/home/erick/Documentos/GitHub/Computer-architecture/ESCOMIPS/MICRO/MEMORIA_DATOS.vhd" into library work
+Parsing VHDL file "/home/erick/Documentos/GitHub/Computer-architecture/ESCOMIPS/MICRO/ARCHIVO_REGISTROS.vhd" into library work
+Parsing VHDL file "/home/erick/Documentos/GitHub/Computer-architecture/ESCOMIPS/MICRO/ALU.vhd" into library work
+Parsing VHDL file "/home/erick/Documentos/GitHub/Computer-architecture/ESCOMIPS/MICRO/PRINCIPAL_ESCOMIPS.vhd" into library work
+Parsing VHDL file "/home/erick/Documentos/GitHub/Computer-architecture/ESCOMIPS/MICRO/aiura.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 87028 KB
+Fuse CPU Usage: 2300 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package paquetecontrol
+Compiling package paqueteescomips
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling architecture memp of entity MEMORIA_PROGRAMA [memoria_programa_default]
+Compiling architecture programa of entity PILA [pila_default]
+Compiling architecture decodificador of entity INSTRUCCION [instruccion_default]
+Compiling architecture detector of entity NIVEL [nivel_default]
+Compiling architecture memory of entity FUNCION [\FUNCION(4,20)\]
+Compiling architecture memory of entity OPERACION [\OPERACION(5,20)\]
+Compiling architecture bloque of entity CONDICION [condicion_default]
+Compiling architecture unidad of entity CONTROL [control_default]
+Compiling architecture registro of entity ESTADO [estado_default]
+Compiling architecture behavioral of entity PRINCIPAL_CONTROL [principal_control_default]
+Compiling architecture registros of entity ARCHIVO_REGISTROS [\ARCHIVO_REGISTROS(4,16)\]
+Compiling architecture ua of entity ALU [\ALU(16)\]
+Compiling architecture ramd of entity MEMORIA_DATOS [\MEMORIA_DATOS(16,16)\]
+Compiling architecture behavioral of entity PROCESADOR [procesador_default]
+Compiling architecture behavior of entity aiura
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 35 VHDL Units
+Built simulation executable /home/erick/Documentos/GitHub/Computer-architecture/ESCOMIPS/MICRO/aiura_isim_beh.exe
+Fuse Memory Usage: 667684 KB
+Fuse CPU Usage: 3110 ms
+GCC CPU Usage: 2390 ms

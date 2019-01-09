@@ -1,0 +1,6 @@
+vhdl work "REGISTRO.vhd"
+vhdl work "MI_PAQUETE.vhd"
+vhdl work "CONVERTIDOR.vhd"
+vhdl work "CONTROL.vhd"
+vhdl work "CONTADOR.vhd"
+vhdl work "PRINCIPAL.vhd"

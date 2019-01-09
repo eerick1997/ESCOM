@@ -1,0 +1,28 @@
+Command line:
+   aiura_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  36271
+
+Fri Dec  7 08:33:58 2018
+
+
+ Elaboration Time: 1.96 sec
+
+ Current Memory Usage: 1123.76 Meg
+
+ Total Signals          : 148
+ Total Nets             : 1049669
+ Total Signal Drivers   : 155
+ Total Blocks           : 36
+ Total Primitive Blocks : 32
+ Total Processes        : 152
+ Total Traceable Variables  : 133
+ Total Scalar Nets and Variables : 2690420
+
+ Total Simulation Time: 5.02 sec
+
+ Current Memory Usage: 1200.44 Meg
+
+Fri Dec  7 10:04:50 2018
+

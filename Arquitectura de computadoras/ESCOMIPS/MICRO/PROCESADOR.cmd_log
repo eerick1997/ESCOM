@@ -1,0 +1,68 @@
+xst -intstyle ise -ifn "/home/erick/Documentos/GitHub/Computer-architecture/ESCOMIPS/MICRO/PROCESADOR.xst" -ofn "/home/erick/Documentos/GitHub/Computer-architecture/ESCOMIPS/MICRO/PROCESADOR.syr" 
+netgen -intstyle ise -ar Structure -tm PROCESADOR -w -dir netgen/synthesis -ofmt vhdl -sim PROCESADOR.ngc PROCESADOR_synthesis.vhd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 PROCESADOR.ngc PROCESADOR.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PROCESADOR_map.ncd PROCESADOR.ngd PROCESADOR.pcf 
+par -w -intstyle ise -ol high -mt off PROCESADOR_map.ncd PROCESADOR.ncd PROCESADOR.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml PROCESADOR.twx PROCESADOR.ncd -o PROCESADOR.twr PROCESADOR.pcf 
+xst -intstyle ise -ifn "/home/erick/Documentos/GitHub/Computer-architecture/ESCOMIPS/MICRO/PROCESADOR.xst" -ofn "/home/erick/Documentos/GitHub/Computer-architecture/ESCOMIPS/MICRO/PROCESADOR.syr" 
+xst -intstyle ise -ifn "/home/erick/Documentos/GitHub/Computer-architecture/ESCOMIPS/MICRO/PROCESADOR.xst" -ofn "/home/erick/Documentos/GitHub/Computer-architecture/ESCOMIPS/MICRO/PROCESADOR.syr" 
+xst -intstyle ise -ifn "/home/erick/Documentos/GitHub/Computer-architecture/ESCOMIPS/MICRO/PROCESADOR.xst" -ofn "/home/erick/Documentos/GitHub/Computer-architecture/ESCOMIPS/MICRO/PROCESADOR.syr" 
+xst -intstyle ise -ifn "/home/erick/Documentos/GitHub/Computer-architecture/ESCOMIPS/MICRO/PROCESADOR.xst" -ofn "/home/erick/Documentos/GitHub/Computer-architecture/ESCOMIPS/MICRO/PROCESADOR.syr" 
+netgen -intstyle ise -ar Structure -tm PROCESADOR -w -dir netgen/synthesis -ofmt vhdl -sim PROCESADOR.ngc PROCESADOR_synthesis.vhd 
+xst -intstyle ise -ifn "/home/erick/Documentos/GitHub/Computer-architecture/ESCOMIPS/MICRO/PROCESADOR.xst" -ofn "/home/erick/Documentos/GitHub/Computer-architecture/ESCOMIPS/MICRO/PROCESADOR.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 PROCESADOR.ngc PROCESADOR.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PROCESADOR_map.ncd PROCESADOR.ngd PROCESADOR.pcf 
+par -w -intstyle ise -ol high -mt off PROCESADOR_map.ncd PROCESADOR.ncd PROCESADOR.pcf 
+xst -intstyle ise -ifn "/home/erick/Documentos/GitHub/Computer-architecture/ESCOMIPS/MICRO/PROCESADOR.xst" -ofn "/home/erick/Documentos/GitHub/Computer-architecture/ESCOMIPS/MICRO/PROCESADOR.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 PROCESADOR.ngc PROCESADOR.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PROCESADOR_map.ncd PROCESADOR.ngd PROCESADOR.pcf 
+par -w -intstyle ise -ol high -mt off PROCESADOR_map.ncd PROCESADOR.ncd PROCESADOR.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml PROCESADOR.twx PROCESADOR.ncd -o PROCESADOR.twr PROCESADOR.pcf 
+xst -intstyle ise -ifn "/home/erick/Documentos/GitHub/Computer-architecture/ESCOMIPS/MICRO/PROCESADOR.xst" -ofn "/home/erick/Documentos/GitHub/Computer-architecture/ESCOMIPS/MICRO/PROCESADOR.syr" 
+xst -intstyle ise -ifn "/home/erick/Documentos/GitHub/Computer-architecture/ESCOMIPS/MICRO/PROCESADOR.xst" -ofn "/home/erick/Documentos/GitHub/Computer-architecture/ESCOMIPS/MICRO/PROCESADOR.syr" 
+xst -intstyle ise -ifn "/home/erick/Documentos/GitHub/Computer-architecture/ESCOMIPS/MICRO/PROCESADOR.xst" -ofn "/home/erick/Documentos/GitHub/Computer-architecture/ESCOMIPS/MICRO/PROCESADOR.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 PROCESADOR.ngc PROCESADOR.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PROCESADOR_map.ncd PROCESADOR.ngd PROCESADOR.pcf 
+par -w -intstyle ise -ol high -mt off PROCESADOR_map.ncd PROCESADOR.ncd PROCESADOR.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml PROCESADOR.twx PROCESADOR.ncd -o PROCESADOR.twr PROCESADOR.pcf 
+bitgen -intstyle ise -f PROCESADOR.ut PROCESADOR.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 PROCESADOR.ngc PROCESADOR.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PROCESADOR_map.ncd PROCESADOR.ngd PROCESADOR.pcf 
+par -w -intstyle ise -ol high -mt off PROCESADOR_map.ncd PROCESADOR.ncd PROCESADOR.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml PROCESADOR.twx PROCESADOR.ncd -o PROCESADOR.twr PROCESADOR.pcf 
+bitgen -intstyle ise -f PROCESADOR.ut PROCESADOR.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc restricciones.ucf -p xc7a100t-csg324-3 PROCESADOR.ngc PROCESADOR.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PROCESADOR_map.ncd PROCESADOR.ngd PROCESADOR.pcf 
+par -w -intstyle ise -ol high -mt off PROCESADOR_map.ncd PROCESADOR.ncd PROCESADOR.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml PROCESADOR.twx PROCESADOR.ncd -o PROCESADOR.twr PROCESADOR.pcf -ucf restricciones.ucf 
+bitgen -intstyle ise -f PROCESADOR.ut PROCESADOR.ncd 
+xst -intstyle ise -ifn "/home/erick/Documentos/GitHub/Computer-architecture/ESCOMIPS/MICRO/PROCESADOR.xst" -ofn "/home/erick/Documentos/GitHub/Computer-architecture/ESCOMIPS/MICRO/PROCESADOR.syr" 
+netgen -intstyle ise -ar Structure -tm PROCESADOR -w -dir netgen/synthesis -ofmt vhdl -sim PROCESADOR.ngc PROCESADOR_synthesis.vhd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc restricciones.ucf -p xc7a100t-csg324-3 PROCESADOR.ngc PROCESADOR.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PROCESADOR_map.ncd PROCESADOR.ngd PROCESADOR.pcf 
+par -w -intstyle ise -ol high -mt off PROCESADOR_map.ncd PROCESADOR.ncd PROCESADOR.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml PROCESADOR.twx PROCESADOR.ncd -o PROCESADOR.twr PROCESADOR.pcf -ucf restricciones.ucf 
+bitgen -intstyle ise -f PROCESADOR.ut PROCESADOR.ncd 
+xst -intstyle ise -ifn "/home/erick/Documentos/GitHub/Computer-architecture/ESCOMIPS/MICRO/PROCESADOR.xst" -ofn "/home/erick/Documentos/GitHub/Computer-architecture/ESCOMIPS/MICRO/PROCESADOR.syr" 
+netgen -intstyle ise -ar Structure -tm PROCESADOR -w -dir netgen/synthesis -ofmt vhdl -sim PROCESADOR.ngc PROCESADOR_synthesis.vhd 
+xst -intstyle ise -ifn "/home/erick/Documentos/GitHub/Computer-architecture/ESCOMIPS/MICRO/PROCESADOR.xst" -ofn "/home/erick/Documentos/GitHub/Computer-architecture/ESCOMIPS/MICRO/PROCESADOR.syr" 
+netgen -intstyle ise -ar Structure -tm PROCESADOR -w -dir netgen/synthesis -ofmt vhdl -sim PROCESADOR.ngc PROCESADOR_synthesis.vhd 
+xst -intstyle ise -ifn "/home/erick/Documentos/GitHub/Computer-architecture/ESCOMIPS/MICRO/PROCESADOR.xst" -ofn "/home/erick/Documentos/GitHub/Computer-architecture/ESCOMIPS/MICRO/PROCESADOR.syr" 
+netgen -intstyle ise -ar Structure -tm PROCESADOR -w -dir netgen/synthesis -ofmt vhdl -sim PROCESADOR.ngc PROCESADOR_synthesis.vhd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc restricciones.ucf -p xc7a100t-csg324-3 PROCESADOR.ngc PROCESADOR.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PROCESADOR_map.ncd PROCESADOR.ngd PROCESADOR.pcf 
+par -w -intstyle ise -ol high -mt off PROCESADOR_map.ncd PROCESADOR.ncd PROCESADOR.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml PROCESADOR.twx PROCESADOR.ncd -o PROCESADOR.twr PROCESADOR.pcf -ucf restricciones.ucf 
+bitgen -intstyle ise -f PROCESADOR.ut PROCESADOR.ncd 
+xst -intstyle ise -ifn "/home/erick/Documentos/GitHub/Computer-architecture/ESCOMIPS/MICRO/PROCESADOR.xst" -ofn "/home/erick/Documentos/GitHub/Computer-architecture/ESCOMIPS/MICRO/PROCESADOR.syr" 
+netgen -intstyle ise -ar Structure -tm PROCESADOR -w -dir netgen/synthesis -ofmt vhdl -sim PROCESADOR.ngc PROCESADOR_synthesis.vhd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc restricciones.ucf -p xc7a100t-csg324-3 PROCESADOR.ngc PROCESADOR.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PROCESADOR_map.ncd PROCESADOR.ngd PROCESADOR.pcf 
+par -w -intstyle ise -ol high -mt off PROCESADOR_map.ncd PROCESADOR.ncd PROCESADOR.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml PROCESADOR.twx PROCESADOR.ncd -o PROCESADOR.twr PROCESADOR.pcf -ucf restricciones.ucf 
+xst -intstyle ise -ifn "/home/erick/Documentos/GitHub/Computer-architecture/ESCOMIPS/MICRO/PROCESADOR.xst" -ofn "/home/erick/Documentos/GitHub/Computer-architecture/ESCOMIPS/MICRO/PROCESADOR.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc restricciones.ucf -p xc7a100t-csg324-3 PROCESADOR.ngc PROCESADOR.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PROCESADOR_map.ncd PROCESADOR.ngd PROCESADOR.pcf 
+par -w -intstyle ise -ol high -mt off PROCESADOR_map.ncd PROCESADOR.ncd PROCESADOR.pcf 
+xst -intstyle ise -ifn "/home/erick/Documentos/GitHub/Computer-architecture/ESCOMIPS/MICRO/PROCESADOR.xst" -ofn "/home/erick/Documentos/GitHub/Computer-architecture/ESCOMIPS/MICRO/PROCESADOR.syr" 
+netgen -intstyle ise -ar Structure -tm PROCESADOR -w -dir netgen/synthesis -ofmt vhdl -sim PROCESADOR.ngc PROCESADOR_synthesis.vhd 

@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "/home/erick/Documentos/GitHub/Computer-architecture/ESCOMIPS/Pila/STACK.xst" -ofn "/home/erick/Documentos/GitHub/Computer-architecture/ESCOMIPS/Pila/STACK.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-2 STACK.ngc STACK.ngd  
+map -intstyle ise -p xc7a100t-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o STACK_map.ncd STACK.ngd STACK.pcf 
+par -w -intstyle ise -ol high -mt off STACK_map.ncd STACK.ncd STACK.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml STACK.twx STACK.ncd -o STACK.twr STACK.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml STACK_preroute.twx STACK_map.ncd -o STACK_preroute.twr STACK.pcf 

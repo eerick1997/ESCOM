@@ -1,0 +1,66 @@
+xst -intstyle ise -ifn "C:/Users/kaimo/Documents/Github/Computer-architecture/ESCOMIPS/ESCOMIPS/PROCESADOR.xst" -ofn "C:/Users/kaimo/Documents/Github/Computer-architecture/ESCOMIPS/ESCOMIPS/PROCESADOR.syr" 
+xst -intstyle ise -ifn "C:/Users/kaimo/Documents/Github/Computer-architecture/ESCOMIPS/ESCOMIPS/PROCESADOR.xst" -ofn "C:/Users/kaimo/Documents/Github/Computer-architecture/ESCOMIPS/ESCOMIPS/PROCESADOR.syr" 
+xst -intstyle ise -ifn "C:/Users/kaimo/Documents/Github/Computer-architecture/ESCOMIPS/ESCOMIPS/PROCESADOR.xst" -ofn "C:/Users/kaimo/Documents/Github/Computer-architecture/ESCOMIPS/ESCOMIPS/PROCESADOR.syr" 
+xst -intstyle ise -ifn "C:/Users/kaimo/Documents/Github/Computer-architecture/ESCOMIPS/ESCOMIPS/PROCESADOR.xst" -ofn "C:/Users/kaimo/Documents/Github/Computer-architecture/ESCOMIPS/ESCOMIPS/PROCESADOR.syr" 
+xst -intstyle ise -ifn "C:/Users/kaimo/Documents/Github/Computer-architecture/ESCOMIPS/ESCOMIPS/PROCESADOR.xst" -ofn "C:/Users/kaimo/Documents/Github/Computer-architecture/ESCOMIPS/ESCOMIPS/PROCESADOR.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PINES_CONT.ucf -p xc7a100t-csg324-3 PROCESADOR.ngc PROCESADOR.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PROCESADOR_map.ncd PROCESADOR.ngd PROCESADOR.pcf 
+par -w -intstyle ise -ol high -mt off PROCESADOR_map.ncd PROCESADOR.ncd PROCESADOR.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml PROCESADOR.twx PROCESADOR.ncd -o PROCESADOR.twr PROCESADOR.pcf -ucf PINES_CONT.ucf 
+bitgen -intstyle ise -f PROCESADOR.ut PROCESADOR.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PINES_CONT.ucf -p xc7a100t-csg324-3 PROCESADOR.ngc PROCESADOR.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PROCESADOR_map.ncd PROCESADOR.ngd PROCESADOR.pcf 
+par -w -intstyle ise -ol high -mt off PROCESADOR_map.ncd PROCESADOR.ncd PROCESADOR.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml PROCESADOR.twx PROCESADOR.ncd -o PROCESADOR.twr PROCESADOR.pcf -ucf PINES_CONT.ucf 
+xst -intstyle ise -ifn "C:/Users/kaimo/Documents/Github/Computer-architecture/ESCOMIPS/ESCOMIPS/PROCESADOR.xst" -ofn "C:/Users/kaimo/Documents/Github/Computer-architecture/ESCOMIPS/ESCOMIPS/PROCESADOR.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PINES_CONT.ucf -p xc7a100t-csg324-3 PROCESADOR.ngc PROCESADOR.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PROCESADOR_map.ncd PROCESADOR.ngd PROCESADOR.pcf 
+par -w -intstyle ise -ol high -mt off PROCESADOR_map.ncd PROCESADOR.ncd PROCESADOR.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml PROCESADOR.twx PROCESADOR.ncd -o PROCESADOR.twr PROCESADOR.pcf -ucf PINES_CONT.ucf 
+bitgen -intstyle ise -f PROCESADOR.ut PROCESADOR.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PINES_CONT.ucf -p xc7a100t-csg324-3 PROCESADOR.ngc PROCESADOR.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PROCESADOR_map.ncd PROCESADOR.ngd PROCESADOR.pcf 
+par -w -intstyle ise -ol high -mt off PROCESADOR_map.ncd PROCESADOR.ncd PROCESADOR.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml PROCESADOR.twx PROCESADOR.ncd -o PROCESADOR.twr PROCESADOR.pcf -ucf PINES_CONT.ucf 
+bitgen -intstyle ise -f PROCESADOR.ut PROCESADOR.ncd 
+bitgen -intstyle ise -f PROCESADOR.ut PROCESADOR.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PINES_CONT.ucf -p xc7a100t-csg324-3 PROCESADOR.ngc PROCESADOR.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PROCESADOR_map.ncd PROCESADOR.ngd PROCESADOR.pcf 
+par -w -intstyle ise -ol high -mt off PROCESADOR_map.ncd PROCESADOR.ncd PROCESADOR.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml PROCESADOR.twx PROCESADOR.ncd -o PROCESADOR.twr PROCESADOR.pcf -ucf PINES_CONT.ucf 
+bitgen -intstyle ise -f PROCESADOR.ut PROCESADOR.ncd 
+xst -intstyle ise -ifn "C:/Users/kaimo/Documents/Github/Computer-architecture/ESCOMIPS/ESCOMIPS/PROCESADOR.xst" -ofn "C:/Users/kaimo/Documents/Github/Computer-architecture/ESCOMIPS/ESCOMIPS/PROCESADOR.syr" 
+xst -intstyle ise -ifn "C:/Users/kaimo/Documents/Github/Computer-architecture/ESCOMIPS/ESCOMIPS/PROCESADOR.xst" -ofn "C:/Users/kaimo/Documents/Github/Computer-architecture/ESCOMIPS/ESCOMIPS/PROCESADOR.syr" 
+xst -intstyle ise -ifn "C:/Users/kaimo/Documents/Github/Computer-architecture/ESCOMIPS/ESCOMIPS/PROCESADOR.xst" -ofn "C:/Users/kaimo/Documents/Github/Computer-architecture/ESCOMIPS/ESCOMIPS/PROCESADOR.syr" 
+xst -intstyle ise -ifn "C:/Users/kaimo/Documents/Github/Computer-architecture/ESCOMIPS/ESCOMIPS/PROCESADOR.xst" -ofn "C:/Users/kaimo/Documents/Github/Computer-architecture/ESCOMIPS/ESCOMIPS/PROCESADOR.syr" 
+xst -intstyle ise -ifn "C:/Users/kaimo/Documents/Github/Computer-architecture/ESCOMIPS/ESCOMIPS/PROCESADOR.xst" -ofn "C:/Users/kaimo/Documents/Github/Computer-architecture/ESCOMIPS/ESCOMIPS/PROCESADOR.syr" 
+xst -intstyle ise -ifn "C:/Users/kaimo/Documents/Github/Computer-architecture/ESCOMIPS/ESCOMIPS/PROCESADOR.xst" -ofn "C:/Users/kaimo/Documents/Github/Computer-architecture/ESCOMIPS/ESCOMIPS/PROCESADOR.syr" 
+xst -intstyle ise -ifn "C:/Users/kaimo/Documents/Github/Computer-architecture/ESCOMIPS/ESCOMIPS/PROCESADOR.xst" -ofn "C:/Users/kaimo/Documents/Github/Computer-architecture/ESCOMIPS/ESCOMIPS/PROCESADOR.syr" 
+xst -intstyle ise -ifn "C:/Users/kaimo/Documents/Github/Computer-architecture/ESCOMIPS/ESCOMIPS/PROCESADOR.xst" -ofn "C:/Users/kaimo/Documents/Github/Computer-architecture/ESCOMIPS/ESCOMIPS/PROCESADOR.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PINES_CONT.ucf -p xc7a100t-csg324-3 PROCESADOR.ngc PROCESADOR.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PROCESADOR_map.ncd PROCESADOR.ngd PROCESADOR.pcf 
+par -w -intstyle ise -ol high -mt off PROCESADOR_map.ncd PROCESADOR.ncd PROCESADOR.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml PROCESADOR.twx PROCESADOR.ncd -o PROCESADOR.twr PROCESADOR.pcf -ucf PINES_CONT.ucf 
+bitgen -intstyle ise -f PROCESADOR.ut PROCESADOR.ncd 
+xst -intstyle ise -ifn "C:/Users/kaimo/Documents/Github/Computer-architecture/ESCOMIPS/ESCOMIPS/PROCESADOR.xst" -ofn "C:/Users/kaimo/Documents/Github/Computer-architecture/ESCOMIPS/ESCOMIPS/PROCESADOR.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PINES_CONT.ucf -p xc7a100t-csg324-3 PROCESADOR.ngc PROCESADOR.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PROCESADOR_map.ncd PROCESADOR.ngd PROCESADOR.pcf 
+xst -intstyle ise -ifn "C:/Users/kaimo/Documents/Github/Computer-architecture/ESCOMIPS/ESCOMIPS/PROCESADOR.xst" -ofn "C:/Users/kaimo/Documents/Github/Computer-architecture/ESCOMIPS/ESCOMIPS/PROCESADOR.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PINES_CONT.ucf -p xc7a100t-csg324-3 PROCESADOR.ngc PROCESADOR.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PROCESADOR_map.ncd PROCESADOR.ngd PROCESADOR.pcf 
+par -w -intstyle ise -ol high -mt off PROCESADOR_map.ncd PROCESADOR.ncd PROCESADOR.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml PROCESADOR.twx PROCESADOR.ncd -o PROCESADOR.twr PROCESADOR.pcf -ucf PINES_CONT.ucf 
+bitgen -intstyle ise -f PROCESADOR.ut PROCESADOR.ncd 
+xst -intstyle ise -ifn "C:/Users/kaimo/Documents/Github/Computer-architecture/ESCOMIPS/ESCOMIPS/PROCESADOR.xst" -ofn "C:/Users/kaimo/Documents/Github/Computer-architecture/ESCOMIPS/ESCOMIPS/PROCESADOR.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PINES_CONT.ucf -p xc7a100t-csg324-3 PROCESADOR.ngc PROCESADOR.ngd  
+netgen -intstyle ise -insert_glbl true -w -dir netgen/translate -ofmt verilog -sim PROCESADOR.ngd PROCESADOR_translate.v 
+xst -intstyle ise -ifn "/home/erick/Documentos/GitHub/Computer-architecture/ESCOMIPS/ESCOMIPS/PROCESADOR.xst" -ofn "/home/erick/Documentos/GitHub/Computer-architecture/ESCOMIPS/ESCOMIPS/PROCESADOR.syr" 
+xst -intstyle ise -ifn "/home/erick/Documentos/GitHub/Computer-architecture/ESCOMIPS/ESCOMIPS/PROCESADOR.xst" -ofn "/home/erick/Documentos/GitHub/Computer-architecture/ESCOMIPS/ESCOMIPS/PROCESADOR.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim PROCESADOR.ngc PROCESADOR_synthesis.v 
+xst -intstyle ise -ifn "/home/erick/Documentos/GitHub/Computer-architecture/ESCOMIPS/ESCOMIPS/PROCESADOR.xst" -ofn "/home/erick/Documentos/GitHub/Computer-architecture/ESCOMIPS/ESCOMIPS/PROCESADOR.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PINES_CONT.ucf -p xc7a100t-csg324-3 PROCESADOR.ngc PROCESADOR.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PROCESADOR_map.ncd PROCESADOR.ngd PROCESADOR.pcf 
+par -w -intstyle ise -ol high -mt off PROCESADOR_map.ncd PROCESADOR.ncd PROCESADOR.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml PROCESADOR.twx PROCESADOR.ncd -o PROCESADOR.twr PROCESADOR.pcf -ucf PINES_CONT.ucf 
+xst -intstyle ise -ifn "/home/erick/Documentos/GitHub/Computer-architecture/ESCOMIPS/ESCOMIPS/PROCESADOR.xst" -ofn "/home/erick/Documentos/GitHub/Computer-architecture/ESCOMIPS/ESCOMIPS/PROCESADOR.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim PROCESADOR.ngc PROCESADOR_synthesis.v 

@@ -1,0 +1,2 @@
+vhdl work "MEMP.vhd"
+vhdl work "TB_MEMP.vhd"
