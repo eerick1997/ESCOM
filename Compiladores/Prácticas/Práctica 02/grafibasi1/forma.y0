@@ -1,0 +1,123 @@
+%{
+import java.lang.Math;
+import java.io.*;
+import java.util.StringTokenizer;
+import java.awt.*;
+import java.awt.event.*;
+import javax.swing.*;
+%}
+%token NUMBER LINE RIGHT CIRCULO COLOR PRINT
+%start list
+%%
+list :
+     | list ';'
+     | list inst ';'   { 
+             maq.code("print"); maq.code("STOP"); return 1 ;
+     }   
+     ;
+inst:  NUMBER  { ((Algo)$$.obj).inst=maq.code("constpush");
+                maq.code(((Algo)$1.obj).simb); }
+      | LINE NUMBER  { maq.code("constpush");
+                maq.code(((Algo)$2.obj).simb); maq.code("line");}
+      | CIRCULO NUMBER  { maq.code("constpush");
+                maq.code(((Algo)$2.obj).simb); maq.code("circulo");}
+      | COLOR NUMBER { maq.code("constpush");
+                maq.code(((Algo)$2.obj).simb); maq.code("color");}
+      ;
+%%
+class Algo {
+	Simbolo simb;
+	int inst;
+	public Algo(int i){ inst=i; }
+	public Algo(Simbolo s, int i){
+		simb=s;
+                inst=i;
+	}
+}
+public void setTokenizer(StringTokenizer st){
+ 	this.st= st;
+}
+public void setNewline(boolean newline){
+ 	this.newline= newline;
+}
+Tabla tabla;
+Maquina maq;
+
+StringTokenizer st;
+boolean newline;
+int yylex(){
+String s;
+int tok;
+Double d;
+Simbolo simbo;
+   if (!st.hasMoreTokens())
+      if (!newline) {
+         newline=true; 
+	 return ';';  
+      }
+   else
+      return 0;
+   s = st.nextToken();
+   try {
+      d = Double.valueOf(s);
+      yylval = new ParserVal(
+             new Algo(tabla.install("", NUMBER, d.doubleValue()),0) );
+      tok = NUMBER;
+   } catch (Exception e){
+   if(Character.isLetter(s.charAt(0))){
+      if((simbo=tabla.lookup(s))==null)
+         yylval = new ParserVal(new Algo(simbo, 0));
+	 tok= simbo.tipo;	
+      } else {
+    	tok = s.charAt(0);
+      }
+   }
+   return tok;
+}
+void yyerror(String s){
+   System.out.println("parser error: "+s);
+}
+static Parser par = new Parser(0);
+static JFrame f;
+//static JTextField t=new JTextField(20);
+static JButton bcalc;
+static JLabel lmuestra=new JLabel("                                 ");
+static Canvas canv;
+static Graphics g;
+Parser(int foo){
+   maq=new Maquina();
+   tabla=new Tabla();
+   tabla.install("line", LINE, 0.0);
+   tabla.install("circulo", CIRCULO, 0.0);
+   tabla.install("color", COLOR, 0.0);
+   tabla.install("print", PRINT, 0.0);
+   maq.setTabla(tabla);
+   f=new JFrame("Calcula");
+   //bcalc=new JButton("Ejecuta");
+   //bcalc.addActionListener(new ManejaBoton());
+   canv=new Canvas();
+   canv.setSize(300,300);
+   //t=new JTextField(20);
+   //f.add("North", t);
+   f.add("Center", canv);
+   f.add("North", new PanelEjecuta(maq, this));
+   f.setSize( 300, 400);
+   f.setVisible(true);
+   g=canv.getGraphics();
+   maq.setGraphics(g);
+   f.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);  
+}
+public static void main(String args[]){ new Parser(); }
+/*
+class ManejaBoton implements ActionListener {
+   public void actionPerformed(ActionEvent e){
+      JButton jb=(JButton)e.getSource();
+      if(jb == bcalc){
+         maq.setGraphics(g);
+	 st = new StringTokenizer(t.getText());
+    	 newline=false;
+	 for(maq.initcode(); par.yyparse ()!=0; maq.initcode())
+	    maq.execute(maq.progbase);
+      }
+   }
+}*/

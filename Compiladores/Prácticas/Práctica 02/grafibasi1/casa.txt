@@ -1,0 +1,17 @@
+color 0 ;
+rectangulo 200 200 200 200 ;
+color 1 ;
+rectangulo 100 50 300 275 ;
+color 1 ;
+line 200 200 100 300 ;
+line 100 300 200 400 ;
+circulo 30 300 500 ;
+color 2 ;
+line 330 515 380 515 ;
+line 380 515 400 530 ;
+line 380 515 400 500 ;
+line 350 495 350 540 ;
+rectangulo 60 200 350 800 ;
+rectangulo 50 70 300 860 ;
+circulo 50 390 930 ; 
+circulo 50 390 830 ; 

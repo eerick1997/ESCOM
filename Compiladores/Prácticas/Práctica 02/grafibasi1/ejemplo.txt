@@ -1,0 +1,7 @@
+
+
+color 0 ; circulo 100 ;
+color 1 ; line 100 ;
+color 2 ; rectangulo ;
+
+
