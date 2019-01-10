@@ -1,0 +1,320 @@
+
+     | | | | | | |
+   _________________
+  -|               |-
+  -|               |-
+  -|               |-
+  -|    CYPRESS    |-
+  -|               |-
+  -|               |-   Warp VHDL Synthesis Compiler: Version 6.3 IR 35
+  -|               |-   Copyright (C) 1991-2001 Cypress Semiconductor
+   |_______________|
+     | | | | | | |
+
+======================================================================
+Compiling:  det.vhd
+Options:    -m -yu -e10 -w100 -o2 -ygs -fP -v10 -dc22v10 -ppalce22v10-25pc/pi -b det.vhd -u detector.hie
+======================================================================
+
+vhdlfe V6.3 IR 35:  VHDL parser
+Sun Dec 10 12:15:25 2017
+
+Library 'work' => directory 'lc22v10'
+Linking 'C:\Archivos de programa\Cypress\Warp\bin\std.vhd'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\cypress.vhd'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\work\cypress.vif'.
+Library 'ieee' => directory 'C:\Archivos de programa\Cypress\Warp\lib\ieee\work'
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\ieee\work\stdlogic.vif'.
+
+vhdlfe:  No errors.
+
+
+tovif V6.3 IR 35:  High-level synthesis
+Sun Dec 10 12:15:25 2017
+
+Linking 'C:\Archivos de programa\Cypress\Warp\bin\std.vhd'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\cypress.vhd'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\work\cypress.vif'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\ieee\work\stdlogic.vif'.
+det.vhd (line 19, col 10):  Warning: (W479) 'en' should be referenced in the sensitivity list.
+det.vhd (line 26, col 11):  Warning: (W479) 'en' should be referenced in the sensitivity list.
+det.vhd (line 33, col 10):  Warning: (W479) 'en' should be referenced in the sensitivity list.
+det.vhd (line 40, col 10):  Warning: (W479) 'en' should be referenced in the sensitivity list.
+det.vhd (line 47, col 12):  Warning: (W479) 'en' should be referenced in the sensitivity list.
+
+tovif:  No errors.  5 warnings.
+
+
+topld V6.3 IR 35:  Synthesis and optimization
+Sun Dec 10 12:15:26 2017
+
+Linking 'C:\Archivos de programa\Cypress\Warp\bin\std.vhd'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\cypress.vhd'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\work\cypress.vif'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\ieee\work\stdlogic.vif'.
+State variable 'edo_presente' is represented by a Bit_vector (0 to 2).
+State encoding (sequential) for 'edo_presente' is:
+	a :=	b"000";
+	b :=	b"001";
+	c :=	b"010";
+	d :=	b"011";
+	e :=	b"100";
+State variable 'edo_futuro' is represented by a Bit_vector (0 to 2).
+State encoding (sequential) for 'edo_futuro' is:
+	a :=	b"000";
+	b :=	b"001";
+	c :=	b"010";
+	d :=	b"011";
+	e :=	b"100";
+
+----------------------------------------------------------
+Detecting unused logic.
+----------------------------------------------------------
+
+
+Deleted 0 User equations/components.
+Deleted 2 Synthesized equations/components.
+
+------------------------------------------------------
+Alias Detection
+------------------------------------------------------
+
+------------------------------------------------------
+Aliased 0 equations, 3 wires.
+------------------------------------------------------
+
+----------------------------------------------------------
+Circuit simplification
+----------------------------------------------------------
+
+----------------------------------------------------------
+Circuit simplification results:
+
+	Expanded 0 signals.
+	Turned 0 signals into soft nodes.
+	Maximum default expansion cost was set at 10.
+----------------------------------------------------------
+Created 15 PLD nodes.
+
+topld:  No errors.
+
+----------------------------------------------------------------------------
+PLD Optimizer Software:       DSGNOPT.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+DESIGN HEADER INFORMATION  (12:15:27)
+
+Input File(s): det.pla
+Device       : C22V10
+Package      : palce22v10-25pc/pi
+ReportFile   : det.rpt
+
+Program Controls:
+    COMMAND LANGUAGE_VHDL 
+    COMMAND PROPERTY BUS_HOLD ENABLE 
+
+Signal Requests:
+    GROUP USEPOL ALL
+    GROUP FAST_SLEW ALL
+
+Completed Successfully  
+----------------------------------------------------------------------------
+PLD Optimizer Software:       DSGNOPT.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+OPTIMIZATION OPTIONS       (12:15:27)
+
+Messages:
+  Information: Process virtual 'edo_futuroSBV_2'edo_futuroSBV_2 ... expanded.
+  Information: Process virtual 'edo_futuroSBV_1'edo_futuroSBV_1 ... expanded.
+  Information: Process virtual 'edo_futuroSBV_0'edo_futuroSBV_0 ... expanded.
+  Information: Process virtual 'edo_presenteSBV_2' ... converted to NODE.
+  Information: Process virtual 'edo_presenteSBV_1' ... converted to NODE.
+  Information: Process virtual 'edo_presenteSBV_0' ... converted to NODE.
+  Information: Optimizing logic using best output polarity for signals:
+         edo_presenteSBV_1.D edo_presenteSBV_2.D
+
+  Information: Selected logic optimization OFF for signals:
+         edo_presenteSBV_0.D edo_presenteSBV_0.C edo_presenteSBV_1.C
+         edo_presenteSBV_2.C s
+
+
+
+Summary:
+                 Error Count = 0      Warning Count = 0
+
+Completed Successfully  
+----------------------------------------------------------------------------
+PLD Optimizer Software:       MINOPT.EXE     01/NOV/1999  [v4.02 ] 6.3 IR 35
+
+LOGIC MINIMIZATION         ()
+
+Messages:
+
+
+Summary:
+                 Error Count = 0      Warning Count = 0
+
+Completed Successfully
+----------------------------------------------------------------------------
+PLD Optimizer Software:       DSGNOPT.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+OPTIMIZATION OPTIONS       (12:15:27)
+
+Messages:
+  Information: Optimizing Banked Preset/Reset requirements.
+
+
+Summary:
+                 Error Count = 0      Warning Count = 0
+
+Completed Successfully  
+----------------------------------------------------------------------------
+PLD Compiler Software:        PLA2JED.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+<CYPRESSTAG name="Equations" icon=FILE_RPT_EQUATION>
+DESIGN EQUATIONS           (12:15:27)
+</CYPRESSTAG>
+
+    edo_presenteSBV_0.D =
+          edo_presenteSBV_1.Q * edo_presenteSBV_2.Q * en 
+
+    edo_presenteSBV_0.AR =
+          GND
+
+    edo_presenteSBV_0.SP =
+          GND
+
+    edo_presenteSBV_0.C =
+          clk 
+
+    edo_presenteSBV_1.D =
+          /edo_presenteSBV_1.Q * edo_presenteSBV_2.Q * en 
+        + edo_presenteSBV_1.Q * /edo_presenteSBV_2.Q 
+
+    edo_presenteSBV_1.AR =
+          GND
+
+    edo_presenteSBV_1.SP =
+          GND
+
+    edo_presenteSBV_1.C =
+          clk 
+
+    edo_presenteSBV_2.D =
+          /edo_presenteSBV_0.Q * /edo_presenteSBV_1.Q * 
+          /edo_presenteSBV_2.Q * en 
+        + edo_presenteSBV_1.Q * /edo_presenteSBV_2.Q * /en 
+
+    edo_presenteSBV_2.AR =
+          GND
+
+    edo_presenteSBV_2.SP =
+          GND
+
+    edo_presenteSBV_2.C =
+          clk 
+
+    s =
+          edo_presenteSBV_0.Q * en 
+
+
+Completed Successfully  
+----------------------------------------------------------------------------
+PLD Compiler Software:        PLA2JED.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+DESIGN RULE CHECK          (12:15:27)
+
+Messages:
+                 None.
+
+
+Summary:
+                 Error Count = 0      Warning Count = 0
+
+Completed Successfully  
+----------------------------------------------------------------------------
+PLD Compiler Software:        PLA2JED.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+<CYPRESSTAG name="Pinout" icon=FILE_RPT_PINOUT>
+PINOUT INFORMATION   (12:15:28)
+</CYPRESSTAG>
+Messages:
+  Information: Checking for duplicate NODE logic.
+                 None.
+
+
+                                 C22V10
+                 __________________________________________
+            clk =| 1|                                  |24|* not used       
+             en =| 2|                                  |23|= (edo_present.. 
+       not used *| 3|                                  |22|= (edo_present.. 
+       not used *| 4|                                  |21|* not used       
+       not used *| 5|                                  |20|* not used       
+       not used *| 6|                                  |19|* not used       
+       not used *| 7|                                  |18|* not used       
+       not used *| 8|                                  |17|* not used       
+       not used *| 9|                                  |16|* not used       
+       not used *|10|                                  |15|= s              
+       not used *|11|                                  |14|= (edo_present.. 
+       not used *|12|                                  |13|* not used       
+                 __________________________________________
+
+
+Summary:
+                 Error Count = 0      Warning Count = 0
+
+Completed Successfully  
+----------------------------------------------------------------------------
+PLD Compiler Software:        PLA2JED.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+<CYPRESSTAG name="Utilization" icon=FILE_RPT_UTILIZATION>
+RESOURCE UTILIZATION (12:15:28)
+</CYPRESSTAG>
+  Information: Macrocell Utilization.
+
+                     Description        Used     Max
+                 ______________________________________
+                 | Dedicated Inputs   |    1  |   11  |
+                 | Clock/Inputs       |    1  |    1  |
+                 | I/O Macrocells     |    4  |   10  |
+                 ______________________________________
+                                           6  /   22   = 27  %
+
+
+  Information: Output Logic Product Term Utilization.
+
+                  Node#  Output Signal Name  Used   Max
+                 ________________________________________
+                 | 14  |  edo_presente..  |   2  |   8  |
+                 | 15  |  s               |   1  |  10  |
+                 | 16  |  Unused          |   0  |  12  |
+                 | 17  |  Unused          |   0  |  14  |
+                 | 18  |  Unused          |   0  |  16  |
+                 | 19  |  Unused          |   0  |  16  |
+                 | 20  |  Unused          |   0  |  14  |
+                 | 21  |  Unused          |   0  |  12  |
+                 | 22  |  edo_presente..  |   1  |  10  |
+                 | 23  |  edo_presente..  |   2  |   8  |
+                 | 25  |  Unused          |   0  |   1  |
+                 ________________________________________
+                                              6  / 121   = 4   %
+
+
+Completed Successfully  
+----------------------------------------------------------------------------
+PLD Compiler Software:        PLA2JED.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+JEDEC ASSEMBLE             (12:15:28)
+
+Messages:
+  Information: Output file 'det.pin' created.
+  Information: Output file 'det.jed' created.
+
+  Usercode:    
+  Checksum:    23F4
+
+
+
+Summary:
+                 Error Count = 0      Warning Count = 0
+
+Completed Successfully at 12:15:28

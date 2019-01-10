@@ -1,0 +1,16 @@
+Cypress Package: palce22v10-25pc/pi  PinOut File: Suma.pin
+
+This file was created on 11/26/2017 at 11:29:07 
+by PLA2JED.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+==========
+clk gclk <> Enabled Normal 1 <> [Auto] 
+control in <> Enabled Normal 2 <> [Auto] 
+clr in <> Enabled Normal 3 <> [Auto] 
+b in <> Enabled Normal 4 <> [Auto] 
+a in <> Enabled Normal 5 <> [Auto] 
+c inout <> Enabled Normal 14 <> [Auto] 
+s(1) inout <> Enabled Normal 15 <> [Auto] 
+s(3) inout <> Enabled Normal 17 <> [Auto] 
+s(0) inout <> Enabled Normal 22 <> [Auto] 
+s(2) inout <> Enabled Normal 23 <> [Auto] 

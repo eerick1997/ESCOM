@@ -1,0 +1,9 @@
+ENTITY teclado IS
+    PORT (
+	f : in std_logic_vector (3 downto 0) ; 
+	clk : in std_logic  ; 
+	clr : in std_logic  ; 
+	c : inout std_logic_vector (2 downto 0) ; 
+	display : inout std_logic_vector (6 downto 0)
+    ) ;
+END teclado ;

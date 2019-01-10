@@ -1,0 +1,9 @@
+Cypress Package: palce22v10-25pc/pi  PinOut File: det.pin
+
+This file was created on 12/10/2017 at 12:15:28 
+by PLA2JED.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+==========
+clk gclk <> Enabled Normal 1 <> [Auto] 
+en in <> Enabled Normal 2 <> [Auto] 
+s out <> Enabled Normal 15 <> [Auto] 

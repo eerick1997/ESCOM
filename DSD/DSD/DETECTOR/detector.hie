@@ -1,0 +1,2 @@
+det.vhd #Entity det 4
+det.vhd #Architecture a_det det 10

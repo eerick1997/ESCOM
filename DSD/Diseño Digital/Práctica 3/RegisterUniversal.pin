@@ -1,0 +1,28 @@
+Cypress Package: palce22v10-25pc/pi  PinOut File: RegisterUniversal.pin
+
+This file was created on 10/11/2017 at 08:46:54 
+by PLA2JED.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+==========
+clk gclk <> Enabled Normal 1 <> [Auto] 
+dato(7) in <> Enabled Normal 2 <> [Auto] 
+dato(6) in <> Enabled Normal 3 <> [Auto] 
+cd in <> Enabled Normal 4 <> [Auto] 
+dato(5) in <> Enabled Normal 5 <> [Auto] 
+dato(4) in <> Enabled Normal 6 <> [Auto] 
+dato(3) in <> Enabled Normal 7 <> [Auto] 
+dato(2) in <> Enabled Normal 8 <> [Auto] 
+dato(1) in <> Enabled Normal 9 <> [Auto] 
+dato(0) in <> Enabled Normal 10 <> [Auto] 
+control(1) in <> Enabled Normal 11 <> [Auto] 
+control(0) in <> Enabled Normal 13 <> [Auto] 
+q(7) inout <> Enabled Normal 14 <> [Auto] 
+q(5) inout <> Enabled Normal 15 <> [Auto] 
+q(3) inout <> Enabled Normal 16 <> [Auto] 
+q(1) inout <> Enabled Normal 17 <> [Auto] 
+clr in <> Enabled Normal 18 <> [Auto] 
+ci in <> Enabled Normal 19 <> [Auto] 
+q(0) inout <> Enabled Normal 20 <> [Auto] 
+q(2) inout <> Enabled Normal 21 <> [Auto] 
+q(4) inout <> Enabled Normal 22 <> [Auto] 
+q(6) inout <> Enabled Normal 23 <> [Auto] 

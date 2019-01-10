@@ -1,0 +1,8 @@
+ENTITY det IS
+    PORT (
+	en : in std_logic  ; 
+	clk : in std_logic  ; 
+	clr : in std_logic  ; 
+	s : inout std_logic 
+    ) ;
+END det ;

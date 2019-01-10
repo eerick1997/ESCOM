@@ -1,0 +1,89 @@
+Design: 05:48 p.m., Miércoles, 08 de Noviembre de 2017
+Design: Opening design "E:\Diseño Digital\Práctica muchos contadores\vhd\practica6\practica6.adf"
+Compilation with file reorder...
+File: E:\Diseño Digital\Práctica muchos contadores\vhd\practica6.vhd
+Compile Entity "multicontador"
+Compile Architecture "DSMB" of Entity "multicontador"
+Top-Level unit detected
+Entity  =>   multicontador
+Compile success 0 Errors 0 Warnings  Analysis time :  0.4 [s]
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.0 [s].
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.0 [s].
+KERNEL: Main thread initiated.
+KERNEL: Kernel process initialization phase.
+ELAB2: Elaboration final pass...
+ELAB2: Elaboration final pass complete - time: 0.1 [s].
+KERNEL: Kernel process initialization done.
+05:50 p.m., Miércoles, 08 de Noviembre de 2017
+Simulation has been initialized
+Selected Top-Level: multicontador (DSMB)
+Cannot force signal control with formula 1.
+Cannot force signal dato with formula 1.
+KERNEL: stopped at time: 100 ns
+Cannot force signal control with formula 1000.
+KERNEL: stopped at time: 200 ns
+KERNEL: stopped at time: 300 ns
+KERNEL: stopped at time: 400 ns
+KERNEL: stopped at time: 500 ns
+KERNEL: stopped at time: 600 ns
+KERNEL: stopped at time: 700 ns
+KERNEL: stopped at time: 800 ns
+KERNEL: stopped at time: 900 ns
+KERNEL: stopped at time: 1 us
+KERNEL: stopped at time: 1100 ns
+KERNEL: stopped at time: 1200 ns
+KERNEL: stopped at time: 1300 ns
+KERNEL: stopped at time: 1400 ns
+KERNEL: stopped at time: 1500 ns
+KERNEL: stopped at time: 1600 ns
+KERNEL: stopped at time: 1700 ns
+KERNEL: stopped at time: 1800 ns
+KERNEL: stopped at time: 1900 ns
+KERNEL: stopped at time: 2 us
+KERNEL: stopped at time: 2100 ns
+KERNEL: stopped at time: 2200 ns
+KERNEL: stopped at time: 2300 ns
+KERNEL: stopped at time: 2400 ns
+KERNEL: stopped at time: 2500 ns
+KERNEL: stopped at time: 2600 ns
+KERNEL: stopped at time: 2700 ns
+KERNEL: stopped at time: 2800 ns
+KERNEL: stopped at time: 2900 ns
+KERNEL: stopped at time: 3 us
+KERNEL: stopped at time: 3100 ns
+KERNEL: stopped at time: 3200 ns
+KERNEL: stopped at time: 3300 ns
+KERNEL: stopped at time: 3400 ns
+KERNEL: stopped at time: 3500 ns
+KERNEL: stopped at time: 3600 ns
+KERNEL: stopped at time: 3700 ns
+KERNEL: stopped at time: 3800 ns
+KERNEL: stopped at time: 3900 ns
+KERNEL: stopped at time: 4 us
+KERNEL: stopped at time: 4100 ns
+KERNEL: stopped at time: 4200 ns
+KERNEL: stopped at time: 4300 ns
+KERNEL: stopped at time: 4400 ns
+KERNEL: stopped at time: 4500 ns
+KERNEL: stopped at time: 4600 ns
+KERNEL: stopped at time: 4700 ns
+KERNEL: stopped at time: 4800 ns
+KERNEL: stopped at time: 4900 ns
+KERNEL: stopped at time: 5 us
+KERNEL: stopped at time: 5100 ns
+KERNEL: stopped at time: 5200 ns
+KERNEL: stopped at time: 5300 ns
+KERNEL: stopped at time: 5400 ns
+KERNEL: stopped at time: 5500 ns
+KERNEL: stopped at time: 5600 ns
+KERNEL: stopped at time: 5700 ns
+KERNEL: stopped at time: 5800 ns
+KERNEL: stopped at time: 5900 ns
+KERNEL: stopped at time: 6 us
+KERNEL: stopped at time: 6100 ns
+KERNEL: stopped at time: 6200 ns
+KERNEL: stopped at time: 6300 ns
+KERNEL: stopped at time: 6400 ns
+Simulation has been stopped

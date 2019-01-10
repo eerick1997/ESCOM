@@ -1,0 +1,6 @@
+MESSAGE "File: E:\DSD\FFT\vhd\fft.vhd" 
+MESSAGE "Compile Entity "fft"" 
+MESSAGE "Compile Architecture "DSMB" of Entity "fft"" 
+MESSAGE "Top-Level unit detected" 
+MESSAGE "Entity  =>   fft" 
+MESSAGE "Compile success 0 Errors 0 Warnings  Analysis time :  6.0 [s]" 

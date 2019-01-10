@@ -1,0 +1,52 @@
+//Programa 2, sistema:
+
+En ejecución: Programita 1:
+Tiempo restante: 2s
+
+Siguiente: Programita 2:
+Tiempo restante: 3s
+
+------------------------------------------
+
+
+
+En ejecución: Programita 2:
+Tiempo restante: 2s
+
+Siguiente: Programita 1:
+Tiempo restante: 2s
+
+
+
+------------------------------------------
+
+
+
+En ejecución: Programita 1:
+Tiempo restante: 1s
+
+Siguiente: Programita 2:
+Tiempo restante: 2s
+
+
+------------------------------------------
+
+
+
+En ejecución: Programita 2:
+Tiempo restante: 1s
+
+Siguiente: Programita 1: <- Muere :v
+Tiempo restante: 0s
+
+Procesos finalizados: Programita 1
+
+
+------------------------------------------
+
+
+
+En ejecución: Programita 2:
+Tiempo restante: 0s
+
+Programita 1 y programtita 2

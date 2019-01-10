@@ -1,0 +1,478 @@
+alter table nombretabla add column nombrecolumna tipodedato null; agregar columna
+alter table nombretabla modify nombrecolumna tipodedato null; modificar columna
+alter table nombretabla change nombreanteriorcolumna nuevonombrecolumna tipodedato null; cambiar nombre a columna
+alter table nombretabla drop column nombrecolumna; eliminar columna
+delete from nombretabla;
+delete from nombretabla where nombrecolumna = 'dato'; eliminar dato
+alter table nombretabla drop foreign key nombrellaveforanea; eliminar llave foranea
+alter table nombretabla add constraint nombrellave foreign key (nombrecolumna) references nombretablareferenciada (nombrecolumna) on delete cascade on update cascade; añadir llave foranea
+update nombretabla set  columna = nuevoonmbre where columna = antiguonombre; 
+select apodo.atributo, apodo.atributo from nombretabla as apodo where apodo.atributo = dato; apodo a una tabla  
+select (atributo + numero)*nuemro from nombretabla; suma y multiplica los datos de la tabla
+select * from nombretabla order by atributo; ordena los datos por atributo
+select * from nombretabla order by atributo asc; ordena los datos de manera ascendente
+select * from nombretabla order by atributo desc; ordena los datos de manera descendente
+select distinct oficina from profesor; elimina duplicados
+select count(atributo) from nombretabla;
+select sum(atributo) from nombretabla; suma los datos de la columna
+select avg(atributo) from profesor; promedio de los datos de la columna
+select min(atributo) from nombretabla; data minimo de la columna
+select max(atributo) from nombretabla; dato maximo de la columna
+update nombretabla set atributo = valor where atriutodereferencia = nombre; agregar dato a cierta tupla
+select ofocina, count(oficina) from profesor group by oficina; agrupa en subconjuntos
+select * from nombretabla where atributo not like 'R	/a'; 
+select upper(nombre) from fabricante;
+select lower(nombre) from fabricante;
+
+
+
+
+
+Mysqldump -uroot -p -P 3307 nombre_bdarespaldar > C:\ruta\archivo.sql
+Mysql -uroot -p -P 3307 nombre_bdcreada < C:\ruta\archivo.sql
+
+
+
+
+
+Enter password: ****
+Welcome to the MySQL monitor.  Commands end with ; or \g.
+Your MySQL connection id is 2
+Server version: 5.7.16-log MySQL Community Server (GPL)
+
+Copyright (c) 2000, 2016, Oracle and/or its affiliates. All rights reserved.
+
+Oracle is a registered trademark of Oracle Corporation and/or its
+affiliates. Other names may be trademarks of their respective
+owners.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+mysql> create database parejas;
+Query OK, 1 row affected (0.00 sec)
+
+mysql> use parejas;
+Database changed
+mysql> create table Hombre(
+    -> nomh char(15) not null
+    -> edad int(3) not null;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'edad int(3) not null' at line 3
+mysql> create table Hombre(
+    -> nomh char(15) not null,
+    -> edad int(3) not null;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+mysql> create table Hombre(
+    -> nomh char(15) not null,
+    -> edad int(3) not null);
+Query OK, 0 rows affected (0.05 sec)
+
+mysql> create table mujer(
+    -> nomm char(15) not null,
+    -> edad int(3) not null);
+Query OK, 0 rows affected (0.03 sec)
+
+mysql> create table hsim(
+    -> nomh char(15) not null,
+    -> nomm char(15) not null);
+Query OK, 0 rows affected (0.03 sec)
+
+mysql> create table msim(
+    -> nomh char(15) not null,
+    -> nomm char(15) not null);
+Query OK, 0 rows affected (0.03 sec)
+
+mysql> create table matrim(
+    -> nomh char(15) not null,
+    -> nomm char(15) not null);
+Query OK, 0 rows affected (0.03 sec)
+
+mysql> show tables
+    -> ;
++-------------------+
+| Tables_in_parejas |
++-------------------+
+| hombre            |
+| hsim              |
+| matrim            |
+| msim              |
+| mujer             |
++-------------------+
+5 rows in set (0.02 sec)
+
+mysql> insert into hombre (nomh, edad) values
+    -> ('ALBERTO', 26),
+    -> ('ARTURO', 31),
+    -> ('ALEXIS', 30),
+    -> ('CARLOS', 28),
+    -> ('EDUARDO', 27),
+    -> ('LUIS', 19),
+    -> ('PABLO', 25),
+    -> ('MARIO', 33),
+    -> ('ENRIQUE', 29),
+    -> ('HECTOR', 33),
+    -> ('VICTOR', 31);
+Query OK, 11 rows affected (0.01 sec)
+Records: 11  Duplicates: 0  Warnings: 0
+
+mysql> insert into MUJER (nomm, edad) values
+    -> ('ALMA', 19),
+    -> ('LETICIA', 33),
+    -> ('LAURA', 30),
+    -> ('WENDY', 25),
+    -> ('ADRIANA', 27),
+    -> ('PAOLA', 24),
+    -> ('DANIELA', 25),
+    -> ('LILIANA', 32),
+    -> ('SANDY', 31);
+Query OK, 9 rows affected (0.01 sec)
+Records: 9  Duplicates: 0  Warnings: 0
+
+mysql> insert into HSIM (nomh, nomm) values
+    -> ('ALBERTO', 'LETICIA'),
+    -> ('ARTURO', 'LAURA'),
+    -> ('ALEXIS', 'PAOLA'),
+    -> ('CARLOS', 'PAOLA'),
+    -> ('ALBERTO', 'DANIELA'),
+    -> ('LUIS', 'LILIANA'),
+    -> ('PABLO', 'WENDY'),
+    -> ('MARIO', 'LILIANA'),
+    -> ('ALBERTO', 'ADRIANA'),
+    -> ('ARTURO', 'ADRIANA'),
+    -> ('ALEXIS', 'ADRIANA'),
+    -> ('CARLOS', 'ADRIANA'),
+    -> ('EDUARDO', 'ADRIANA'),
+    -> ('LUIS', 'ADRIANA'),
+    -> ('PABLO', 'ADRIANA'),
+    -> ('MARIO', 'ADRIANA'),
+    -> ('VICTOR', 'ADRIANA'),
+    -> ('VICTOR', 'SANDY');
+Query OK, 18 rows affected (0.01 sec)
+Records: 18  Duplicates: 0  Warnings: 0
+
+mysql> insert into MSIM (nomh, nomm) values
+    -> ('ALBERTO', 'ALMA'),
+    -> ('ALBERTO', 'LETICIA'),
+    -> ('ARTURO', 'LAURA'),
+    -> ('PABLO', 'WENDY'),
+    -> ('ALBERTO', 'ADRIANA'),
+    -> ('ALEXIS', 'PAOLA'),
+    -> ('ALBERTO', 'DANIELA'),
+    -> ('PABLO', 'LILIANA'),
+    -> ('MARIO', 'LAURA'),
+    -> ('MARIO', 'LILIANA'),
+    -> ('MARIO', 'PAOLA'),
+    -> ('MARIO', 'ALMA'),
+    -> ('MARIO', 'WENDY'),
+    -> ('MARIO', 'SANDY'),
+    -> ('VICTOR', 'SANDY');
+Query OK, 15 rows affected (0.01 sec)
+Records: 15  Duplicates: 0  Warnings: 0
+
+mysql> insert into MATRIM (nomh, nomm) values
+    -> ('ARTURO', 'LAURA'),
+    -> ('CARLOS', 'LILIANA'),
+    -> ('EDUARDO', 'PAOLA'),
+    -> ('LUIS', 'ALMA'),
+    -> ('PABLO', 'WENDY'),
+    -> ('VICTOR', 'SANDY');
+Query OK, 6 rows affected (0.00 sec)
+Records: 6  Duplicates: 0  Warnings: 0
+
+mysql> alter table hombre add constraint PKH primary key (nomh);
+Query OK, 0 rows affected (0.13 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+mysql> alter table mujer add constraint PKM primary key (nomm);
+Query OK, 0 rows affected (0.11 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+mysql> alter table hsim add constraint FKHS foreign key (nomh) references hombre (nomh) on delete cascade on update cascade;
+Query OK, 18 rows affected (0.09 sec)
+Records: 18  Duplicates: 0  Warnings: 0
+
+mysql> alter table hsim drop foreign key FKHS;
+Query OK, 0 rows affected (0.01 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+mysql> alter table hsim add constraint FKHSH foreign key (nomh) references hombre (nomh) on delete cascade on update cascade;
+Query OK, 18 rows affected (0.08 sec)
+Records: 18  Duplicates: 0  Warnings: 0
+
+mysql> alter table hsim add constraint FKHSM foreign key (nomm) references hombre (nomm) on delete cascade on update cascade;
+ERROR 1215 (HY000): Cannot add foreign key constraint
+mysql> alter table hsim add constraint FKHSM foreign key (nomm) references mujer (nomm) on delete cascade on update cascade;
+Query OK, 18 rows affected (0.11 sec)
+Records: 18  Duplicates: 0  Warnings: 0
+
+mysql> alter table msim add constraint FKMSM foreign key (nomh) references hombre (nomh) on delete cascade on update cascade;
+Query OK, 15 rows affected (0.09 sec)
+Records: 15  Duplicates: 0  Warnings: 0
+
+mysql> alter table msim drop foreign key FKMSM;
+Query OK, 0 rows affected (0.01 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+mysql> alter table msim add constraint FKMSH foreign key (nomh) references hombre (nomh) on delete cascade on update cascade;
+Query OK, 15 rows affected (0.08 sec)
+Records: 15  Duplicates: 0  Warnings: 0
+
+mysql> alter table msim add constraint FKMSM foreign key (nomm) references mujer (nomm) on delete cascade on update cascade;
+Query OK, 15 rows affected (0.09 sec)
+Records: 15  Duplicates: 0  Warnings: 0
+
+mysql> alter table matrim add constraint FKMH foreign key (nomh) references hombre (nomh) on delete cascade on update cascade;
+Query OK, 6 rows affected (0.09 sec)
+Records: 6  Duplicates: 0  Warnings: 0
+
+mysql> alter table matrim add constraint FKMM foreign key (nomm) references mujer (nomm) on delete cascade on update cascade;
+Query OK, 6 rows affected (0.59 sec)
+Records: 6  Duplicates: 0  Warnings: 0
+
+mysql> show create table matrim;
++--------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Table  | Create Table                                                                                                                                                                                                                                                                                                                                                                           |
++--------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| matrim | CREATE TABLE `matrim` (
+  `nomh` char(15) NOT NULL,
+  `nomm` char(15) NOT NULL,
+  KEY `FKMH` (`nomh`),
+  KEY `FKMM` (`nomm`),
+  CONSTRAINT `FKMH` FOREIGN KEY (`nomh`) REFERENCES `hombre` (`nomh`) ON DELETE CASCADE ON UPDATE CASCADE,
+  CONSTRAINT `FKMM` FOREIGN KEY (`nomm`) REFERENCES `mujer` (`nomm`) ON DELETE CASCADE ON UPDATE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 |
++--------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+1 row in set (0.00 sec)
+
+mysql> show create table hsim;
++-------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Table | Create Table                                                                                                                                                                                                                                                                                                                                                                             |
++-------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| hsim  | CREATE TABLE `hsim` (
+  `nomh` char(15) NOT NULL,
+  `nomm` char(15) NOT NULL,
+  KEY `FKHSH` (`nomh`),
+  KEY `FKHSM` (`nomm`),
+  CONSTRAINT `FKHSH` FOREIGN KEY (`nomh`) REFERENCES `hombre` (`nomh`) ON DELETE CASCADE ON UPDATE CASCADE,
+  CONSTRAINT `FKHSM` FOREIGN KEY (`nomm`) REFERENCES `mujer` (`nomm`) ON DELETE CASCADE ON UPDATE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 |
++-------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+1 row in set (0.00 sec)
+
+mysql> show create table msim;
++-------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Table | Create Table                                                                                                                                                                                                                                                                                                                                                                             |
++-------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| msim  | CREATE TABLE `msim` (
+  `nomh` char(15) NOT NULL,
+  `nomm` char(15) NOT NULL,
+  KEY `FKMSH` (`nomh`),
+  KEY `FKMSM` (`nomm`),
+  CONSTRAINT `FKMSH` FOREIGN KEY (`nomh`) REFERENCES `hombre` (`nomh`) ON DELETE CASCADE ON UPDATE CASCADE,
+  CONSTRAINT `FKMSM` FOREIGN KEY (`nomm`) REFERENCES `mujer` (`nomm`) ON DELETE CASCADE ON UPDATE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 |
++-------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+1 row in set (0.00 sec)
+
+mysql> show create table matrim;
++--------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Table  | Create Table                                                                                                                                                                                                                                                                                                                                                                           |
++--------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| matrim | CREATE TABLE `matrim` (
+  `nomh` char(15) NOT NULL,
+  `nomm` char(15) NOT NULL,
+  KEY `FKMH` (`nomh`),
+  KEY `FKMM` (`nomm`),
+  CONSTRAINT `FKMH` FOREIGN KEY (`nomh`) REFERENCES `hombre` (`nomh`) ON DELETE CASCADE ON UPDATE CASCADE,
+  CONSTRAINT `FKMM` FOREIGN KEY (`nomm`) REFERENCES `mujer` (`nomm`) ON DELETE CASCADE ON UPDATE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 |
++--------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+1 row in set (0.00 sec)
+
+mysql> select *from hombre;
++---------+------+
+| nomh    | edad |
++---------+------+
+| ALBERTO |   26 |
+| ALEXIS  |   30 |
+| ARTURO  |   31 |
+| CARLOS  |   28 |
+| EDUARDO |   27 |
+| ENRIQUE |   29 |
+| HECTOR  |   33 |
+| LUIS    |   19 |
+| MARIO   |   33 |
+| PABLO   |   25 |
+| VICTOR  |   31 |
++---------+------+
+11 rows in set (0.00 sec)
+
+mysql> select *from mujer;
++---------+------+
+| nomm    | edad |
++---------+------+
+| ADRIANA |   27 |
+| ALMA    |   19 |
+| DANIELA |   25 |
+| LAURA   |   30 |
+| LETICIA |   33 |
+| LILIANA |   32 |
+| PAOLA   |   24 |
+| SANDY   |   31 |
+| WENDY   |   25 |
++---------+------+
+9 rows in set (0.00 sec)
+
+mysql> select *from matrim;
++---------+---------+
+| nomh    | nomm    |
++---------+---------+
+| ARTURO  | LAURA   |
+| CARLOS  | LILIANA |
+| EDUARDO | PAOLA   |
+| LUIS    | ALMA    |
+| PABLO   | WENDY   |
+| VICTOR  | SANDY   |
++---------+---------+
+6 rows in set (0.00 sec)
+
+mysql> select *from hsim;
++---------+---------+
+| nomh    | nomm    |
++---------+---------+
+| ALBERTO | LETICIA |
+| ARTURO  | LAURA   |
+| ALEXIS  | PAOLA   |
+| CARLOS  | PAOLA   |
+| ALBERTO | DANIELA |
+| LUIS    | LILIANA |
+| PABLO   | WENDY   |
+| MARIO   | LILIANA |
+| ALBERTO | ADRIANA |
+| ARTURO  | ADRIANA |
+| ALEXIS  | ADRIANA |
+| CARLOS  | ADRIANA |
+| EDUARDO | ADRIANA |
+| LUIS    | ADRIANA |
+| PABLO   | ADRIANA |
+| MARIO   | ADRIANA |
+| VICTOR  | ADRIANA |
+| VICTOR  | SANDY   |
++---------+---------+
+18 rows in set (0.00 sec)
+
+mysql> select *from msim;
++---------+---------+
+| nomh    | nomm    |
++---------+---------+
+| ALBERTO | ALMA    |
+| ALBERTO | LETICIA |
+| ARTURO  | LAURA   |
+| PABLO   | WENDY   |
+| ALBERTO | ADRIANA |
+| ALEXIS  | PAOLA   |
+| ALBERTO | DANIELA |
+| PABLO   | LILIANA |
+| MARIO   | LAURA   |
+| MARIO   | LILIANA |
+| MARIO   | PAOLA   |
+| MARIO   | ALMA    |
+| MARIO   | WENDY   |
+| MARIO   | SANDY   |
+| VICTOR  | SANDY   |
++---------+---------+
+15 rows in set (0.00 sec)
+
+mysql> select nomh, nomm from hsim where nomh in(select nomh from msim) and nomm in (select nomm from msim);
++---------+---------+
+| nomh    | nomm    |
++---------+---------+
+| ALBERTO | LETICIA |
+| ARTURO  | LAURA   |
+| ALEXIS  | PAOLA   |
+| ALBERTO | DANIELA |
+| PABLO   | WENDY   |
+| MARIO   | LILIANA |
+| ALBERTO | ADRIANA |
+| ARTURO  | ADRIANA |
+| ALEXIS  | ADRIANA |
+| PABLO   | ADRIANA |
+| MARIO   | ADRIANA |
+| VICTOR  | ADRIANA |
+| VICTOR  | SANDY   |
++---------+---------+
+13 rows in set (0.00 sec)
+
+mysql> select distinct hsim.nomh, hsim.nomm from hsim, msim where hsim.nomh = msim.nomh and hsim.nomm = msim.nomm
+    -> ;
++---------+---------+
+| nomh    | nomm    |
++---------+---------+
+| ALBERTO | LETICIA |
+| ARTURO  | LAURA   |
+| PABLO   | WENDY   |
+| ALBERTO | ADRIANA |
+| ALEXIS  | PAOLA   |
+| ALBERTO | DANIELA |
+| MARIO   | LILIANA |
+| VICTOR  | SANDY   |
++---------+---------+
+8 rows in set (0.00 sec)
+
+mysql> select distinct hsim.nomh, hsim.nomm from hsim, msim where (hsim.nomh = msim.nomh and hsim.nomm = msim.nomm);
++---------+---------+
+| nomh    | nomm    |
++---------+---------+
+| ALBERTO | LETICIA |
+| ARTURO  | LAURA   |
+| PABLO   | WENDY   |
+| ALBERTO | ADRIANA |
+| ALEXIS  | PAOLA   |
+| ALBERTO | DANIELA |
+| MARIO   | LILIANA |
+| VICTOR  | SANDY   |
++---------+---------+
+8 rows in set (0.00 sec)
+
+mysql> select distinct hsim.nomh, hsim.nomm from hsim, msim where (hsim.nomh = msim.nomh and msim.nomm = msim.nomm);
++---------+---------+
+| nomh    | nomm    |
++---------+---------+
+| ALBERTO | LETICIA |
+| ALBERTO | DANIELA |
+| ALBERTO | ADRIANA |
+| ARTURO  | LAURA   |
+| ARTURO  | ADRIANA |
+| PABLO   | WENDY   |
+| PABLO   | ADRIANA |
+| ALEXIS  | PAOLA   |
+| ALEXIS  | ADRIANA |
+| MARIO   | LILIANA |
+| MARIO   | ADRIANA |
+| VICTOR  | ADRIANA |
+| VICTOR  | SANDY   |
++---------+---------+
+13 rows in set (0.00 sec)
+
+mysql> select nomh, nomm from hsim where nomh in(select nomh from msim) and nomm in (select nomm from msim);
++---------+---------+
+| nomh    | nomm    |
++---------+---------+
+| ALBERTO | LETICIA |
+| ARTURO  | LAURA   |
+| ALEXIS  | PAOLA   |
+| ALBERTO | DANIELA |
+| PABLO   | WENDY   |
+| MARIO   | LILIANA |
+| ALBERTO | ADRIANA |
+| ARTURO  | ADRIANA |
+| ALEXIS  | ADRIANA |
+| PABLO   | ADRIANA |
+| MARIO   | ADRIANA |
+| VICTOR  | ADRIANA |
+| VICTOR  | SANDY   |
++---------+---------+
+13 rows in set (0.00 sec)
+
+mysql>
+
+

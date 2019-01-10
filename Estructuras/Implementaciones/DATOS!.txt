@@ -1,0 +1,4 @@
+Alumno: Vargas Romero Erick Efraín
+Secuencia: 1CM9
+Profesor: Franco Martinez Edgardo Adrían
+TAREA Ejercicios 05: Implementación de TAD Pila y TAD Cola con el TAD Lista

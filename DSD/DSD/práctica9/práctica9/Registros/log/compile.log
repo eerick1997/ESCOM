@@ -1,0 +1,7 @@
+ Compilation with file reorder...
+ File: E:\4osemestre\DSD\práctica9\práctica9\Registros.vhd
+ Compile Entity "REGISTROS"
+ Compile Architecture "AREGISTROS" of Entity "REGISTROS"
+ Top-Level unit detected
+ Entity  =>   REGISTROS
+ Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]

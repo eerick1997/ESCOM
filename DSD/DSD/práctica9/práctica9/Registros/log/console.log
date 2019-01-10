@@ -1,0 +1,29 @@
+Design: 02:40 p.m., Miércoles, 29 de Noviembre de 2017
+Design: Opening design "E:\4osemestre\DSD\práctica9\práctica9\Registros\Registros.adf"
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.0 [s].
+Compilation with file reorder...
+File: E:\4osemestre\DSD\práctica9\práctica9\Registros.vhd
+Compile Entity "REGISTROS"
+Compile Architecture "AREGISTROS" of Entity "REGISTROS"
+Top-Level unit detected
+Entity  =>   REGISTROS
+Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.0 [s].
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.0 [s].
+KERNEL: Main thread initiated.
+KERNEL: Kernel process initialization phase.
+ELAB2: Elaboration final pass...
+ELAB2: Elaboration final pass complete - time: 0.0 [s].
+KERNEL: Kernel process initialization done.
+02:41 p.m., Miércoles, 29 de Noviembre de 2017
+Simulation has been initialized
+Selected Top-Level: REGISTROS (AREGISTROS)
+KERNEL: stopped at time: 100 ns
+KERNEL: stopped at time: 200 ns
+KERNEL: stopped at time: 300 ns
+KERNEL: stopped at time: 400 ns
+KERNEL: stopped at time: 500 ns
+KERNEL: stopped at time: 600 ns

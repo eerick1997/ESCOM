@@ -1,0 +1,8 @@
+[Project]
+Current config=GENERIC
+VCS=0
+modified=20
+[Configurations]
+GENERIC=fft
+[Files]
+/E:\DSD\FFT\vhd\fft.vhd=4, 1 30615265 2106626560, 0, , , ,

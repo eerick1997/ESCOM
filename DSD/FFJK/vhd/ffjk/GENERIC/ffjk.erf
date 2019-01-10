@@ -1,0 +1,6 @@
+MESSAGE "File: E:\DSD\FFJK\vhd\ffjk.vhd" 
+MESSAGE "Compile Entity "ffjk"" 
+MESSAGE "Compile Architecture "DSMB" of Entity "ffjk"" 
+MESSAGE "Top-Level unit detected" 
+MESSAGE "Entity  =>   ffjk" 
+MESSAGE "Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]" 

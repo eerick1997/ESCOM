@@ -1,0 +1,17 @@
+[General]
+CurrentVersion=102
+[OPENDOC|OUTPUT.IGENERIC||]
+CmdLine=
+[OPENDOC|AVHDLEXTENSION.GENERIC||]
+CmdLine=
+[OPENDOC|HELPREF.GENERIC||]
+CmdLine=
+[OPENDOC|PROJECT.KGENERICC|E:\Diseño Digital\Práctica 4\vhd\practica4\practica4.adf|]
+CmdLine=
+Path=
+[OPENDOC|STIMMAN.STIMMANAGER||]
+CmdLine=
+[OPENDOC|VSIM.SHELL||]
+CmdLine=
+[OPENDOC|SCRIPTENGINE.GENERIC||]
+CmdLine=

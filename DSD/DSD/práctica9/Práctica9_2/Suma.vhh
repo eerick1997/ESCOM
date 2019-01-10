@@ -1,0 +1,11 @@
+ENTITY suma IS
+    PORT (
+	a : in std_logic  ; 
+	b : in std_logic  ; 
+	control : in std_logic  ; 
+	clk : in std_logic  ; 
+	clr : in std_logic  ; 
+	c : inout std_logic  ; 
+	s : inout std_logic_vector (3 downto 0)
+    ) ;
+END suma ;

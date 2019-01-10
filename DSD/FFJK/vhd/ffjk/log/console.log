@@ -1,0 +1,37 @@
+Design: 09:52 a.m., Miércoles, 06 de Septiembre de 2017
+Design: Opening design "E:\DSD\FFJK\vhd\ffjk\ffjk.adf"
+Compilation with file reorder...
+File: E:\DSD\FFJK\vhd\ffjk.vhd
+Compile Entity "ffjk"
+Compile Architecture "DSMB" of Entity "ffjk"
+Top-Level unit detected
+Entity  =>   ffjk
+Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.0 [s].
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.0 [s].
+KERNEL: Main thread initiated.
+KERNEL: Kernel process initialization phase.
+ELAB2: Elaboration final pass...
+ELAB2: Elaboration final pass complete - time: 0.0 [s].
+KERNEL: Kernel process initialization done.
+09:54 a.m., Miércoles, 06 de Septiembre de 2017
+Simulation has been initialized
+Selected Top-Level: ffjk (DSMB)
+KERNEL: stopped at time: 100 ns
+KERNEL: stopped at time: 200 ns
+KERNEL: stopped at time: 300 ns
+KERNEL: stopped at time: 400 ns
+KERNEL: stopped at time: 500 ns
+KERNEL: stopped at time: 600 ns
+KERNEL: stopped at time: 700 ns
+KERNEL: stopped at time: 800 ns
+KERNEL: stopped at time: 900 ns
+KERNEL: stopped at time: 1 us
+KERNEL: stopped at time: 1100 ns
+KERNEL: stopped at time: 1200 ns
+KERNEL: stopped at time: 1300 ns
+KERNEL: stopped at time: 1400 ns
+KERNEL: stopped at time: 1500 ns
+Simulation has been stopped

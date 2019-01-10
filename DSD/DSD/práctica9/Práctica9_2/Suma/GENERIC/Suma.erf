@@ -1,0 +1,6 @@
+MESSAGE "File: E:\4osemestre\DSD\práctica9\Práctica9_2\Suma.vhd" 
+MESSAGE "Compile Entity "suma"" 
+MESSAGE "Compile Architecture "asuma" of Entity "suma"" 
+MESSAGE "Top-Level unit detected" 
+MESSAGE "Entity  =>   suma" 
+MESSAGE "Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]" 

@@ -1,0 +1,38 @@
+Programa banco:
+
+Clientes (con cuenta):
+    No dejan de ser atendidos
+
+Usuarios Nosotros los pobres:
+Si una caja está vacía y 
+
+
+Preferentes VIP:
+
+cajita 1:
+
+int contador = 0;
+
+//VIP
+if((prioridad == 3 && contador < 5 && está_vacía) || pobres < 1 || normales < 1)
+{
+    if(pobres < 1 || normales < 1){
+        contador = 0;
+    }
+    contador++;
+}
+
+//Normales
+if((prioridad == 2 && contador < 5) || pobres < 1 || VIP < 1){
+    if(pobres < 1 || VIP < 1){
+        contador = 0;
+    }
+    contador++;
+}
+
+
+if(estavacía && contador < 5){
+contador++;
+
+} 
+HOLA MUNDO XD, HAPPY :v KKKKK

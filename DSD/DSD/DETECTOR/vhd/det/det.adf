@@ -1,0 +1,8 @@
+[Project]
+Current config=GENERIC
+VCS=0
+modified=40
+[Configurations]
+GENERIC=det
+[Files]
+/E:\DSD\DETECTOR\vhd\det.vhd=4, 1 30634466 3699576064, 0, , , ,

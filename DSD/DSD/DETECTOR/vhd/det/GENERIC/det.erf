@@ -1,0 +1,5 @@
+MESSAGE "File: E:\DSD\DETECTOR\vhd\det.vhd" 
+MESSAGE "Compile Entity "det"" 
+MESSAGE "Entity "det" has been skipped - no difference detected." 
+MESSAGE "Compile Architecture "DSMB" of Entity "det"" 
+MESSAGE "Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]" 

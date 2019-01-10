@@ -1,0 +1,7 @@
+ Compilation with file reorder...
+ File: E:\DSD\FFT\vhd\fft.vhd
+ Compile Entity "fft"
+ Compile Architecture "DSMB" of Entity "fft"
+ Top-Level unit detected
+ Entity  =>   fft
+ Compile success 0 Errors 0 Warnings  Analysis time :  6.0 [s]

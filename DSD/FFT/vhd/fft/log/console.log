@@ -1,0 +1,50 @@
+Design: 9:11, lunes, 11 de septiembre de 2017
+Design: Opening design "E:\DSD\FFT\vhd\fft\fft.adf"
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 1.2 [s].
+Compilation with file reorder...
+File: E:\DSD\FFT\vhd\fft.vhd
+Compile Entity "fft"
+Compile Architecture "DSMB" of Entity "fft"
+Top-Level unit detected
+Entity  =>   fft
+Compile success 0 Errors 0 Warnings  Analysis time :  6.0 [s]
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 1.1 [s].
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 1.1 [s].
+KERNEL: Main thread initiated.
+KERNEL: Kernel process initialization phase.
+ELAB2: Elaboration final pass...
+ELAB2: Elaboration final pass complete - time: 0.2 [s].
+KERNEL: Kernel process initialization done.
+9:13, lunes, 11 de septiembre de 2017
+Simulation has been initialized
+Selected Top-Level: fft (DSMB)
+KERNEL: stopped at time: 100 ns
+KERNEL: stopped at time: 200 ns
+KERNEL: stopped at time: 300 ns
+KERNEL: stopped at time: 400 ns
+KERNEL: stopped at time: 500 ns
+KERNEL: stopped at time: 600 ns
+KERNEL: stopped at time: 700 ns
+KERNEL: stopped at time: 800 ns
+KERNEL: stopped at time: 900 ns
+KERNEL: stopped at time: 1 us
+KERNEL: stopped at time: 1100 ns
+KERNEL: stopped at time: 1200 ns
+KERNEL: stopped at time: 1300 ns
+KERNEL: stopped at time: 1400 ns
+KERNEL: stopped at time: 1500 ns
+KERNEL: stopped at time: 1600 ns
+KERNEL: stopped at time: 1700 ns
+KERNEL: stopped at time: 1800 ns
+KERNEL: stopped at time: 1900 ns
+KERNEL: stopped at time: 2 us
+KERNEL: stopped at time: 2100 ns
+KERNEL: stopped at time: 2200 ns
+KERNEL: stopped at time: 2300 ns
+KERNEL: stopped at time: 2400 ns
+KERNEL: stopped at time: 2500 ns
+KERNEL: stopped at time: 2600 ns
+Simulation has been stopped

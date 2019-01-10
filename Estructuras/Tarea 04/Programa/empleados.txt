@@ -1,0 +1,29 @@
+
+
+Empleado 1 de la lista
+Numero de empleado: 1
+Nombre de empleado: Erick
+Departamento del empleado: Sistemas
+Salario de empleado: 40000.000000
+Direccion del empleado: Calle18
+
+Empleado 2 de la lista
+Numero de empleado: 80
+Nombre de empleado: Juan
+Departamento del empleado: Web
+Salario de empleado: 20000.000000
+Direccion del empleado: CalleVolcanes
+
+Empleado 3 de la lista
+Numero de empleado: 4
+Nombre de empleado: Bryan
+Departamento del empleado: Frontend
+Salario de empleado: 34000.000000
+Direccion del empleado: Calle21
+
+Empleado 4 de la lista
+Numero de empleado: 5
+Nombre de empleado: Miguel
+Departamento del empleado: Backend
+Salario de empleado: 41500.000000
+Direccion del empleado: Calle8

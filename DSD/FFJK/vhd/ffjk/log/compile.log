@@ -1,0 +1,7 @@
+ Compilation with file reorder...
+ File: E:\DSD\FFJK\vhd\ffjk.vhd
+ Compile Entity "ffjk"
+ Compile Architecture "DSMB" of Entity "ffjk"
+ Top-Level unit detected
+ Entity  =>   ffjk
+ Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]

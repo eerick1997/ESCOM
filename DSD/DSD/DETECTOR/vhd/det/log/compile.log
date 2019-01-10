@@ -1,0 +1,13 @@
+ Compilation with file reorder...
+ File: E:\DSD\DETECTOR\vhd\det.vhd
+ Compile Entity "det"
+ Compile Architecture "DSMB" of Entity "det"
+ Top-Level unit detected
+ Entity  =>   det
+ Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]
+ Compilation...
+ File: E:\DSD\DETECTOR\vhd\det.vhd
+ Compile Entity "det"
+ Entity "det" has been skipped - no difference detected.
+ Compile Architecture "DSMB" of Entity "det"
+ Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]

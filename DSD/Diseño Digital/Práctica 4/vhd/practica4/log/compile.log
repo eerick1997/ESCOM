@@ -1,0 +1,7 @@
+ Compilation with file reorder...
+ File: E:\Diseño Digital\Práctica 4\vhd\practica4.vhd
+ Compile Entity "codec"
+ Compile Architecture "DSMB" of Entity "codec"
+ Top-Level unit detected
+ Entity  =>   codec
+ Compile success 0 Errors 0 Warnings  Analysis time :  1.0 [s]

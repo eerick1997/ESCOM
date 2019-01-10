@@ -1,0 +1,14 @@
+BASES DE DATOS
+
+Lógico ER- R
+Físico R
+Lógico/Físico E-RR/-R
+
+Si la entidad es esquina cuadrada es una entidad independiente (Fuerte)
+Si la entidad tiene esquinas redondeadas es una entidad dependiende (Débil)
+
+Schema todo desabilitado
+Table solo create table
+Column todo desabilitado IGUAL View e Index
+Referential Integrity se deja igual
+Other Options nada constraint
