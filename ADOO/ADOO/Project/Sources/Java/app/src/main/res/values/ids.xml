@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="no_connection" type="id">Algo va mal, no se ha detectado conexión a internet</item>
+    <item name="hello_user" type="id">Bienvenido</item>
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <!--group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_map_main"
+            android:icon="@drawable/ic_map"
+            android:title="@string/navigation_drawer_map" />
+    </group-->
+    <item android:title="@string/nav_main_lines">
+        <menu>
+            <item
+                android:id="@+id/nav_lines_subway"
+                android:icon="@drawable/ic_subway"
+                android:title="@string/navigation_drawer_lines_subway" />
+
+            <item
+                android:id="@+id/nav_lines_metro_bus"
+                android:icon="@drawable/ic_metro_bus"
+                android:title="@string/navigation_drawer_lines_metro_bus"/>
+        </menu>
+    </item>
+</menu>

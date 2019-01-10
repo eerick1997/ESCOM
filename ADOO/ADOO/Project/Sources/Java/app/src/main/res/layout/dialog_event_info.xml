@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:background="@color/alert"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/nav_header_height">
+
+                <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/circle_image_view_events"
+                    android:layout_width="96dp"
+                    android:layout_height="96dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/event_failure"
+                    app:civ_border_width="2dp"
+                    app:civ_border_color="#FFFFFF"
+                    app:civ_circle_background_color="#FFFFFF" />
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/nav_header_height"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/TXT_dialog_event_hour"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="bottom|right"
+                    android:paddingBottom="2dp"
+                    android:paddingRight="5dp"
+                    android:text="12:00" />
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/linear_layout_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="5dp"
+            app:layout_constraintTop_toBottomOf="@+id/relativeLayout">
+
+            <TextView
+                android:id="@+id/TXT_dialog_event_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Falla técnica"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/TXT_dialog_event_user"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="eerick1997" />
+
+            <TextView
+                android:id="@+id/TXT_dialog_message"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="message" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/BTN_dialog_event_like"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp"
+                    android:drawableTop="@drawable/ic_like"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:id="@+id/BTN_dialog_event_dislike"
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp"
+                    android:drawableTop="@drawable/ic_dislike"
+                    android:layout_weight="1"
+                    style="@style/Widget.AppCompat.Button.Borderless" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:id="@+id/BTN_alert_dialog_i_got_it"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="right|bottom"
+                    android:text="@string/got_it" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </android.support.constraint.ConstraintLayout>
+</RelativeLayout>
