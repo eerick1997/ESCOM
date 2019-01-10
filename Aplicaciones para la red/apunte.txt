@@ -1,0 +1,10 @@
+sudo ifconfig lo inet6 add 2001::1234:1/64 <- con esto configuramos nuestra tarjeta de red en localhost y añadimos la dirección IPv6CM
+
+0.0.0.0 spclient.wg.spotify.com
+
+sudo nano /etc/hosts
+sudo service networking restart
+ping6 ejemplo
+
+Configuramos una DNS para nuestra máquina
+
