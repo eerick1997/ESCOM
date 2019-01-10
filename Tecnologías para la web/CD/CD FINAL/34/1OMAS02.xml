@@ -1,0 +1,25 @@
+<!DOCTYPE ARBOL SYSTEM "1OMAS02.dtd">
+<ARBOL>
+	<RAMA>
+		<NODO>
+			<HOJA>
+			</HOJA>
+		</NODO>
+	</RAMA>
+	<RAMA>
+		<NODO>
+			<HOJA>
+			</HOJA>
+		</NODO>
+	</RAMA>
+	<RAMA>
+		<NODO>
+			<HOJA>
+			</HOJA>
+		</NODO>
+		<NODO>
+			<HOJA>
+			</HOJA>
+		</NODO>
+	</RAMA>
+</ARBOL>

@@ -1,0 +1,12 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="Serie">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="first" type="xs:decimal"/>
+				<xs:element name="second" type="xs:decimal"/>
+				<xs:element name="third" type="xs:decimal"/>
+                <xs:element name="fourth" type="xs:decimal"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

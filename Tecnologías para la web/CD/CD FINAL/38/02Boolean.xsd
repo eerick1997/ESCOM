@@ -1,0 +1,10 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="ROOT">
+		<xs:complexType>
+			<xs:all>
+				<xs:element name="A_NODE" type="xs:string"/>
+				<xs:element name="HAVE_CHILDREN" type="xs:boolean"/>
+			</xs:all>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

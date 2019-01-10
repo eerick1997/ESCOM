@@ -1,0 +1,12 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="a_web_site">
+		<xs:complexType>
+			<xs:all>
+				<xs:element name="relative_uri" type="xs:anyURI"/>	
+				<xs:element name="absolute_uri" type="xs:anyURI"/>
+				<xs:element name="an_URL" type="xs:anyURI"/>
+			</xs:all>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>
+

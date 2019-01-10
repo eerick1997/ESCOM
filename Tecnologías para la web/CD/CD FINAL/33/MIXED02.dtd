@@ -1,0 +1,6 @@
+<!ELEMENT super-elemento ((elemento01, elemento02, elemento03))>
+<!ELEMENT sub-elemento (#PCDATA | a)*>
+<!ELEMENT elemento03 ((sub-elemento))>
+<!ELEMENT elemento02 ((sub-elemento))>
+<!ELEMENT elemento01 ((sub-elemento))>
+<!ELEMENT a EMPTY>

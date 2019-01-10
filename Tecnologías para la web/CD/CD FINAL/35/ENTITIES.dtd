@@ -1,0 +1,7 @@
+<!ELEMENT Folders (Emojis)*>
+<!ELEMENT Emojis EMPTY>
+<!ATTLIST Emojis icons ENTITIES #REQUIRED>   
+<!ENTITY angry SYSTEM "angry" NDATA png>
+<!ENTITY happy SYSTEM "happy" NDATA png>
+<!ENTITY sad SYSTEM "sad" NDATA png>
+<!NOTATION png SYSTEM "image/png">

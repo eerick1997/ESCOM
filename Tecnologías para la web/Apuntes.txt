@@ -1,0 +1,304 @@
+Una de las ideas por la cual se creo internet fue por los nodos redundantes
+La segunda idea es la fragmentación y envio de mensajes a través de los diferentes nodos de la internet
+
+DARPA/ARPA No creo la intenet esto fue delegado por Rand Corporation
+
+En la web hay 3 paradigmas
+-1 La web 1.0
+-2 La web 2.0: Las redes sociales: El usuario crea contenidos -> No hay una definición
+El paradigma de la web 2.0 el cliente hace una petición al server y el server devuelve contenido
+-3 Web semántica (web inteligente): Nos permite procesar la información de forma automática, metadatos
+	Los metadatos pueden dar vida a la ontología
+
+Cuantas versiones hay de internet? Hay 2 versiones de internet
+La internet 2 tiene un gran ancho de banda
+Otra característica de internet 2 es que surgirá la calidad de servicio
+
+-----------------------------------------------------------------------------------------------------------
+
+Hypertext reference -> referencia de hipertexto
+Compuesto por la url y el nodo
+<a href = "http://www.google.com">GOOGLE</a>
+
+-----------------------------------------------------------------------------------------------------------
+
+La idea de los parámetros es enviarlas del cliente al servidor cuando se quiere personalizar la información
+Los atributos se utilizan cuando queremos recordar algo durante el procesa}miento de la petición del usuario.
+	->Estos están del lado del servidor.
+	->Por ahora utilizamos el alcance session
+
+-----------------------------------------------------------------------------------------------------------
+
+Chequear el framwork de JS llamado Fabric.js
+	->Este framwork tiene serialización puedo generar una cadena y la vuelvo a obtener en pocas palabra vuelve editable el ambiente
+
+------------------------------------------------------------------------------------------------------------
+
+Infografías
+	->Internet
+	-La web
+Se hacen en corel draw
+Se hacen dos capetas una para imagenes
+
+------------------------------------------------------------------------------------------------------------
+
+Ventajas de algunoas ventajas y desventajas de los navegadores.
+
+Firefox -> Tiene una gran cantidad de plugins -> funciona en muchas plataformas
+Chrome -> rápido, minimalista, tecnologías bien desarrolladas, MV de javaScript, trabaja con anchos de banda bajos.
+Opera -> es muy ligero, pero aveces inestable con algunos plugins, respeta las normas del consorcio mundial.
+Explorer -> Algunas aplicaciones hechas en .net solo se ejecutan en este navegador
+
+---------------------------------------------------------------------------------------
+
+<image src='nombre_del_archivo.extensión'/>
+
+Primer navegador gráfico Mosaic y el primer comercial NetScape
+
+----------------------------------------------------------------------------------------
+
+Hay algunos estándares que controla la W3C (World Wide Web Consortium)
+
+-HTML
+-XML
+-CSS
+
+Otros estándares:
+
+-JavaScript: No es orientado a Objetos eso hace dificil el cambiar y quien cotrola a JavaScript es ECMA
+
+XML (Lenguaje de marcado extensible) y HTML (Lenguaje de Marcado de Hiper Texto) están fuertemente ligados
+La diferencia entre ambos es que en HTML las etiquetas están fijas en cambio XML podemos crear nuestras propias etiquetas
+
+Una ventaja de los metadatos o XML es que podemos modelar la información para que la PC pueda procesarla de manera
+automática
+
+En sus inicios no existía XML sino SGML (sistema de marcado generalizado estandar) pero no fue aceptado por la industria
+
+Las hojas de estilo en cascada (CSS) surgen para separar los datos de la parte del diseño
+
+JavaScript también es un lenguaje de programación interpretado
+
+<Etiqueta de apertura> Valor del nodo o contenido </Etiqueta de cierre>
+<Etiqueta atributo="valor"> Contenido </etiqueta> 
+
+TAREA 29/02/2018
+Etiqueta de Button, canvas, div
+
+----------------------------------------------------------------------------------------------------------------------------
+ENTORNO DE DESARROLLO PARA APICACIONES WEB
+
+IDE (Entorno de desarrollo integrado) Un conjunto de herramientas que permiten el desarrollo de algo
+
+Vamos a usar marcos para mostra hipervínculos usando obviamente Servlets
+
+----------------------------------------------------------------------------------------------------------------------------
+
+Trece marcos
+->Izquierda
+->Derecha
+->Superior
+->Inferior
+->Inferior anidado izquierda
+->Inferior anidado derecha
+->Izquierdo anidado superior
+->Izquierdo anidado inferior
+->Derecho anidado superior
+->Derecho anidado inferior
+->Superior e inferior
+->Superior anidado izquierdo
+->Superior anidado derecho
+
+->abbr x
+->area
+->article x
+->aside	x
+->base
+->button
+->canvas
+->command
+
+EXAMEN: Miércoles 14 de marzo;
+-------------------------------------------------------------------------------------------------------------------------------
+HISTORIA DEL XHTML
+
+XHTML = HTML + XML
+Lenguaje de marcado de hipertexto extensible
+La primer versión de XHTML fue lanzada el 26 de enero de 2000
+La W3C controló también la versión 1.1 con algunas ventajas como maodularización del lenguaje,
+definiendo un nuevo documento tipo XHTML
+La segunda versión de XHTML se liberó el 26 de Julio del 2006 siendo una versión muy controversial,
+sin compatibilidad con XHTML 1 y 1.1.
+Finalmente XHTML muere en 2009
+
+Diferencias entre XHTML y HTML
+->Etiquetas fijas y controladas por la W3C
+->En XHTML se debía escribir todo con minúsculas solo el DOCTYPE estaba en mayúsculas
+->Los valores de los atributos debían ir en comillas
+->Los atributos debían ir en parejas atributo-valor
+->Todos los elementos en XHTML debían cerrarse adecuadamente <etiqueta></etiqueta>
+->Todos los elementos deben anidarse correctamente "<etiqueta1></etiqueta2><etiqueta2></etiqueta1>"<-No es correcto
+->Era obligatorio el usar DOCTYPE
+-------------------------------------------------------------------------------------------------------------------------
+MODELO: Representación artefacto o ecuación que nos permite abstraer la realidad o sea simplificar con cosas muy puntuales.
+Además de simplificar la realidad nos permite hacer inferencias de la realidad.
+
+Versión de XML que usamos: 1.0
+Existe otra versión 1.1 con opciones avanzadas
+
+pre
+em
+img src align
+dl
+dt
+dd
+option
+textarea
+input type="checkbox"
+
+---------------------------------------------------------------------------------------------------------------------------
+
+Hay dos tipos de documentos XML:
+
+	->Bien conformados y hay varios elementos
+	->Válidos
+
+Los elementos en XML:
+	->Solo pueden tener un nodo raiz
+	->Todos los elementos de XML deben tener una etiqueta de apertura y una de cierre
+	->Los elementos XML no se deben mezclar deben tener un anidamiento adecuado
+	->XML es sensible al tamaño de letra
+	->Los atributos de los elementos d eun documento XML deben de ir entre comillas simples ó dobles
+	->Los nombres de los elementos no deben contener expacios
+	->Para separar en lugar de espacio en blanco podemos usar "_", "-", "." o ":"
+	->Las etiquetas no pueden comenzar con números
+	->Los atributos van en la etiqueta de apertura
+	
+XML sirve para almacenar, pero hay diferencias con BD por ejemplo con XML podemos hacer ontologías
+
+------------------------------------------------------------------------------------------------------------------------------
+
+URI: Identificador de Recurso Uniforme
+URL: Localizador de Recurso Uniforme
+http://148.204.57.108/TW/indice.html
+ftp://148.204.57.108/
+
+URN: Nombre de Recurso Uniforme
+Estos no se pueden acceder en la red son únicos
+ISBN  12341234-30
+
+TAREA: 2 DTDs externos con públic y 2 por System, validados con XML Spy
+	->public cadena "-//Creador/descripción/idioma" "URI"
+
+	<!DOCTYPE raiz PUBLIC "-//CREADOR/descripción//IDIOMA" "URI">
+	<!DOCTYPE raiz System "URI">
+
+----------------------------------------------------------------------------------------------------------------------------
+
+10 tipos simples con y sin personalización 
+	->Simples: String, integer, date, etc...
+	->Personalizados: 
+	->Complejos: (20)
+	->10 sequence y 10 con all 
+
+
+www.dzone.com
+
+expresiones regulares
+
+-------------------------------------------------------------------------------------------------------------------------------
+ 
+CDATA
+ID
+IDREF
+IDREFS	
+NMTOKEN (NAMETOKEN)
+NMTOKENS (NAMETOKENS)
+ENTITY
+ENTITIES
+NOTATION
+xml
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+DOM (Modelo objeto documento) es un API "vacío"
+
+DOM es importante ya que los fabricantes pueden implementar esta API
+
+XML Es importante porque podemos modelar la información de tal manera que podemos datle significado a las cosas
+para posteriormente que una computadora pueda comprender esto.
+
+>>>Familia de dialectos XML
+
+XML nos permite crear otros lenguajes por ejemplo MathML
+--------------------------------------------------------------------------------------------------------------------------------------------
+xmlns: espacio de nombres por defecto
+xmlns: algo definimos un "acrónimo"
+
+HTML nos sirve para estructurar el contenido de nuestra página web
+CSS separa los estilos de nuestra página web, nos permite dar formato a nuestra página web
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+Hacer estilos dinámicos (Servlets)
+
+<html>
+	<head>
+		<style>
+		.
+		.
+		.
+		</style>
+	</head>
+
+	<body><body>
+</html>
+
+tres proyectos con atributos de estilo diferentes
+
+Reglas de estilo: aplicar a ciertos elementos los estilos de nuestra página web se compone por
+1, Selector
+2. Propiedad
+3. Valor
+
+	Propiedad: valor
+
+	selector {propiedad:valor}
+
+-------------------------------------------------------------------------------------------------------------
+
+AJAX: Canal de canal birideccional utilizando JS y CSS
+
+Que tiene de importante? Actualizar una página sin recargarla
+
+Hacer lo mismo usando responseXML
+
+Áplicación síncrona: devuelve el control de la app al usuario hasta que terminó de procesar
+Asíncrona: Permite realizar diversas funciones sin "bloquear" al usuario
+
+AJAX consume muchos recursos
+
+--------------------------------------------------------------------------------------------------------------
+
+Modelo de cajas = mundos dentro de mundos
+
+Los valores se aplican según las manecillas del reloj 12 = top, 3 = right, 6 = bottom, 9 = left
+
+dir = "ltr | rtl" (ltr = left to wight | rtl = right to left)
+
+lang = "código_del_lenguaje"
+
+PROPIEDADES AVANZADAS DE LOS ESTILOS:
+
+CSS3:
+	Podemos ajutar el alfa, tamaño de letra
+	alfa: opacidad de los elementos (difuminado)
+	redondeado de las esquinas
+		->border-radious //El resto
+		->webkit-border-radious //Safari
+		->moz-border-radious //Mozila
+
+	Imágenes de borde
+	Sombreado de los elementos
+	
+UNIDAD 5

@@ -1,0 +1,6 @@
+<!DOCTYPE ROOT SYSTEM "NOTATION.dtd">
+<ROOT>
+	<node AFile="storage.xml" extention="xml">
+		<little_node>Database_project</little_node>
+	</node>
+</ROOT>

@@ -1,0 +1,9 @@
+<!DOCTYPE ETIQUETA01 SYSTEM "FIXED.dtd">
+<ETIQUETA01>
+	<ETIQUETA02 deriva_de="etiqueta01">
+		TEXTO
+	</ETIQUETA02>
+	<ETIQUETA03 deriva_de="etiqueta01">
+		TEXTO
+	</ETIQUETA03>
+</ETIQUETA01>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+        
+            body{
+                margin: 0px;
+                padding: 0px;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <canvas id="myCanvas" width="600" height="800" />
+        <script>
+            var canvas = document.getElementById('myCanvas');
+            var context = canvas.getContext('2d');
+            context.beginPath(); <!- Iniciamos el dibujo -->
+            context.moveTo(100, 150); <!-- Nos movemos a un punto -->
+            context.lineTo(450, 50); <!-- Dibujamos una línea -->
+            context.stroke(); <!-- Terminamos el dibujo -->
+        </script>
+    </body>
+</html>

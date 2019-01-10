@@ -1,0 +1,9 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:simpleType name="base">
+	<xs:restriction base="xs:integer">
+		<xs:maxInclusive value="20"/>
+	</xs:restriction>
+</xs:simpleType>
+<!-- ELEMENTO SIMPLE PERSONALIZADO-->
+	<xs:element name="RAIZ" type="base"/>
+</xs:schema>

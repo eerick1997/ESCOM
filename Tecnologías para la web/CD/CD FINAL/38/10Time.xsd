@@ -1,0 +1,10 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="WAKE_UP">
+		<xs:complexType>
+			<xs:all>
+				<xs:element name="TIME" type="xs:time"/>
+                <xs:element name="TITLE" type="xs:string"/>
+			</xs:all>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

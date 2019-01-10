@@ -1,0 +1,6 @@
+<!DOCTYPE Emotions SYSTEM "ENTITY.dtd">
+<Emotions>
+	<reactions mini_image="frustred"></reactions>
+	<reactions mini_image="sadness"></reactions>
+	<reactions mini_image="super_happy"></reactions>
+</Emotions>

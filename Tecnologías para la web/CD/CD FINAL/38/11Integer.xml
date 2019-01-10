@@ -1,0 +1,7 @@
+<!-- Schema, estos si siguen las reglas de XML 
+xmlNS donde ns = name space si hacemos la analogía con java son los paquetes
+pero para este caso nos permite agrupar elementos-->
+<RAIZ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:noNamespaceSchemaLocation="11Integer.xsd">9
+
+</RAIZ>

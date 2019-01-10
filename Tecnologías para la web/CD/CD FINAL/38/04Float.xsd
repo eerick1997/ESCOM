@@ -1,0 +1,11 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="EXAMS">
+		<xs:complexType>
+			<xs:all>
+				<xs:element name="Maths" type="xs:float"/>
+				<xs:element name="Physic" type="xs:float"/>
+				<xs:element name="History" type="xs:float"/>
+			</xs:all>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

@@ -1,0 +1,6 @@
+<!ELEMENT otro-elemento-02 ((mini-elemento))>
+<!ELEMENT otro-elemento ((mini-elemento))>
+<!ELEMENT mini-elemento (#PCDATA | a)*>
+<!ELEMENT elemento ((otro-elemento, otro-elemento-02))>
+<!ELEMENT a EMPTY>
+<!ELEMENT RAIZ ((elemento))>

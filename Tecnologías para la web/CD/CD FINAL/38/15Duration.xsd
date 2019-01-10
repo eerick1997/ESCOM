@@ -1,0 +1,9 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="END_CAREER">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="DURATION" type="xs:duration"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

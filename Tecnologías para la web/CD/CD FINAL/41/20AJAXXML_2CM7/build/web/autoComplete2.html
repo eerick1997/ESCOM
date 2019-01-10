@@ -1,0 +1,176 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+    <head>
+        <title>Ajax Auto Complete</title>
+        <style type="text/css">
+            .mouseOut {
+                background: #708090;
+                color: #FFFAFA;
+            }
+            .mouseOver {
+                background: #FFFAFA;
+                color: #000000;
+            }
+        </style>
+        <script type="text/javascript">
+    
+    var xmlHttp;
+    var completeDiv;
+    var inputField;
+    var nameTable;
+    var nameTableBody;
+
+            
+    function createXMLHttpRequest() {
+        //Se verifica si el navegador es de Microsoft
+        if (window.ActiveXObject) {
+            xmlHttp = new ActiveXObject("Microsoft.XMLHTTP");
+        } else if (window.XMLHttpRequest) {
+            xmlHttp = new XMLHttpRequest();
+        }
+    }
+
+    //Inicializamos las variables de html, al final del código se ve el uso de las variables
+    function initVars() {
+        //Accesamos a las variables por su ID
+        inputField = document.getElementById("names");
+        nameTable = document.getElementById("name_table");
+        completeDiv = document.getElementById("popup");
+        nameTableBody = document.getElementById("name_table_body");
+    }
+
+    
+    function findNames() {	//Primer método en ser llamado
+        //Inicializamos las variables
+        initVars();
+        //Leemos el valor del text field, si es mayor que cero
+        //Es decir el usuario tecleo algo, puedes hacer algo sino
+        if (inputField.value.length > 0) {
+            
+            //Si tecleo algo, invocamos al método
+            createXMLHttpRequest();
+            //Le concatenamos lo que haya tecleado el usuario en la caja de texto
+            //La función escape convierte los caracteres en valor de porcentajes "Solo algunos caracteres"
+            var url = "http://localhost:8080/20AJAXXML_2CM7/hola2?names=" + escape(inputField.value);
+            //Realizamos comunicación asíncrona, esto se denota con el argumento número tres
+            xmlHttp.open("GET", url, true);
+            //Establecemos la función de retrollamada cuando se detecte un cambio de estado
+            xmlHttp.onreadystatechange = callback;
+            //Se manda al método send
+            xmlHttp.send(null);
+        } else {
+            //Limpia los nombres
+            clearNames();
+        }
+    }
+
+    function callback() {
+        //Verificamos que obtenga algo
+        if (xmlHttp.readyState == 4) {
+           
+           //Verificamos que el ódigo sea 200
+            if (xmlHttp.status == 200) {
+                //Nos comunicamos con el servidor, usando el responseXML,
+                setNames(xmlHttp.responseXML.getElementsByTagName("name"));
+            } else if (xmlHttp.status == 204) {
+                clearNames();
+            }
+        }
+    }
+
+    function setNames(the_names) {
+        clearNames();
+        var size = the_names.length;
+        //Calcula el tamaño de columnas
+        setOffsets();   
+        
+        var row, cell, txtNode;
+        //Aquí obtenemos todos los elementos del XML
+        for (var i = 0; i < size; i++) {
+            
+            var nextNode = the_names[i].firstChild.data;
+            //Creamos de forma dinámica un nodo
+            row = document.createElement("tr");
+            cell = document.createElement("td");
+            //Accedemos a la clase className usando la palabra reservada this estamos accediendo a cell
+            cell.onmouseout = function () {
+                this.className = 'mouseOver';
+            };
+            cell.onmouseover = function () {
+                this.className = 'mouseOut';
+            };
+            //Se añaden propiedades a diferencia de los servlets que eran para recordar
+            cell.setAttribute("bgcolor", "#FFFAFA");
+            cell.setAttribute("border", "0");
+            cell.onclick = function () {
+                populateName(this);
+            };
+            //Obtenemos el texto de ese nodo
+            //document es un "objeto" que representa la estructura de nuestro HTML
+            txtNode = document.createTextNode(nextNode);
+            //Agregamos un hijo
+            cell.appendChild(txtNode);
+            //Lo añadimos a la fila
+            row.appendChild(cell);
+            //Lo añadimos a al tabla
+            nameTableBody.appendChild(row);
+        }
+    }
+
+
+    function setOffsets() {
+        var end = inputField.offsetWidth;
+        var left = calculateOffsetLeft(inputField);
+        var top = calculateOffsetTop(inputField) + inputField.offsetHeight;
+        completeDiv.style.border = "black 1px solid";
+        completeDiv.style.left = left + "px";
+        completeDiv.style.top = top + "px";
+        nameTable.style.width = end + "px";
+    }
+
+    function calculateOffsetLeft(field) {
+        return calculateOffset(field, "offsetLeft");
+    }
+
+    function calculateOffsetTop(field) {
+        return calculateOffset(field, "offsetTop");
+    }
+
+    function calculateOffset(field, attr) {
+        var offset = 0;
+        while (field) {
+            offset += field[attr];
+            field = field.offsetParent;
+        }
+        return offset;
+    }
+
+    function populateName(cell) {
+        inputField.value = cell.firstChild.nodeValue;
+        clearNames();
+    }
+
+    function clearNames() {
+        var ind = nameTableBody.childNodes.length;
+        for (var i = ind - 1; i >= 0; i--) {
+            nameTableBody.removeChild(nameTableBody.childNodes[i]);
+        }
+
+        completeDiv.style.border = "none";
+    }
+</script>
+</head>
+<body>
+	<h1>Ajax Auto Complete Example</h1>
+
+		Names: <input type="text" size="20" id="names"
+		onkeyup="findNames();" style="height:20;" maxlength="20"/>
+
+	<div style="position:absolute;" id="popup">
+		<table id="name_table" bgcolor="#FFFAFA" border="0"
+			cellspacing="0" cellpadding="0"/>
+			<tbody id="name_table_body"></tbody>
+		</table>
+	</div>
+</body>
+</html>

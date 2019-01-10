@@ -1,0 +1,4 @@
+<ROOT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="13QName.xsd">
+	<NODE_NAME>RootName</NODE_NAME>
+    <ANOTHER_NODE_NAME>AnotherRootName</ANOTHER_NODE_NAME>
+</ROOT>

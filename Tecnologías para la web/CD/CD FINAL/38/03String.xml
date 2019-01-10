@@ -1,0 +1,5 @@
+<ADRESS xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="03String.xsd">
+	<Street>18</Street>
+	<Country>Mexico</Country>
+	<Avenue>Andres Molina</Avenue>
+</ADRESS>

@@ -1,0 +1,5 @@
+<EXAMS xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="04Float.xsd">
+	<Maths>10.0</Maths>
+    <Physic>7.0</Physic>
+    <History>9.0</History>
+</EXAMS>

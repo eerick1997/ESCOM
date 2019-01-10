@@ -1,0 +1,5 @@
+<Sum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="07Long.xsd">
+	<from>0.0</from>
+	<to>1024.3</to>
+    <total>2114354323</total>
+</Sum>

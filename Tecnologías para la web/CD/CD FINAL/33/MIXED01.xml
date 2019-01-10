@@ -1,0 +1,15 @@
+<!DOCTYPE RAIZ SYSTEM "DTDMixed01.dtd">
+<RAIZ>
+	<elemento>
+		<otro-elemento>
+			<mini-elemento>
+				texto
+			</mini-elemento>
+		</otro-elemento>
+		<otro-elemento-02>
+			<mini-elemento>
+				<a/>
+			</mini-elemento>
+		</otro-elemento-02>
+	</elemento>
+</RAIZ>

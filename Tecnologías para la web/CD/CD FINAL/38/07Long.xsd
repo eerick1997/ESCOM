@@ -1,0 +1,11 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="Sum">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="from" type="xs:decimal"/>
+				<xs:element name="to" type="xs:decimal"/>
+				<xs:element name="total" type="xs:long"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

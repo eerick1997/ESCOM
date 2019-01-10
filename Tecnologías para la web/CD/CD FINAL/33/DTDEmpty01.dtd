@@ -1,0 +1,6 @@
+<!ELEMENT root ((a, b, c))>
+<!ELEMENT c ((b1))>
+<!ELEMENT b1 EMPTY>
+<!ELEMENT b ((b1))>
+<!ELEMENT a1 EMPTY>
+<!ELEMENT a ((a1))>

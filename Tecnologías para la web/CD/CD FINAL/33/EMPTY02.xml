@@ -1,0 +1,10 @@
+<!DOCTYPE root SYSTEM "DTDEmpty02.dtd">
+<root>
+	<element01> aquí hay texto </element01>
+	<element01>
+		<a>
+		</a>
+	</element01>
+	<element01/>
+	<element02/>
+</root>

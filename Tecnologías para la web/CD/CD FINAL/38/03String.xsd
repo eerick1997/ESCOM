@@ -1,0 +1,11 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="ADRESS">
+		<xs:complexType>
+			<xs:all>
+				<xs:element name="Street" type="xs:string"/>
+				<xs:element name="Country" type="xs:string"/>
+				<xs:element name="Avenue" type="xs:string"/>
+			</xs:all>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

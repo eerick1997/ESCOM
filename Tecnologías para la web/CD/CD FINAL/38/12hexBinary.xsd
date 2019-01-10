@@ -1,0 +1,9 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="COLORS">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="COLOR" type="xs:hexBinary" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

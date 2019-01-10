@@ -1,0 +1,10 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="ROOT">
+		<xs:complexType mixed="true">
+			<xs:sequence>
+				<xs:element name="NODE_NAME" type="xs:QName"/>
+				<xs:element name="ANOTHER_NODE_NAME" type="xs:QName"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

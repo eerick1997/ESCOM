@@ -1,0 +1,6 @@
+<Serie xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="06Decimal.xsd">
+	<first>1.1</first>
+	<second>2.2</second>
+	<third>5.5</third>
+    <fourth>7.7</fourth>
+</Serie>

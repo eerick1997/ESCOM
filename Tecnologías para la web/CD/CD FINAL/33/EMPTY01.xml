@@ -1,0 +1,12 @@
+<!DOCTYPE root SYSTEM "DTDEmpty01.dtd">
+<root>
+	<a>
+		<a1/>
+	</a>
+	<b>
+		<b1/>
+	</b>
+	<c>
+		<b1/>
+	</c>
+</root>

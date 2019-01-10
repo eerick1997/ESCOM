@@ -1,0 +1,18 @@
+<!DOCTYPE super-elemento SYSTEM "MIXED02.dtd">
+<super-elemento>
+	<elemento01>
+		<sub-elemento>
+		
+		</sub-elemento>
+	</elemento01>
+	<elemento02>
+		<sub-elemento>
+			texto sub elemento
+		</sub-elemento>
+	</elemento02>
+	<elemento03>
+		<sub-elemento>
+			<a/>
+		</sub-elemento>
+	</elemento03>
+</super-elemento>

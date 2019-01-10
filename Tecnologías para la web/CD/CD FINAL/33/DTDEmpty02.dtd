@@ -1,0 +1,4 @@
+<!ELEMENT root ((element01+, element02))>
+<!ELEMENT element02 EMPTY>
+<!ELEMENT element01 (#PCDATA | a)*>
+<!ELEMENT a (#PCDATA)>

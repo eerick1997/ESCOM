@@ -1,0 +1,11 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="Final">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="First_term" type="xs:float"/>
+				<xs:element name="Second_term" type="xs:float"/>
+				<xs:element name="Third_term" type="xs:float"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

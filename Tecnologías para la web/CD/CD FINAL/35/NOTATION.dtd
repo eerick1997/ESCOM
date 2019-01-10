@@ -1,0 +1,7 @@
+<!ELEMENT ROOT (node)*>
+<!ELEMENT node (little_node)>
+<!ELEMENT little_node (#PCDATA)>
+<!ATTLIST node AFile CDATA #IMPLIED 
+	extention NOTATION (xml | html) #IMPLIED>
+<!NOTATION xml SYSTEM "document/xml">
+<!NOTATION html SYSTEM "document/html">

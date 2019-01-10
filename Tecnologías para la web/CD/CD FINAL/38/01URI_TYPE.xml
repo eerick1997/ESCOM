@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<a_web_site xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="01URI_TYPE.xsd">
+	<an_URL>http://www.facebook.com</an_URL>
+	<absolute_uri>mailto:vargas.erick030997@gmail.com</absolute_uri>
+	<relative_uri>../pages/index.html</relative_uri>
+</a_web_site>

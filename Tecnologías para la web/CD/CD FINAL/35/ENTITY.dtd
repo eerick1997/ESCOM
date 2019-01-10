@@ -1,0 +1,7 @@
+<!ELEMENT Emotions (reactions)*>
+<!ELEMENT reactions EMPTY>
+<!ATTLIST reactions mini_image ENTITY #REQUIRED>
+<!ENTITY frustred SYSTEM "icon01.png" NDATA png>
+<!ENTITY sadness SYSTEM "icon02.png" NDATA png>
+<!ENTITY super_happy SYSTEM "icon03.png" NDATA png>
+<!NOTATION png SYSTEM "image/png">
