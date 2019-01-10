@@ -1,0 +1,79 @@
+import java.util.*;
+import java.io.*;
+public class Archivo
+{
+    public void Escribir(ArrayList<String> eles,String nom,int tipo)
+    {
+        FileWriter fichero = null;
+        PrintWriter pw = null;
+        try
+        {
+            if(tipo==0)
+            {
+                fichero = new FileWriter(nom);
+                pw = new PrintWriter(fichero);
+            }
+            else
+            {
+                fichero = new FileWriter(nom,true);
+                pw = new PrintWriter(fichero,true);
+                pw.println("---------------------");
+                for(int i = 0; i <eles.size(); i++)
+                {
+                    pw.println(eles.get(i));
+                }
+            }
+        } 
+        catch(Exception e) 
+        {
+            e.printStackTrace();
+        } 
+        finally
+        {
+           try
+           {
+                if(fichero!=null)
+                {
+                    fichero.close();
+                }
+           } 
+           catch(Exception e2) 
+           {
+                e2.printStackTrace();
+           }
+        }
+    }
+    public String Leer(String nom)
+    {
+        File archivo = null;
+        FileReader fr = null;
+        BufferedReader br = null;
+        String linea=" ";
+        try 
+        {
+            archivo = new File (nom);
+            fr = new FileReader (archivo);
+            br = new BufferedReader(fr);
+            linea=br.readLine();
+        }
+        catch(Exception e)
+        {
+            e.printStackTrace();
+        }
+        finally
+        {
+            try
+            {                    
+                if(fr!=null)
+                {   
+                    fr.close();     
+                }                  
+            }
+            catch (Exception e2)
+            { 
+                e2.printStackTrace();
+            }
+        }
+        return linea;
+    }
+}

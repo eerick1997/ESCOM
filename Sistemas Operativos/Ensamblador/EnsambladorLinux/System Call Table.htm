@@ -1,0 +1,1445 @@
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=windows-1252">
+<title> System Call Table </title>
+</head>
+<body bgcolor="#ffffff" link="#0000ff" text="#000000" vlink="#800080">
+<p>
+
+</p><h2>Linux System Call Table</h2>
+
+<p>
+The following table lists the system calls for the Linux 2.2 kernel.
+It could also be thought of as an API for the interface between user
+space and kernel space.
+My motivation for making this table was to make programming in assembly
+language easier when using only system calls and not the C library
+(for more information on this topic, go to
+<a href="http://www.linuxassembly.org/">http://www.linuxassembly.org</a>).
+On the left are the numbers of the system calls. This number will be
+put in register %eax. On the right of the table are the types of values
+to be put into the remaining registers before calling the software interrupt
+'int 0x80'. After each syscall, an integer is returned in %eax.
+</p>
+
+<p>
+For convenience, the kernel source file where each system call is
+located is linked to in the column labelled "Source". In order to use
+the hyperlinks, you must first copy this page to your own machine because
+the links take you directly to the source code on your system. You must
+have the kernel source installed (or linked from) under '/usr/src/linux'
+for this to work.
+</p>
+
+
+<table border="1">
+<tbody><tr><th>%eax</th><th>Name</th><th>Source</th>
+<th>%ebx</th><th>%ecx</th><th>%edx</th><th>%esx</th><th>%edi</th></tr>
+
+<tr><td>1</td><td>sys_exit</td><td><a href="file:///usr/src/linux/kernel/exit.c">kernel/exit.c</a></td>
+<td>int</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
+
+<tr><td>2</td><td>sys_fork</td><td><a href="file:///usr/src/linux/arch/i386/kernel/process.c">arch/i386/kernel/process.c</a></td>
+<td><a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#pt_regs">struct pt_regs</a></td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
+
+<tr><td>3</td><td>sys_read</td><td><a href="file:///usr/src/linux/fs/read_write.c">fs/read_write.c</a></td>
+<td>unsigned int</td><td>char *</td><td><a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#size_t">size_t</a></td><td>-</td><td>-</td></tr>
+
+<tr><td>4</td><td>sys_write</td><td><a href="file:///usr/src/linux/fs/read_write.c">fs/read_write.c</a></td>
+<td>unsigned int</td><td>const char *</td><td><a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#size_t">size_t</a></td><td>-</td><td>-</td></tr>
+
+<tr><td>5</td><td>sys_open</td><td><a href="file:///usr/src/linux/fs/open.c">fs/open.c</a></td>
+<td>const char *</td><td>int</td><td>int</td><td>-</td><td>-</td></tr>
+
+<tr><td>6</td><td>sys_close</td><td><a href="file:///usr/src/linux/fs/open.c">fs/open.c</a></td>
+<td>unsigned int</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
+
+<tr><td>7</td><td>sys_waitpid</td><td><a href="file:///usr/src/linux/kernel/exit.c">kernel/exit.c</a></td>
+<td>pid_t</td><td>unsigned int *</td><td>int</td><td>-</td><td>-</td></tr>
+
+<tr><td>8</td><td>sys_creat</td><td><a href="file:///usr/src/linux/fs/open.c">fs/open.c</a></td>
+<td>const char *</td><td>int</td><td>-</td><td>-</td><td>-</td></tr>
+
+<tr><td>9</td><td>sys_link</td><td><a href="file:///usr/src/linux/fs/namei.c">fs/namei.c</a></td>
+<td>const char *</td><td>const char *</td><td>-</td><td>-</td><td>-</td></tr>
+
+<tr><td>10</td><td>sys_unlink</td><td><a href="file:///usr/src/linux/fs/namei.c">fs/namei.c</a></td>
+<td>const char *</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
+
+<tr><td>11</td><td>sys_execve</td><td><a href="file:///usr/src/linux/arch/i386/kernel/process.c">arch/i386/kernel/process.c</a></td>
+<td><a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#pt_regs">struct pt_regs</a></td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
+
+<tr><td>12</td><td>sys_chdir</td><td><a href="file:///usr/src/linux/fs/open.c">fs/open.c</a></td>
+<td>const char *</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
+
+<tr><td>13</td><td>sys_time</td><td><a href="file:///usr/src/linux/kernel/time.c">kernel/time.c</a></td>
+<td>int *</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
+
+<tr><td>14</td><td>sys_mknod</td><td><a href="file:///usr/src/linux/fs/namei.c">fs/namei.c</a></td>
+<td>const char *</td><td>int</td><td><a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#dev_t">dev_t</a></td><td>-</td><td>-</td></tr>
+
+<tr><td>15</td><td>sys_chmod</td><td><a href="file:///usr/src/linux/fs/open.c">fs/open.c</a></td>
+<td>const char *</td><td><a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#mode_t">mode_t</a></td><td>-</td><td>-</td><td>-</td></tr>
+
+<tr><td>16</td><td>sys_lchown</td><td><a href="file:///usr/src/linux/fs/open.c">fs/open.c</a></td>
+<td>const char *</td><td><a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#uid_t">uid_t</a></td><td><a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#gid_t">gid_t</a></td><td>-</td><td>-</td></tr>
+
+<tr><td>18</td><td>sys_stat</td><td><a href="file:///usr/src/linux/fs/stat.c">fs/stat.c</a></td>
+<td>char *</td><td><a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#__old_kernel_stat">struct __old_kernel_stat *</a></td><td>-</td><td>-</td><td>-</td></tr>
+
+<tr><td>19</td><td>sys_lseek</td><td><a href="file:///usr/src/linux/fs/read_write.c">fs/read_write.c</a></td>
+<td>unsigned int</td><td><a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#off_t">off_t</a></td><td>unsigned int</td><td>-</td><td>-</td></tr>
+
+<tr><td>20</td><td>sys_getpid</td><td><a href="file:///usr/src/linux/kernel/sched.c">kernel/sched.c</a></td>
+<td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
+
+<tr><td>21</td><td>sys_mount</td><td><a href="file:///usr/src/linux/fs/super.c">fs/super.c</a></td>
+<td>char *</td><td>char *</td><td>char *</td><td>-</td><td>-</td></tr>
+
+<tr><td>22</td><td>sys_oldumount</td><td><a href="file:///usr/src/linux/fs/super.c">fs/super.c</a></td>
+<td>char *</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
+
+<tr><td>23</td><td>sys_setuid</td><td><a href="file:///usr/src/linux/kernel/sys.c">kernel/sys.c</a></td>
+<td><a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#uid_t">uid_t</a></td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
+
+<tr><td>24</td><td>sys_getuid</td><td><a href="file:///usr/src/linux/kernel/sched.c">kernel/sched.c</a></td>
+<td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
+
+<tr><td>25</td><td>sys_stime</td><td><a href="file:///usr/src/linux/kernel/time.c">kernel/time.c</a></td>
+<td>int *</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
+
+<tr><td>26</td><td>sys_ptrace</td><td><a href="file:///usr/src/linux/arch/i386/kernel/ptrace.c">arch/i386/kernel/ptrace.c</a></td>
+<td>long</td><td>long</td><td>long</td><td>long</td><td>-</td></tr>
+
+<tr><td>27</td><td>sys_alarm</td><td><a href="file:///usr/src/linux/kernel/sched.c">kernel/sched.c</a></td>
+<td>unsigned int</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
+
+<tr><td>28</td><td>sys_fstat</td><td><a href="file:///usr/src/linux/fs/stat.c">fs/stat.c</a></td>
+<td>unsigned int</td><td><a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#__old_kernel_stat">struct __old_kernel_stat *</a></td><td>-</td><td>-</td><td>-</td></tr>
+
+<tr><td>29</td><td>sys_pause</td><td><a href="file:///usr/src/linux/arch/i386/kernel/sys_i386.c">arch/i386/kernel/sys_i386.c</a></td>
+<td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
+
+<tr><td>30</td><td>sys_utime</td><td><a href="file:///usr/src/linux/fs/open.c">fs/open.c</a></td>
+<td>char *</td><td><a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#utimbuf">struct utimbuf *</a></td><td>-</td><td>-</td><td>-</td></tr>
+
+<tr><td>33</td><td>sys_access</td><td><a href="file:///usr/src/linux/fs/open.c">fs/open.c</a></td>
+<td>const char *</td><td>int</td><td>-</td><td>-</td><td>-</td></tr>
+
+<tr><td>34</td><td>sys_nice</td><td><a href="file:///usr/src/linux/kernel/sched.c">kernel/sched.c</a></td>
+<td>int</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
+
+<tr><td>36</td><td>sys_sync</td><td><a href="file:///usr/src/linux/fs/buffer.c">fs/buffer.c</a></td>
+<td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
+
+<tr><td>37</td><td>sys_kill</td><td><a href="file:///usr/src/linux/kernel/signal.c">kernel/signal.c</a></td>
+<td>int</td><td>int</td><td>-</td><td>-</td><td>-</td></tr>
+
+<tr><td>38</td><td>sys_rename</td><td><a href="file:///usr/src/linux/fs/namei.c">fs/namei.c</a></td>
+<td>const char *</td><td>const char *</td><td>-</td><td>-</td><td>-</td></tr>
+
+<tr><td>39</td><td>sys_mkdir</td><td><a href="file:///usr/src/linux/fs/namei.c">fs/namei.c</a></td>
+<td>const char *</td><td>int</td><td>-</td><td>-</td><td>-</td></tr>
+
+<tr><td>40</td><td>sys_rmdir</td><td><a href="file:///usr/src/linux/fs/namei.c">fs/namei.c</a></td>
+<td>const char *</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
+
+<tr><td>41</td><td>sys_dup</td><td><a href="file:///usr/src/linux/fs/fcntl.c">fs/fcntl.c</a></td>
+<td>unsigned int</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
+
+<tr><td>42</td><td>sys_pipe</td><td><a href="file:///usr/src/linux/arch/i386/kernel/sys_i386.c">arch/i386/kernel/sys_i386.c</a></td>
+<td>unsigned long *</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
+
+<tr><td>43</td><td>sys_times</td><td><a href="file:///usr/src/linux/kernel/sys.c">kernel/sys.c</a></td>
+<td><a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#tms">struct tms *</a></td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
+
+<tr><td>45</td><td>sys_brk</td><td><a href="file:///usr/src/linux/mm/mmap.c">mm/mmap.c</a></td>
+<td>unsigned long</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
+
+<tr><td>46</td><td>sys_setgid</td><td><a href="file:///usr/src/linux/kernel/sys.c">kernel/sys.c</a></td>
+<td><a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#gid_t">gid_t</a></td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
+
+<tr><td>47</td><td>sys_getgid</td><td><a href="file:///usr/src/linux/kernel/sched.c">kernel/sched.c</a></td>
+<td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
+
+<tr><td>48</td><td>sys_signal</td><td><a href="file:///usr/src/linux/kernel/signal.c">kernel/signal.c</a></td>
+<td>int</td><td><a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#__sighandler_t">__sighandler_t</a></td><td>-</td><td>-</td><td>-</td></tr>
+
+<tr><td>49</td><td>sys_geteuid</td><td><a href="file:///usr/src/linux/kernel/sched.c">kernel/sched.c</a></td>
+<td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
+
+<tr><td>50</td><td>sys_getegid</td><td><a href="file:///usr/src/linux/kernel/sched.c">kernel/sched.c</a></td>
+<td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
+
+<tr><td>51</td><td>sys_acct</td><td><a href="file:///usr/src/linux/kernel/acct.c">kernel/acct.c</a></td>
+<td>const char *</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
+
+<tr><td>52</td><td>sys_umount</td><td><a href="file:///usr/src/linux/fs/super.c">fs/super.c</a></td>
+<td>char *</td><td>int</td><td>-</td><td>-</td><td>-</td></tr>
+
+<tr><td>54</td><td>sys_ioctl</td><td><a href="file:///usr/src/linux/fs/ioctl.c">fs/ioctl.c</a></td>
+<td>unsigned int</td><td>unsigned int</td><td>unsigned long</td><td>-</td><td>-</td></tr>
+
+<tr><td>55</td><td>sys_fcntl</td><td><a href="file:///usr/src/linux/fs/fcntl.c">fs/fcntl.c</a></td>
+<td>unsigned int</td><td>unsigned int</td><td>unsigned long</td><td>-</td><td>-</td></tr>
+
+<tr><td>57</td><td>sys_setpgid</td><td><a href="file:///usr/src/linux/kernel/sys.c">kernel/sys.c</a></td>
+<td><a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#pid_t">pid_t</a></td><td><a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#pid_t">pid_t</a></td><td>-</td><td>-</td><td>-</td></tr>
+
+<tr><td>59</td><td>sys_olduname</td><td><a href="file:///usr/src/linux/arch/i386/kernel/sys_i386.c">arch/i386/kernel/sys_i386.c</a></td>
+<td><a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#oldold_utsname">struct oldold_utsname *</a></td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
+
+<tr><td>60</td><td>sys_umask</td><td><a href="file:///usr/src/linux/kernel/sys.c">kernel/sys.c</a></td>
+<td>int</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
+
+<tr><td>61</td><td>sys_chroot</td><td><a href="file:///usr/src/linux/fs/open.c">fs/open.c</a></td>
+<td>const char *</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
+
+<tr><td>62</td><td>sys_ustat</td><td><a href="file:///usr/src/linux/fs/super.c">fs/super.c</a></td>
+<td><a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#dev_t">dev_t</a></td><td><a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#ustat">struct ustat *</a></td><td>-</td><td>-</td><td>-</td></tr>
+
+<tr><td>63</td><td>sys_dup2</td><td><a href="file:///usr/src/linux/fs/fcntl.c">fs/fcntl.c</a></td>
+<td>unsigned int</td><td>unsigned int</td><td>-</td><td>-</td><td>-</td></tr>
+
+<tr><td>64</td><td>sys_getppid</td><td><a href="file:///usr/src/linux/kernel/sched.c">kernel/sched.c</a></td>
+<td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
+
+<tr><td>65</td><td>sys_getpgrp</td><td><a href="file:///usr/src/linux/kernel/sys.c">kernel/sys.c</a></td>
+<td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
+
+<tr><td>66</td><td>sys_setsid</td><td><a href="file:///usr/src/linux/kernel/sys.c">kernel/sys.c</a></td>
+<td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
+
+<tr><td>67</td><td>sys_sigaction</td><td><a href="file:///usr/src/linux/arch/i386/kernel/signal.c">arch/i386/kernel/signal.c</a></td>
+<td>int</td><td>const <a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#old_sigaction">struct old_sigaction *</a></td><td><a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#old_sigaction">struct old_sigaction *</a></td><td>-</td><td>-</td></tr>
+
+<tr><td>68</td><td>sys_sgetmask</td><td><a href="file:///usr/src/linux/kernel/signal.c">kernel/signal.c</a></td>
+<td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
+
+<tr><td>69</td><td>sys_ssetmask</td><td><a href="file:///usr/src/linux/kernel/signal.c">kernel/signal.c</a></td>
+<td>int</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
+
+<tr><td>70</td><td>sys_setreuid</td><td><a href="file:///usr/src/linux/kernel/sys.c">kernel/sys.c</a></td>
+<td><a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#uid_t">uid_t</a></td><td><a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#uid_t">uid_t</a></td><td>-</td><td>-</td><td>-</td></tr>
+
+<tr><td>71</td><td>sys_setregid</td><td><a href="file:///usr/src/linux/kernel/sys.c">kernel/sys.c</a></td>
+<td><a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#gid_t">gid_t</a></td><td><a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#gid_t">gid_t</a></td><td>-</td><td>-</td><td>-</td></tr>
+
+<tr><td>72</td><td>sys_sigsuspend</td><td><a href="file:///usr/src/linux/arch/i386/kernel/signal.c">arch/i386/kernel/signal.c</a></td>
+<td>int</td><td>int</td><td><a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#old_sigset_t">old_sigset_t</a></td><td>-</td><td>-</td></tr>
+
+<tr><td>73</td><td>sys_sigpending</td><td><a href="file:///usr/src/linux/kernel/signal.c">kernel/signal.c</a></td>
+<td><a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#old_sigset_t">old_sigset_t *</a></td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
+
+<tr><td>74</td><td>sys_sethostname</td><td><a href="file:///usr/src/linux/kernel/sys.c">kernel/sys.c</a></td>
+<td>char *</td><td>int</td><td>-</td><td>-</td><td>-</td></tr>
+
+<tr><td>75</td><td>sys_setrlimit</td><td><a href="file:///usr/src/linux/kernel/sys.c">kernel/sys.c</a></td>
+<td>unsigned int</td><td><a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#rlimit">struct rlimit *</a></td><td>-</td><td>-</td><td>-</td></tr>
+
+<tr><td>76</td><td>sys_getrlimit</td><td><a href="file:///usr/src/linux/kernel/sys.c">kernel/sys.c</a></td>
+<td>unsigned int</td><td><a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#rlimit">struct rlimit *</a></td><td>-</td><td>-</td><td>-</td></tr>
+
+<tr><td>77</td><td>sys_getrusage</td><td><a href="file:///usr/src/linux/kernel/sys.c">kernel/sys.c</a></td>
+<td>int</td><td><a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#rusage">struct rusage *</a></td><td>-</td><td>-</td><td>-</td></tr>
+
+<tr><td>78</td><td>sys_gettimeofday</td><td><a href="file:///usr/src/linux/kernel/time.c">kernel/time.c</a></td>
+<td><a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#timeval">struct timeval *</a></td><td><a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#timezone">struct timezone *</a></td><td>-</td><td>-</td><td>-</td></tr>
+
+<tr><td>79</td><td>sys_settimeofday</td><td><a href="file:///usr/src/linux/kernel/time.c">kernel/time.c</a></td>
+<td><a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#timeval">struct timeval *</a></td><td><a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#timezone">struct timezone *</a></td><td>-</td><td>-</td><td>-</td></tr>
+
+<tr><td>80</td><td>sys_getgroups</td><td><a href="file:///usr/src/linux/kernel/sys.c">kernel/sys.c</a></td>
+<td>int</td><td><a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#gid_t">gid_t *</a></td><td>-</td><td>-</td><td>-</td></tr>
+
+<tr><td>81</td><td>sys_setgroups</td><td><a href="file:///usr/src/linux/kernel/sys.c">kernel/sys.c</a></td>
+<td>int</td><td><a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#gid_t">gid_t *</a></td><td>-</td><td>-</td><td>-</td></tr>
+
+<tr><td>82</td><td>old_select</td><td><a href="file:///usr/src/linux/arch/i386/kernel/sys_i386.c">arch/i386/kernel/sys_i386.c</a></td>
+<td><a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#sel_arg_struct">struct sel_arg_struct *</a></td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
+
+<tr><td>83</td><td>sys_symlink</td><td><a href="file:///usr/src/linux/fs/namei.c">fs/namei.c</a></td>
+<td>const char *</td><td>const char *</td><td>-</td><td>-</td><td>-</td></tr>
+
+<tr><td>84</td><td>sys_lstat</td><td><a href="file:///usr/src/linux/fs/stat.c">fs/stat.c</a></td>
+<td>char *</td><td><a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#__old_kernel_stat">struct __old_kernel_stat *</a></td><td>-</td><td>-</td><td>-</td></tr>
+
+<tr><td>85</td><td>sys_readlink</td><td><a href="file:///usr/src/linux/fs/stat.c">fs/stat.c</a></td>
+<td>const char *</td><td>char *</td><td>int</td><td>-</td><td>-</td></tr>
+
+<tr><td>86</td><td>sys_uselib</td><td><a href="file:///usr/src/linux/fs/exec.c">fs/exec.c</a></td>
+<td>const char *</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
+
+<tr><td>87</td><td>sys_swapon</td><td><a href="file:///usr/src/linux/mm/swapfile.c">mm/swapfile.c</a></td>
+<td>const char *</td><td>int</td><td>-</td><td>-</td><td>-</td></tr>
+
+<tr><td>88</td><td>sys_reboot</td><td><a href="file:///usr/src/linux/kernel/sys.c">kernel/sys.c</a></td>
+<td>int</td><td>int</td><td>int</td><td>void *</td><td>-</td></tr>
+
+<tr><td>89</td><td>old_readdir</td><td><a href="file:///usr/src/linux/fs/readdir.c">fs/readdir.c</a></td>
+<td>unsigned int</td><td>void *</td><td>unsigned int</td><td>-</td><td>-</td></tr>
+
+<tr><td>90</td><td>old_mmap</td><td><a href="file:///usr/src/linux/arch/i386/kernel/sys_i386.c">arch/i386/kernel/sys_i386.c</a></td>
+<td><a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#mmap_arg_struct">struct mmap_arg_struct *</a></td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
+
+<tr><td>91</td><td>sys_munmap</td><td><a href="file:///usr/src/linux/mm/mmap.c">mm/mmap.c</a></td>
+<td>unsigned long</td><td><a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#size_t">size_t</a></td><td>-</td><td>-</td><td>-</td></tr>
+
+<tr><td>92</td><td>sys_truncate</td><td><a href="file:///usr/src/linux/fs/open.c">fs/open.c</a></td>
+<td>const char *</td><td>unsigned long</td><td>-</td><td>-</td><td>-</td></tr>
+
+<tr><td>93</td><td>sys_ftruncate</td><td><a href="file:///usr/src/linux/fs/open.c">fs/open.c</a></td>
+<td>unsigned int</td><td>unsigned long</td><td>-</td><td>-</td><td>-</td></tr>
+
+<tr><td>94</td><td>sys_fchmod</td><td><a href="file:///usr/src/linux/fs/open.c">fs/open.c</a></td>
+<td>unsigned int</td><td><a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#mode_t">mode_t</a></td><td>-</td><td>-</td><td>-</td></tr>
+
+<tr><td>95</td><td>sys_fchown</td><td><a href="file:///usr/src/linux/fs/open.c">fs/open.c</a></td>
+<td>unsigned int</td><td><a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#uid_t">uid_t</a></td><td><a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#gid_t">gid_t</a></td><td>-</td><td>-</td></tr>
+
+<tr><td>96</td><td>sys_getpriority</td><td><a href="file:///usr/src/linux/kernel/sys.c">kernel/sys.c</a></td>
+<td>int</td><td>int</td><td>-</td><td>-</td><td>-</td></tr>
+
+<tr><td>97</td><td>sys_setpriority</td><td><a href="file:///usr/src/linux/kernel/sys.c">kernel/sys.c</a></td>
+<td>int</td><td>int</td><td>int</td><td>-</td><td>-</td></tr>
+
+<tr><td>99</td><td>sys_statfs</td><td><a href="file:///usr/src/linux/fs/open.c">fs/open.c</a></td>
+<td>const char *</td><td><a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#statfs">struct statfs *</a></td><td>-</td><td>-</td><td>-</td></tr>
+
+<tr><td>100</td><td>sys_fstatfs</td><td><a href="file:///usr/src/linux/fs/open.c">fs/open.c</a></td>
+<td>unsigned int</td><td><a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#statfs">struct statfs *</a></td><td>-</td><td>-</td><td>-</td></tr>
+
+<tr><td>101</td><td>sys_ioperm</td><td><a href="file:///usr/src/linux/arch/i386/kernel/ioport.c">arch/i386/kernel/ioport.c</a></td>
+<td>unsigned long</td><td>unsigned long</td><td>int</td><td>-</td><td>-</td></tr>
+
+<tr><td>102</td><td>sys_socketcall</td><td><a href="file:///usr/src/linux/net/socket.c">net/socket.c</a></td>
+<td>int</td><td>unsigned long *</td><td>-</td><td>-</td><td>-</td></tr>
+
+<tr><td>103</td><td>sys_syslog</td><td><a href="file:///usr/src/linux/kernel/printk.c">kernel/printk.c</a></td>
+<td>int</td><td>char *</td><td>int</td><td>-</td><td>-</td></tr>
+
+<tr><td>104</td><td>sys_setitimer</td><td><a href="file:///usr/src/linux/kernel/itimer.c">kernel/itimer.c</a></td>
+<td>int</td><td><a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#itimerval">struct itimerval *</a></td><td><a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#itimerval">struct itimerval *</a></td><td>-</td><td>-</td></tr>
+
+<tr><td>105</td><td>sys_getitimer</td><td><a href="file:///usr/src/linux/kernel/itimer.c">kernel/itimer.c</a></td>
+<td>int</td><td><a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#itimerval">struct itimerval *</a></td><td>-</td><td>-</td><td>-</td></tr>
+
+<tr><td>106</td><td>sys_newstat</td><td><a href="file:///usr/src/linux/fs/stat.c">fs/stat.c</a></td>
+<td>char *</td><td><a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#stat">struct stat *</a></td><td>-</td><td>-</td><td>-</td></tr>
+
+<tr><td>107</td><td>sys_newlstat</td><td><a href="file:///usr/src/linux/fs/stat.c">fs/stat.c</a></td>
+<td>char *</td><td><a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#stat">struct stat *</a></td><td>-</td><td>-</td><td>-</td></tr>
+
+<tr><td>108</td><td>sys_newfstat</td><td><a href="file:///usr/src/linux/fs/stat.c">fs/stat.c</a></td>
+<td>unsigned int</td><td><a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#stat">struct stat *</a></td><td>-</td><td>-</td><td>-</td></tr>
+
+<tr><td>109</td><td>sys_uname</td><td><a href="file:///usr/src/linux/arch/i386/kernel/sys_i386.c">arch/i386/kernel/sys_i386.c</a></td>
+<td><a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#old_utsname">struct old_utsname *</a></td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
+
+<tr><td>110</td><td>sys_iopl</td><td><a href="file:///usr/src/linux/arch/i386/kernel/ioport.c">arch/i386/kernel/ioport.c</a></td>
+<td>unsigned long</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
+
+<tr><td>111</td><td>sys_vhangup</td><td><a href="file:///usr/src/linux/fs/open.c">fs/open.c</a></td>
+<td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
+
+<tr><td>112</td><td>sys_idle</td><td><a href="file:///usr/src/linux/arch/i386/kernel/process.c">arch/i386/kernel/process.c</a></td>
+<td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
+
+<tr><td>113</td><td>sys_vm86old</td><td><a href="file:///usr/src/linux/arch/i386/kernel/vm86.c">arch/i386/kernel/vm86.c</a></td>
+<td>unsigned long</td><td><a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#vm86plus_struct">struct vm86plus_struct *</a></td><td>-</td><td>-</td><td>-</td></tr>
+
+<tr><td>114</td><td>sys_wait4</td><td><a href="file:///usr/src/linux/kernel/exit.c">kernel/exit.c</a></td>
+<td><a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#pid_t">pid_t</a></td><td>unsigned long *</td><td>int options</td><td><a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#rusage">struct rusage *</a></td><td>-</td></tr>
+
+<tr><td>115</td><td>sys_swapoff</td><td><a href="file:///usr/src/linux/mm/swapfile.c">mm/swapfile.c</a></td>
+<td>const char *</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
+
+<tr><td>116</td><td>sys_sysinfo</td><td><a href="file:///usr/src/linux/kernel/info.c">kernel/info.c</a></td>
+<td><a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#sysinfo">struct sysinfo *</a></td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
+
+<tr><td>117</td><td>sys_ipc <a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#note117">(*Note)</a></td><td><a href="file:///usr/src/linux/arch/i386/kernel/sys_i386.c">arch/i386/kernel/sys_i386.c</a></td>
+<td><a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#uint">uint</a></td><td>int</td><td>int</td><td>int</td><td>void *</td></tr>
+
+<tr><td>118</td><td>sys_fsync</td><td><a href="file:///usr/src/linux/fs/buffer.c">fs/buffer.c</a></td>
+<td>unsigned int</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
+
+<tr><td>119</td><td>sys_sigreturn</td><td><a href="file:///usr/src/linux/arch/i386/kernel/signal.c">arch/i386/kernel/signal.c</a></td>
+<td>unsigned long</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
+
+<tr><td>120</td><td>sys_clone</td><td><a href="file:///usr/src/linux/arch/i386/kernel/process.c">arch/i386/kernel/process.c</a></td>
+<td><a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#pt_regs">struct pt_regs</a></td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
+
+<tr><td>121</td><td>sys_setdomainname</td><td><a href="file:///usr/src/linux/kernel/sys.c">kernel/sys.c</a></td>
+<td>char *</td><td>int</td><td>-</td><td>-</td><td>-</td></tr>
+
+<tr><td>122</td><td>sys_newuname</td><td><a href="file:///usr/src/linux/kernel/sys.c">kernel/sys.c</a></td>
+<td><a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#new_utsname">struct new_utsname *</a></td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
+
+<tr><td>123</td><td>sys_modify_ldt</td><td><a href="file:///usr/src/linux/arch/i386/kernel/ldt.c">arch/i386/kernel/ldt.c</a></td>
+<td>int</td><td>void *</td><td>unsigned long</td><td>-</td><td>-</td></tr>
+
+<tr><td>124</td><td>sys_adjtimex</td><td><a href="file:///usr/src/linux/kernel/time.c">kernel/time.c</a></td>
+<td><a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#timex">struct timex *</a></td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
+
+<tr><td>125</td><td>sys_mprotect</td><td><a href="file:///usr/src/linux/mm/mprotect.c">mm/mprotect.c</a></td>
+<td>unsigned long</td><td><a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#size_t">size_t</a></td><td>unsigned long</td><td>-</td><td>-</td></tr>
+
+<tr><td>126</td><td>sys_sigprocmask</td><td><a href="file:///usr/src/linux/kernel/signal.c">kernel/signal.c</a></td>
+<td>int</td><td><a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#old_sigset_t">old_sigset_t *</a></td><td><a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#old_sigset_t">old_sigset_t *</a></td><td>-</td><td>-</td></tr>
+
+<tr><td>127</td><td>sys_create_module</td><td><a href="file:///usr/src/linux/kernel/module.c">kernel/module.c</a></td>
+<td>const char *</td><td><a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#size_t">size_t</a></td><td>-</td><td>-</td><td>-</td></tr>
+
+<tr><td>128</td><td>sys_init_module</td><td><a href="file:///usr/src/linux/kernel/module.c">kernel/module.c</a></td>
+<td>const char *</td><td><a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#module">struct module *</a></td><td>-</td><td>-</td><td>-</td></tr>
+
+<tr><td>129</td><td>sys_delete_module</td><td><a href="file:///usr/src/linux/kernel/module.c">kernel/module.c</a></td>
+<td>const char *</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
+
+<tr><td>130</td><td>sys_get_kernel_syms</td><td><a href="file:///usr/src/linux/kernel/module.c">kernel/module.c</a></td>
+<td><a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#kernel_sym">struct kernel_sym *</a></td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
+
+<tr><td>131</td><td>sys_quotactl</td><td><a href="file:///usr/src/linux/fs/dquot.c">fs/dquot.c</a></td>
+<td>int</td><td>const char *</td><td>int</td><td><a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#caddr_t">caddr_t</a></td><td>-</td></tr>
+
+<tr><td>132</td><td>sys_getpgid</td><td><a href="file:///usr/src/linux/kernel/sys.c">kernel/sys.c</a></td>
+<td><a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#pid_t">pid_t</a></td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
+
+<tr><td>133</td><td>sys_fchdir</td><td><a href="file:///usr/src/linux/fs/open.c">fs/open.c</a></td>
+<td>unsigned int</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
+
+<tr><td>134</td><td>sys_bdflush</td><td><a href="file:///usr/src/linux/fs/buffer.c">fs/buffer.c</a></td>
+<td>int</td><td>long</td><td>-</td><td>-</td><td>-</td></tr>
+
+<tr><td>135</td><td>sys_sysfs</td><td><a href="file:///usr/src/linux/fs/super.c">fs/super.c</a></td>
+<td>int</td><td>unsigned long</td><td>unsigned long</td><td>-</td><td>-</td></tr>
+
+<tr><td>136</td><td>sys_personality</td><td><a href="file:///usr/src/linux/kernel/exec_domain.c">kernel/exec_domain.c</a></td>
+<td>unsigned long</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
+
+<tr><td>138</td><td>sys_setfsuid</td><td><a href="file:///usr/src/linux/kernel/sys.c">kernel/sys.c</a></td>
+<td><a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#uid_t">uid_t</a></td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
+
+<tr><td>139</td><td>sys_setfsgid</td><td><a href="file:///usr/src/linux/kernel/sys.c">kernel/sys.c</a></td>
+<td><a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#gid_t">gid_t</a></td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
+
+<tr><td>140</td><td>sys_llseek</td><td><a href="file:///usr/src/linux/fs/read_write.c">fs/read_write.c</a></td>
+<td>unsigned int</td><td>unsigned long</td><td>unsigned long</td><td><a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#loff_t">loff_t *</a></td><td>unsigned int</td></tr>
+
+<tr><td>141</td><td>sys_getdents</td><td><a href="file:///usr/src/linux/fs/readdir.c">fs/readdir.c</a></td>
+<td>unsigned int</td><td>void *</td><td>unsigned int</td><td>-</td><td>-</td></tr>
+
+<tr><td>142</td><td>sys_select</td><td><a href="file:///usr/src/linux/fs/select.c">fs/select.c</a></td>
+<td>int</td><td><a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#fd_set">fd_set *</a></td><td><a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#fd_set">fd_set *</a></td><td><a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#fd_set">fd_set *</a></td><td><a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#timeval">struct timeval *</a></td></tr>
+
+<tr><td>143</td><td>sys_flock</td><td><a href="file:///usr/src/linux/fs/locks.c">fs/locks.c</a></td>
+<td>unsigned int</td><td>unsigned int</td><td>-</td><td>-</td><td>-</td></tr>
+
+<tr><td>144</td><td>sys_msync</td><td><a href="file:///usr/src/linux/mm/filemap.c">mm/filemap.c</a></td>
+<td>unsigned long</td><td><a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#size_t">size_t</a></td><td>int</td><td>-</td><td>-</td></tr>
+
+<tr><td>145</td><td>sys_readv</td><td><a href="file:///usr/src/linux/fs/read_write.c">fs/read_write.c</a></td>
+<td>unsigned long</td><td><a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#iovec">const struct iovec *</a></td><td>unsigned long</td><td>-</td><td>-</td></tr>
+
+<tr><td>146</td><td>sys_writev</td><td><a href="file:///usr/src/linux/fs/read_write.c">fs/read_write.c</a></td>
+<td>unsigned long</td><td><a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#iovec">const struct iovec *</a></td><td>unsigned long</td><td>-</td><td>-</td></tr>
+
+<tr><td>147</td><td>sys_getsid</td><td><a href="file:///usr/src/linux/kernel/sys.c">kernel/sys.c</a></td>
+<td><a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#pid_t">pid_t</a></td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
+
+<tr><td>148</td><td>sys_fdatasync</td><td><a href="file:///usr/src/linux/fs/buffer.c">fs/buffer.c</a></td>
+<td>unsigned int</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
+
+<tr><td>149</td><td>sys_sysctl</td><td><a href="file:///usr/src/linux/kernel/sysctl.c">kernel/sysctl.c</a></td>
+<td><a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#__sysctl_args">struct __sysctl_args *</a></td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
+
+<tr><td>150</td><td>sys_mlock</td><td><a href="file:///usr/src/linux/mm/mlock.c">mm/mlock.c</a></td>
+<td>unsigned long</td><td><a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#size_t">size_t</a></td><td>-</td><td>-</td><td>-</td></tr>
+
+<tr><td>151</td><td>sys_munlock</td><td><a href="file:///usr/src/linux/mm/mlock.c">mm/mlock.c</a></td>
+<td>unsigned long</td><td><a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#size_t">size_t</a></td><td>-</td><td>-</td><td>-</td></tr>
+
+<tr><td>152</td><td>sys_mlockall</td><td><a href="file:///usr/src/linux/mm/mlock.c">mm/mlock.c</a></td>
+<td>int</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
+
+<tr><td>153</td><td>sys_munlockall</td><td><a href="file:///usr/src/linux/mm/mlock.c">mm/mlock.c</a></td>
+<td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
+
+<tr><td>154</td><td>sys_sched_setparam</td><td><a href="file:///usr/src/linux/kernel/sched.c">kernel/sched.c</a></td>
+<td><a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#pid_t">pid_t</a></td><td><a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#sched_param">struct sched_param *</a></td><td>-</td><td>-</td><td>-</td></tr>
+
+<tr><td>155</td><td>sys_sched_getparam</td><td><a href="file:///usr/src/linux/kernel/sched.c">kernel/sched.c</a></td>
+<td><a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#pid_t">pid_t</a></td><td><a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#sched_param">struct sched_param *</a></td><td>-</td><td>-</td><td>-</td></tr>
+
+<tr><td>156</td><td>sys_sched_setscheduler</td><td><a href="file:///usr/src/linux/kernel/sched.c">kernel/sched.c</a></td>
+<td><a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#pid_t">pid_t</a></td><td>int</td><td><a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#sched_param">struct sched_param *</a></td><td>-</td><td>-</td></tr>
+
+<tr><td>157</td><td>sys_sched_getscheduler</td><td><a href="file:///usr/src/linux/kernel/sched.c">kernel/sched.c</a></td>
+<td><a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#pid_t">pid_t</a></td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
+
+<tr><td>158</td><td>sys_sched_yield</td><td><a href="file:///usr/src/linux/kernel/sched.c">kernel/sched.c</a></td>
+<td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
+
+<tr><td>159</td><td>sys_sched_get_priority_max</td><td><a href="file:///usr/src/linux/kernel/sched.c">kernel/sched.c</a></td>
+<td>int</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
+
+<tr><td>160</td><td>sys_sched_get_priority_min</td><td><a href="file:///usr/src/linux/kernel/sched.c">kernel/sched.c</a></td>
+<td>int</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
+
+<tr><td>161</td><td>sys_sched_rr_get_interval</td><td><a href="file:///usr/src/linux/kernel/sched.c">kernel/sched.c</a></td>
+<td><a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#pid_t">pid_t</a></td><td><a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#timespec">struct timespec *</a></td><td>-</td><td>-</td><td>-</td></tr>
+
+<tr><td>162</td><td>sys_nanosleep</td><td><a href="file:///usr/src/linux/kernel/sched.c">kernel/sched.c</a></td>
+<td><a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#timespec">struct timespec *</a></td><td><a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#timespec">struct timespec *</a></td><td>-</td><td>-</td><td>-</td></tr>
+
+<tr><td>163</td><td>sys_mremap</td><td><a href="file:///usr/src/linux/mm/mremap.c">mm/mremap.c</a></td>
+<td>unsigned long</td><td>unsigned long</td><td>unsigned long</td><td>unsigned long</td><td>-</td></tr>
+
+<tr><td>164</td><td>sys_setresuid</td><td><a href="file:///usr/src/linux/kernel/sys.c">kernel/sys.c</a></td>
+<td><a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#uid_t">uid_t</a></td><td><a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#uid_t">uid_t</a></td><td><a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#uid_t">uid_t</a></td><td>-</td><td>-</td></tr>
+
+<tr><td>165</td><td>sys_getresuid</td><td><a href="file:///usr/src/linux/kernel/sys.c">kernel/sys.c</a></td>
+<td><a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#uid_t">uid_t *</a></td><td><a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#uid_t">uid_t *</a></td><td><a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#uid_t">uid_t *</a></td><td>-</td><td>-</td></tr>
+
+<tr><td>166</td><td>sys_vm86</td><td><a href="file:///usr/src/linux/arch/i386/kernel/vm86.c">arch/i386/kernel/vm86.c</a></td>
+<td><a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#vm86_struct">struct vm86_struct *</a></td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
+
+<tr><td>167</td><td>sys_query_module</td><td><a href="file:///usr/src/linux/kernel/module.c">kernel/module.c</a></td>
+<td>const char *</td><td>int</td><td>char *</td><td><a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#size_t">size_t</a></td><td><a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#size_t">size_t *</a></td></tr>
+
+<tr><td>168</td><td>sys_poll</td><td><a href="file:///usr/src/linux/fs/select.c">fs/select.c</a></td>
+<td><a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#pollfd">struct pollfd *</a></td><td>unsigned int</td><td>long</td><td>-</td><td>-</td></tr>
+
+<tr><td>169</td><td>sys_nfsservctl</td><td><a href="file:///usr/src/linux/fs/filesystems.c">fs/filesystems.c</a></td>
+<td>int</td><td>void *</td><td>void *</td><td>-</td><td>-</td></tr>
+
+<tr><td>170</td><td>sys_setresgid</td><td><a href="file:///usr/src/linux/kernel/sys.c">kernel/sys.c</a></td>
+<td><a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#gid_t">gid_t</a></td><td><a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#gid_t">gid_t</a></td><td><a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#gid_t">gid_t</a></td><td>-</td><td>-</td></tr>
+
+<tr><td>171</td><td>sys_getresgid</td><td><a href="file:///usr/src/linux/kernel/sys.c">kernel/sys.c</a></td>
+<td><a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#gid_t">gid_t *</a></td><td><a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#gid_t">gid_t *</a></td><td><a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#gid_t">gid_t *</a></td><td>-</td><td>-</td></tr>
+
+<tr><td>172</td><td>sys_prctl</td><td><a href="file:///usr/src/linux/kernel/sys.c">kernel/sys.c</a></td>
+<td>int</td><td>unsigned long</td><td>unsigned long</td><td>unsigned long</td><td>unsigned long</td></tr>
+
+<tr><td>173</td><td>sys_rt_sigreturn</td><td><a href="file:///usr/src/linux/arch/i386/kernel/signal.c">arch/i386/kernel/signal.c</a></td>
+<td>unsigned long</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
+
+<tr><td>174</td><td>sys_rt_sigaction</td><td><a href="file:///usr/src/linux/kernel/signal.c">kernel/signal.c</a></td>
+<td>int</td><td><a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#sigaction">const struct sigaction *</a></td><td><a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#sigaction">struct sigaction *</a></td><td><a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#size_t">size_t</a></td><td>-</td></tr>
+
+<tr><td>175</td><td>sys_rt_sigprocmask</td><td><a href="file:///usr/src/linux/kernel/signal.c">kernel/signal.c</a></td>
+<td>int</td><td><a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#sigset_t">sigset_t *</a></td><td><a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#sigset_t">sigset_t *</a></td><td><a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#size_t">size_t</a></td><td>-</td></tr>
+
+<tr><td>176</td><td>sys_rt_sigpending</td><td><a href="file:///usr/src/linux/kernel/signal.c">kernel/signal.c</a></td>
+<td><a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#sigset_t">sigset_t *</a></td><td><a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#size_t">size_t</a></td><td>-</td><td>-</td><td>-</td></tr>
+
+<tr><td>177</td><td>sys_rt_sigtimedwait</td><td><a href="file:///usr/src/linux/kernel/signal.c">kernel/signal.c</a></td>
+<td><a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#sigset_t">const sigset_t *</a></td><td><a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#siginfo_t">siginfo_t *</a></td><td><a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#timespec">const struct timespec *</a></td><td><a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#size_t">size_t</a></td><td>-</td></tr>
+
+<tr><td>178</td><td>sys_rt_sigqueueinfo</td><td><a href="file:///usr/src/linux/kernel/signal.c">kernel/signal.c</a></td>
+<td>int</td><td>int</td><td><a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#siginfo_t">siginfo_t *</a></td><td>-</td><td>-</td></tr>
+
+<tr><td>179</td><td>sys_rt_sigsuspend</td><td><a href="file:///usr/src/linux/arch/i386/kernel/signal.c">arch/i386/kernel/signal.c</a></td>
+<td><a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#sigset_t">sigset_t *</a></td><td><a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#size_t">size_t</a></td><td>-</td><td>-</td><td>-</td></tr>
+
+<tr><td>180</td><td>sys_pread</td><td><a href="file:///usr/src/linux/fs/read_write.c">fs/read_write.c</a></td>
+<td>unsigned int</td><td>char *</td><td><a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#size_t">size_t</a></td><td><a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#loff_t">loff_t</a></td><td>-</td></tr>
+
+<tr><td>181</td><td>sys_pwrite</td><td><a href="file:///usr/src/linux/fs/read_write.c">fs/read_write.c</a></td>
+<td>unsigned int</td><td>const char *</td><td><a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#size_t">size_t</a></td><td><a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#loff_t">loff_t</a></td><td>-</td></tr>
+
+<tr><td>182</td><td>sys_chown</td><td><a href="file:///usr/src/linux/fs/open.c">fs/open.c</a></td>
+<td>const char *</td><td><a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#uid_t">uid_t</a></td><td><a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#gid_t">gid_t</a></td><td>-</td><td>-</td></tr>
+
+<tr><td>183</td><td>sys_getcwd</td><td><a href="file:///usr/src/linux/fs/dcache.c">fs/dcache.c</a></td>
+<td>char *</td><td>unsigned long</td><td>-</td><td>-</td><td>-</td></tr>
+
+<tr><td>184</td><td>sys_capget</td><td><a href="file:///usr/src/linux/kernel/capability.c">kernel/capability.c</a></td>
+<td><a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#cap_user_header_t">cap_user_header_t</a></td><td><a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#cap_user_data_t">cap_user_data_t</a></td><td>-</td><td>-</td><td>-</td></tr>
+
+<tr><td>185</td><td>sys_capset</td><td><a href="file:///usr/src/linux/kernel/capability.c">kernel/capability.c</a></td>
+<td><a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#cap_user_header_t">cap_user_header_t</a></td><td><a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#cap_user_data_t">const cap_user_data_t</a></td><td>-</td><td>-</td><td>-</td></tr>
+
+<tr><td>186</td><td>sys_sigaltstack</td><td><a href="file:///usr/src/linux/arch/i386/kernel/signal.c">arch/i386/kernel/signal.c</a></td>
+<td><a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#stack_t">const stack_t *</a></td><td><a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#stack_t">stack_t *</a></td><td>-</td><td>-</td><td>-</td></tr>
+
+<tr><td>187</td><td>sys_sendfile</td><td><a href="file:///usr/src/linux/mm/filemap.c">mm/filemap.c</a></td>
+<td>int</td><td>int</td><td><a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#off_t">off_t *</a></td><td><a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#size_t">size_t</a></td><td>-</td></tr>
+
+<tr><td>190</td><td>sys_vfork</td><td><a href="file:///usr/src/linux/arch/i386/kernel/process.c">arch/i386/kernel/process.c</a></td>
+<td><a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#pt_regs">struct pt_regs</a></td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
+
+</tbody></table>
+
+<p>
+<a name="note117"><b>Note for sys_ipc</b> (117)</a>: this syscall takes six arguments, so it can't fit
+into the five registers %ebx - %edi; the last parameter (not shown) is of type 'long'. This
+syscall requires a special call method where a pointer is put in %ebx which points to an array
+containing the six arguments.
+</p>
+
+<p>
+I will now explain exactly where in the kernel source that I got the information in the table above.
+I do this because 1) changes in the source are bound to happen, 2) you might be curious,
+or 3) I might've made an error. 
+</p>
+
+<h2>System Call Numbers</h2>
+
+<p>
+For the numbers of the syscalls, look in
+<a href="file:///usr/src/linux/arch/i386/kernel/entry.S">arch/i386/kernel/entry.S</a>
+for <strong>sys_call_table</strong>.
+The syscall numbers are offsets into that table.
+Several spots in the table are occupied by the syscall
+<strong>sys_ni_syscall</strong>. This is a placeholder
+that either replaces an obsolete syscall or reserves a spot for
+future syscalls.
+</p>
+
+<p> Incidentally, the system calls are called from the function
+<strong>system_call</strong> in the same file; in particular,
+they are called with the assembly instruction
+'call&nbsp;*SYMBOL_NAME(sys_call_table)(,%eax,4)'.
+The part '*SYMBOL_NAME(sys_call_table)' just gets
+replaced by a symbol name in <strong>sys_call_table</strong>.
+<strong>SYMBOL_NAME</strong> is a macro defined in
+<a href="http://world.std.com/usr/src/linux/include/linux/linkage.h">include/linux/linkage.h</a>, and it just replaces
+itself with its argument.
+
+</p><h2>Typedefs</h2>
+
+<p>Here are the typedef declarations in the prototypes above:</p>
+
+<table border="1">
+
+<tbody><tr><th valign="top"><a name="atomic_t">atomic_t</a></th>
+<td>
+<a href="file:///usr/src/linux/include/asm/atomic.h">include/asm/atomic.h</a>:<br>
+#ifdef __SMP__<br>
+typedef struct { volatile int counter; } atomic_t;<br>
+#else<br>
+typedef struct { int counter; } atomic_t;<br>
+#endif
+</td>
+</tr>
+
+<tr><th valign="top"><a name="caddr_t">caddr_t</a></th>
+<td>
+<a href="file:///usr/src/linux/include/asm/posix_types.h">include/asm/posix_types.h</a>:typedef char * __kernel_caddr_t;<br>
+<a href="file:///usr/src/linux/include/linux/types.h">include/linux/types.h</a>:typedef __kernel_caddr_t caddr_t;
+</td>
+</tr>
+
+<tr><th valign="top"><a name="cap_user_header_t">cap_user_header_t</a></th>
+<td>
+<a href="file:///usr/src/linux/include/linux/capability.h">include/linux/capability.h</a>:<br>
+typedef struct __user_cap_header_struct {<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#__u32">__u32</a> version;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int pid;<br>
+} *cap_user_header_t;
+</td>
+</tr>
+ 
+<tr><th valign="top"><a name="cap_user_data_t">cap_user_data_t</a></th>
+<td>
+<a href="file:///usr/src/linux/include/linux/capability.h">include/linux/capability.h</a>:<br>
+typedef struct __user_cap_data_struct {<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#__u32">__u32</a> effective;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#__u32">__u32</a> permitted;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#__u32">__u32</a> inheritable;<br>
+} *cap_user_data_t;
+</td>
+</tr>
+
+<tr><th valign="top"><a name="clock_t">clock_t</a></th>
+<td>
+<a href="file:///usr/src/linux/include/asm/posix_types.h">include/asm/posix_types.h</a>:typedef long __kernel_clock_t;<br>
+<a href="file:///usr/src/linux/include/linux/types.h">include/linux/types.h</a>:typedef __kernel_clock_t clock_t;
+</td>
+</tr>
+
+<tr><th valign="top"><a name="dev_t">dev_t</a></th>
+<td>
+<a href="file:///usr/src/linux/include/asm/posix_types.h">include/asm/posix_types.h</a>:typedef unsigned short __kernel_dev_t;<br>
+<a href="file:///usr/src/linux/include/linux/types.h">include/linux/types.h</a>:typedef __kernel_dev_t dev_t;
+</td>
+</tr>
+
+<tr><th valign="top"><a name="fdset">fdset</a></th>
+<td>
+include/linux/posix_types.h<br>
+#define __FD_SETSIZE  1024<br>
+#define __NFDBITS     (8 * sizeof(unsigned long))<br>
+#define __FDSET_LONGS (__FD_SETSIZE/__NFDBITS)<br>
+(==&gt; __FDSET_LONGS == 32)<br>
+<br>
+typedef struct {<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;unsigned long fds_bits [__FDSET_LONGS];<br>
+} __kernel_fd_set;<br>
+<a href="file:///usr/src/linux/include/linux/types.h">include/linux/types.h</a>:typedef __kernel_fd_set fd_set;<br>
+</td>
+</tr>
+
+<tr><th valign="top"><a name="gid_t">gid_t</a></th>
+<td>
+<a href="file:///usr/src/linux/include/asm/posix_types.h">include/asm/posix_types.h</a>:typedef unsigned short __kernel_gid_t;<br>
+<a href="file:///usr/src/linux/include/linux/types.h">include/linux/types.h</a>:typedef __kernel_gid_t gid_t;
+</td>
+</tr>
+
+<tr><th valign="top"><a name="__kernel_daddr_t">__kernel_daddr_t</a></th>
+<td>
+<a href="file:///usr/src/linux/include/asm/posix_types.h">include/asm/posix_types.h</a>:typedef int __kernel_daddr_t;<br>
+</td>
+</tr>
+
+<tr><th valign="top"><a name="__kernel_fsid_t">__kernel_fsid_t</a></th>
+<td>
+<a href="file:///usr/src/linux/include/asm/posix_types.h">include/asm/posix_types.h</a>:<br>
+typedef struct {<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int __val[2];<br>
+} __kernel_fsid_t;<br>
+<br>
+</td>
+</tr>
+
+<tr><th valign="top"><a name="__kernel_ino_t">__kernel_ino_t</a></th>
+<td>
+<a href="file:///usr/src/linux/include/asm/posix_types.h">include/asm/posix_types.h</a>:typedef unsigned long __kernel_ino_t;<br>
+</td>
+</tr>
+
+<tr><th valign="top"><a name="__kernel_size_t">__kernel_size_t</a></th>
+<td>
+<a href="file:///usr/src/linux/include/asm/posix_types.h">include/asm/posix_types.h</a>:typedef unsigned int __kernel_size_t;
+</td>
+</tr>
+
+<tr><th valign="top"><a name="loff_t">loff_t</a></th>
+<td>
+<a href="file:///usr/src/linux/include/asm/posix_types.h">include/asm/posix_types.h</a>:typedef long long __kernel_loff_t;<br>
+<a href="file:///usr/src/linux/include/linux/types.h">include/linux/types.h</a>:typedef __kernel_loff_t loff_t;
+</td>
+</tr>
+
+<tr><th valign="top"><a name="mode_t">mode_t</a></th>
+<td>
+<a href="file:///usr/src/linux/include/asm/posix_types.h">include/asm/posix_types.h</a>:typedef unsigned short __kernel_mode_t;<br>
+<a href="file:///usr/src/linux/include/linux/types.h">include/linux/types.h</a>:typedef __kernel_mode_t mode_t;
+</td>
+</tr>
+
+<tr><th valign="top"><a name="off_t">off_t</a></th>
+<td>
+<a href="file:///usr/src/linux/include/asm/posix_types.h">include/asm/posix_types.h</a>:typedef long __kernel_off_t;
+<a href="file:///usr/src/linux/include/linux/types.h">include/linux/types.h</a>:typedef __kernel_off_t off_t;
+</td>
+</tr>
+
+<tr><th valign="top"><a name="old_sigset_t">old_sigset_t</a></th>
+<td>
+<a href="file:///usr/src/linux/include/asm/signal.h">include/asm/signal.h</a>:typedef unsigned long old_sigset_t;
+</td>
+</tr>
+
+<tr><th valign="top"><a name="pid_t">pid_t</a></th>
+<td>
+<a href="file:///usr/src/linux/include/asm/posix_types.h">include/asm/posix_types.h</a>:typedef int __kernel_pid_t;<br>
+<a href="file:///usr/src/linux/include/linux/types.h">include/linux/types.h</a>:typedef __kernel_pid_t pid_t;
+</td>
+</tr>
+
+<tr><th valign="top"><a name="__sighandler_t">__sighandler_t</a></th>
+<td>
+<a href="file:///usr/src/linux/include/asm/signal.h">include/asm/signal.h</a>:typedef void (*__sighandler_t)(int);
+</td>
+</tr>
+
+<tr><th valign="top"><a name="siginfo_t">siginfo_t</a></th>
+<td>
+<a href="file:///usr/src/linux/include/asm/siginfo.h">include/asm/siginfo.h</a>:<br>
+#define SI_MAX_SIZE 128<br>
+#define SI_PAD_SIZE ((SI_MAX_SIZE/sizeof(int)) - 3)<br>
+(==&gt; SI_PAD_SIZE == 29)<br>
+<br>
+typedef struct siginfo {<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int si_signo;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int si_errno;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int si_code;<br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;union {<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int _pad[SI_PAD_SIZE];<br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/* kill() */<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;struct {<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#pid_t">pid_t</a> _pid; /* sender's pid */<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#uid_t">uid_t</a> _uid; /* sender's uid */<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;} _kill;<br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/* POSIX.1b timers */<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;struct {<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;unsigned int _timer1;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;unsigned int _timer2;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;} _timer;<br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/* POSIX.1b signals */<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;struct {<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#pid_t">pid_t</a> _pid; /* sender's pid */<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#uid_t">uid_t</a> _uid; /* sender's uid */<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sigval_t _sigval;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;} _rt;<br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/* SIGCHLD */<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;struct {<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#pid_t">pid_t</a> _pid; /* which child */<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#uid_t">uid_t</a> _uid; /* sender's uid */<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int _status; /* exit code */<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#clock_t">clock_t</a> _utime;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#clock_t">clock_t</a> _stime;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;} _sigchld;<br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/* SIGILL, SIGFPE, SIGSEGV, SIGBUS */<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;struct {<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;void
+*_addr; /* faulting insn/memory ref. */<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;} _sigfault;<br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/* SIGPOLL */<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;struct {<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int
+_band; /* POLL_IN, POLL_OUT, POLL_MSG */<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int _fd;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;} _sigpoll;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;} _sifields;<br>
+} siginfo_t;
+</td>
+</tr>
+
+<tr><th valign="top"><a name="sigset_t">sigset_t</a></th>
+<td>
+<a href="file:///usr/src/linux/include/asm/signal.h">include/asm/signal.h</a>:typedef unsigned long sigset_t;
+</td>
+</tr>
+
+<tr><th valign="top"><a name="size_t">size_t</a></th>
+<td>
+<a href="file:///usr/src/linux/include/asm/posix_types.h">include/asm/posix_types.h</a>:typedef unsigned int __kernel_size_t;<br>
+<a href="file:///usr/src/linux/include/linux/types.h">include/linux/types.h</a>:typedef __kernel_size_t size_t;
+</td>
+</tr>
+
+<tr><th valign="top"><a name="ssize_t">ssize_t</a></th>
+<td>
+<a href="file:///usr/src/linux/include/asm/posix_types.h">include/asm/posix_types.h</a>:typedef int __kernel_ssize_t;<br>
+<a href="file:///usr/src/linux/include/linux/types.h">include/linux/types.h</a>:typedef __kernel_ssize_t ssize_t;
+</td>
+</tr>
+
+<tr><th valign="top"><a name="stack_t">stack_t</a></th>
+<td>
+<a href="file:///usr/src/linux/include/asm/signal.h">include/asm/signal.h</a>:<br>
+typedef struct sigaltstack {<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;void *ss_sp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int ss_flags;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#size_t">size_t</a> ss_size;<br>
+} stack_t;
+</td>
+</tr>
+
+<tr><th valign="top"><a name="suseconds_t">suseconds_t</a></th>
+<td>
+<a href="file:///usr/src/linux/include/asm/posix_types.h">include/asm/posix_types.h</a>:typedef long __kernel_suseconds_t;<br>
+<a href="file:///usr/src/linux/include/linux/types.h">include/linux/types.h</a>:typedef __kernel_suseconds_t suseconds_t;<br>
+</td>
+</tr>
+
+<tr><th valign="top"><a name="time_t">time_t</a></th>
+<td>
+<a href="file:///usr/src/linux/include/asm/posix_types.h">include/asm/posix_types.h</a>:typedef long __kernel_time_t;
+<a href="file:///usr/src/linux/include/linux/types.h">include/linux/types.h</a>:typedef __kernel_time_t time_t;<br>
+</td>
+</tr>
+
+<tr><th valign="top"><a name="uid_t">uid_t</a></th>
+<td>
+<a href="file:///usr/src/linux/include/asm/posix_types.h">include/asm/posix_types.h</a>:typedef unsigned short __kernel_uid_t;<br>
+<a href="file:///usr/src/linux/include/linux/types.h">include/linux/types.h</a>:typedef __kernel_uid_t uid_t;
+</td>
+</tr>
+
+<tr><th valign="top"><a name="uint">uint</a></th>
+<td>
+<a href="file:///usr/src/linux/include/linux/types.h">include/linux/types.h</a>:typedef unsigned int uint;
+</td>
+</tr>
+
+<tr><th valign="top"><a name="__u32">__u32</a></th>
+<td>
+<a href="file:///usr/src/linux/include/asm/types.h">include/asm/types.h</a>:typedef unsigned int __u32;
+</td>
+</tr>
+
+</tbody></table>
+
+<p>&nbsp;</p>
+
+<h2>Struct Declarations</h2>
+
+<p>Here are the struct declarations for the table at the top:</p>
+
+<table border="1">
+
+<tbody><tr><th valign="top"><a name="exception_table_entry">exception_table_entry</a></th>
+<td>
+<a href="file:///usr/src/linux/include/linux/module.h">include/linux/module.h</a>:<br>
+struct exception_table_entry {<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;unsigned long insn, fixup;<br>
+};
+</td>
+</tr>
+
+<tr><th valign="top"><a name="iovec">iovec</a></th>
+<td>
+<a href="file:///usr/src/linux/include/linux/uio.h">include/linux/uio.h</a>:<br>
+struct iovec {<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;void *iov_base;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#__kernel_size_t">__kernel_size_t</a> iov_len;
+};
+</td>
+</tr>
+
+<tr><th valign="top"><a name="itimerval">itimerval</a></th>
+<td>
+<a href="file:///usr/src/linux/include/linux/time.h">include/linux/time.h</a>:<br>
+struct itimerval {<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#timeval">struct timeval</a> it_interval; /* timer interval */<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#timeval">struct timeval</a> it_value; /* current value */<br>
+};
+</td>
+</tr>
+
+<tr><th valign="top"><a name="kernel_sym">kernel_sym</a></th>
+<td>
+<a href="file:///usr/src/linux/include/linux/module.h">include/linux/module.h</a>:<br>
+struct kernel_sym {<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;unsigned long value;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;char name[60];<br>
+};
+</td>
+</tr>
+
+<tr><th valign="top"><a name="mmap_arg_struct">mmap_arg_struct</a></th>
+<td>
+<a href="file:///usr/src/linux/arch/i386/kernel/sys_i386.c">arch/i386/kernel/sys_i386.c</a>:<br>
+struct mmap_arg_struct {<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;unsigned long addr;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;unsigned long len;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;unsigned long prot;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;unsigned long flags;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;unsigned long fd;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;unsigned long offset;<br>
+};
+</td>
+</tr>
+
+<tr><th valign="top"><a name="module">module</a></th>
+<td>
+<a href="file:///usr/src/linux/include/linux/module.h">include/linux/module.h</a>:<br>
+struct module {<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;unsigned long size_of_struct;  /* sizeof(module) */<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#module">struct module</a> *next;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;const char *name;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;unsigned long size;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;union {<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#atomic_t">atomic_t</a> usecount;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;long pad;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;} uc;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;unsigned long flags;   /* AUTOCLEAN et al */<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;unsigned nsyms;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;unsigned ndeps;<br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#module_symbol">struct module_symbol</a> *syms;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#module_ref">struct module_ref</a> *deps;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#module_ref">struct module_ref</a> *refs;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int (*init)(void);<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;void (*cleanup)(void);<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;const <a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#exception_table_entry">struct exception_table_entry</a> *ex_table_start;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;const <a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#exception_table_entry">struct exception_table_entry</a> *ex_table_end;<br>
+        /* Members past this point are extensions to the basic<br>
+           module support and are optional.  Use mod_opt_member()<br>
+           to examine them.  */<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;const <a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#module_persist">struct module_persist</a> *persist_start;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;const <a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#module_persist">struct module_persist</a> *persist_end;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int (*can_unload)(void);<br>
+};
+</td>
+</tr>
+
+<tr><th valign="top"><a name="module_persist">module_persist</a></th>
+<td>
+<a href="file:///usr/src/linux/include/linux/module.h">include/linux/module.h</a>:<br>
+struct module_persist; /* yes, it's empty */
+</td>
+</tr>
+
+<tr><th valign="top"><a name="module_ref">module_ref</a></th>
+<td>
+<a href="file:///usr/src/linux/include/linux/module.h">include/linux/module.h</a>:<br>
+struct module_ref {<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#module">struct module</a> *dep;  /* "parent" pointer */<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#module">struct module</a> *ref;  /* "child" pointer */<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#module_ref">struct module_ref</a> *next_ref;<br>
+};
+</td>
+</tr>
+
+<tr><th valign="top"><a name="module_symbol">module_symbol</a></th>
+<td>
+<a href="file:///usr/src/linux/include/linux/module.h">include/linux/module.h</a>:<br>
+struct module_symbol {<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;unsigned long value;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;const char *name;<br>
+};
+</td>
+</tr>
+
+<tr><th valign="top"><a name="new_utsname">new_utsname</a></th>
+<td>
+<a href="file:///usr/src/linux/include/linux/utsname.h">include/linux/utsname.h</a>:<br>
+struct new_utsname {<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;char sysname[65];<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;char nodename[65];<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;char release[65];<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;char version[65];<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;char machine[65];<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;char domainname[65];<br>
+};
+</td>
+</tr>
+
+<tr><th valign="top"><a name="__old_kernel_stat">__old_kernel_stat</a></th>
+<td>
+<a href="file:///usr/src/linux/include/asm/stat.h">include/asm/stat.h</a>:<br>
+struct __old_kernel_stat {<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;unsigned short st_dev;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;unsigned short st_ino;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;unsigned short st_mode;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;unsigned short st_nlink;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;unsigned short st_uid;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;unsigned short st_gid;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;unsigned short st_rdev;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;unsigned long  st_size;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;unsigned long  st_atime;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;unsigned long  st_mtime;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;unsigned long  st_ctime;<br>
+};
+</td>
+</tr>
+
+<tr><th valign="top"><a name="oldold_utsname">oldold_utsname</a></th>
+<td>
+<a href="file:///usr/src/linux/include/linux/utsname.h">include/linux/utsname.h</a>:<br>
+struct oldold_utsname {<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;char sysname[9];<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;char nodename[9];<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;char release[9];<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;char version[9];<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;char machine[9];<br>
+};
+</td>
+</tr>
+
+<tr><th valign="top"><a name="old_sigaction">old_sigaction</a></th>
+<td>
+<a href="file:///usr/src/linux/include/asm/signal.h">include/asm/signal.h</a>:<br>
+struct old_sigaction {<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#__sighandler_t">__sighandler_t</a> sa_handler;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#old_sigset_t">old_sigset_t</a> sa_mask;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;unsigned long sa_flags;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;void (*sa_restorer)(void);<br>
+};
+</td>
+</tr>
+
+<tr><th valign="top"><a name="old_utsname">old_utsname</a></th>
+<td>
+<a href="file:///usr/src/linux/include/linux/utsname.h">include/linux/utsname.h</a>:<br>
+struct old_utsname {<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;char sysname[65];<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;char nodename[65];<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;char release[65];<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;char version[65];<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;char machine[65];<br>
+};
+</td>
+</tr>
+
+<tr><th valign="top"><a name="pollfd">pollfd</a></th>
+<td>
+<a href="file:///usr/src/linux/include/asm/poll.h">include/asm/poll.h</a>:<br>
+struct pollfd {<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int fd;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;short events;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;short revents;<br>
+};
+</td>
+</tr>
+
+<tr><th valign="top"><a name="pt_regs">pt_regs</a></th>
+<td>
+<a href="file:///usr/src/linux/include/asm/ptrace.h">include/asm/ptrace.h</a>:<br>
+struct pt_regs {<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;long ebx;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;long ecx;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;long edx;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;long esi;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;long edi;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;long ebp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;long eax;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int  xds;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int  xes;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;long orig_eax;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;long eip;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int  xcs;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;long eflags;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;long esp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int  xss;<br>
+};
+</td>
+</tr>
+
+<tr><th valign="top"><a name="revectored_struct">revectored_struct</a></th>
+<td>
+<a href="file:///usr/src/linux/include/asm/vm86.h">include/asm/vm86.h</a>:<br>
+struct revectored_struct {<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;unsigned long __map[8];<br>
+};<br>
+</td>
+</tr>
+
+<tr><th valign="top"><a name="rlimit">rlimit</a></th>
+<td>
+<a href="file:///usr/src/linux/include/linux/resource.h">include/linux/resource.h</a>:<br>
+struct rlimit {<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;long rlim_cur;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;long rlim_max;<br>
+};
+</td>
+</tr>
+
+<tr><th valign="top"><a name="rusage">rusage</a></th>
+<td>
+<a href="file:///usr/src/linux/include/linux/resource.h">include/linux/resource.h</a>:<br>
+struct rusage {<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#timeval">struct timeval</a> ru_utime;  /* user time used */<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#timeval">struct timeval</a> ru_stime;  /* system time used */<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;long ru_maxrss;    /* maximum resident set size */<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;long ru_ixrss;     /* integral shared memory size */<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;long ru_idrss;     /* integral unshared data size */<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;long ru_isrss;     /* integral unshared stack size */<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;long ru_minflt;    /* page reclaims */<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;long ru_majflt;    /* page faults */<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;long ru_nswap;     /* swaps */<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;long ru_inblock;   /* block input operations */<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;long ru_oublock;   /* block output operations */<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;long ru_msgsnd;    /* messages sent */<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;long ru_msgrcv;    /* messages received */<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;long ru_nsignals;  /* signals received */<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;long ru_nvcsw;     /* voluntary context switches */<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;long ru_nivcsw;    /* involuntary '' */<br>
+};
+</td>
+</tr>
+
+<tr><th valign="top"><a name="sched_param">sched_param</a></th>
+<td>
+<a href="file:///usr/src/linux/include/linux/sched.h">include/linux/sched.h</a>:<br>
+struct sched_param {<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int sched_priority;<br>
+};
+</td>
+</tr>
+
+<tr><th valign="top"><a name="sel_arg_struct">sel_arg_struct</a></th>
+<td>
+<a href="file:///usr/src/linux/arch/i386/kernel/sys_i386.c">arch/i386/kernel/sys_i386.c</a>:<br>
+struct sel_arg_struct {<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;unsigned long n;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#fd_set">fd_set</a> *inp, *outp, *exp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#timeval">struct timeval</a> *tvp;<br>
+};
+</td>
+</tr>
+
+<tr><th valign="top"><a name="sigaction">sigaction</a></th>
+<td>
+<a href="file:///usr/src/linux/include/asm/signal.h">include/asm/signal.h</a>:<br>
+struct sigaction {<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#__sighandler_t">__sighandler_t</a> sa_handler;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;unsigned long sa_flags;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;void (*sa_restorer)(void);<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#sigset_t">sigset_t</a> sa_mask;  /* mask last for extensibility */<br>
+};
+</td>
+</tr>
+
+<tr><th valign="top"><a name="stat">stat</a></th>
+<td>
+<a href="file:///usr/src/linux/include/asm/stat.h">include/asm/stat.h</a>:<br>
+struct stat {<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;unsigned short st_dev;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;unsigned short __pad1;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;unsigned long st_ino;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;unsigned short st_mode;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;unsigned short st_nlink;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;unsigned short st_uid;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;unsigned short st_gid;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;unsigned short st_rdev;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;unsigned short __pad2;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;unsigned long  st_size;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;unsigned long  st_blksize;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;unsigned long  st_blocks;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;unsigned long  st_atime;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;unsigned long  __unused1;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;unsigned long  st_mtime;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;unsigned long  __unused2;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;unsigned long  st_ctime;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;unsigned long  __unused3;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;unsigned long  __unused4;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;unsigned long  __unused5;<br>
+</td>
+</tr>
+
+<tr><th valign="top"><a name="statfs">statfs</a></th>
+<td>
+<a href="file:///usr/src/linux/include/asm/statfs.h">include/asm/statfs.h</a>:<br>
+struct statfs {<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;long f_type;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;long f_bsize;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;long f_blocks;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;long f_bfree;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;long f_bavail;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;long f_files;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;long f_ffree;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#__kernel_fsid_t">__kernel_fsid_t</a> f_fsid;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;long f_namelen;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;long f_spare[6];<br>
+};
+</td>
+</tr>
+
+<tr><th valign="top"><a name="__sysctl_args">__sysctl_args</a></th>
+<td>
+include/linux/sysctl.h<br>
+struct __sysctl_args {<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int *name;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int nlen;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;void *oldval;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#size_t">size_t</a> *oldlenp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;void *newval;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#size_t">size_t</a> newlen;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;unsigned long __unused[4];<br>
+};
+</td>
+</tr>
+
+<tr><th valign="top"><a name="sysinfo">sysinfo</a></th>
+<td>
+<a href="file:///usr/src/linux/include/linux/kernel.h">include/linux/kernel.h</a>:<br>
+struct sysinfo {<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;long uptime; /* Seconds since boot */<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;unsigned long loads[3]; /* 1, 5, and 15 minute load averages */<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;unsigned long totalram; /* Total usable main memory size */<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;unsigned long freeram;  /* Available memory size */<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;unsigned long sharedram; /* Amount of shared memory */<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;unsigned long bufferram; /* Memory used by buffers */<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;unsigned long totalswap; /* Total swap space size */<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;unsigned long freeswap;  /* swap space still available */<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;unsigned short procs;   /* Number of current processes */<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;char _f[22];  /* Pads structure to 64 bytes */<br>
+};
+</td>
+</tr>
+
+<tr><th valign="top"><a name="timex">timex</a></th>
+<td>
+<a href="file:///usr/src/linux/include/linux/timex.h">include/linux/timex.h</a>:<br>
+struct timex {<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;unsigned int modes; /* mode selector */<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;long offset;        /* time offset (usec) */<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;long freq;          /* frequency offset (scaled ppm) */<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;long maxerror;      /* maximum error (usec) */<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;long esterror;      /* estimated error (usec) */<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int status;         /* clock command/status */<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;long constant;      /* pll time constant */<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;long precision;     /* clock precision (usec) (read only) */<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;long tolerance;     /* clock frequency tolerance (ppm)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                     * (read only)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                     */<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#timeval">struct timeval</a> time;    /* (read only) */<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;long tick;          /* (modified) usecs between clock ticks */<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;long ppsfreq;       /* pps frequency (scaled ppm) (ro) */<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;long jitter;        /* pps jitter (us) (ro) */<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int shift;          /* interval duration (s) (shift) (ro) */<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;long stabil;        /* pps stability (scaled ppm) (ro) */<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;long jitcnt;        /* jitter limit exceeded (ro) */<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;long calcnt;        /* calibration intervals (ro) */<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;long errcnt;        /* calibration errors (ro) */<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;long stbcnt;        /* stability limit exceeded (ro) */<br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int  :32; int  :32; int  :32; int  :32;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int  :32; int  :32; int  :32; int  :32;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int  :32; int  :32; int  :32; int  :32;<br>
+};
+</td>
+</tr>
+
+<tr><th valign="top"><a name="timespec">timespec</a></th>
+<td>
+<a href="file:///usr/src/linux/include/linux/time.h">include/linux/time.h</a>:<br>
+struct timespec {<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#time_t">time_t</a> tv_sec; /* seconds */<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;long tv_nsec;  /* nanoseconds */<br>
+};
+</td>
+</tr>
+
+<tr><th valign="top"><a name="timeval">timeval</a></th>
+<td>
+<a href="file:///usr/src/linux/include/linux/time.h">include/linux/time.h</a>:<br>
+struct timeval {<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#time_t">time_t</a> tv_sec; /* seconds */<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#suseconds_t">suseconds_t</a> tv_usec; /* microseconds */<br>
+};
+</td>
+</tr>
+
+
+<tr><th valign="top"><a name="timezone">timezone</a></th>
+<td>
+<a href="file:///usr/src/linux/include/linux/time.h">include/linux/time.h</a>:<br>
+struct timezone {<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int tz_minuteswest; /* minutes west of Greenwich */<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int tz_dsttime; /* type of dst correction */<br>
+};
+</td>
+</tr>
+
+<tr><th valign="top"><a name="tms">tms</a></th>
+<td>
+include/linux/times.h<br>
+struct tms {<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#clock_t">clock_t</a> tms_utime;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#clock_t">clock_t</a> tms_stime;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#clock_t">clock_t</a> tms_cutime;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#clock_t">clock_t</a> tms_cstime;<br>
+};
+</td>
+</tr>
+
+<tr><th valign="top"><a name="ustat">ustat</a></th>
+<td>
+<a href="file:///usr/src/linux/include/linux/types.h">include/linux/types.h</a>:<br>
+struct ustat {<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#__kernel_daddr_t">__kernel_daddr_t</a> f_tfree;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#__kernel_ino_t">__kernel_ino_t</a> f_tinode;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;char f_fname[6];<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;char f_fpack[6];<br>
+};
+</td>
+</tr>
+
+<tr><th valign="top"><a name="utimbuf">utimbuf</a></th>
+<td>
+<a href="file:///usr/src/linux/include/linux/utime.h">include/linux/utime.h</a>:<br>
+struct utimbuf {<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#time_t">time_t</a> actime;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#time_t">time_t</a> modtime;<br>
+};
+</td>
+</tr>
+
+<tr><th valign="top"><a name="vm86plus_info_struct">vm86plus_info_struct</a></th>
+<td>
+<a href="file:///usr/src/linux/include/asm/vm86.h">include/asm/vm86.h</a>:<br>
+struct vm86plus_info_struct {<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;unsigned long force_return_for_pic:1;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;unsigned long vm86dbg_active:1;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;unsigned long vm86dbg_TFpendig:1;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;unsigned long unused:28;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;unsigned long is_vm86pus:1;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;unsigned char vm86dbg_intxxtab[32];<br>
+};
+</td>
+</tr>
+
+<tr><th valign="top"><a name="vm86plus_struct">vm86plus_struct</a></th>
+<td>
+<a href="file:///usr/src/linux/include/asm/vm86.h">include/asm/vm86.h</a>:<br>
+struct vm86plus_struct {<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#vm86_regs">struct vm86_regs</a> regs;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;unsigned long flags;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;unsigned long screen_bitmap;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;unsigned long cpu_type;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#revectored_struct">struct revectored_struct</a> int_revectored;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#revectored_struct">struct revectored_struct</a> int21_revectored;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#vm86plus_info_struct">struct vm86plus_info_struct</a> vm86plus;<br>
+};
+</td>
+</tr>
+
+<tr><th valign="top"><a name="vm86_regs">vm86_regs</a></th>
+<td>
+<a href="file:///usr/src/linux/include/asm/vm86.h">include/asm/vm86.h</a>:<br>
+struct vm86_regs {<br>
+/* normal regs, with special meaning for the segment descriptors.. */<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;long ebx;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;long ecx;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;long edx;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;long esi;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;long edi;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;long ebp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;long eax;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;long __null_ds;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;long __null_es;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;long __null_fs;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;long __null_gs;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;long orig_eax;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;long eip;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;unsigned short cs, __csh;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;long eflags;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;long esp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;unsigned short ss, __ssh;<br>
+/* these are specific to v86 mode: */<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;unsigned short es, __esh;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;unsigned short ds, __dsh;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;unsigned short fs, __fsh;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;unsigned short gs, __gsh;<br>
+};
+</td>
+</tr>
+
+<tr><th valign="top"><a name="vm86_struct">vm86_struct</a></th>
+<td>
+<a href="file:///usr/src/linux/include/asm/vm86.h">include/asm/vm86.h</a>:<br>
+struct vm86_struct {<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#vm86_regs">struct vm86_regs</a> regs;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;unsigned long flags;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;unsigned long screen_bitmap;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;unsigned long cpu_type;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#revectored_struct">struct revectored_struct</a> int_revectored;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html#revectored_struct">struct revectored_struct</a> int21_revectored;<br>
+};
+</td>
+</tr>
+
+
+</tbody>
+</table>
+<p></p><hr size="4"><p></p>
+<h4>©2004, Gary L. Burt</h4>
+
+
+
+</body></html>
