@@ -1,0 +1,6 @@
+MESSAGE "File: F:\Archivos\ESCOM\Diseño de Sistemas Digitales\Practica5\C.vhd" 
+MESSAGE "Compile Entity "CONTDEC"" 
+MESSAGE "Compile Architecture "a_CONTDEC" of Entity "CONTDEC"" 
+MESSAGE "Top-Level unit detected" 
+MESSAGE "Entity  =>   CONTDEC" 
+MESSAGE "Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]" 

@@ -1,0 +1,411 @@
+
+     | | | | | | |
+   _________________
+  -|               |-
+  -|               |-
+  -|               |-
+  -|    CYPRESS    |-
+  -|               |-
+  -|               |-   Warp VHDL Synthesis Compiler: Version 6.3 IR 35
+  -|               |-   Copyright (C) 1991-2001 Cypress Semiconductor
+   |_______________|
+     | | | | | | |
+
+======================================================================
+Compiling:  Universal.vhd
+Options:    -yu -e10 -w100 -o2 -ygs -fP -v10 -dc22v10 -ppalce22v10-25pc/pi -b Universal.vhd -u Universal.hie
+======================================================================
+
+vhdlfe V6.3 IR 35:  VHDL parser
+Tue Oct 10 22:48:51 2017
+
+Library 'work' => directory 'lc22v10'
+Linking 'C:\Archivos de programa\Cypress\Warp\bin\std.vhd'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\cypress.vhd'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\work\cypress.vif'.
+Library 'ieee' => directory 'C:\Archivos de programa\Cypress\Warp\lib\ieee\work'
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\ieee\work\stdlogic.vif'.
+
+vhdlfe:  No errors.
+
+
+tovif V6.3 IR 35:  High-level synthesis
+Tue Oct 10 22:48:51 2017
+
+Linking 'C:\Archivos de programa\Cypress\Warp\bin\std.vhd'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\cypress.vhd'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\work\cypress.vif'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\ieee\work\stdlogic.vif'.
+Universal.vhd (line 23, col 26):  Warning: (W479) 'q' should be referenced in the sensitivity list.
+Universal.vhd (line 24, col 29):  Warning: (W479) 'dato' should be referenced in the sensitivity list.
+Universal.vhd (line 25, col 27):  Warning: (W479) 'cd' should be referenced in the sensitivity list.
+Universal.vhd (line 26, col 28):  Warning: (W479) 'q' should be referenced in the sensitivity list.
+Universal.vhd (line 35, col 28):  Warning: (W479) 'q' should be referenced in the sensitivity list.
+Universal.vhd (line 36, col 31):  Warning: (W479) 'dato' should be referenced in the sensitivity list.
+Universal.vhd (line 37, col 28):  Warning: (W479) 'q' should be referenced in the sensitivity list.
+Universal.vhd (line 38, col 30):  Warning: (W479) 'q' should be referenced in the sensitivity list.
+Universal.vhd (line 45, col 28):  Warning: (W479) 'q' should be referenced in the sensitivity list.
+Universal.vhd (line 46, col 31):  Warning: (W479) 'dato' should be referenced in the sensitivity list.
+Universal.vhd (line 47, col 28):  Warning: (W479) 'q' should be referenced in the sensitivity list.
+Universal.vhd (line 48, col 30):  Warning: (W479) 'q' should be referenced in the sensitivity list.
+Universal.vhd (line 55, col 28):  Warning: (W479) 'q' should be referenced in the sensitivity list.
+Universal.vhd (line 56, col 31):  Warning: (W479) 'dato' should be referenced in the sensitivity list.
+Universal.vhd (line 57, col 28):  Warning: (W479) 'q' should be referenced in the sensitivity list.
+Universal.vhd (line 58, col 30):  Warning: (W479) 'q' should be referenced in the sensitivity list.
+Universal.vhd (line 65, col 28):  Warning: (W479) 'q' should be referenced in the sensitivity list.
+Universal.vhd (line 66, col 31):  Warning: (W479) 'dato' should be referenced in the sensitivity list.
+Universal.vhd (line 67, col 28):  Warning: (W479) 'q' should be referenced in the sensitivity list.
+Universal.vhd (line 68, col 30):  Warning: (W479) 'q' should be referenced in the sensitivity list.
+Universal.vhd (line 75, col 28):  Warning: (W479) 'q' should be referenced in the sensitivity list.
+Universal.vhd (line 76, col 31):  Warning: (W479) 'dato' should be referenced in the sensitivity list.
+Universal.vhd (line 77, col 28):  Warning: (W479) 'q' should be referenced in the sensitivity list.
+Universal.vhd (line 78, col 30):  Warning: (W479) 'q' should be referenced in the sensitivity list.
+Universal.vhd (line 85, col 28):  Warning: (W479) 'q' should be referenced in the sensitivity list.
+Universal.vhd (line 86, col 31):  Warning: (W479) 'dato' should be referenced in the sensitivity list.
+Universal.vhd (line 87, col 28):  Warning: (W479) 'q' should be referenced in the sensitivity list.
+Universal.vhd (line 88, col 30):  Warning: (W479) 'q' should be referenced in the sensitivity list.
+Universal.vhd (line 96, col 28):  Warning: (W479) 'q' should be referenced in the sensitivity list.
+Universal.vhd (line 97, col 31):  Warning: (W479) 'dato' should be referenced in the sensitivity list.
+Universal.vhd (line 98, col 28):  Warning: (W479) 'q' should be referenced in the sensitivity list.
+Universal.vhd (line 99, col 31):  Warning: (W479) 'ci' should be referenced in the sensitivity list.
+
+tovif:  No errors.  32 warnings.
+
+
+topld V6.3 IR 35:  Synthesis and optimization
+Tue Oct 10 22:48:52 2017
+
+Linking 'C:\Archivos de programa\Cypress\Warp\bin\std.vhd'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\cypress.vhd'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\work\cypress.vif'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\ieee\work\stdlogic.vif'.
+
+----------------------------------------------------------
+Detecting unused logic.
+----------------------------------------------------------
+
+
+
+------------------------------------------------------
+Alias Detection
+------------------------------------------------------
+
+------------------------------------------------------
+Aliased 0 equations, 22 wires.
+------------------------------------------------------
+
+----------------------------------------------------------
+Circuit simplification
+----------------------------------------------------------
+
+----------------------------------------------------------
+Circuit simplification results:
+
+	Expanded 0 signals.
+	Turned 0 signals into soft nodes.
+	Maximum default expansion cost was set at 10.
+----------------------------------------------------------
+Created 54 PLD nodes.
+
+topld:  No errors.
+
+----------------------------------------------------------------------------
+PLD Optimizer Software:       DSGNOPT.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+DESIGN HEADER INFORMATION  (22:48:55)
+
+Input File(s): Universal.pla
+Device       : C22V10
+Package      : palce22v10-25pc/pi
+ReportFile   : Universal.rpt
+
+Program Controls:
+    COMMAND LANGUAGE_VHDL 
+    COMMAND PROPERTY BUS_HOLD ENABLE 
+
+Signal Requests:
+    GROUP USEPOL ALL
+    GROUP FAST_SLEW ALL
+
+Completed Successfully  
+----------------------------------------------------------------------------
+PLD Optimizer Software:       DSGNOPT.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+OPTIMIZATION OPTIONS       (22:48:55)
+
+Messages:
+  Information: Process virtual 'd_7'd_7 ... expanded.
+  Information: Process virtual 'd_6'd_6 ... expanded.
+  Information: Process virtual 'd_5'd_5 ... expanded.
+  Information: Process virtual 'd_4'd_4 ... expanded.
+  Information: Process virtual 'd_3'd_3 ... expanded.
+  Information: Process virtual 'd_2'd_2 ... expanded.
+  Information: Process virtual 'd_1'd_1 ... expanded.
+  Information: Process virtual 'd_0'd_0 ... expanded.
+  Information: Optimizing logic using best output polarity for signals:
+         q(0).D q(1).D q(2).D q(3).D q(4).D q(5).D q(6).D q(7).D
+
+  Information: Selected logic optimization OFF for signals:
+         q(0).AR q(0).C q(1).AR q(1).C q(2).AR q(2).C q(3).AR q(3).C q(4).AR
+         q(4).C q(5).AR q(5).C q(6).AR q(6).C q(7).AR q(7).C
+
+
+
+Summary:
+                 Error Count = 0      Warning Count = 0
+
+Completed Successfully  
+----------------------------------------------------------------------------
+PLD Optimizer Software:       MINOPT.EXE     01/NOV/1999  [v4.02 ] 6.3 IR 35
+
+LOGIC MINIMIZATION         ()
+
+Messages:
+
+
+Summary:
+                 Error Count = 0      Warning Count = 0
+
+Completed Successfully
+----------------------------------------------------------------------------
+PLD Optimizer Software:       DSGNOPT.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+OPTIMIZATION OPTIONS       (22:48:55)
+
+Messages:
+  Information: Optimizing Banked Preset/Reset requirements.
+
+
+Summary:
+                 Error Count = 0      Warning Count = 0
+
+Completed Successfully  
+----------------------------------------------------------------------------
+PLD Compiler Software:        PLA2JED.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+<CYPRESSTAG name="Equations" icon=FILE_RPT_EQUATION>
+DESIGN EQUATIONS           (22:48:55)
+</CYPRESSTAG>
+
+    q(0).D =
+          control(0) * control(1) * q(1).Q 
+        + cd * /control(0) * control(1) 
+        + control(0) * /control(1) * dato(0) 
+        + /control(0) * /control(1) * q(0).Q 
+
+    q(0).AR =
+          /clr 
+
+    q(0).SP =
+          GND
+
+    q(0).C =
+          clk 
+
+    q(1).D =
+          control(0) * control(1) * q(2).Q 
+        + /control(0) * control(1) * q(0).Q 
+        + control(0) * /control(1) * dato(1) 
+        + /control(0) * /control(1) * q(1).Q 
+
+    q(1).AR =
+          /clr 
+
+    q(1).SP =
+          GND
+
+    q(1).C =
+          clk 
+
+    q(2).D =
+          control(0) * control(1) * q(3).Q 
+        + /control(0) * control(1) * q(1).Q 
+        + control(0) * /control(1) * dato(2) 
+        + /control(0) * /control(1) * q(2).Q 
+
+    q(2).AR =
+          /clr 
+
+    q(2).SP =
+          GND
+
+    q(2).C =
+          clk 
+
+    q(3).D =
+          control(0) * control(1) * q(4).Q 
+        + /control(0) * control(1) * q(2).Q 
+        + control(0) * /control(1) * dato(3) 
+        + /control(0) * /control(1) * q(3).Q 
+
+    q(3).AR =
+          /clr 
+
+    q(3).SP =
+          GND
+
+    q(3).C =
+          clk 
+
+    q(4).D =
+          control(0) * control(1) * q(5).Q 
+        + /control(0) * control(1) * q(3).Q 
+        + control(0) * /control(1) * dato(4) 
+        + /control(0) * /control(1) * q(4).Q 
+
+    q(4).AR =
+          /clr 
+
+    q(4).SP =
+          GND
+
+    q(4).C =
+          clk 
+
+    q(5).D =
+          control(0) * control(1) * q(6).Q 
+        + /control(0) * control(1) * q(4).Q 
+        + control(0) * /control(1) * dato(5) 
+        + /control(0) * /control(1) * q(5).Q 
+
+    q(5).AR =
+          /clr 
+
+    q(5).SP =
+          GND
+
+    q(5).C =
+          clk 
+
+    q(6).D =
+          control(0) * control(1) * q(7).Q 
+        + /control(0) * control(1) * q(5).Q 
+        + control(0) * /control(1) * dato(6) 
+        + /control(0) * /control(1) * q(6).Q 
+
+    q(6).AR =
+          /clr 
+
+    q(6).SP =
+          GND
+
+    q(6).C =
+          clk 
+
+    q(7).D =
+          ci * control(0) * control(1) 
+        + /control(0) * control(1) * q(6).Q 
+        + control(0) * /control(1) * dato(7) 
+        + /control(0) * /control(1) * q(7).Q 
+
+    q(7).AR =
+          /clr 
+
+    q(7).SP =
+          GND
+
+    q(7).C =
+          clk 
+
+
+Completed Successfully  
+----------------------------------------------------------------------------
+PLD Compiler Software:        PLA2JED.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+DESIGN RULE CHECK          (22:48:55)
+
+Messages:
+                 None.
+
+
+Summary:
+                 Error Count = 0      Warning Count = 0
+
+Completed Successfully  
+----------------------------------------------------------------------------
+PLD Compiler Software:        PLA2JED.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+<CYPRESSTAG name="Pinout" icon=FILE_RPT_PINOUT>
+PINOUT INFORMATION   (22:48:55)
+</CYPRESSTAG>
+Messages:
+  Information: Checking for duplicate NODE logic.
+                 None.
+
+
+                                 C22V10
+                 __________________________________________
+            clk =| 1|                                  |24|* not used       
+        dato(7) =| 2|                                  |23|= q(6)           
+        dato(6) =| 3|                                  |22|= q(4)           
+             ci =| 4|                                  |21|= q(2)           
+        dato(5) =| 5|                                  |20|= q(0)           
+        dato(4) =| 6|                                  |19|= cd             
+        dato(3) =| 7|                                  |18|= clr            
+        dato(2) =| 8|                                  |17|= q(1)           
+        dato(1) =| 9|                                  |16|= q(3)           
+        dato(0) =|10|                                  |15|= q(5)           
+     control(1) =|11|                                  |14|= q(7)           
+       not used *|12|                                  |13|= control(0)     
+                 __________________________________________
+
+
+Summary:
+                 Error Count = 0      Warning Count = 0
+
+Completed Successfully  
+----------------------------------------------------------------------------
+PLD Compiler Software:        PLA2JED.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+<CYPRESSTAG name="Utilization" icon=FILE_RPT_UTILIZATION>
+RESOURCE UTILIZATION (22:48:55)
+</CYPRESSTAG>
+  Information: Macrocell Utilization.
+
+                     Description        Used     Max
+                 ______________________________________
+                 | Dedicated Inputs   |   11  |   11  |
+                 | Clock/Inputs       |    1  |    1  |
+                 | I/O Macrocells     |   10  |   10  |
+                 ______________________________________
+                                          22  /   22   = 100 %
+
+
+  Information: Output Logic Product Term Utilization.
+
+                  Node#  Output Signal Name  Used   Max
+                 ________________________________________
+                 | 14  |  q(7)            |   4  |   8  |
+                 | 15  |  q(5)            |   4  |  10  |
+                 | 16  |  q(3)            |   4  |  12  |
+                 | 17  |  q(1)            |   4  |  14  |
+                 | 18  |  Used As Input   |   0  |  16  |
+                 | 19  |  Used As Input   |   0  |  16  |
+                 | 20  |  q(0)            |   4  |  14  |
+                 | 21  |  q(2)            |   4  |  12  |
+                 | 22  |  q(4)            |   4  |  10  |
+                 | 23  |  q(6)            |   4  |   8  |
+                 | 25  |  Unused          |   0  |   1  |
+                 ________________________________________
+                                             32  / 121   = 26  %
+
+
+Completed Successfully  
+----------------------------------------------------------------------------
+PLD Compiler Software:        PLA2JED.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+JEDEC ASSEMBLE             (22:48:55)
+
+Messages:
+  Information: Output file 'Universal.pin' created.
+  Information: Output file 'Universal.jed' created.
+
+  Usercode:    
+  Checksum:    D087
+
+
+
+Summary:
+                 Error Count = 0      Warning Count = 0
+
+Completed Successfully at 22:48:56

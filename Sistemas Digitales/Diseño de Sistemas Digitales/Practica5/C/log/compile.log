@@ -1,0 +1,7 @@
+ Compilation with file reorder...
+ File: F:\Archivos\ESCOM\Diseño de Sistemas Digitales\Practica5\C.vhd
+ Compile Entity "CONTDEC"
+ Compile Architecture "a_CONTDEC" of Entity "CONTDEC"
+ Top-Level unit detected
+ Entity  =>   CONTDEC
+ Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]

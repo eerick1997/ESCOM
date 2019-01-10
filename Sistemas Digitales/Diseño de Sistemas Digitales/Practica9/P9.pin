@@ -1,0 +1,17 @@
+Cypress Package: palce22v10-25pc/pi  PinOut File: P9.pin
+
+This file was created on 12/10/2017 at 14:59:01 
+by PLA2JED.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+==========
+clk gclk <> Enabled Normal 1 <> [Auto] 
+b in <> Enabled Normal 2 <> [Auto] 
+a in <> Enabled Normal 3 <> [Auto] 
+control in <> Enabled Normal 4 <> [Auto] 
+clr in <> Enabled Normal 5 <> [Auto] 
+s4 inout <> Enabled Normal 14 <> [Auto] 
+s2 inout <> Enabled Normal 15 <> [Auto] 
+cout inout <> Enabled Normal 16 <> [Auto] 
+s0 inout <> Enabled Normal 21 <> [Auto] 
+s1 inout <> Enabled Normal 22 <> [Auto] 
+s3 inout <> Enabled Normal 23 <> [Auto] 

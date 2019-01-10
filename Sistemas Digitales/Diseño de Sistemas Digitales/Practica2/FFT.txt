@@ -1,0 +1,35 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entuty FFT is port(
+	T, CLK, PRE, CLR; IN std_logic;
+	Q, NQ; OUT std_logic
+	);
+end FFT;
+
+architecture a_FFT of FFT is
+SIGNAL QT std_logic;
+	QT<=Q;
+begin
+	
+	process(PRE,CLR,D)
+	BEGIN
+	if(CLR='0') then
+	Q<='0';
+	NQ<='1';
+	elsif(CLK'EVENT AND CLK='1'') THEN
+	IF(PRE='1') THEN
+	Q<='1';
+	NQ<='0';
+	ELSIF(T='0') THEN
+	Q<=QT;
+	NQ<= NOT QT;
+	ELSIF(T=1) THEN
+	Q<= NOT QT;
+	NQ<=QT;
+	END IF;
+	END IF;
+	
+END PROCESS;
+END a_FFT;
+	

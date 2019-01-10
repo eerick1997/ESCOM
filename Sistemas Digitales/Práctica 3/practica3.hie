@@ -1,0 +1,2 @@
+RegisterUniversal.vhd #Entity reg 4
+RegisterUniversal.vhd #Architecture a_reg reg 12

@@ -1,0 +1,9 @@
+web is the word number 1 in line number 1
+ebay is the word number 1 in line number 2
+web is the word number 1 in line number 3
+ebay is the word number 1 in line number 3
+WEB is the word number 1 in line number 4
+EBAY is the word number 1 in line number 4
+wEb is the word number 1 in line number 5
+EbAy is the word number 1 in line number 5
+I found 4 times and 4 times

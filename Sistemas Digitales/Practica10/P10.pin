@@ -1,0 +1,10 @@
+Cypress Package: palce22v10-25pc/pi  PinOut File: P10.pin
+
+This file was created on 12/14/2017 at 15:49:09 
+by PLA2JED.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+==========
+clk gclk <> Enabled Normal 1 <> [Auto] 
+e in <> Enabled Normal 2 <> [Auto] 
+clr in <> Enabled Normal 3 <> [Auto] 
+s inout <> Enabled Normal 22 <> [Auto] 

@@ -1,0 +1,12 @@
+Cypress Package: palce22v10-25pc/pi  PinOut File: exa.pin
+
+This file was created on 10/18/2017 at 00:58:52 
+by PLA2JED.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+==========
+clk gclk <> Enabled Normal 1 <> [Auto] 
+control in <> Enabled Normal 2 <> [Auto] 
+clr in <> Enabled Normal 3 <> [Auto] 
+q(2) inout <> Enabled Normal 14 <> [Auto] 
+q(0) inout <> Enabled Normal 15 <> [Auto] 
+q(1) inout <> Enabled Normal 23 <> [Auto] 

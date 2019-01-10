@@ -1,0 +1,7 @@
+ Compilation with file reorder...
+ File: E:\Diseño Digital\Práctica muchos contadores\vhd\practica6.vhd
+ Compile Entity "multicontador"
+ Compile Architecture "DSMB" of Entity "multicontador"
+ Top-Level unit detected
+ Entity  =>   multicontador
+ Compile success 0 Errors 0 Warnings  Analysis time :  0.4 [s]

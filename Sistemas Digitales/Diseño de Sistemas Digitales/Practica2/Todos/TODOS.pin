@@ -1,0 +1,15 @@
+Cypress Package: palce22v10-25pc/pi  PinOut File: TODOS.pin
+
+This file was created on 10/25/2017 at 09:01:07 
+by PLA2JED.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+==========
+clk gclk <> Enabled Normal 1 <> [Auto] 
+sel(1) in <> Enabled Normal 2 <> [Auto] 
+sel(0) in <> Enabled Normal 3 <> [Auto] 
+pre in <> Enabled Normal 4 <> [Auto] 
+e2 in <> Enabled Normal 5 <> [Auto] 
+e1 in <> Enabled Normal 6 <> [Auto] 
+clr in <> Enabled Normal 7 <> [Auto] 
+q inout <> Enabled Normal 14 <> [Auto] 
+nq out <> Enabled Normal 23 <> [Auto] 

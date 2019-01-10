@@ -1,0 +1,39 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entuty FFSR is port(
+	T, CLK, PRE, CLR; IN std_logic;
+	Q, NQ; OUT std_logic
+	);
+end FFSR;
+
+architecture a_FFSR of FFSR is
+SIGNAL QT std_logic;
+	QT<=Q;
+begin	
+	process(PRE,CLR,D)
+	BEGIN
+	if(CLR='0') then
+	Q<='0';
+	NQ<='1';
+	elsif(CLK'EVENT AND CLK='1'') THEN
+	IF(PRE='1') THEN
+	Q<='1';
+	NQ<='0';
+	ELSIF(R='0' AND S='0') THEN
+	Q<=QT;
+	NQ<=NOT QT;
+	ELSIF(R='0' AND S='1') THEN
+	Q<='1';
+	NQ<='0';
+	ELSIF(R='1' AND S='0') THEN
+	Q<='0';
+	NQ<='1';
+	ELSIF(R='1' AND S='1') THEN
+	Q<='_';
+	NQ<='_';
+	END IF;
+	END IF;	
+END PROCESS;
+END a_FFSR;
+	

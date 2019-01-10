@@ -1,0 +1,12 @@
+Cypress Package: palce22v10-25pc/pi  PinOut File: T.pin
+
+This file was created on 08/27/2017 at 00:48:22 
+by PLA2JED.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+==========
+clk gclk <> Enabled Normal 1 <> [Auto] 
+t in <> Enabled Normal 2 <> [Auto] 
+pre in <> Enabled Normal 3 <> [Auto] 
+clr in <> Enabled Normal 4 <> [Auto] 
+q inout <> Enabled Normal 14 <> [Auto] 
+nq out <> Enabled Normal 23 <> [Auto] 

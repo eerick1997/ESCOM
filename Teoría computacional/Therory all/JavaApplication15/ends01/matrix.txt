@@ -1,0 +1,6 @@
+--- Matrix accepted last column is the accepted path---
+ q0 x x x 
+ q0 q1 x x 
+ q0 x q1 x 
+ q0 x x q1 
+ q0 x x q2 

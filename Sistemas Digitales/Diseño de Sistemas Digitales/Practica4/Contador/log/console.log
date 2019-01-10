@@ -1,0 +1,11 @@
+Design: 20:24, martes, 17 de octubre de 2017
+Design: Opening design "E:\Archivos\ESCOM\Diseño de Sistemas Digitales\Practica4\Contador\Contador.adf"
+Compilation with file reorder...
+File: E:\Archivos\ESCOM\Diseño de Sistemas Digitales\Practica4\Contador.vhd
+Compile Entity "ALLFF"
+Compile Architecture "a_ALLFF" of Entity "ALLFF"
+Top-Level unit detected
+Entity  =>   ALLFF
+Compile success 0 Errors 0 Warnings  Analysis time :  4.0 [s]
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 1.7 [s].

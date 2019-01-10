@@ -1,0 +1,22 @@
+entity FF is
+ Port ( clk,j,k,prn,clrn: in bit;
+ q: out bit);
+end FF;
+  
+architecture sintaxis1 of FF is
+SIGNAL qestado: bit;
+begin
+PROCESS (clk,prn,clrn) --Responde a cualquiera de estas entradas
+BEGIN
+IF prn = '1' THEN QESTADO <= '1';
+ELSIF clrn = '1' THEN QESTADO <= '0';
+ELSIF CLK = '0' AND CLK'EVENT THEN --Bajo activo
+IF J = '1' AND K = '1' THEN QESTADO <= NOT QESTADO;
+ELSIF J = '1' AND K = '0' THEN QESTADO <= '1';
+ELSIF J = '0' AND K = '1' THEN QESTADO <= '0';
+ELSIF J = '0' AND K = '0' THEN QESTADO <= QESTADO;
+END IF;
+END IF;
+END PROCESS;
+Q <= QESTADO; --Guarda el valor de la señal en la salida de los leds 
+end sintaxis1;

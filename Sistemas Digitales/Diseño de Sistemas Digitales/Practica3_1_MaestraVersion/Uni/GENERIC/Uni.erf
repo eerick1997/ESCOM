@@ -1,0 +1,6 @@
+MESSAGE "File: E:\Diseño de Sistemas Digitales\Practica3_1_MaestraVersion\Uni.vhd" 
+MESSAGE "Compile Entity "RegU"" 
+MESSAGE "Compile Architecture "a_RegU" of Entity "RegU"" 
+MESSAGE "Top-Level unit detected" 
+MESSAGE "Entity  =>   RegU" 
+MESSAGE "Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]" 

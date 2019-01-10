@@ -1,0 +1,19 @@
+Cypress Package: palce22v10-25pc/pi  PinOut File: P6.pin
+
+This file was created on 11/01/2017 at 21:03:49 
+by PLA2JED.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+==========
+clk gclk <> Enabled Normal 1 <> [Auto] 
+dato(2) in <> Enabled Normal 2 <> [Auto] 
+dato(1) in <> Enabled Normal 3 <> [Auto] 
+dato(0) in <> Enabled Normal 4 <> [Auto] 
+clr in <> Enabled Normal 5 <> [Auto] 
+dato(3) in <> Enabled Normal 6 <> [Auto] 
+control(2) in <> Enabled Normal 7 <> [Auto] 
+control(1) in <> Enabled Normal 8 <> [Auto] 
+control(0) in <> Enabled Normal 9 <> [Auto] 
+q(1) out <> Enabled Normal 15 <> [Auto] 
+q(3) inout <> Enabled Normal 18 <> [Auto] 
+q(0) out <> Enabled Normal 22 <> [Auto] 
+q(2) out <> Enabled Normal 23 <> [Auto] 

@@ -1,0 +1,15 @@
+ENTITY regu IS
+    PORT (
+	clk : in std_logic  ; 
+	clr : in std_logic  ; 
+	a : in std_logic  ; 
+	b : in std_logic  ; 
+	control : in std_logic  ; 
+	cout : inout std_logic  ; 
+	s0 : inout std_logic  ; 
+	s1 : inout std_logic  ; 
+	s2 : inout std_logic  ; 
+	s3 : inout std_logic  ; 
+	s4 : inout std_logic 
+    ) ;
+END regu ;

@@ -1,0 +1,16 @@
+Cypress Package: palce22v10-25pc/pi  PinOut File: examen.pin
+
+This file was created on 10/18/2017 at 00:17:01 
+by PLA2JED.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+==========
+clk gclk <> Enabled Normal 1 <> [Auto] 
+control in <> Enabled Normal 2 <> [Auto] 
+clr in <> Enabled Normal 3 <> [Auto] 
+display(0) inout <> Enabled Normal 14 <> [Auto] 
+display(3) inout <> Enabled Normal 15 <> [Auto] 
+display(5) inout <> Enabled Normal 16 <> [Auto] 
+display(4) inout <> Enabled Normal 17 <> [Auto] 
+display(2) inout <> Enabled Normal 21 <> [Auto] 
+display(1) inout <> Enabled Normal 22 <> [Auto] 
+display(6) inout <> Enabled Normal 23 <> [Auto] 

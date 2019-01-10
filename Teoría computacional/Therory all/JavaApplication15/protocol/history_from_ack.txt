@@ -1,0 +1,8432 @@
+initial---i--->initial
+initial---e--->D0
+D0---n--->D1
+D1---v--->A0
+A0---e--->D0
+D0---n--->D1
+D1---i--->initial
+initial---d--->initial
+initial---o--->initial
+initial---s--->initial
+initial--- --->initial
+initial---a--->initial
+initial--- --->initial
+initial---W--->initial
+initial---i--->initial
+initial---k--->initial
+initial---i--->initial
+initial---p--->initial
+initial---e--->D0
+D0---d--->initial
+initial---i--->initial
+initial---a--->initial
+initial---,--->initial
+initial------>initial
+initial---
+--->initial
+initial---l--->initial
+initial---a--->initial
+initial--- --->initial
+initial---e--->D0
+D0---n--->D1
+D1---c--->C0
+C0---i--->initial
+initial---c--->C0
+C0---l--->initial
+initial---o--->initial
+initial---p--->initial
+initial---e--->D0
+D0---d--->initial
+initial---i--->initial
+initial---a--->initial
+initial--- --->initial
+initial---d--->initial
+initial---e--->D0
+D0--- --->initial
+initial---c--->C0
+C0---o--->C1
+C1---n--->initial
+initial---t--->G0
+G0---e--->D0
+D0---n--->D1
+D1---i--->initial
+initial---d--->initial
+initial---o--->initial
+initial--- --->initial
+initial---l--->initial
+initial---i--->initial
+initial---b--->initial
+initial---r--->B0
+B0---e--->D0
+D0--- --->initial
+initial---q--->initial
+initial---u--->initial
+initial---e--->D0
+D0--- --->initial
+initial---t--->G0
+G0---o--->initial
+initial---d--->initial
+initial---o--->initial
+initial---s--->initial
+initial--- --->initial
+initial---p--->initial
+initial---u--->initial
+initial---e--->D0
+D0---d--->initial
+initial---e--->D0
+D0---n--->D1
+D1--- --->initial
+initial---e--->D0
+D0---d--->initial
+initial---i--->initial
+initial---t--->G0
+G0---a--->initial
+initial---r--->B0
+B0---.--->initial
+initial------>initial
+initial---
+--->initial
+initial---A--->initial
+initial---c--->C0
+C0---c--->C0
+C0---e--->D0
+D0---s--->initial
+initial---o--->initial
+initial--- --->initial
+initial---m--->E0
+E0---ó--->initial
+initial---v--->A0
+A0---i--->A1
+A1---l--->initial
+initial--- --->initial
+initial---·--->initial
+initial--- --->initial
+initial---C--->C0
+C0---o--->C1
+C1---n--->initial
+initial---t--->G0
+G0---a--->initial
+initial---c--->C0
+C0---t--->G0
+G0---o--->initial
+initial--- --->initial
+initial---·--->initial
+initial--- --->initial
+initial---D--->initial
+initial---o--->initial
+initial---n--->initial
+initial---a--->initial
+initial---c--->C0
+C0---i--->initial
+initial---o--->initial
+initial---n--->initial
+initial---e--->D0
+D0---s--->initial
+initial--- --->initial
+initial---·--->initial
+initial--- --->initial
+initial---L--->initial
+initial---i--->initial
+initial---b--->initial
+initial---r--->B0
+B0---o--->B1
+B1--- --->initial
+initial---d--->initial
+initial---e--->D0
+D0--- --->initial
+initial---v--->A0
+A0---i--->A1
+A1---s--->initial
+initial---i--->initial
+initial---t--->G0
+G0---a--->initial
+initial---s--->initial
+initial------>initial
+initial---
+--->initial
+initial---0--->initial
+initial---0--->initial
+initial---:--->initial
+initial---0--->initial
+initial---9--->initial
+initial--- --->initial
+initial---U--->initial
+initial---T--->G0
+G0---C--->C0
+C0---,--->initial
+initial--- --->initial
+initial---m--->E0
+E0---i--->initial
+initial---é--->D0
+D0---r--->B0
+B0---c--->C0
+C0---o--->C1
+C1---l--->initial
+initial---e--->D0
+D0---s--->initial
+initial---,--->initial
+initial------>initial
+initial---
+--->initial
+initial---1--->initial
+initial---3--->initial
+initial--- --->initial
+initial---d--->initial
+initial---e--->D0
+D0--- --->initial
+initial---d--->initial
+initial---i--->initial
+initial---c--->C0
+C0---i--->initial
+initial---e--->D0
+D0---m--->E0
+E0---b--->initial
+initial---r--->B0
+B0---e--->D0
+D0--- --->initial
+initial---d--->initial
+initial---e--->D0
+D0--- --->initial
+initial---2--->initial
+initial---0--->initial
+initial---1--->initial
+initial---7--->initial
+initial---.--->initial
+initial------>initial
+initial---
+--->initial
+initial---1--->initial
+initial--- --->initial
+initial---3--->initial
+initial---7--->initial
+initial---2--->initial
+initial--- --->initial
+initial---7--->initial
+initial---5--->initial
+initial---9--->initial
+initial--- --->initial
+initial---a--->initial
+initial---r--->B0
+B0---t--->G0
+G0---í--->initial
+initial---c--->C0
+C0---u--->initial
+initial---l--->initial
+initial---o--->initial
+initial---s--->initial
+initial--- --->initial
+initial---e--->D0
+D0---n--->D1
+D1--- --->initial
+initial---e--->D0
+D0---s--->initial
+initial---p--->initial
+initial---a--->initial
+initial---ñ--->initial
+initial---o--->initial
+initial---l--->initial
+initial---.--->initial
+initial------>initial
+initial---
+--->initial
+initial--- --->initial
+initial--- --->initial
+initial--- --->initial
+initial---P--->initial
+initial---a--->initial
+initial---r--->B0
+B0---t--->G0
+G0---i--->initial
+initial---c--->C0
+C0---i--->initial
+initial---p--->initial
+initial---a--->initial
+initial---c--->C0
+C0---i--->initial
+initial---ó--->initial
+initial---n--->initial
+initial--- --->initial
+initial---y--->initial
+initial--- --->initial
+initial---c--->C0
+C0---o--->C1
+C1---m--->E0
+E0---u--->initial
+initial---n--->initial
+initial---i--->initial
+initial---d--->initial
+initial---a--->initial
+initial---d--->initial
+initial------>initial
+initial---
+--->initial
+initial---¿--->initial
+initial---C--->C0
+C0---ó--->C1
+C1---m--->E0
+E0---o--->initial
+initial--- --->initial
+initial---c--->C0
+C0---o--->C1
+C1---l--->initial
+initial---a--->initial
+initial---b--->initial
+initial---o--->initial
+initial---r--->B0
+B0---a--->initial
+initial---r--->B0
+B0---?--->initial
+initial--- --->initial
+initial---·--->initial
+initial--- --->initial
+initial---B--->initial
+initial---i--->initial
+initial---e--->D0
+D0---n--->D1
+D1---v--->A0
+A0---e--->D0
+D0---n--->D1
+D1---i--->initial
+initial---d--->initial
+initial---a--->initial
+initial--- --->initial
+initial---·--->initial
+initial--- --->initial
+initial---¿--->initial
+initial---E--->D0
+D0---r--->B0
+B0---e--->D0
+D0---s--->initial
+initial--- --->initial
+initial---p--->initial
+initial---r--->B0
+B0---o--->B1
+B1---f--->F0
+F0---e--->D0
+D0---s--->initial
+initial---o--->initial
+initial---r--->B0
+B0--- --->initial
+initial---o--->initial
+initial--- --->initial
+initial---a--->initial
+initial---l--->initial
+initial---u--->initial
+initial---m--->E0
+E0---n--->initial
+initial---o--->initial
+initial---?--->initial
+initial------>initial
+initial---
+--->initial
+initial---P--->initial
+initial---r--->B0
+B0---i--->initial
+initial---m--->E0
+E0---e--->E1
+E1---r--->B0
+B0---o--->B1
+B1---s--->initial
+initial--- --->initial
+initial---p--->initial
+initial---a--->initial
+initial---s--->initial
+initial---o--->initial
+initial---s--->initial
+initial--- --->initial
+initial---·--->initial
+initial--- --->initial
+initial---C--->C0
+C0---o--->C1
+C1---n--->initial
+initial---t--->G0
+G0---e--->D0
+D0---n--->D1
+D1---i--->initial
+initial---d--->initial
+initial---o--->initial
+initial---s--->initial
+initial--- --->initial
+initial---d--->initial
+initial---e--->D0
+D0--- --->initial
+initial---a--->initial
+initial---y--->initial
+initial---u--->initial
+initial---d--->initial
+initial---a--->initial
+initial------>initial
+initial---
+--->initial
+initial---C--->C0
+C0---a--->initial
+initial---f--->F0
+F0---é--->D0
+D0--- --->initial
+initial---·--->initial
+initial--- --->initial
+initial---P--->initial
+initial---r--->B0
+B0---e--->D0
+D0---g--->initial
+initial---u--->initial
+initial---n--->initial
+initial---t--->G0
+G0---a--->initial
+initial---s--->initial
+initial--- --->initial
+initial---f--->F0
+F0---r--->B0
+B0---e--->D0
+D0---c--->C0
+C0---u--->initial
+initial---e--->D0
+D0---n--->D1
+D1---t--->G0
+G0---e--->D0
+D0---s--->initial
+initial--- --->initial
+initial---·--->initial
+initial--- --->initial
+initial---L--->initial
+initial---o--->initial
+initial---s--->initial
+initial--- --->initial
+initial---c--->C0
+C0---i--->initial
+initial---n--->initial
+initial---c--->C0
+C0---o--->C1
+C1--- --->initial
+initial---p--->initial
+initial---i--->initial
+initial---l--->initial
+initial---a--->initial
+initial---r--->B0
+B0---e--->D0
+D0---s--->initial
+initial------>initial
+initial---
+--->initial
+initial--- --->initial
+initial--- --->initial
+initial--- --->initial
+initial---B--->initial
+initial---ú--->initial
+initial---s--->initial
+initial---q--->initial
+initial---u--->initial
+initial---e--->D0
+D0---d--->initial
+initial---a--->initial
+initial---s--->initial
+initial--- --->initial
+initial---y--->initial
+initial--- --->initial
+initial---c--->C0
+C0---o--->C1
+C1---n--->initial
+initial---s--->initial
+initial---u--->initial
+initial---l--->initial
+initial---t--->G0
+G0---a--->initial
+initial---s--->initial
+initial------>initial
+initial---
+--->initial
+initial---P--->initial
+initial---o--->initial
+initial---r--->B0
+B0---t--->G0
+G0---a--->initial
+initial---l--->initial
+initial---e--->D0
+D0---s--->initial
+initial--- --->initial
+initial---t--->G0
+G0---e--->D0
+D0---m--->E0
+E0---á--->initial
+initial---t--->G0
+G0---i--->initial
+initial---c--->C0
+C0---o--->C1
+C1---s--->initial
+initial--- --->initial
+initial---·--->initial
+initial--- --->initial
+initial---E--->D0
+D0---x--->initial
+initial---p--->initial
+initial---l--->initial
+initial---o--->initial
+initial---r--->B0
+B0---a--->initial
+initial---r--->B0
+B0--- --->initial
+initial---W--->initial
+initial---i--->initial
+initial---k--->initial
+initial---i--->initial
+initial---p--->initial
+initial---e--->D0
+D0---d--->initial
+initial---i--->initial
+initial---a--->initial
+initial------>initial
+initial---
+--->initial
+initial---A--->initial
+initial---r--->B0
+B0---t--->G0
+G0---í--->initial
+initial---c--->C0
+C0---u--->initial
+initial---l--->initial
+initial---o--->initial
+initial--- --->initial
+initial---d--->initial
+initial---e--->D0
+D0---s--->initial
+initial---t--->G0
+G0---a--->initial
+initial---c--->C0
+C0---a--->initial
+initial---d--->initial
+initial---o--->initial
+initial--- --->initial
+initial---A--->initial
+initial---r--->B0
+B0---t--->G0
+G0---í--->initial
+initial---c--->C0
+C0---u--->initial
+initial---l--->initial
+initial---o--->initial
+initial--- --->initial
+initial---d--->initial
+initial---e--->D0
+D0---s--->initial
+initial---t--->G0
+G0---a--->initial
+initial---c--->C0
+C0---a--->initial
+initial---d--->initial
+initial---o--->initial
+initial------>initial
+initial---
+--->initial
+initial---L--->initial
+initial---o--->initial
+initial---s--->initial
+initial--- --->initial
+initial---j--->initial
+initial---a--->initial
+initial---p--->initial
+initial---o--->initial
+initial---n--->initial
+initial---e--->D0
+D0---s--->initial
+initial---e--->D0
+D0---s--->initial
+initial--- --->initial
+initial---d--->initial
+initial---e--->D0
+D0---s--->initial
+initial---e--->D0
+D0---m--->E0
+E0---b--->initial
+initial---a--->initial
+initial---r--->B0
+B0---c--->C0
+C0---a--->initial
+initial---n--->initial
+initial--- --->initial
+initial---e--->D0
+D0---n--->D1
+D1--- --->initial
+initial---B--->initial
+initial---u--->initial
+initial---s--->initial
+initial---á--->initial
+initial---n--->initial
+initial---.--->initial
+initial------>initial
+initial---
+--->initial
+initial---L--->initial
+initial---a--->initial
+initial---s--->initial
+initial--- --->initial
+initial---i--->initial
+initial---n--->initial
+initial---v--->A0
+A0---a--->initial
+initial---s--->initial
+initial---i--->initial
+initial---o--->initial
+initial---n--->initial
+initial---e--->D0
+D0---s--->initial
+initial--- --->initial
+initial---j--->initial
+initial---a--->initial
+initial---p--->initial
+initial---o--->initial
+initial---n--->initial
+initial---e--->D0
+D0---s--->initial
+initial---a--->initial
+initial---s--->initial
+initial--- --->initial
+initial---d--->initial
+initial---e--->D0
+D0--- --->initial
+initial---C--->C0
+C0---o--->C1
+C1---r--->C6
+C6---e--->D0
+D0---a--->initial
+initial--- --->initial
+initial---f--->F0
+F0---u--->initial
+initial---e--->D0
+D0---r--->B0
+B0---o--->B1
+B1---n--->initial
+initial--- --->initial
+initial---u--->initial
+initial---n--->initial
+initial--- --->initial
+initial---c--->C0
+C0---o--->C1
+C1---n--->initial
+initial---f--->F0
+F0---l--->initial
+initial---i--->initial
+initial---c--->C0
+C0---t--->G0
+G0---o--->initial
+initial--- --->initial
+initial---b--->initial
+initial---é--->D0
+D0---l--->initial
+initial---i--->initial
+initial---c--->C0
+C0---o--->C1
+C1--- --->initial
+initial---d--->initial
+initial---e--->D0
+D0---s--->initial
+initial---a--->initial
+initial---r--->B0
+B0---r--->B0
+B0---o--->B1
+B1---l--->initial
+initial---l--->initial
+initial---a--->initial
+initial---d--->initial
+initial---o--->initial
+initial--- --->initial
+initial---e--->D0
+D0---n--->D1
+D1---t--->G0
+G0---r--->G1
+G1---e--->D0
+D0--- --->initial
+initial---1--->initial
+initial---5--->initial
+initial---9--->initial
+initial---2--->initial
+initial--- --->initial
+initial---y--->initial
+initial--- --->initial
+initial---1--->initial
+initial---5--->initial
+initial---9--->initial
+initial---8--->initial
+initial--- --->initial
+initial---d--->initial
+initial---o--->initial
+initial---n--->initial
+initial---d--->initial
+initial---e--->D0
+D0--- --->initial
+initial---s--->initial
+initial---e--->D0
+D0--- --->initial
+initial---v--->A0
+A0---i--->A1
+A1---e--->D0
+D0---r--->B0
+B0---o--->B1
+B1---n--->initial
+initial--- --->initial
+initial---e--->D0
+D0---n--->D1
+D1---v--->A0
+A0---u--->initial
+initial---e--->D0
+D0---l--->initial
+initial---t--->G0
+G0---o--->initial
+initial---s--->initial
+initial--- --->initial
+initial---t--->G0
+G0---r--->G1
+G1---e--->D0
+D0---s--->initial
+initial--- --->initial
+initial---p--->initial
+initial---a--->initial
+initial---í--->initial
+initial---s--->initial
+initial---e--->D0
+D0---s--->initial
+initial--- --->initial
+initial---a--->initial
+initial---s--->initial
+initial---i--->initial
+initial---á--->initial
+initial---t--->G0
+G0---i--->initial
+initial---c--->C0
+C0---o--->C1
+C1---s--->initial
+initial---:--->initial
+initial--- --->initial
+initial---J--->initial
+initial---a--->initial
+initial---p--->initial
+initial---ó--->initial
+initial---n--->initial
+initial---,--->initial
+initial--- --->initial
+initial---C--->C0
+C0---h--->initial
+initial---i--->initial
+initial---n--->initial
+initial---a--->initial
+initial--- --->initial
+initial---y--->initial
+initial--- --->initial
+initial---C--->C0
+C0---o--->C1
+C1---r--->C6
+C6---e--->D0
+D0---a--->initial
+initial---.--->initial
+initial--- --->initial
+initial---E--->D0
+D0---l--->initial
+initial--- --->initial
+initial---r--->B0
+B0---e--->D0
+D0---g--->initial
+initial---e--->D0
+D0---n--->D1
+D1---t--->G0
+G0---e--->D0
+D0--- --->initial
+initial---j--->initial
+initial---a--->initial
+initial---p--->initial
+initial---o--->initial
+initial---n--->initial
+initial---é--->D0
+D0---s--->initial
+initial--- --->initial
+initial---T--->G0
+G0---o--->initial
+initial---y--->initial
+initial---o--->initial
+initial---t--->G0
+G0---o--->initial
+initial---m--->E0
+E0---i--->initial
+initial--- --->initial
+initial---H--->initial
+initial---i--->initial
+initial---d--->initial
+initial---e--->D0
+D0---y--->initial
+initial---o--->initial
+initial---s--->initial
+initial---h--->initial
+initial---i--->initial
+initial---,--->initial
+initial--- --->initial
+initial---u--->initial
+initial---n--->initial
+initial---o--->initial
+initial--- --->initial
+initial---d--->initial
+initial---e--->D0
+D0--- --->initial
+initial---l--->initial
+initial---o--->initial
+initial---s--->initial
+initial--- --->initial
+initial---«--->initial
+initial---g--->initial
+initial---r--->B0
+B0---a--->initial
+initial---n--->initial
+initial---d--->initial
+initial---e--->D0
+D0---s--->initial
+initial--- --->initial
+initial---p--->initial
+initial---a--->initial
+initial---c--->C0
+C0---i--->initial
+initial---f--->F0
+F0---i--->initial
+initial---c--->C0
+C0---a--->initial
+initial---d--->initial
+initial---o--->initial
+initial---r--->B0
+B0---e--->D0
+D0---s--->initial
+initial--- --->initial
+initial---d--->initial
+initial---e--->D0
+D0--- --->initial
+initial---J--->initial
+initial---a--->initial
+initial---p--->initial
+initial---ó--->initial
+initial---n--->initial
+initial---»--->initial
+initial---,--->initial
+initial--- --->initial
+initial---d--->initial
+initial---e--->D0
+D0---c--->C0
+C0---i--->initial
+initial---d--->initial
+initial---i--->initial
+initial---ó--->initial
+initial--- --->initial
+initial---c--->C0
+C0---o--->C1
+C1---n--->initial
+initial---q--->initial
+initial---u--->initial
+initial---i--->initial
+initial---s--->initial
+initial---t--->G0
+G0---a--->initial
+initial---r--->B0
+B0--- --->initial
+initial---C--->C0
+C0---h--->initial
+initial---i--->initial
+initial---n--->initial
+initial---a--->initial
+initial---,--->initial
+initial--- --->initial
+initial---p--->initial
+initial---o--->initial
+initial---r--->B0
+B0--- --->initial
+initial---l--->initial
+initial---o--->initial
+initial--- --->initial
+initial---q--->initial
+initial---u--->initial
+initial---e--->D0
+D0--- --->initial
+initial---s--->initial
+initial---o--->initial
+initial---l--->initial
+initial---i--->initial
+initial---c--->C0
+C0---i--->initial
+initial---t--->G0
+G0---ó--->initial
+initial--- --->initial
+initial---l--->initial
+initial---a--->initial
+initial--- --->initial
+initial---a--->initial
+initial---s--->initial
+initial---i--->initial
+initial---s--->initial
+initial---t--->G0
+G0---e--->D0
+D0---n--->D1
+D1---c--->C0
+C0---i--->initial
+initial---a--->initial
+initial--- --->initial
+initial---d--->initial
+initial---e--->D0
+D0--- --->initial
+initial---l--->initial
+initial---a--->initial
+initial--- --->initial
+initial---d--->initial
+initial---i--->initial
+initial---n--->initial
+initial---a--->initial
+initial---s--->initial
+initial---t--->G0
+G0---í--->initial
+initial---a--->initial
+initial--- --->initial
+initial---J--->initial
+initial---o--->initial
+initial---s--->initial
+initial---e--->D0
+D0---o--->initial
+initial---n--->initial
+initial---,--->initial
+initial--- --->initial
+initial---a--->initial
+initial---s--->initial
+initial---í--->initial
+initial--- --->initial
+initial---c--->C0
+C0---o--->C1
+C1---m--->E0
+E0---o--->initial
+initial--- --->initial
+initial---l--->initial
+initial---i--->initial
+initial---b--->initial
+initial---r--->B0
+B0---e--->D0
+D0--- --->initial
+initial---t--->G0
+G0---r--->G1
+G1---á--->G2
+G2---n--->initial
+initial---s--->initial
+initial---i--->initial
+initial---t--->G0
+G0---o--->initial
+initial--- --->initial
+initial---a--->initial
+initial--- --->initial
+initial---t--->G0
+G0---r--->G1
+G1---a--->G2
+G2---v--->A0
+A0---é--->D0
+D0---s--->initial
+initial--- --->initial
+initial---d--->initial
+initial---e--->D0
+D0--- --->initial
+initial---l--->initial
+initial---a--->initial
+initial--- --->initial
+initial---p--->initial
+initial---e--->D0
+D0---n--->D1
+D1---í--->initial
+initial---n--->initial
+initial---s--->initial
+initial---u--->initial
+initial---l--->initial
+initial---a--->initial
+initial--- --->initial
+initial---d--->initial
+initial---e--->D0
+D0--- --->initial
+initial---C--->C0
+C0---o--->C1
+C1---r--->C6
+C6---e--->D0
+D0---a--->initial
+initial---.--->initial
+initial--- --->initial
+initial---D--->initial
+initial---e--->D0
+D0---b--->initial
+initial---i--->initial
+initial---d--->initial
+initial---o--->initial
+initial--- --->initial
+initial---a--->initial
+initial--- --->initial
+initial---q--->initial
+initial---u--->initial
+initial---e--->D0
+D0--- --->initial
+initial---C--->C0
+C0---o--->C1
+C1---r--->C6
+C6---e--->D0
+D0---a--->initial
+initial--- --->initial
+initial---e--->D0
+D0---r--->B0
+B0---a--->initial
+initial--- --->initial
+initial---u--->initial
+initial---n--->initial
+initial--- --->initial
+initial---p--->initial
+initial---a--->initial
+initial---í--->initial
+initial---s--->initial
+initial--- --->initial
+initial---v--->A0
+A0---a--->initial
+initial---s--->initial
+initial---a--->initial
+initial---l--->initial
+initial---l--->initial
+initial---o--->initial
+initial--- --->initial
+initial---d--->initial
+initial---e--->D0
+D0--- --->initial
+initial---l--->initial
+initial---a--->initial
+initial--- --->initial
+initial---d--->initial
+initial---i--->initial
+initial---n--->initial
+initial---a--->initial
+initial---s--->initial
+initial---t--->G0
+G0---í--->initial
+initial---a--->initial
+initial--- --->initial
+initial---M--->E0
+E0---i--->initial
+initial---n--->initial
+initial---g--->initial
+initial---,--->initial
+initial--- --->initial
+initial---l--->initial
+initial---a--->initial
+initial--- --->initial
+initial---p--->initial
+initial---e--->D0
+D0---t--->G0
+G0---i--->initial
+initial---c--->C0
+C0---i--->initial
+initial---ó--->initial
+initial---n--->initial
+initial--- --->initial
+initial---f--->F0
+F0---u--->initial
+initial---e--->D0
+D0--- --->initial
+initial---r--->B0
+B0---e--->D0
+D0---c--->C0
+C0---h--->initial
+initial---a--->initial
+initial---z--->initial
+initial---a--->initial
+initial---d--->initial
+initial---a--->initial
+initial---.--->initial
+initial--- --->initial
+initial---H--->initial
+initial---i--->initial
+initial---d--->initial
+initial---e--->D0
+D0---y--->initial
+initial---o--->initial
+initial---s--->initial
+initial---h--->initial
+initial---i--->initial
+initial--- --->initial
+initial---c--->C0
+C0---o--->C1
+C1---m--->E0
+E0---e--->E1
+E1---n--->E2
+E2---z--->initial
+initial---ó--->initial
+initial--- --->initial
+initial---a--->initial
+initial--- --->initial
+initial---p--->initial
+initial---r--->B0
+B0---e--->D0
+D0---p--->initial
+initial---a--->initial
+initial---r--->B0
+B0---a--->initial
+initial---r--->B0
+B0--- --->initial
+initial---l--->initial
+initial---a--->initial
+initial---s--->initial
+initial--- --->initial
+initial---t--->G0
+G0---r--->G1
+G1---o--->initial
+initial---p--->initial
+initial---a--->initial
+initial---s--->initial
+initial--- --->initial
+initial---y--->initial
+initial--- --->initial
+initial---c--->C0
+C0---o--->C1
+C1---n--->initial
+initial---v--->A0
+A0---o--->initial
+initial---c--->C0
+C0---ó--->C1
+C1--- --->initial
+initial---a--->initial
+initial--- --->initial
+initial---l--->initial
+initial---o--->initial
+initial---s--->initial
+initial--- --->initial
+initial---d--->initial
+initial---i--->initial
+initial---s--->initial
+initial---t--->G0
+G0---i--->initial
+initial---n--->initial
+initial---t--->G0
+G0---o--->initial
+initial---s--->initial
+initial--- --->initial
+initial---d--->initial
+initial---a--->initial
+initial---i--->initial
+initial---m--->E0
+E0---y--->initial
+initial---o--->initial
+initial--- --->initial
+initial---(--->initial
+initial---s--->initial
+initial---e--->D0
+D0---ñ--->initial
+initial---o--->initial
+initial---r--->B0
+B0---e--->D0
+D0---s--->initial
+initial--- --->initial
+initial---f--->F0
+F0---e--->D0
+D0---u--->initial
+initial---d--->initial
+initial---a--->initial
+initial---l--->initial
+initial---e--->D0
+D0---s--->initial
+initial---)--->initial
+initial--- --->initial
+initial---p--->initial
+initial---a--->initial
+initial---r--->B0
+B0---a--->initial
+initial--- --->initial
+initial---l--->initial
+initial---a--->initial
+initial--- --->initial
+initial---i--->initial
+initial---n--->initial
+initial---v--->A0
+A0---a--->initial
+initial---s--->initial
+initial---i--->initial
+initial---ó--->initial
+initial---n--->initial
+initial--- --->initial
+initial---d--->initial
+initial---e--->D0
+D0---l--->initial
+initial--- --->initial
+initial---p--->initial
+initial---a--->initial
+initial---í--->initial
+initial---s--->initial
+initial---,--->initial
+initial--- --->initial
+initial---a--->initial
+initial--- --->initial
+initial---l--->initial
+initial---a--->initial
+initial--- --->initial
+initial---q--->initial
+initial---u--->initial
+initial---e--->D0
+D0--- --->initial
+initial---d--->initial
+initial---i--->initial
+initial---o--->initial
+initial--- --->initial
+initial---c--->C0
+C0---o--->C1
+C1---m--->E0
+E0---i--->initial
+initial---e--->D0
+D0---n--->D1
+D1---z--->initial
+initial---o--->initial
+initial--- --->initial
+initial---e--->D0
+D0---n--->D1
+D1--- --->initial
+initial---e--->D0
+D0---l--->initial
+initial--- --->initial
+initial---a--->initial
+initial---ñ--->initial
+initial---o--->initial
+initial--- --->initial
+initial---1--->initial
+initial---5--->initial
+initial---9--->initial
+initial---2--->initial
+initial---.--->initial
+initial------>initial
+initial---
+--->initial
+initial---D--->initial
+initial---e--->D0
+D0---s--->initial
+initial---p--->initial
+initial---u--->initial
+initial---é--->D0
+D0---s--->initial
+initial--- --->initial
+initial---d--->initial
+initial---e--->D0
+D0--- --->initial
+initial---u--->initial
+initial---n--->initial
+initial--- --->initial
+initial---r--->B0
+B0---á--->initial
+initial---p--->initial
+initial---i--->initial
+initial---d--->initial
+initial---o--->initial
+initial--- --->initial
+initial---y--->initial
+initial--- --->initial
+initial---e--->D0
+D0---f--->F0
+F0---i--->initial
+initial---c--->C0
+C0---a--->initial
+initial---z--->initial
+initial--- --->initial
+initial---a--->initial
+initial---v--->A0
+A0---a--->initial
+initial---n--->initial
+initial---c--->C0
+C0---e--->D0
+D0--- --->initial
+initial---d--->initial
+initial---e--->D0
+D0--- --->initial
+initial---l--->initial
+initial---a--->initial
+initial---s--->initial
+initial--- --->initial
+initial---t--->G0
+G0---r--->G1
+G1---o--->initial
+initial---p--->initial
+initial---a--->initial
+initial---s--->initial
+initial--- --->initial
+initial---j--->initial
+initial---a--->initial
+initial---p--->initial
+initial---o--->initial
+initial---n--->initial
+initial---e--->D0
+D0---s--->initial
+initial---a--->initial
+initial---s--->initial
+initial--- --->initial
+initial---p--->initial
+initial---o--->initial
+initial---r--->B0
+B0--- --->initial
+initial---e--->D0
+D0---l--->initial
+initial--- --->initial
+initial---t--->G0
+G0---e--->D0
+D0---r--->B0
+B0---r--->B0
+B0---i--->initial
+initial---t--->G0
+G0---o--->initial
+initial---r--->B0
+B0---i--->initial
+initial---o--->initial
+initial--- --->initial
+initial---c--->C0
+C0---o--->C1
+C1---r--->C6
+C6---e--->D0
+D0---a--->initial
+initial---n--->initial
+initial---o--->initial
+initial---,--->initial
+initial--- --->initial
+initial---l--->initial
+initial---a--->initial
+initial--- --->initial
+initial---b--->initial
+initial---r--->B0
+B0---i--->initial
+initial---l--->initial
+initial---l--->initial
+initial---a--->initial
+initial---n--->initial
+initial---t--->G0
+G0---e--->D0
+D0--- --->initial
+initial---c--->C0
+C0---a--->initial
+initial---m--->E0
+E0---p--->initial
+initial---a--->initial
+initial---ñ--->initial
+initial---a--->initial
+initial--- --->initial
+initial---n--->initial
+initial---a--->initial
+initial---v--->A0
+A0---a--->initial
+initial---l--->initial
+initial--- --->initial
+initial---d--->initial
+initial---e--->D0
+D0---l--->initial
+initial--- --->initial
+initial---A--->initial
+initial---l--->initial
+initial---m--->E0
+E0---i--->initial
+initial---r--->B0
+B0---a--->initial
+initial---n--->initial
+initial---t--->G0
+G0---e--->D0
+D0--- --->initial
+initial---Y--->initial
+initial---i--->initial
+initial--- --->initial
+initial---c--->C0
+C0---o--->C1
+C1---r--->C6
+C6---t--->G0
+G0---ó--->initial
+initial--- --->initial
+initial---e--->D0
+D0---l--->initial
+initial--- --->initial
+initial---s--->initial
+initial---u--->initial
+initial---m--->E0
+E0---i--->initial
+initial---n--->initial
+initial---i--->initial
+initial---s--->initial
+initial---t--->G0
+G0---r--->G1
+G1---o--->initial
+initial--- --->initial
+initial---d--->initial
+initial---e--->D0
+D0--- --->initial
+initial---r--->B0
+B0---e--->D0
+D0---c--->C0
+C0---u--->initial
+initial---r--->B0
+B0---s--->initial
+initial---o--->initial
+initial---s--->initial
+initial--- --->initial
+initial---p--->initial
+initial---a--->initial
+initial---r--->B0
+B0---a--->initial
+initial--- --->initial
+initial---l--->initial
+initial---o--->initial
+initial---s--->initial
+initial--- --->initial
+initial---i--->initial
+initial---n--->initial
+initial---v--->A0
+A0---a--->initial
+initial---s--->initial
+initial---o--->initial
+initial---r--->B0
+B0---e--->D0
+D0---s--->initial
+initial---,--->initial
+initial--- --->initial
+initial---l--->initial
+initial---o--->initial
+initial--- --->initial
+initial---q--->initial
+initial---u--->initial
+initial---e--->D0
+D0--- --->initial
+initial---l--->initial
+initial---o--->initial
+initial---s--->initial
+initial--- --->initial
+initial---o--->initial
+initial---b--->initial
+initial---l--->initial
+initial---i--->initial
+initial---g--->initial
+initial---ó--->initial
+initial--- --->initial
+initial---a--->initial
+initial--- --->initial
+initial---d--->initial
+initial---e--->D0
+D0---t--->G0
+G0---e--->D0
+D0---n--->D1
+D1---e--->D0
+D0---r--->B0
+B0--- --->initial
+initial---s--->initial
+initial---u--->initial
+initial--- --->initial
+initial---a--->initial
+initial---v--->A0
+A0---a--->initial
+initial---n--->initial
+initial---c--->C0
+C0---e--->D0
+D0---.--->initial
+initial--- --->initial
+initial---L--->initial
+initial---a--->initial
+initial--- --->initial
+initial---m--->E0
+E0---i--->initial
+initial---l--->initial
+initial---i--->initial
+initial---c--->C0
+C0---i--->initial
+initial---a--->initial
+initial--- --->initial
+initial---c--->C0
+C0---o--->C1
+C1---r--->C6
+C6---e--->D0
+D0---a--->initial
+initial---n--->initial
+initial---a--->initial
+initial---,--->initial
+initial--- --->initial
+initial---j--->initial
+initial---u--->initial
+initial---n--->initial
+initial---t--->G0
+G0---o--->initial
+initial--- --->initial
+initial---c--->C0
+C0---o--->C1
+C1---n--->initial
+initial--- --->initial
+initial---l--->initial
+initial---a--->initial
+initial--- --->initial
+initial---i--->initial
+initial---n--->initial
+initial---t--->G0
+G0---e--->D0
+D0---r--->B0
+B0---v--->A0
+A0---e--->D0
+D0---n--->D1
+D1---c--->C0
+C0---i--->initial
+initial---ó--->initial
+initial---n--->initial
+initial--- --->initial
+initial---d--->initial
+initial---e--->D0
+D0---l--->initial
+initial--- --->initial
+initial---e--->D0
+D0---j--->initial
+initial---é--->D0
+D0---r--->B0
+B0---c--->C0
+C0---i--->initial
+initial---t--->G0
+G0---o--->initial
+initial--- --->initial
+initial---c--->C0
+C0---h--->initial
+initial---i--->initial
+initial---n--->initial
+initial---o--->initial
+initial---,--->initial
+initial--- --->initial
+initial---o--->initial
+initial---b--->initial
+initial---l--->initial
+initial---i--->initial
+initial---g--->initial
+initial---ó--->initial
+initial--- --->initial
+initial---a--->initial
+initial---l--->initial
+initial--- --->initial
+initial---g--->initial
+initial---o--->initial
+initial---b--->initial
+initial---i--->initial
+initial---e--->D0
+D0---r--->B0
+B0---n--->initial
+initial---o--->initial
+initial--- --->initial
+initial---j--->initial
+initial---a--->initial
+initial---p--->initial
+initial---o--->initial
+initial---n--->initial
+initial---é--->D0
+D0---s--->initial
+initial--- --->initial
+initial---a--->initial
+initial--- --->initial
+initial---e--->D0
+D0---n--->D1
+D1---t--->G0
+G0---a--->initial
+initial---b--->initial
+initial---l--->initial
+initial---a--->initial
+initial---r--->B0
+B0--- --->initial
+initial---r--->B0
+B0---e--->D0
+D0---l--->initial
+initial---a--->initial
+initial---c--->C0
+C0---i--->initial
+initial---o--->initial
+initial---n--->initial
+initial---e--->D0
+D0---s--->initial
+initial--- --->initial
+initial---d--->initial
+initial---e--->D0
+D0--- --->initial
+initial---p--->initial
+initial---a--->initial
+initial---z--->initial
+initial--- --->initial
+initial---c--->C0
+C0---o--->C1
+C1---n--->initial
+initial--- --->initial
+initial---C--->C0
+C0---h--->initial
+initial---i--->initial
+initial---n--->initial
+initial---a--->initial
+initial--- --->initial
+initial---e--->D0
+D0---n--->D1
+D1--- --->initial
+initial---1--->initial
+initial---5--->initial
+initial---9--->initial
+initial---3--->initial
+initial---.--->initial
+initial--- --->initial
+initial---D--->initial
+initial---e--->D0
+D0---s--->initial
+initial---p--->initial
+initial---u--->initial
+initial---é--->D0
+D0---s--->initial
+initial--- --->initial
+initial---d--->initial
+initial---e--->D0
+D0--- --->initial
+initial---q--->initial
+initial---u--->initial
+initial---e--->D0
+D0--- --->initial
+initial---l--->initial
+initial---a--->initial
+initial---s--->initial
+initial--- --->initial
+initial---p--->initial
+initial---e--->D0
+D0---t--->G0
+G0---i--->initial
+initial---c--->C0
+C0---i--->initial
+initial---o--->initial
+initial---n--->initial
+initial---e--->D0
+D0---s--->initial
+initial--- --->initial
+initial---d--->initial
+initial---e--->D0
+D0--- --->initial
+initial---H--->initial
+initial---i--->initial
+initial---d--->initial
+initial---e--->D0
+D0---y--->initial
+initial---o--->initial
+initial---s--->initial
+initial---h--->initial
+initial---i--->initial
+initial--- --->initial
+initial---f--->F0
+F0---u--->initial
+initial---e--->D0
+D0---r--->B0
+B0---o--->B1
+B1---n--->initial
+initial--- --->initial
+initial---d--->initial
+initial---e--->D0
+D0---n--->D1
+D1---e--->D0
+D0---g--->initial
+initial---a--->initial
+initial---d--->initial
+initial---a--->initial
+initial---s--->initial
+initial---,--->initial
+initial--- --->initial
+initial---l--->initial
+initial---a--->initial
+initial--- --->initial
+initial---g--->initial
+initial---u--->initial
+initial---e--->D0
+D0---r--->B0
+B0---r--->B0
+B0---a--->initial
+initial--- --->initial
+initial---e--->D0
+D0---n--->D1
+D1---t--->G0
+G0---r--->G1
+G1---ó--->initial
+initial--- --->initial
+initial---e--->D0
+D0---n--->D1
+D1--- --->initial
+initial---u--->initial
+initial---n--->initial
+initial---a--->initial
+initial--- --->initial
+initial---n--->initial
+initial---u--->initial
+initial---e--->D0
+D0---v--->A0
+A0---a--->initial
+initial--- --->initial
+initial---f--->F0
+F0---a--->F1
+F1---s--->initial
+initial---e--->D0
+D0--- --->initial
+initial---e--->D0
+D0---n--->D1
+D1--- --->initial
+initial---1--->initial
+initial---5--->initial
+initial---9--->initial
+initial---7--->initial
+initial---,--->initial
+initial--- --->initial
+initial---c--->C0
+C0---u--->initial
+initial---a--->initial
+initial---n--->initial
+initial---d--->initial
+initial---o--->initial
+initial--- --->initial
+initial---s--->initial
+initial---e--->D0
+D0--- --->initial
+initial---r--->B0
+B0---e--->D0
+D0---a--->initial
+initial---n--->initial
+initial---u--->initial
+initial---d--->initial
+initial---a--->initial
+initial---r--->B0
+B0---o--->B1
+B1---n--->initial
+initial--- --->initial
+initial---l--->initial
+initial---a--->initial
+initial---s--->initial
+initial--- --->initial
+initial---h--->initial
+initial---o--->initial
+initial---s--->initial
+initial---t--->G0
+G0---i--->initial
+initial---l--->initial
+initial---i--->initial
+initial---d--->initial
+initial---a--->initial
+initial---d--->initial
+initial---e--->D0
+D0---s--->initial
+initial---.--->initial
+initial--- --->initial
+initial---E--->D0
+D0---l--->initial
+initial--- --->initial
+initial---c--->C0
+C0---o--->C1
+C1---n--->initial
+initial---f--->F0
+F0---l--->initial
+initial---i--->initial
+initial---c--->C0
+C0---t--->G0
+G0---o--->initial
+initial--- --->initial
+initial---c--->C0
+C0---u--->initial
+initial---l--->initial
+initial---m--->E0
+E0---i--->initial
+initial---n--->initial
+initial---ó--->initial
+initial--- --->initial
+initial---f--->F0
+F0---i--->initial
+initial---n--->initial
+initial---a--->initial
+initial---l--->initial
+initial---m--->E0
+E0---e--->E1
+E1---n--->E2
+E2---t--->E3
+E3---e--->D0
+D0--- --->initial
+initial---e--->D0
+D0---n--->D1
+D1--- --->initial
+initial---1--->initial
+initial---5--->initial
+initial---9--->initial
+initial---8--->initial
+initial--- --->initial
+initial---c--->C0
+C0---o--->C1
+C1---n--->initial
+initial--- --->initial
+initial---e--->D0
+D0---l--->initial
+initial--- --->initial
+initial---r--->B0
+B0---e--->D0
+D0---t--->G0
+G0---i--->initial
+initial---r--->B0
+B0---o--->B1
+B1--- --->initial
+initial---t--->G0
+G0---o--->initial
+initial---t--->G0
+G0---a--->initial
+initial---l--->initial
+initial--- --->initial
+initial---d--->initial
+initial---e--->D0
+D0--- --->initial
+initial---l--->initial
+initial---a--->initial
+initial---s--->initial
+initial--- --->initial
+initial---t--->G0
+G0---r--->G1
+G1---o--->initial
+initial---p--->initial
+initial---a--->initial
+initial---s--->initial
+initial--- --->initial
+initial---i--->initial
+initial---n--->initial
+initial---v--->A0
+A0---a--->initial
+initial---s--->initial
+initial---o--->initial
+initial---r--->B0
+B0---a--->initial
+initial---s--->initial
+initial--- --->initial
+initial---t--->G0
+G0---r--->G1
+G1---a--->G2
+G2---s--->initial
+initial--- --->initial
+initial---l--->initial
+initial---a--->initial
+initial--- --->initial
+initial---m--->E0
+E0---u--->initial
+initial---e--->D0
+D0---r--->B0
+B0---t--->G0
+G0---e--->D0
+D0--- --->initial
+initial---d--->initial
+initial---e--->D0
+D0--- --->initial
+initial---H--->initial
+initial---i--->initial
+initial---d--->initial
+initial---e--->D0
+D0---y--->initial
+initial---o--->initial
+initial---s--->initial
+initial---h--->initial
+initial---i--->initial
+initial---.--->initial
+initial------>initial
+initial---
+--->initial
+initial---A--->initial
+initial---u--->initial
+initial---n--->initial
+initial---q--->initial
+initial---u--->initial
+initial---e--->D0
+D0--- --->initial
+initial---g--->initial
+initial---e--->D0
+D0---n--->D1
+D1---e--->D0
+D0---r--->B0
+B0---a--->initial
+initial---l--->initial
+initial---m--->E0
+E0---e--->E1
+E1---n--->E2
+E2---t--->E3
+E3---e--->D0
+D0--- --->initial
+initial---s--->initial
+initial---e--->D0
+D0--- --->initial
+initial---l--->initial
+initial---a--->initial
+initial---s--->initial
+initial--- --->initial
+initial---c--->C0
+C0---o--->C1
+C1---n--->initial
+initial---s--->initial
+initial---i--->initial
+initial---d--->initial
+initial---e--->D0
+D0---r--->B0
+B0---a--->initial
+initial--- --->initial
+initial---c--->C0
+C0---o--->C1
+C1---m--->E0
+E0---o--->initial
+initial--- --->initial
+initial---d--->initial
+initial---o--->initial
+initial---s--->initial
+initial--- --->initial
+initial---i--->initial
+initial---n--->initial
+initial---v--->A0
+A0---a--->initial
+initial---s--->initial
+initial---i--->initial
+initial---o--->initial
+initial---n--->initial
+initial---e--->D0
+D0---s--->initial
+initial--- --->initial
+initial---a--->initial
+initial---i--->initial
+initial---s--->initial
+initial---l--->initial
+initial---a--->initial
+initial---d--->initial
+initial---a--->initial
+initial---s--->initial
+initial---,--->initial
+initial--- --->initial
+initial---e--->D0
+D0---n--->D1
+D1--- --->initial
+initial---r--->B0
+B0---e--->D0
+D0---a--->initial
+initial---l--->initial
+initial---i--->initial
+initial---d--->initial
+initial---a--->initial
+initial---d--->initial
+initial--- --->initial
+initial---h--->initial
+initial---u--->initial
+initial---b--->initial
+initial---o--->initial
+initial--- --->initial
+initial---p--->initial
+initial---r--->B0
+B0---e--->D0
+D0---s--->initial
+initial---e--->D0
+D0---n--->D1
+D1---c--->C0
+C0---i--->initial
+initial---a--->initial
+initial--- --->initial
+initial---j--->initial
+initial---a--->initial
+initial---p--->initial
+initial---o--->initial
+initial---n--->initial
+initial---e--->D0
+D0---s--->initial
+initial---a--->initial
+initial--- --->initial
+initial---d--->initial
+initial---u--->initial
+initial---r--->B0
+B0---a--->initial
+initial---n--->initial
+initial---t--->G0
+G0---e--->D0
+D0--- --->initial
+initial---e--->D0
+D0---l--->initial
+initial--- --->initial
+initial---l--->initial
+initial---a--->initial
+initial---p--->initial
+initial---s--->initial
+initial---o--->initial
+initial--- --->initial
+initial---e--->D0
+D0---n--->D1
+D1---t--->G0
+G0---r--->G1
+G1---e--->D0
+D0--- --->initial
+initial---e--->D0
+D0---s--->initial
+initial---a--->initial
+initial---s--->initial
+initial--- --->initial
+initial---d--->initial
+initial---o--->initial
+initial---s--->initial
+initial--- --->initial
+initial---i--->initial
+initial---n--->initial
+initial---v--->A0
+A0---a--->initial
+initial---s--->initial
+initial---i--->initial
+initial---o--->initial
+initial---n--->initial
+initial---e--->D0
+D0---s--->initial
+initial--- --->initial
+initial---m--->E0
+E0---a--->initial
+initial---s--->initial
+initial---i--->initial
+initial---v--->A0
+A0---a--->initial
+initial---s--->initial
+initial---,--->initial
+initial--- --->initial
+initial---p--->initial
+initial---o--->initial
+initial---r--->B0
+B0--- --->initial
+initial---l--->initial
+initial---o--->initial
+initial--- --->initial
+initial---q--->initial
+initial---u--->initial
+initial---e--->D0
+D0--- --->initial
+initial---a--->initial
+initial---l--->initial
+initial---g--->initial
+initial---u--->initial
+initial---n--->initial
+initial---o--->initial
+initial---s--->initial
+initial--- --->initial
+initial---h--->initial
+initial---i--->initial
+initial---s--->initial
+initial---t--->G0
+G0---o--->initial
+initial---r--->B0
+B0---i--->initial
+initial---a--->initial
+initial---d--->initial
+initial---o--->initial
+initial---r--->B0
+B0---e--->D0
+D0---s--->initial
+initial--- --->initial
+initial---c--->C0
+C0---o--->C1
+C1---n--->initial
+initial---s--->initial
+initial---i--->initial
+initial---d--->initial
+initial---e--->D0
+D0---r--->B0
+B0---a--->initial
+initial---n--->initial
+initial--- --->initial
+initial---e--->D0
+D0---l--->initial
+initial--- --->initial
+initial---c--->C0
+C0---o--->C1
+C1---n--->initial
+initial---f--->F0
+F0---l--->initial
+initial---i--->initial
+initial---c--->C0
+C0---t--->G0
+G0---o--->initial
+initial--- --->initial
+initial---c--->C0
+C0---o--->C1
+C1---m--->E0
+E0---o--->initial
+initial--- --->initial
+initial---u--->initial
+initial---n--->initial
+initial---a--->initial
+initial--- --->initial
+initial---s--->initial
+initial---o--->initial
+initial---l--->initial
+initial---a--->initial
+initial--- --->initial
+initial---g--->initial
+initial---u--->initial
+initial---e--->D0
+D0---r--->B0
+B0---r--->B0
+B0---a--->initial
+initial---.--->initial
+initial------>initial
+initial---
+--->initial
+initial---L--->initial
+initial---e--->D0
+D0---e--->D0
+D0---r--->B0
+B0--- --->initial
+initial---m--->E0
+E0---á--->initial
+initial---s--->initial
+initial---.--->initial
+initial---.--->initial
+initial---.--->initial
+initial------>initial
+initial---
+--->initial
+initial---A--->initial
+initial---n--->initial
+initial---t--->G0
+G0---e--->D0
+D0---r--->B0
+B0---i--->initial
+initial---o--->initial
+initial---r--->B0
+B0---e--->D0
+D0---s--->initial
+initial---:--->initial
+initial--- --->initial
+initial---H--->initial
+initial---a--->initial
+initial---u--->initial
+initial---m--->E0
+E0---e--->E1
+E1---a--->initial
+initial--- --->initial
+initial---(--->initial
+initial---p--->initial
+initial---l--->initial
+initial---a--->initial
+initial---n--->initial
+initial---e--->D0
+D0---t--->G0
+G0---a--->initial
+initial--- --->initial
+initial---e--->D0
+D0---n--->D1
+D1---a--->initial
+initial---n--->initial
+initial---o--->initial
+initial---)--->initial
+initial---,--->initial
+initial--- --->initial
+initial---I--->initial
+initial---z--->initial
+initial---t--->G0
+G0---a--->initial
+initial---p--->initial
+initial---a--->initial
+initial---l--->initial
+initial---a--->initial
+initial---p--->initial
+initial---a--->initial
+initial---,--->initial
+initial--- --->initial
+initial---R--->B0
+B0---e--->D0
+D0---v--->A0
+A0---o--->initial
+initial---l--->initial
+initial---u--->initial
+initial---c--->C0
+C0---i--->initial
+initial---ó--->initial
+initial---n--->initial
+initial--- --->initial
+initial---m--->E0
+E0---e--->E1
+E1---x--->initial
+initial---i--->initial
+initial---c--->C0
+C0---a--->initial
+initial---n--->initial
+initial---a--->initial
+initial---.--->initial
+initial------>initial
+initial---
+--->initial
+initial---A--->initial
+initial---r--->B0
+B0---t--->G0
+G0---í--->initial
+initial---c--->C0
+C0---u--->initial
+initial---l--->initial
+initial---o--->initial
+initial--- --->initial
+initial---b--->initial
+initial---u--->initial
+initial---e--->D0
+D0---n--->D1
+D1---o--->initial
+initial--- --->initial
+initial---A--->initial
+initial---r--->B0
+B0---t--->G0
+G0---í--->initial
+initial---c--->C0
+C0---u--->initial
+initial---l--->initial
+initial---o--->initial
+initial--- --->initial
+initial---b--->initial
+initial---u--->initial
+initial---e--->D0
+D0---n--->D1
+D1---o--->initial
+initial------>initial
+initial---
+--->initial
+initial---F--->F0
+F0---r--->B0
+B0---a--->initial
+initial---n--->initial
+initial---q--->initial
+initial---u--->initial
+initial---i--->initial
+initial---s--->initial
+initial---m--->E0
+E0---o--->initial
+initial--- --->initial
+initial---s--->initial
+initial---o--->initial
+initial---c--->C0
+C0---i--->initial
+initial---o--->initial
+initial---l--->initial
+initial---ó--->initial
+initial---g--->initial
+initial---i--->initial
+initial---c--->C0
+C0---o--->C1
+C1------>initial
+initial---
+--->initial
+initial---F--->F0
+F0---r--->B0
+B0---a--->initial
+initial---n--->initial
+initial---q--->initial
+initial---u--->initial
+initial---i--->initial
+initial---s--->initial
+initial---m--->E0
+E0---o--->initial
+initial--- --->initial
+initial---s--->initial
+initial---o--->initial
+initial---c--->C0
+C0---i--->initial
+initial---o--->initial
+initial---l--->initial
+initial---ó--->initial
+initial---g--->initial
+initial---i--->initial
+initial---c--->C0
+C0---o--->C1
+C1--- --->initial
+initial---e--->D0
+D0---s--->initial
+initial--- --->initial
+initial---u--->initial
+initial---n--->initial
+initial---a--->initial
+initial--- --->initial
+initial---e--->D0
+D0---x--->initial
+initial---p--->initial
+initial---r--->B0
+B0---e--->D0
+D0---s--->initial
+initial---i--->initial
+initial---ó--->initial
+initial---n--->initial
+initial--- --->initial
+initial---u--->initial
+initial---t--->G0
+G0---i--->initial
+initial---l--->initial
+initial---i--->initial
+initial---z--->initial
+initial---a--->initial
+initial---d--->initial
+initial---a--->initial
+initial--- --->initial
+initial---p--->initial
+initial---a--->initial
+initial---r--->B0
+B0---a--->initial
+initial--- --->initial
+initial---e--->D0
+D0---v--->A0
+A0---i--->A1
+A1---d--->initial
+initial---e--->D0
+D0---n--->D1
+D1---c--->C0
+C0---i--->initial
+initial---a--->initial
+initial---r--->B0
+B0--- --->initial
+initial---l--->initial
+initial---a--->initial
+initial--- --->initial
+initial---p--->initial
+initial---e--->D0
+D0---r--->B0
+B0---v--->A0
+A0---i--->A1
+A1---v--->A0
+A0---e--->D0
+D0---n--->D1
+D1---c--->C0
+C0---i--->initial
+initial---a--->initial
+initial--- --->initial
+initial---d--->initial
+initial---e--->D0
+D0--- --->initial
+initial---r--->B0
+B0---a--->initial
+initial---s--->initial
+initial---g--->initial
+initial---o--->initial
+initial---s--->initial
+initial--- --->initial
+initial---s--->initial
+initial---o--->initial
+initial---c--->C0
+C0---i--->initial
+initial---a--->initial
+initial---l--->initial
+initial---e--->D0
+D0---s--->initial
+initial--- --->initial
+initial---p--->initial
+initial---r--->B0
+B0---o--->B1
+B1---p--->initial
+initial---i--->initial
+initial---o--->initial
+initial---s--->initial
+initial--- --->initial
+initial---d--->initial
+initial---e--->D0
+D0---l--->initial
+initial--- --->initial
+initial---f--->F0
+F0---r--->B0
+B0---a--->initial
+initial---n--->initial
+initial---q--->initial
+initial---u--->initial
+initial---i--->initial
+initial---s--->initial
+initial---m--->E0
+E0---o--->initial
+initial--- --->initial
+initial---e--->D0
+D0---n--->D1
+D1--- --->initial
+initial---l--->initial
+initial---a--->initial
+initial--- --->initial
+initial---s--->initial
+initial---o--->initial
+initial---c--->C0
+C0---i--->initial
+initial---e--->D0
+D0---d--->initial
+initial---a--->initial
+initial---d--->initial
+initial--- --->initial
+initial---e--->D0
+D0---s--->initial
+initial---p--->initial
+initial---a--->initial
+initial---ñ--->initial
+initial---o--->initial
+initial---l--->initial
+initial---a--->initial
+initial--- --->initial
+initial---p--->initial
+initial---o--->initial
+initial---s--->initial
+initial---t--->G0
+G0---e--->D0
+D0---r--->B0
+B0---i--->initial
+initial---o--->initial
+initial---r--->B0
+B0--- --->initial
+initial---a--->initial
+initial--- --->initial
+initial---l--->initial
+initial---a--->initial
+initial--- --->initial
+initial---m--->E0
+E0---u--->initial
+initial---e--->D0
+D0---r--->B0
+B0---t--->G0
+G0---e--->D0
+D0--- --->initial
+initial---d--->initial
+initial---e--->D0
+D0--- --->initial
+initial---F--->F0
+F0---r--->B0
+B0---a--->initial
+initial---n--->initial
+initial---c--->C0
+C0---i--->initial
+initial---s--->initial
+initial---c--->C0
+C0---o--->C1
+C1--- --->initial
+initial---F--->F0
+F0---r--->B0
+B0---a--->initial
+initial---n--->initial
+initial---c--->C0
+C0---o--->C1
+C1--- --->initial
+initial---(--->initial
+initial---1--->initial
+initial---9--->initial
+initial---7--->initial
+initial---5--->initial
+initial---)--->initial
+initial--- --->initial
+initial---y--->initial
+initial--- --->initial
+initial---q--->initial
+initial---u--->initial
+initial---e--->D0
+D0--- --->initial
+initial---c--->C0
+C0---o--->C1
+C1---n--->initial
+initial---t--->G0
+G0---i--->initial
+initial---n--->initial
+initial---ú--->initial
+initial---a--->initial
+initial---n--->initial
+initial--- --->initial
+initial---h--->initial
+initial---a--->initial
+initial---s--->initial
+initial---t--->G0
+G0---a--->initial
+initial--- --->initial
+initial---l--->initial
+initial---a--->initial
+initial--- --->initial
+initial---a--->initial
+initial---c--->C0
+C0---t--->G0
+G0---u--->initial
+initial---a--->initial
+initial---l--->initial
+initial---i--->initial
+initial---d--->initial
+initial---a--->initial
+initial---d--->initial
+initial---.--->initial
+initial------>initial
+initial---
+--->initial
+initial---S--->initial
+initial---e--->D0
+D0---r--->B0
+B0---í--->initial
+initial---a--->initial
+initial---n--->initial
+initial--- --->initial
+initial---r--->B0
+B0---a--->initial
+initial---s--->initial
+initial---g--->initial
+initial---o--->initial
+initial---s--->initial
+initial--- --->initial
+initial---a--->initial
+initial---n--->initial
+initial---a--->initial
+initial---c--->C0
+C0---r--->B0
+B0---ó--->B1
+B1---n--->initial
+initial---i--->initial
+initial---c--->C0
+C0---o--->C1
+C1---s--->initial
+initial---,--->initial
+initial--- --->initial
+initial---n--->initial
+initial---o--->initial
+initial--- --->initial
+initial---c--->C0
+C0---o--->C1
+C1---r--->C6
+C6---r--->C7
+C7---e--->D0
+D0---s--->initial
+initial---p--->initial
+initial---o--->initial
+initial---n--->initial
+initial---d--->initial
+initial---i--->initial
+initial---e--->D0
+D0---n--->D1
+D1---t--->G0
+G0---e--->D0
+D0---s--->initial
+initial--- --->initial
+initial---a--->initial
+initial---l--->initial
+initial--- --->initial
+initial---e--->D0
+D0---s--->initial
+initial---t--->G0
+G0---a--->initial
+initial---d--->initial
+initial---o--->initial
+initial--- --->initial
+initial---d--->initial
+initial---e--->D0
+D0--- --->initial
+initial---d--->initial
+initial---e--->D0
+D0---s--->initial
+initial---a--->initial
+initial---r--->B0
+B0---r--->B0
+B0---o--->B1
+B1---l--->initial
+initial---l--->initial
+initial---o--->initial
+initial--- --->initial
+initial---e--->D0
+D0---c--->C0
+C0---o--->C1
+C1---n--->initial
+initial---ó--->initial
+initial---m--->E0
+E0---i--->initial
+initial---c--->C0
+C0---o--->C1
+C1---,--->initial
+initial--- --->initial
+initial---s--->initial
+initial---o--->initial
+initial---c--->C0
+C0---i--->initial
+initial---a--->initial
+initial---l--->initial
+initial--- --->initial
+initial---y--->initial
+initial--- --->initial
+initial---p--->initial
+initial---o--->initial
+initial---l--->initial
+initial---í--->initial
+initial---t--->G0
+G0---i--->initial
+initial---c--->C0
+C0---o--->C1
+C1--- --->initial
+initial---d--->initial
+initial---e--->D0
+D0--- --->initial
+initial---u--->initial
+initial---n--->initial
+initial---a--->initial
+initial--- --->initial
+initial---s--->initial
+initial---o--->initial
+initial---c--->C0
+C0---i--->initial
+initial---e--->D0
+D0---d--->initial
+initial---a--->initial
+initial---d--->initial
+initial--- --->initial
+initial---m--->E0
+E0---o--->initial
+initial---d--->initial
+initial---e--->D0
+D0---r--->B0
+B0---n--->initial
+initial---a--->initial
+initial--- --->initial
+initial---(--->initial
+initial---i--->initial
+initial---n--->initial
+initial---c--->C0
+C0---l--->initial
+initial---u--->initial
+initial---s--->initial
+initial---o--->initial
+initial--- --->initial
+initial---p--->initial
+initial---o--->initial
+initial---s--->initial
+initial---m--->E0
+E0---o--->initial
+initial---d--->initial
+initial---e--->D0
+D0---r--->B0
+B0---n--->initial
+initial---a--->initial
+initial---)--->initial
+initial---,--->initial
+initial--- --->initial
+initial---y--->initial
+initial--- --->initial
+initial---m--->E0
+E0---á--->initial
+initial---s--->initial
+initial--- --->initial
+initial---p--->initial
+initial---r--->B0
+B0---o--->B1
+B1---p--->initial
+initial---i--->initial
+initial---o--->initial
+initial---s--->initial
+initial--- --->initial
+initial---d--->initial
+initial---e--->D0
+D0--- --->initial
+initial---u--->initial
+initial---n--->initial
+initial---a--->initial
+initial--- --->initial
+initial---s--->initial
+initial---o--->initial
+initial---c--->C0
+C0---i--->initial
+initial---e--->D0
+D0---d--->initial
+initial---a--->initial
+initial---d--->initial
+initial--- --->initial
+initial---p--->initial
+initial---r--->B0
+B0---e--->D0
+D0---i--->initial
+initial---n--->initial
+initial---d--->initial
+initial---u--->initial
+initial---s--->initial
+initial---t--->G0
+G0---r--->G1
+G1---i--->initial
+initial---a--->initial
+initial---l--->initial
+initial---.--->initial
+initial------>initial
+initial---
+--->initial
+initial---L--->initial
+initial---e--->D0
+D0---e--->D0
+D0---r--->B0
+B0--- --->initial
+initial---m--->E0
+E0---á--->initial
+initial---s--->initial
+initial---.--->initial
+initial---.--->initial
+initial---.--->initial
+initial------>initial
+initial---
+--->initial
+initial---A--->initial
+initial---n--->initial
+initial---t--->G0
+G0---e--->D0
+D0---r--->B0
+B0---i--->initial
+initial---o--->initial
+initial---r--->B0
+B0---e--->D0
+D0---s--->initial
+initial---:--->initial
+initial--- --->initial
+initial---E--->D0
+D0---n--->D1
+D1---t--->G0
+G0---e--->D0
+D0---r--->B0
+B0--- --->initial
+initial---S--->initial
+initial---a--->initial
+initial---n--->initial
+initial---d--->initial
+initial---m--->E0
+E0---a--->initial
+initial---n--->initial
+initial---,--->initial
+initial--- --->initial
+initial---C--->C0
+C0---a--->initial
+initial---s--->initial
+initial---a--->initial
+initial--- --->initial
+initial---d--->initial
+initial---e--->D0
+D0--- --->initial
+initial---M--->E0
+E0---a--->initial
+initial---r--->B0
+B0---k--->initial
+initial--- --->initial
+initial---T--->G0
+G0---w--->initial
+initial---a--->initial
+initial---i--->initial
+initial---n--->initial
+initial---,--->initial
+initial--- --->initial
+initial---C--->C0
+C0---ó--->C1
+C1---m--->E0
+E0---o--->initial
+initial---d--->initial
+initial---o--->initial
+initial---.--->initial
+initial------>initial
+initial---
+--->initial
+initial---R--->B0
+B0---e--->D0
+D0---c--->C0
+C0---u--->initial
+initial---r--->B0
+B0---s--->initial
+initial---o--->initial
+initial--- --->initial
+initial---d--->initial
+initial---e--->D0
+D0---l--->initial
+initial--- --->initial
+initial---d--->initial
+initial---í--->initial
+initial---a--->initial
+initial--- --->initial
+initial---R--->B0
+B0---e--->D0
+D0---c--->C0
+C0---u--->initial
+initial---r--->B0
+B0---s--->initial
+initial---o--->initial
+initial--- --->initial
+initial---d--->initial
+initial---e--->D0
+D0---l--->initial
+initial--- --->initial
+initial---d--->initial
+initial---í--->initial
+initial---a--->initial
+initial------>initial
+initial---
+--->initial
+initial---I--->initial
+initial---g--->initial
+initial---l--->initial
+initial---e--->D0
+D0---s--->initial
+initial---i--->initial
+initial---a--->initial
+initial--- --->initial
+initial---d--->initial
+initial---e--->D0
+D0--- --->initial
+initial---S--->initial
+initial---a--->initial
+initial---n--->initial
+initial--- --->initial
+initial---M--->E0
+E0---i--->initial
+initial---g--->initial
+initial---u--->initial
+initial---e--->D0
+D0---l--->initial
+initial--- --->initial
+initial---d--->initial
+initial---e--->D0
+D0--- --->initial
+initial---E--->D0
+D0---n--->D1
+D1---g--->D2
+D2---o--->initial
+initial---l--->initial
+initial---a--->initial
+initial---s--->initial
+initial---t--->G0
+G0---e--->D0
+D0---r--->B0
+B0---s--->initial
+initial---I--->initial
+initial---g--->initial
+initial---l--->initial
+initial---e--->D0
+D0---s--->initial
+initial---i--->initial
+initial---a--->initial
+initial--- --->initial
+initial---d--->initial
+initial---e--->D0
+D0--- --->initial
+initial---S--->initial
+initial---a--->initial
+initial---n--->initial
+initial--- --->initial
+initial---M--->E0
+E0---i--->initial
+initial---g--->initial
+initial---u--->initial
+initial---e--->D0
+D0---l--->initial
+initial--- --->initial
+initial---d--->initial
+initial---e--->D0
+D0--- --->initial
+initial---E--->D0
+D0---n--->D1
+D1---g--->D2
+D2---o--->initial
+initial---l--->initial
+initial---a--->initial
+initial---s--->initial
+initial---t--->G0
+G0---e--->D0
+D0---r--->B0
+B0---s--->initial
+initial---,--->initial
+initial--- --->initial
+initial---s--->initial
+initial---i--->initial
+initial---t--->G0
+G0---u--->initial
+initial---a--->initial
+initial---d--->initial
+initial---a--->initial
+initial--- --->initial
+initial---e--->D0
+D0---n--->D1
+D1--- --->initial
+initial---E--->D0
+D0---n--->D1
+D1---g--->D2
+D2---o--->initial
+initial---l--->initial
+initial---a--->initial
+initial---s--->initial
+initial---t--->G0
+G0---e--->D0
+D0---r--->B0
+B0---s--->initial
+initial---,--->initial
+initial--- --->initial
+initial---A--->initial
+initial---n--->initial
+initial---d--->initial
+initial---o--->initial
+initial---r--->B0
+B0---r--->B0
+B0---a--->initial
+initial---,--->initial
+initial--- --->initial
+initial---e--->D0
+D0---s--->initial
+initial--- --->initial
+initial---u--->initial
+initial---n--->initial
+initial---a--->initial
+initial--- --->initial
+initial---i--->initial
+initial---g--->initial
+initial---l--->initial
+initial---e--->D0
+D0---s--->initial
+initial---i--->initial
+initial---a--->initial
+initial--- --->initial
+initial---r--->B0
+B0---o--->B1
+B1---m--->E0
+E0---á--->initial
+initial---n--->initial
+initial---i--->initial
+initial---c--->C0
+C0---a--->initial
+initial--- --->initial
+initial---d--->initial
+initial---e--->D0
+D0--- --->initial
+initial---f--->F0
+F0---i--->initial
+initial---n--->initial
+initial---a--->initial
+initial---l--->initial
+initial---e--->D0
+D0---s--->initial
+initial--- --->initial
+initial---d--->initial
+initial---e--->D0
+D0---l--->initial
+initial--- --->initial
+initial---s--->initial
+initial---i--->initial
+initial---g--->initial
+initial---l--->initial
+initial---o--->initial
+initial--- --->initial
+initial---X--->initial
+initial---I--->initial
+initial--- --->initial
+initial---y--->initial
+initial--- --->initial
+initial---c--->C0
+C0---o--->C1
+C1---m--->E0
+E0---i--->initial
+initial---e--->D0
+D0---n--->D1
+D1---z--->initial
+initial---o--->initial
+initial---s--->initial
+initial--- --->initial
+initial---d--->initial
+initial---e--->D0
+D0---l--->initial
+initial--- --->initial
+initial---X--->initial
+initial---I--->initial
+initial---I--->initial
+initial---.--->initial
+initial--- --->initial
+initial---L--->initial
+initial---a--->initial
+initial--- --->initial
+initial---i--->initial
+initial---g--->initial
+initial---l--->initial
+initial---e--->D0
+D0---s--->initial
+initial---i--->initial
+initial---a--->initial
+initial---,--->initial
+initial--- --->initial
+initial---u--->initial
+initial---n--->initial
+initial---a--->initial
+initial--- --->initial
+initial---d--->initial
+initial---e--->D0
+D0--- --->initial
+initial---l--->initial
+initial---a--->initial
+initial---s--->initial
+initial--- --->initial
+initial---m--->E0
+E0---á--->initial
+initial---s--->initial
+initial--- --->initial
+initial---p--->initial
+initial---o--->initial
+initial---p--->initial
+initial---u--->initial
+initial---l--->initial
+initial---a--->initial
+initial---r--->B0
+B0---e--->D0
+D0---s--->initial
+initial--- --->initial
+initial---e--->D0
+D0---n--->D1
+D1--- --->initial
+initial---e--->D0
+D0---l--->initial
+initial--- --->initial
+initial---P--->initial
+initial---r--->B0
+B0---i--->initial
+initial---n--->initial
+initial---c--->C0
+C0---i--->initial
+initial---p--->initial
+initial---a--->initial
+initial---d--->initial
+initial---o--->initial
+initial---,--->initial
+initial--- --->initial
+initial---p--->initial
+initial---e--->D0
+D0---r--->B0
+B0---t--->G0
+G0---e--->D0
+D0---n--->D1
+D1---e--->D0
+D0---c--->C0
+C0---e--->D0
+D0--- --->initial
+initial---a--->initial
+initial---l--->initial
+initial--- --->initial
+initial---P--->initial
+initial---a--->initial
+initial---t--->G0
+G0---r--->G1
+G1---i--->initial
+initial---m--->E0
+E0---o--->initial
+initial---n--->initial
+initial---i--->initial
+initial---o--->initial
+initial--- --->initial
+initial---N--->initial
+initial---a--->initial
+initial---c--->C0
+C0---i--->initial
+initial---o--->initial
+initial---n--->initial
+initial---a--->initial
+initial---l--->initial
+initial--- --->initial
+initial---y--->initial
+initial--- --->initial
+initial---s--->initial
+initial---e--->D0
+D0--- --->initial
+initial---c--->C0
+C0---a--->initial
+initial---r--->B0
+B0---a--->initial
+initial---c--->C0
+C0---t--->G0
+G0---e--->D0
+D0---r--->B0
+B0---i--->initial
+initial---z--->initial
+initial---a--->initial
+initial--- --->initial
+initial---p--->initial
+initial---o--->initial
+initial---r--->B0
+B0--- --->initial
+initial---s--->initial
+initial---u--->initial
+initial--- --->initial
+initial---c--->C0
+C0---a--->initial
+initial---m--->E0
+E0---p--->initial
+initial---a--->initial
+initial---n--->initial
+initial---a--->initial
+initial---r--->B0
+B0---i--->initial
+initial---o--->initial
+initial--- --->initial
+initial---d--->initial
+initial---e--->D0
+D0--- --->initial
+initial---d--->initial
+initial---e--->D0
+D0---s--->initial
+initial---p--->initial
+initial---r--->B0
+B0---o--->B1
+B1---p--->initial
+initial---o--->initial
+initial---r--->B0
+B0---c--->C0
+C0---i--->initial
+initial---o--->initial
+initial---n--->initial
+initial---a--->initial
+initial---d--->initial
+initial---a--->initial
+initial---s--->initial
+initial--- --->initial
+initial---d--->initial
+initial---i--->initial
+initial---m--->E0
+E0---e--->E1
+E1---n--->E2
+E2---s--->initial
+initial---i--->initial
+initial---o--->initial
+initial---n--->initial
+initial---e--->D0
+D0---s--->initial
+initial---.--->initial
+initial------>initial
+initial---
+--->initial
+initial---A--->initial
+initial---r--->B0
+B0---c--->C0
+C0---h--->initial
+initial---i--->initial
+initial---v--->A0
+A0---o--->initial
+initial------>initial
+initial---
+--->initial
+initial---P--->initial
+initial---o--->initial
+initial---r--->B0
+B0---t--->G0
+G0---a--->initial
+initial---l--->initial
+initial---e--->D0
+D0---s--->initial
+initial------>initial
+initial---
+--->initial
+initial---A--->initial
+initial---r--->B0
+B0---t--->G0
+G0---e--->D0
+D0---s--->initial
+initial------>initial
+initial---
+--->initial
+initial---A--->initial
+initial---r--->B0
+B0---t--->G0
+G0---e--->D0
+D0---s--->initial
+initial---:--->initial
+initial--- --->initial
+initial---A--->initial
+initial---r--->B0
+B0---q--->initial
+initial---u--->initial
+initial---i--->initial
+initial---t--->G0
+G0---e--->D0
+D0---c--->C0
+C0---t--->G0
+G0---u--->initial
+initial---r--->B0
+B0---a--->initial
+initial--- --->initial
+initial---–--->initial
+initial--- --->initial
+initial---C--->C0
+C0---i--->initial
+initial---n--->initial
+initial---e--->D0
+D0--- --->initial
+initial---–--->initial
+initial--- --->initial
+initial---D--->initial
+initial---a--->initial
+initial---n--->initial
+initial---z--->initial
+initial---a--->initial
+initial--- --->initial
+initial---–--->initial
+initial--- --->initial
+initial---L--->initial
+initial---i--->initial
+initial---t--->G0
+G0---e--->D0
+D0---r--->B0
+B0---a--->initial
+initial---t--->G0
+G0---u--->initial
+initial---r--->B0
+B0---a--->initial
+initial--- --->initial
+initial---–--->initial
+initial--- --->initial
+initial---M--->E0
+E0---ú--->initial
+initial---s--->initial
+initial---i--->initial
+initial---c--->C0
+C0---a--->initial
+initial--- --->initial
+initial---–--->initial
+initial--- --->initial
+initial---M--->E0
+E0---ú--->initial
+initial---s--->initial
+initial---i--->initial
+initial---c--->C0
+C0---a--->initial
+initial--- --->initial
+initial---c--->C0
+C0---l--->initial
+initial---á--->initial
+initial---s--->initial
+initial---i--->initial
+initial---c--->C0
+C0---a--->initial
+initial--- --->initial
+initial---–--->initial
+initial--- --->initial
+initial---P--->initial
+initial---i--->initial
+initial---n--->initial
+initial---t--->G0
+G0---u--->initial
+initial---r--->B0
+B0---a--->initial
+initial--- --->initial
+initial---–--->initial
+initial--- --->initial
+initial---T--->G0
+G0---e--->D0
+D0---a--->initial
+initial---t--->G0
+G0---r--->G1
+G1---o--->initial
+initial------>initial
+initial---
+--->initial
+initial---C--->C0
+C0---i--->initial
+initial---e--->D0
+D0---n--->D1
+D1---c--->C0
+C0---i--->initial
+initial---a--->initial
+initial---s--->initial
+initial--- --->initial
+initial---s--->initial
+initial---o--->initial
+initial---c--->C0
+C0---i--->initial
+initial---a--->initial
+initial---l--->initial
+initial---e--->D0
+D0---s--->initial
+initial------>initial
+initial---
+--->initial
+initial---C--->C0
+C0---i--->initial
+initial---e--->D0
+D0---n--->D1
+D1---c--->C0
+C0---i--->initial
+initial---a--->initial
+initial---s--->initial
+initial--- --->initial
+initial---s--->initial
+initial---o--->initial
+initial---c--->C0
+C0---i--->initial
+initial---a--->initial
+initial---l--->initial
+initial---e--->D0
+D0---s--->initial
+initial---:--->initial
+initial--- --->initial
+initial---C--->C0
+C0---o--->C1
+C1---m--->E0
+E0---u--->initial
+initial---n--->initial
+initial---i--->initial
+initial---c--->C0
+C0---a--->initial
+initial---c--->C0
+C0---i--->initial
+initial---ó--->initial
+initial---n--->initial
+initial--- --->initial
+initial---–--->initial
+initial--- --->initial
+initial---D--->initial
+initial---e--->D0
+D0---r--->B0
+B0---e--->D0
+D0---c--->C0
+C0---h--->initial
+initial---o--->initial
+initial--- --->initial
+initial---–--->initial
+initial--- --->initial
+initial---E--->D0
+D0---c--->C0
+C0---o--->C1
+C1---n--->initial
+initial---o--->initial
+initial---m--->E0
+E0---í--->initial
+initial---a--->initial
+initial--- --->initial
+initial---–--->initial
+initial--- --->initial
+initial---F--->F0
+F0---i--->initial
+initial---l--->initial
+initial---o--->initial
+initial---s--->initial
+initial---o--->initial
+initial---f--->F0
+F0---í--->initial
+initial---a--->initial
+initial--- --->initial
+initial---–--->initial
+initial--- --->initial
+initial---L--->initial
+initial---i--->initial
+initial---n--->initial
+initial---g--->initial
+initial---ü--->initial
+initial---í--->initial
+initial---s--->initial
+initial---t--->G0
+G0---i--->initial
+initial---c--->C0
+C0---a--->initial
+initial--- --->initial
+initial---–--->initial
+initial--- --->initial
+initial---P--->initial
+initial---s--->initial
+initial---i--->initial
+initial---c--->C0
+C0---o--->C1
+C1---l--->initial
+initial---o--->initial
+initial---g--->initial
+initial---í--->initial
+initial---a--->initial
+initial--- --->initial
+initial---–--->initial
+initial--- --->initial
+initial---S--->initial
+initial---o--->initial
+initial---c--->C0
+C0---i--->initial
+initial---o--->initial
+initial---l--->initial
+initial---o--->initial
+initial---g--->initial
+initial---í--->initial
+initial---a--->initial
+initial------>initial
+initial---
+--->initial
+initial---C--->C0
+C0---i--->initial
+initial---e--->D0
+D0---n--->D1
+D1---c--->C0
+C0---i--->initial
+initial---a--->initial
+initial---s--->initial
+initial--- --->initial
+initial---n--->initial
+initial---a--->initial
+initial---t--->G0
+G0---u--->initial
+initial---r--->B0
+B0---a--->initial
+initial---l--->initial
+initial---e--->D0
+D0---s--->initial
+initial------>initial
+initial---
+--->initial
+initial---C--->C0
+C0---i--->initial
+initial---e--->D0
+D0---n--->D1
+D1---c--->C0
+C0---i--->initial
+initial---a--->initial
+initial---s--->initial
+initial--- --->initial
+initial---n--->initial
+initial---a--->initial
+initial---t--->G0
+G0---u--->initial
+initial---r--->B0
+B0---a--->initial
+initial---l--->initial
+initial---e--->D0
+D0---s--->initial
+initial---:--->initial
+initial--- --->initial
+initial---A--->initial
+initial---s--->initial
+initial---t--->G0
+G0---r--->G1
+G1---o--->initial
+initial---n--->initial
+initial---o--->initial
+initial---m--->E0
+E0---í--->initial
+initial---a--->initial
+initial--- --->initial
+initial---–--->initial
+initial--- --->initial
+initial---B--->initial
+initial---i--->initial
+initial---o--->initial
+initial---l--->initial
+initial---o--->initial
+initial---g--->initial
+initial---í--->initial
+initial---a--->initial
+initial--- --->initial
+initial---–--->initial
+initial--- --->initial
+initial---B--->initial
+initial---o--->initial
+initial---t--->G0
+G0---á--->initial
+initial---n--->initial
+initial---i--->initial
+initial---c--->C0
+C0---a--->initial
+initial--- --->initial
+initial---–--->initial
+initial--- --->initial
+initial---F--->F0
+F0---í--->initial
+initial---s--->initial
+initial---i--->initial
+initial---c--->C0
+C0---a--->initial
+initial--- --->initial
+initial---–--->initial
+initial--- --->initial
+initial---M--->E0
+E0---e--->E1
+E1---d--->initial
+initial---i--->initial
+initial---c--->C0
+C0---i--->initial
+initial---n--->initial
+initial---a--->initial
+initial--- --->initial
+initial---–--->initial
+initial--- --->initial
+initial---M--->E0
+E0---a--->initial
+initial---t--->G0
+G0---e--->D0
+D0---m--->E0
+E0---á--->initial
+initial---t--->G0
+G0---i--->initial
+initial---c--->C0
+C0---a--->initial
+initial--- --->initial
+initial---–--->initial
+initial--- --->initial
+initial---Q--->initial
+initial---u--->initial
+initial---í--->initial
+initial---m--->E0
+E0---i--->initial
+initial---c--->C0
+C0---a--->initial
+initial------>initial
+initial---
+--->initial
+initial---G--->initial
+initial---e--->D0
+D0---o--->initial
+initial---g--->initial
+initial---r--->B0
+B0---a--->initial
+initial---f--->F0
+F0---í--->initial
+initial---a--->initial
+initial------>initial
+initial---
+--->initial
+initial---G--->initial
+initial---e--->D0
+D0---o--->initial
+initial---g--->initial
+initial---r--->B0
+B0---a--->initial
+initial---f--->F0
+F0---í--->initial
+initial---a--->initial
+initial---:--->initial
+initial--- --->initial
+initial---Á--->initial
+initial---f--->F0
+F0---r--->B0
+B0---i--->initial
+initial---c--->C0
+C0---a--->initial
+initial--- --->initial
+initial---–--->initial
+initial--- --->initial
+initial---A--->initial
+initial---m--->E0
+E0---é--->E1
+E1---r--->B0
+B0---i--->initial
+initial---c--->C0
+C0---a--->initial
+initial--- --->initial
+initial---–--->initial
+initial--- --->initial
+initial---A--->initial
+initial---n--->initial
+initial---t--->G0
+G0---á--->initial
+initial---r--->B0
+B0---t--->G0
+G0---i--->initial
+initial---d--->initial
+initial---a--->initial
+initial--- --->initial
+initial---–--->initial
+initial--- --->initial
+initial---A--->initial
+initial---s--->initial
+initial---i--->initial
+initial---a--->initial
+initial--- --->initial
+initial---–--->initial
+initial--- --->initial
+initial---E--->D0
+D0---u--->initial
+initial---r--->B0
+B0---o--->B1
+B1---p--->initial
+initial---a--->initial
+initial--- --->initial
+initial---–--->initial
+initial--- --->initial
+initial---O--->initial
+initial---c--->C0
+C0---e--->D0
+D0---a--->initial
+initial---n--->initial
+initial---í--->initial
+initial---a--->initial
+initial--- --->initial
+initial---–--->initial
+initial--- --->initial
+initial---P--->initial
+initial---a--->initial
+initial---í--->initial
+initial---s--->initial
+initial---e--->D0
+D0---s--->initial
+initial------>initial
+initial---
+--->initial
+initial---H--->initial
+initial---i--->initial
+initial---s--->initial
+initial---t--->G0
+G0---o--->initial
+initial---r--->B0
+B0---i--->initial
+initial---a--->initial
+initial------>initial
+initial---
+--->initial
+initial---H--->initial
+initial---i--->initial
+initial---s--->initial
+initial---t--->G0
+G0---o--->initial
+initial---r--->B0
+B0---i--->initial
+initial---a--->initial
+initial---:--->initial
+initial--- --->initial
+initial---P--->initial
+initial---r--->B0
+B0---e--->D0
+D0---h--->initial
+initial---i--->initial
+initial---s--->initial
+initial---t--->G0
+G0---o--->initial
+initial---r--->B0
+B0---i--->initial
+initial---a--->initial
+initial--- --->initial
+initial---–--->initial
+initial--- --->initial
+initial---E--->D0
+D0---d--->initial
+initial---a--->initial
+initial---d--->initial
+initial--- --->initial
+initial---A--->initial
+initial---n--->initial
+initial---t--->G0
+G0---i--->initial
+initial---g--->initial
+initial---u--->initial
+initial---a--->initial
+initial--- --->initial
+initial---–--->initial
+initial--- --->initial
+initial---E--->D0
+D0---d--->initial
+initial---a--->initial
+initial---d--->initial
+initial--- --->initial
+initial---M--->E0
+E0---e--->E1
+E1---d--->initial
+initial---i--->initial
+initial---a--->initial
+initial--- --->initial
+initial---–--->initial
+initial--- --->initial
+initial---E--->D0
+D0---d--->initial
+initial---a--->initial
+initial---d--->initial
+initial--- --->initial
+initial---M--->E0
+E0---o--->initial
+initial---d--->initial
+initial---e--->D0
+D0---r--->B0
+B0---n--->initial
+initial---a--->initial
+initial--- --->initial
+initial---–--->initial
+initial--- --->initial
+initial---E--->D0
+D0---d--->initial
+initial---a--->initial
+initial---d--->initial
+initial--- --->initial
+initial---C--->C0
+C0---o--->C1
+C1---n--->initial
+initial---t--->G0
+G0---e--->D0
+D0---m--->E0
+E0---p--->initial
+initial---o--->initial
+initial---r--->B0
+B0---á--->initial
+initial---n--->initial
+initial---e--->D0
+D0---a--->initial
+initial------>initial
+initial---
+--->initial
+initial---P--->initial
+initial---o--->initial
+initial---l--->initial
+initial---í--->initial
+initial---t--->G0
+G0---i--->initial
+initial---c--->C0
+C0---a--->initial
+initial------>initial
+initial---
+--->initial
+initial---P--->initial
+initial---o--->initial
+initial---l--->initial
+initial---í--->initial
+initial---t--->G0
+G0---i--->initial
+initial---c--->C0
+C0---a--->initial
+initial---:--->initial
+initial--- --->initial
+initial---F--->F0
+F0---e--->D0
+D0---m--->E0
+E0---i--->initial
+initial---n--->initial
+initial---i--->initial
+initial---s--->initial
+initial---m--->E0
+E0---o--->initial
+initial--- --->initial
+initial---–--->initial
+initial--- --->initial
+initial---L--->initial
+initial---G--->initial
+initial---B--->initial
+initial---T--->G0
+G0--- --->initial
+initial---–--->initial
+initial--- --->initial
+initial---M--->E0
+E0---a--->initial
+initial---r--->B0
+B0---x--->initial
+initial---i--->initial
+initial---s--->initial
+initial---m--->E0
+E0---o--->initial
+initial--- --->initial
+initial---–--->initial
+initial--- --->initial
+initial---N--->initial
+initial---a--->initial
+initial---c--->C0
+C0---i--->initial
+initial---o--->initial
+initial---n--->initial
+initial---a--->initial
+initial---l--->initial
+initial---i--->initial
+initial---s--->initial
+initial---m--->E0
+E0---o--->initial
+initial--- --->initial
+initial---–--->initial
+initial--- --->initial
+initial---S--->initial
+initial---o--->initial
+initial---c--->C0
+C0---i--->initial
+initial---a--->initial
+initial---l--->initial
+initial---i--->initial
+initial---s--->initial
+initial---m--->E0
+E0---o--->initial
+initial--- --->initial
+initial---–--->initial
+initial--- --->initial
+initial---T--->G0
+G0---e--->D0
+D0---r--->B0
+B0---r--->B0
+B0---o--->B1
+B1---r--->B0
+B0---i--->initial
+initial---s--->initial
+initial---m--->E0
+E0---o--->initial
+initial------>initial
+initial---
+--->initial
+initial---R--->B0
+B0---e--->D0
+D0---l--->initial
+initial---i--->initial
+initial---g--->initial
+initial---i--->initial
+initial---ó--->initial
+initial---n--->initial
+initial------>initial
+initial---
+--->initial
+initial---R--->B0
+B0---e--->D0
+D0---l--->initial
+initial---i--->initial
+initial---g--->initial
+initial---i--->initial
+initial---ó--->initial
+initial---n--->initial
+initial---:--->initial
+initial--- --->initial
+initial---A--->initial
+initial---t--->G0
+G0---e--->D0
+D0---í--->initial
+initial---s--->initial
+initial---m--->E0
+E0---o--->initial
+initial--- --->initial
+initial---–--->initial
+initial--- --->initial
+initial---B--->initial
+initial---u--->initial
+initial---d--->initial
+initial---i--->initial
+initial---s--->initial
+initial---m--->E0
+E0---o--->initial
+initial--- --->initial
+initial---–--->initial
+initial--- --->initial
+initial---C--->C0
+C0---r--->B0
+B0---i--->initial
+initial---s--->initial
+initial---t--->G0
+G0---i--->initial
+initial---a--->initial
+initial---n--->initial
+initial---i--->initial
+initial---s--->initial
+initial---m--->E0
+E0---o--->initial
+initial--- --->initial
+initial---–--->initial
+initial--- --->initial
+initial---I--->initial
+initial---g--->initial
+initial---l--->initial
+initial---e--->D0
+D0---s--->initial
+initial---i--->initial
+initial---a--->initial
+initial--- --->initial
+initial---c--->C0
+C0---a--->initial
+initial---t--->G0
+G0---ó--->initial
+initial---l--->initial
+initial---i--->initial
+initial---c--->C0
+C0---a--->initial
+initial--- --->initial
+initial---–--->initial
+initial--- --->initial
+initial---I--->initial
+initial---s--->initial
+initial---l--->initial
+initial---a--->initial
+initial---m--->E0
+E0--- --->initial
+initial---–--->initial
+initial--- --->initial
+initial---J--->initial
+initial---u--->initial
+initial---d--->initial
+initial---a--->initial
+initial---í--->initial
+initial---s--->initial
+initial---m--->E0
+E0---o--->initial
+initial--- --->initial
+initial---–--->initial
+initial--- --->initial
+initial---M--->E0
+E0---i--->initial
+initial---t--->G0
+G0---o--->initial
+initial---l--->initial
+initial---o--->initial
+initial---g--->initial
+initial---í--->initial
+initial---a--->initial
+initial------>initial
+initial---
+--->initial
+initial---T--->G0
+G0---e--->D0
+D0---c--->C0
+C0---n--->initial
+initial---o--->initial
+initial---l--->initial
+initial---o--->initial
+initial---g--->initial
+initial---í--->initial
+initial---a--->initial
+initial---s--->initial
+initial------>initial
+initial---
+--->initial
+initial---T--->G0
+G0---e--->D0
+D0---c--->C0
+C0---n--->initial
+initial---o--->initial
+initial---l--->initial
+initial---o--->initial
+initial---g--->initial
+initial---í--->initial
+initial---a--->initial
+initial---s--->initial
+initial---:--->initial
+initial--- --->initial
+initial---B--->initial
+initial---i--->initial
+initial---o--->initial
+initial---t--->G0
+G0---e--->D0
+D0---c--->C0
+C0---n--->initial
+initial---o--->initial
+initial---l--->initial
+initial---o--->initial
+initial---g--->initial
+initial---í--->initial
+initial---a--->initial
+initial--- --->initial
+initial---–--->initial
+initial--- --->initial
+initial---E--->D0
+D0---x--->initial
+initial---p--->initial
+initial---l--->initial
+initial---o--->initial
+initial---r--->B0
+B0---a--->initial
+initial---c--->C0
+C0---i--->initial
+initial---ó--->initial
+initial---n--->initial
+initial--- --->initial
+initial---e--->D0
+D0---s--->initial
+initial---p--->initial
+initial---a--->initial
+initial---c--->C0
+C0---i--->initial
+initial---a--->initial
+initial---l--->initial
+initial--- --->initial
+initial---–--->initial
+initial--- --->initial
+initial---I--->initial
+initial---n--->initial
+initial---f--->F0
+F0---o--->initial
+initial---r--->B0
+B0---m--->E0
+E0---á--->initial
+initial---t--->G0
+G0---i--->initial
+initial---c--->C0
+C0---a--->initial
+initial--- --->initial
+initial---–--->initial
+initial--- --->initial
+initial---I--->initial
+initial---n--->initial
+initial---g--->initial
+initial---e--->D0
+D0---n--->D1
+D1---i--->initial
+initial---e--->D0
+D0---r--->B0
+B0---í--->initial
+initial---a--->initial
+initial--- --->initial
+initial---–--->initial
+initial--- --->initial
+initial---S--->initial
+initial---o--->initial
+initial---f--->F0
+F0---t--->G0
+G0---w--->initial
+initial---a--->initial
+initial---r--->B0
+B0---e--->D0
+D0--- --->initial
+initial---l--->initial
+initial---i--->initial
+initial---b--->initial
+initial---r--->B0
+B0---e--->D0
+D0------>initial
+initial---
+--->initial
+initial---A--->initial
+initial---c--->C0
+C0---t--->G0
+G0---u--->initial
+initial---a--->initial
+initial---l--->initial
+initial---i--->initial
+initial---d--->initial
+initial---a--->initial
+initial---d--->initial
+initial--- --->initial
+initial---A--->initial
+initial---c--->C0
+C0---t--->G0
+G0---u--->initial
+initial---a--->initial
+initial---l--->initial
+initial---i--->initial
+initial---d--->initial
+initial---a--->initial
+initial---d--->initial
+initial------>initial
+initial---
+--->initial
+initial---E--->D0
+D0---v--->A0
+A0---e--->D0
+D0---n--->D1
+D1---t--->G0
+G0---o--->initial
+initial---s--->initial
+initial------>initial
+initial---
+--->initial
+initial---1--->initial
+initial---4--->initial
+initial--- --->initial
+initial---d--->initial
+initial---e--->D0
+D0--- --->initial
+initial---d--->initial
+initial---i--->initial
+initial---c--->C0
+C0---i--->initial
+initial---e--->D0
+D0---m--->E0
+E0---b--->initial
+initial---r--->B0
+B0---e--->D0
+D0---:--->initial
+initial--- --->initial
+initial---M--->E0
+E0---á--->initial
+initial---x--->initial
+initial---i--->initial
+initial---m--->E0
+E0---o--->initial
+initial--- --->initial
+initial---d--->initial
+initial---e--->D0
+D0--- --->initial
+initial---l--->initial
+initial---a--->initial
+initial---s--->initial
+initial--- --->initial
+initial---G--->initial
+initial---e--->D0
+D0---m--->E0
+E0---í--->initial
+initial---n--->initial
+initial---i--->initial
+initial---d--->initial
+initial---a--->initial
+initial---s--->initial
+initial------>initial
+initial---
+--->initial
+initial---1--->initial
+initial---3--->initial
+initial--- --->initial
+initial---d--->initial
+initial---e--->D0
+D0--- --->initial
+initial---d--->initial
+initial---i--->initial
+initial---c--->C0
+C0---i--->initial
+initial---e--->D0
+D0---m--->E0
+E0---b--->initial
+initial---r--->B0
+B0---e--->D0
+D0---:--->initial
+initial--- --->initial
+initial---F--->F0
+F0---i--->initial
+initial---n--->initial
+initial---a--->initial
+initial---l--->initial
+initial--- --->initial
+initial---v--->A0
+A0---u--->initial
+initial---e--->D0
+D0---l--->initial
+initial---t--->G0
+G0---a--->initial
+initial--- --->initial
+initial---d--->initial
+initial---e--->D0
+D0--- --->initial
+initial---l--->initial
+initial---a--->initial
+initial--- --->initial
+initial---C--->C0
+C0---o--->C1
+C1---p--->C2
+C2---a--->initial
+initial--- --->initial
+initial---S--->initial
+initial---u--->initial
+initial---d--->initial
+initial---a--->initial
+initial---m--->E0
+E0---e--->E1
+E1---r--->B0
+B0---i--->initial
+initial---c--->C0
+C0---a--->initial
+initial---n--->initial
+initial---a--->initial
+initial------>initial
+initial---
+--->initial
+initial---1--->initial
+initial---2--->initial
+initial------->initial
+initial---1--->initial
+initial---7--->initial
+initial--- --->initial
+initial---d--->initial
+initial---e--->D0
+D0--- --->initial
+initial---d--->initial
+initial---i--->initial
+initial---c--->C0
+C0---i--->initial
+initial---e--->D0
+D0---m--->E0
+E0---b--->initial
+initial---r--->B0
+B0---e--->D0
+D0---:--->initial
+initial--- --->initial
+initial---C--->C0
+C0---a--->initial
+initial---m--->E0
+E0---p--->initial
+initial---e--->D0
+D0---o--->initial
+initial---n--->initial
+initial---a--->initial
+initial---t--->G0
+G0---o--->initial
+initial--- --->initial
+initial---M--->E0
+E0---u--->initial
+initial---n--->initial
+initial---d--->initial
+initial---i--->initial
+initial---a--->initial
+initial---l--->initial
+initial--- --->initial
+initial---d--->initial
+initial---e--->D0
+D0--- --->initial
+initial---C--->C0
+C0---l--->initial
+initial---u--->initial
+initial---b--->initial
+initial---e--->D0
+D0---s--->initial
+initial--- --->initial
+initial---d--->initial
+initial---e--->D0
+D0--- --->initial
+initial---V--->A0
+A0---o--->initial
+initial---l--->initial
+initial---e--->D0
+D0---i--->initial
+initial---b--->initial
+initial---o--->initial
+initial---l--->initial
+initial--- --->initial
+initial---M--->E0
+E0---a--->initial
+initial---s--->initial
+initial---c--->C0
+C0---u--->initial
+initial---l--->initial
+initial---i--->initial
+initial---n--->initial
+initial---o--->initial
+initial------>initial
+initial---
+--->initial
+initial---6--->initial
+initial------->initial
+initial---2--->initial
+initial---0--->initial
+initial--- --->initial
+initial---d--->initial
+initial---e--->D0
+D0--- --->initial
+initial---d--->initial
+initial---i--->initial
+initial---c--->C0
+C0---i--->initial
+initial---e--->D0
+D0---m--->E0
+E0---b--->initial
+initial---r--->B0
+B0---e--->D0
+D0---:--->initial
+initial--- --->initial
+initial---F--->F0
+F0---i--->initial
+initial---n--->initial
+initial---a--->initial
+initial---l--->initial
+initial--- --->initial
+initial---d--->initial
+initial---e--->D0
+D0--- --->initial
+initial---l--->initial
+initial---a--->initial
+initial--- --->initial
+initial---L--->initial
+initial---i--->initial
+initial---g--->initial
+initial---a--->initial
+initial--- --->initial
+initial---S--->initial
+initial---u--->initial
+initial---d--->initial
+initial---a--->initial
+initial---m--->E0
+E0---e--->E1
+E1---r--->B0
+B0---i--->initial
+initial---c--->C0
+C0---a--->initial
+initial---n--->initial
+initial---a--->initial
+initial--- --->initial
+initial---d--->initial
+initial---e--->D0
+D0--- --->initial
+initial---C--->C0
+C0---l--->initial
+initial---u--->initial
+initial---b--->initial
+initial---e--->D0
+D0---s--->initial
+initial--- --->initial
+initial---d--->initial
+initial---e--->D0
+D0--- --->initial
+initial---B--->initial
+initial---a--->initial
+initial---l--->initial
+initial---o--->initial
+initial---n--->initial
+initial---c--->C0
+C0---e--->D0
+D0---s--->initial
+initial---t--->G0
+G0---o--->initial
+initial------>initial
+initial---
+--->initial
+initial---6--->initial
+initial------->initial
+initial---1--->initial
+initial---6--->initial
+initial--- --->initial
+initial---d--->initial
+initial---e--->D0
+D0--- --->initial
+initial---d--->initial
+initial---i--->initial
+initial---c--->C0
+C0---i--->initial
+initial---e--->D0
+D0---m--->E0
+E0---b--->initial
+initial---r--->B0
+B0---e--->D0
+D0---:--->initial
+initial--- --->initial
+initial---C--->C0
+C0---o--->C1
+C1---p--->C2
+C2---a--->initial
+initial--- --->initial
+initial---M--->E0
+E0---u--->initial
+initial---n--->initial
+initial---d--->initial
+initial---i--->initial
+initial---a--->initial
+initial---l--->initial
+initial--- --->initial
+initial---d--->initial
+initial---e--->D0
+D0--- --->initial
+initial---C--->C0
+C0---l--->initial
+initial---u--->initial
+initial---b--->initial
+initial---e--->D0
+D0---s--->initial
+initial--- --->initial
+initial---d--->initial
+initial---e--->D0
+D0--- --->initial
+initial---l--->initial
+initial---a--->initial
+initial--- --->initial
+initial---F--->F0
+F0---I--->initial
+initial---F--->F0
+F0---A--->F1
+F1------>initial
+initial---
+--->initial
+initial---3--->initial
+initial------->initial
+initial---1--->initial
+initial---7--->initial
+initial--- --->initial
+initial---d--->initial
+initial---e--->D0
+D0--- --->initial
+initial---d--->initial
+initial---i--->initial
+initial---c--->C0
+C0---i--->initial
+initial---e--->D0
+D0---m--->E0
+E0---b--->initial
+initial---r--->B0
+B0---e--->D0
+D0---:--->initial
+initial--- --->initial
+initial---X--->initial
+initial---I--->initial
+initial--- --->initial
+initial---J--->initial
+initial---u--->initial
+initial---e--->D0
+D0---g--->initial
+initial---o--->initial
+initial---s--->initial
+initial--- --->initial
+initial---D--->initial
+initial---e--->D0
+D0---p--->initial
+initial---o--->initial
+initial---r--->B0
+B0---t--->G0
+G0---i--->initial
+initial---v--->A0
+A0---o--->initial
+initial---s--->initial
+initial--- --->initial
+initial---C--->C0
+C0---e--->D0
+D0---n--->D1
+D1---t--->G0
+G0---r--->G1
+G1---o--->initial
+initial---a--->initial
+initial---m--->E0
+E0---e--->E1
+E1---r--->B0
+B0---i--->initial
+initial---c--->C0
+C0---a--->initial
+initial---n--->initial
+initial---o--->initial
+initial---s--->initial
+initial------>initial
+initial---
+--->initial
+initial---1--->initial
+initial------->initial
+initial---1--->initial
+initial---7--->initial
+initial--- --->initial
+initial---d--->initial
+initial---e--->D0
+D0--- --->initial
+initial---d--->initial
+initial---i--->initial
+initial---c--->C0
+C0---i--->initial
+initial---e--->D0
+D0---m--->E0
+E0---b--->initial
+initial---r--->B0
+B0---e--->D0
+D0---:--->initial
+initial--- --->initial
+initial---C--->C0
+C0---a--->initial
+initial---m--->E0
+E0---p--->initial
+initial---e--->D0
+D0---o--->initial
+initial---n--->initial
+initial---a--->initial
+initial---t--->G0
+G0---o--->initial
+initial--- --->initial
+initial---M--->E0
+E0---u--->initial
+initial---n--->initial
+initial---d--->initial
+initial---i--->initial
+initial---a--->initial
+initial---l--->initial
+initial--- --->initial
+initial---d--->initial
+initial---e--->D0
+D0--- --->initial
+initial---B--->initial
+initial---a--->initial
+initial---l--->initial
+initial---o--->initial
+initial---n--->initial
+initial---m--->E0
+E0---a--->initial
+initial---n--->initial
+initial---o--->initial
+initial--- --->initial
+initial---F--->F0
+F0---e--->D0
+D0---m--->E0
+E0---e--->E1
+E1---n--->E2
+E2---i--->initial
+initial---n--->initial
+initial---o--->initial
+initial------>initial
+initial---
+--->initial
+initial---F--->F0
+F0---a--->F1
+F1---l--->F2
+F2---l--->initial
+initial---e--->D0
+D0---c--->C0
+C0---i--->initial
+initial---m--->E0
+E0---i--->initial
+initial---e--->D0
+D0---n--->D1
+D1---t--->G0
+G0---o--->initial
+initial---s--->initial
+initial------>initial
+initial---
+--->initial
+initial---L--->initial
+initial---a--->initial
+initial--- --->initial
+initial---a--->initial
+initial---r--->B0
+B0---i--->initial
+initial---s--->initial
+initial---t--->G0
+G0---ó--->initial
+initial---c--->C0
+C0---r--->B0
+B0---a--->initial
+initial---t--->G0
+G0---a--->initial
+initial--- --->initial
+initial---y--->initial
+initial--- --->initial
+initial---e--->D0
+D0---s--->initial
+initial---p--->initial
+initial---í--->initial
+initial---a--->initial
+initial--- --->initial
+initial---h--->initial
+initial---i--->initial
+initial---s--->initial
+initial---p--->initial
+initial---a--->initial
+initial---n--->initial
+initial---o--->initial
+initial---e--->D0
+D0---s--->initial
+initial---t--->G0
+G0---a--->initial
+initial---d--->initial
+initial---o--->initial
+initial---u--->initial
+initial---n--->initial
+initial---i--->initial
+initial---d--->initial
+initial---e--->D0
+D0---n--->D1
+D1---s--->initial
+initial---e--->D0
+D0--- --->initial
+initial---A--->initial
+initial---l--->initial
+initial---i--->initial
+initial---n--->initial
+initial---e--->D0
+D0--- --->initial
+initial---G--->initial
+initial---r--->B0
+B0---i--->initial
+initial---f--->F0
+F0---f--->F0
+F0---i--->initial
+initial---t--->G0
+G0---h--->initial
+initial------>initial
+initial---
+--->initial
+initial---1--->initial
+initial---1--->initial
+initial--- --->initial
+initial---d--->initial
+initial---e--->D0
+D0--- --->initial
+initial---d--->initial
+initial---i--->initial
+initial---c--->C0
+C0---i--->initial
+initial---e--->D0
+D0---m--->E0
+E0---b--->initial
+initial---r--->B0
+B0---e--->D0
+D0---:--->initial
+initial--- --->initial
+initial---A--->initial
+initial---l--->initial
+initial---i--->initial
+initial---n--->initial
+initial---e--->D0
+D0--- --->initial
+initial---G--->initial
+initial---r--->B0
+B0---i--->initial
+initial---f--->F0
+F0---f--->F0
+F0---i--->initial
+initial---t--->G0
+G0---h--->initial
+initial---,--->initial
+initial--- --->initial
+initial---a--->initial
+initial---r--->B0
+B0---i--->initial
+initial---s--->initial
+initial---t--->G0
+G0---ó--->initial
+initial---c--->C0
+C0---r--->B0
+B0---a--->initial
+initial---t--->G0
+G0---a--->initial
+initial--- --->initial
+initial---y--->initial
+initial--- --->initial
+initial---e--->D0
+D0---s--->initial
+initial---p--->initial
+initial---í--->initial
+initial---a--->initial
+initial--- --->initial
+initial---h--->initial
+initial---i--->initial
+initial---s--->initial
+initial---p--->initial
+initial---a--->initial
+initial---n--->initial
+initial---o--->initial
+initial---e--->D0
+D0---s--->initial
+initial---t--->G0
+G0---a--->initial
+initial---d--->initial
+initial---o--->initial
+initial---u--->initial
+initial---n--->initial
+initial---i--->initial
+initial---d--->initial
+initial---e--->D0
+D0---n--->D1
+D1---s--->initial
+initial---e--->D0
+D0--- --->initial
+initial---(--->initial
+initial---9--->initial
+initial---4--->initial
+initial---;--->initial
+initial--- --->initial
+initial---e--->D0
+D0---n--->D1
+D1--- --->initial
+initial---l--->initial
+initial---a--->initial
+initial--- --->initial
+initial---i--->initial
+initial---m--->E0
+E0---a--->initial
+initial---g--->initial
+initial---e--->D0
+D0---n--->D1
+D1---)--->initial
+initial------>initial
+initial---
+--->initial
+initial---1--->initial
+initial---1--->initial
+initial--- --->initial
+initial---d--->initial
+initial---e--->D0
+D0--- --->initial
+initial---d--->initial
+initial---i--->initial
+initial---c--->C0
+C0---i--->initial
+initial---e--->D0
+D0---m--->E0
+E0---b--->initial
+initial---r--->B0
+B0---e--->D0
+D0---:--->initial
+initial--- --->initial
+initial---J--->initial
+initial---o--->initial
+initial---r--->B0
+B0---g--->initial
+initial---e--->D0
+D0--- --->initial
+initial---S--->initial
+initial---c--->C0
+C0---h--->initial
+initial---i--->initial
+initial---a--->initial
+initial---f--->F0
+F0---f--->F0
+F0---i--->initial
+initial---n--->initial
+initial---o--->initial
+initial--- --->initial
+initial---I--->initial
+initial---s--->initial
+initial---u--->initial
+initial---n--->initial
+initial---z--->initial
+initial---a--->initial
+initial---,--->initial
+initial--- --->initial
+initial---p--->initial
+initial---o--->initial
+initial---l--->initial
+initial---í--->initial
+initial---t--->G0
+G0---i--->initial
+initial---c--->C0
+C0---o--->C1
+C1--- --->initial
+initial---m--->E0
+E0---e--->E1
+E1---x--->initial
+initial---i--->initial
+initial---c--->C0
+C0---a--->initial
+initial---n--->initial
+initial---o--->initial
+initial--- --->initial
+initial---(--->initial
+initial---7--->initial
+initial---0--->initial
+initial---)--->initial
+initial------>initial
+initial---
+--->initial
+initial---8--->initial
+initial--- --->initial
+initial---d--->initial
+initial---e--->D0
+D0--- --->initial
+initial---d--->initial
+initial---i--->initial
+initial---c--->C0
+C0---i--->initial
+initial---e--->D0
+D0---m--->E0
+E0---b--->initial
+initial---r--->B0
+B0---e--->D0
+D0---:--->initial
+initial--- --->initial
+initial---J--->initial
+initial---u--->initial
+initial---a--->initial
+initial---n--->initial
+initial--- --->initial
+initial---C--->C0
+C0---e--->D0
+D0---l--->initial
+initial---a--->initial
+initial---d--->initial
+initial---a--->initial
+initial--- --->initial
+initial---S--->initial
+initial---a--->initial
+initial---l--->initial
+initial---m--->E0
+E0---ó--->initial
+initial---n--->initial
+initial---,--->initial
+initial--- --->initial
+initial---i--->initial
+initial---n--->initial
+initial---g--->initial
+initial---e--->D0
+D0---n--->D1
+D1---i--->initial
+initial---e--->D0
+D0---r--->B0
+B0---o--->B1
+B1--- --->initial
+initial---e--->D0
+D0--- --->initial
+initial---i--->initial
+initial---n--->initial
+initial---v--->A0
+A0---e--->D0
+D0---n--->D1
+D1---t--->G0
+G0---o--->initial
+initial---r--->B0
+B0--- --->initial
+initial---m--->E0
+E0---e--->E1
+E1---x--->initial
+initial---i--->initial
+initial---c--->C0
+C0---a--->initial
+initial---n--->initial
+initial---o--->initial
+initial--- --->initial
+initial---(--->initial
+initial---1--->initial
+initial---0--->initial
+initial---1--->initial
+initial---)--->initial
+initial------>initial
+initial---
+--->initial
+initial---8--->initial
+initial--- --->initial
+initial---d--->initial
+initial---e--->D0
+D0--- --->initial
+initial---d--->initial
+initial---i--->initial
+initial---c--->C0
+C0---i--->initial
+initial---e--->D0
+D0---m--->E0
+E0---b--->initial
+initial---r--->B0
+B0---e--->D0
+D0---:--->initial
+initial--- --->initial
+initial---C--->C0
+C0---a--->initial
+initial---r--->B0
+B0---l--->initial
+initial---o--->initial
+initial---s--->initial
+initial--- --->initial
+initial---M--->E0
+E0---a--->initial
+initial---r--->B0
+B0---í--->initial
+initial---a--->initial
+initial--- --->initial
+initial---F--->F0
+F0---r--->B0
+B0---a--->initial
+initial---n--->initial
+initial---z--->initial
+initial---i--->initial
+initial---n--->initial
+initial---i--->initial
+initial---,--->initial
+initial--- --->initial
+initial---o--->initial
+initial---b--->initial
+initial---i--->initial
+initial---s--->initial
+initial---p--->initial
+initial---o--->initial
+initial--- --->initial
+initial---a--->initial
+initial---r--->B0
+B0---g--->initial
+initial---e--->D0
+D0---n--->D1
+D1---t--->G0
+G0---i--->initial
+initial---n--->initial
+initial---o--->initial
+initial--- --->initial
+initial---(--->initial
+initial---6--->initial
+initial---6--->initial
+initial---)--->initial
+initial------>initial
+initial---
+--->initial
+initial---C--->C0
+C0---o--->C1
+C1---n--->initial
+initial---m--->E0
+E0---e--->E1
+E1---m--->E0
+E0---o--->initial
+initial---r--->B0
+B0---a--->initial
+initial---c--->C0
+C0---i--->initial
+initial---o--->initial
+initial---n--->initial
+initial---e--->D0
+D0---s--->initial
+initial--- --->initial
+initial---y--->initial
+initial--- --->initial
+initial---f--->F0
+F0---i--->initial
+initial---e--->D0
+D0---s--->initial
+initial---t--->G0
+G0---a--->initial
+initial---s--->initial
+initial------>initial
+initial---
+--->initial
+initial---1--->initial
+initial---3--->initial
+initial--- --->initial
+initial---d--->initial
+initial---e--->D0
+D0--- --->initial
+initial---d--->initial
+initial---i--->initial
+initial---c--->C0
+C0---i--->initial
+initial---e--->D0
+D0---m--->E0
+E0---b--->initial
+initial---r--->B0
+B0---e--->D0
+D0---:--->initial
+initial--- --->initial
+initial---D--->initial
+initial---í--->initial
+initial---a--->initial
+initial--- --->initial
+initial---N--->initial
+initial---a--->initial
+initial---c--->C0
+C0---i--->initial
+initial---o--->initial
+initial---n--->initial
+initial---a--->initial
+initial---l--->initial
+initial--- --->initial
+initial---d--->initial
+initial---e--->D0
+D0--- --->initial
+initial---S--->initial
+initial---a--->initial
+initial---n--->initial
+initial---t--->G0
+G0---a--->initial
+initial--- --->initial
+initial---L--->initial
+initial---u--->initial
+initial---c--->C0
+C0---í--->initial
+initial---a--->initial
+initial------>initial
+initial---
+--->initial
+initial---1--->initial
+initial---2--->initial
+initial--- --->initial
+initial---d--->initial
+initial---e--->D0
+D0--- --->initial
+initial---d--->initial
+initial---i--->initial
+initial---c--->C0
+C0---i--->initial
+initial---e--->D0
+D0---m--->E0
+E0---b--->initial
+initial---r--->B0
+B0---e--->D0
+D0---:--->initial
+initial--- --->initial
+initial---D--->initial
+initial---í--->initial
+initial---a--->initial
+initial--- --->initial
+initial---d--->initial
+initial---e--->D0
+D0--- --->initial
+initial---l--->initial
+initial---a--->initial
+initial--- --->initial
+initial---C--->C0
+C0---o--->C1
+C1---b--->initial
+initial---e--->D0
+D0---r--->B0
+B0---t--->G0
+G0---u--->initial
+initial---r--->B0
+B0---a--->initial
+initial--- --->initial
+initial---U--->initial
+initial---n--->initial
+initial---i--->initial
+initial---v--->A0
+A0---e--->D0
+D0---r--->B0
+B0---s--->initial
+initial---a--->initial
+initial---l--->initial
+initial--- --->initial
+initial---d--->initial
+initial---e--->D0
+D0--- --->initial
+initial---S--->initial
+initial---a--->initial
+initial---l--->initial
+initial---u--->initial
+initial---d--->initial
+initial------>initial
+initial---
+--->initial
+initial---1--->initial
+initial---2--->initial
+initial--- --->initial
+initial---d--->initial
+initial---e--->D0
+D0--- --->initial
+initial---d--->initial
+initial---i--->initial
+initial---c--->C0
+C0---i--->initial
+initial---e--->D0
+D0---m--->E0
+E0---b--->initial
+initial---r--->B0
+B0---e--->D0
+D0---:--->initial
+initial--- --->initial
+initial---D--->initial
+initial---í--->initial
+initial---a--->initial
+initial--- --->initial
+initial---I--->initial
+initial---n--->initial
+initial---t--->G0
+G0---e--->D0
+D0---r--->B0
+B0---n--->initial
+initial---a--->initial
+initial---c--->C0
+C0---i--->initial
+initial---o--->initial
+initial---n--->initial
+initial---a--->initial
+initial---l--->initial
+initial--- --->initial
+initial---d--->initial
+initial---e--->D0
+D0--- --->initial
+initial---l--->initial
+initial---a--->initial
+initial--- --->initial
+initial---N--->initial
+initial---e--->D0
+D0---u--->initial
+initial---t--->G0
+G0---r--->G1
+G1---a--->G2
+G2---l--->initial
+initial---i--->initial
+initial---d--->initial
+initial---a--->initial
+initial---d--->initial
+initial------>initial
+initial---
+--->initial
+initial---1--->initial
+initial---2--->initial
+initial--- --->initial
+initial---d--->initial
+initial---e--->D0
+D0--- --->initial
+initial---d--->initial
+initial---i--->initial
+initial---c--->C0
+C0---i--->initial
+initial---e--->D0
+D0---m--->E0
+E0---b--->initial
+initial---r--->B0
+B0---e--->D0
+D0---:--->initial
+initial--- --->initial
+initial---N--->initial
+initial---u--->initial
+initial---e--->D0
+D0---s--->initial
+initial---t--->G0
+G0---r--->G1
+G1---a--->G2
+G2--- --->initial
+initial---S--->initial
+initial---e--->D0
+D0---ñ--->initial
+initial---o--->initial
+initial---r--->B0
+B0---a--->initial
+initial--- --->initial
+initial---d--->initial
+initial---e--->D0
+D0--- --->initial
+initial---G--->initial
+initial---u--->initial
+initial---a--->initial
+initial---d--->initial
+initial---a--->initial
+initial---l--->initial
+initial---u--->initial
+initial---p--->initial
+initial---e--->D0
+D0------>initial
+initial---
+--->initial
+initial---1--->initial
+initial---2--->initial
+initial--- --->initial
+initial---d--->initial
+initial---e--->D0
+D0--- --->initial
+initial---d--->initial
+initial---i--->initial
+initial---c--->C0
+C0---i--->initial
+initial---e--->D0
+D0---m--->E0
+E0---b--->initial
+initial---r--->B0
+B0---e--->D0
+D0---:--->initial
+initial--- --->initial
+initial---D--->initial
+initial---í--->initial
+initial---a--->initial
+initial--- --->initial
+initial---N--->initial
+initial---a--->initial
+initial---c--->C0
+C0---i--->initial
+initial---o--->initial
+initial---n--->initial
+initial---a--->initial
+initial---l--->initial
+initial--- --->initial
+initial---d--->initial
+initial---e--->D0
+D0--- --->initial
+initial---K--->initial
+initial---e--->D0
+D0---n--->D1
+D1---i--->initial
+initial---a--->initial
+initial------>initial
+initial---
+--->initial
+initial---V--->A0
+A0---é--->D0
+D0---a--->initial
+initial---s--->initial
+initial---e--->D0
+D0--- --->initial
+initial---t--->G0
+G0---a--->initial
+initial---m--->E0
+E0---b--->initial
+initial---i--->initial
+initial---é--->D0
+D0---n--->D1
+D1---:--->initial
+initial--- --->initial
+initial---C--->C0
+C0---a--->initial
+initial---t--->G0
+G0---e--->D0
+D0---g--->initial
+initial---o--->initial
+initial---r--->B0
+B0---í--->initial
+initial---a--->initial
+initial---:--->initial
+initial---A--->initial
+initial---c--->C0
+C0---t--->G0
+G0---u--->initial
+initial---a--->initial
+initial---l--->initial
+initial---i--->initial
+initial---d--->initial
+initial---a--->initial
+initial---d--->initial
+initial---,--->initial
+initial--- --->initial
+initial---2--->initial
+initial---0--->initial
+initial---1--->initial
+initial---7--->initial
+initial---,--->initial
+initial--- --->initial
+initial---C--->C0
+C0---a--->initial
+initial---t--->G0
+G0---e--->D0
+D0---g--->initial
+initial---o--->initial
+initial---r--->B0
+B0---í--->initial
+initial---a--->initial
+initial---:--->initial
+initial---2--->initial
+initial---0--->initial
+initial---1--->initial
+initial---7--->initial
+initial------>initial
+initial---
+--->initial
+initial---E--->D0
+D0---f--->F0
+F0---e--->D0
+D0---m--->E0
+E0---é--->E1
+E1---r--->B0
+B0---i--->initial
+initial---d--->initial
+initial---e--->D0
+D0---s--->initial
+initial------>initial
+initial---
+--->initial
+initial---A--->initial
+initial---r--->B0
+B0---t--->G0
+G0---h--->initial
+initial---u--->initial
+initial---r--->B0
+B0--- --->initial
+initial---H--->initial
+initial---i--->initial
+initial---l--->initial
+initial---l--->initial
+initial--- --->initial
+initial---H--->initial
+initial---a--->initial
+initial---s--->initial
+initial---s--->initial
+initial---a--->initial
+initial---l--->initial
+initial---l--->initial
+initial---.--->initial
+initial---j--->initial
+initial---p--->initial
+initial---g--->initial
+initial------>initial
+initial---
+--->initial
+initial---1--->initial
+initial---8--->initial
+initial---1--->initial
+initial---7--->initial
+initial--- --->initial
+initial---(--->initial
+initial---h--->initial
+initial---a--->initial
+initial---c--->C0
+C0---e--->D0
+D0--- --->initial
+initial---2--->initial
+initial---0--->initial
+initial---0--->initial
+initial--- --->initial
+initial---a--->initial
+initial---ñ--->initial
+initial---o--->initial
+initial---s--->initial
+initial---)--->initial
+initial---:--->initial
+initial--- --->initial
+initial---N--->initial
+initial---a--->initial
+initial---c--->C0
+C0---e--->D0
+D0--- --->initial
+initial---A--->initial
+initial---r--->B0
+B0---t--->G0
+G0---h--->initial
+initial---u--->initial
+initial---r--->B0
+B0--- --->initial
+initial---H--->initial
+initial---i--->initial
+initial---l--->initial
+initial---l--->initial
+initial--- --->initial
+initial---H--->initial
+initial---a--->initial
+initial---s--->initial
+initial---s--->initial
+initial---a--->initial
+initial---l--->initial
+initial---l--->initial
+initial---,--->initial
+initial--- --->initial
+initial---m--->E0
+E0---é--->E1
+E1---d--->initial
+initial---i--->initial
+initial---c--->C0
+C0---o--->C1
+C1--- --->initial
+initial---y--->initial
+initial--- --->initial
+initial---q--->initial
+initial---u--->initial
+initial---í--->initial
+initial---m--->E0
+E0---i--->initial
+initial---c--->C0
+C0---o--->C1
+C1--- --->initial
+initial---b--->initial
+initial---r--->B0
+B0---i--->initial
+initial---t--->G0
+G0---á--->initial
+initial---n--->initial
+initial---i--->initial
+initial---c--->C0
+C0---o--->C1
+C1--- --->initial
+initial---(--->initial
+initial---f--->F0
+F0---.--->initial
+initial--- --->initial
+initial---1--->initial
+initial---8--->initial
+initial---9--->initial
+initial---4--->initial
+initial---)--->initial
+initial--- --->initial
+initial---(--->initial
+initial---e--->D0
+D0---n--->D1
+D1--- --->initial
+initial---l--->initial
+initial---a--->initial
+initial--- --->initial
+initial---i--->initial
+initial---m--->E0
+E0---a--->initial
+initial---g--->initial
+initial---e--->D0
+D0---n--->D1
+D1---)--->initial
+initial---.--->initial
+initial------>initial
+initial---
+--->initial
+initial---1--->initial
+initial---9--->initial
+initial---1--->initial
+initial---7--->initial
+initial--- --->initial
+initial---(--->initial
+initial---h--->initial
+initial---a--->initial
+initial---c--->C0
+C0---e--->D0
+D0--- --->initial
+initial---1--->initial
+initial---0--->initial
+initial---0--->initial
+initial--- --->initial
+initial---a--->initial
+initial---ñ--->initial
+initial---o--->initial
+initial---s--->initial
+initial---)--->initial
+initial---:--->initial
+initial--- --->initial
+initial---N--->initial
+initial---a--->initial
+initial---c--->C0
+C0---e--->D0
+D0--- --->initial
+initial---J--->initial
+initial---o--->initial
+initial---h--->initial
+initial---n--->initial
+initial--- --->initial
+initial---H--->initial
+initial---a--->initial
+initial---r--->B0
+B0---t--->G0
+G0---,--->initial
+initial--- --->initial
+initial---a--->initial
+initial---c--->C0
+C0---t--->G0
+G0---o--->initial
+initial---r--->B0
+B0--- --->initial
+initial---e--->D0
+D0---s--->initial
+initial---t--->G0
+G0---a--->initial
+initial---d--->initial
+initial---o--->initial
+initial---u--->initial
+initial---n--->initial
+initial---i--->initial
+initial---d--->initial
+initial---e--->D0
+D0---n--->D1
+D1---s--->initial
+initial---e--->D0
+D0--- --->initial
+initial---(--->initial
+initial---f--->F0
+F0---.--->initial
+initial--- --->initial
+initial---2--->initial
+initial---0--->initial
+initial---0--->initial
+initial---9--->initial
+initial---)--->initial
+initial---.--->initial
+initial------>initial
+initial---
+--->initial
+initial---1--->initial
+initial---9--->initial
+initial---3--->initial
+initial---7--->initial
+initial--- --->initial
+initial---(--->initial
+initial---h--->initial
+initial---a--->initial
+initial---c--->C0
+C0---e--->D0
+D0--- --->initial
+initial---8--->initial
+initial---0--->initial
+initial--- --->initial
+initial---a--->initial
+initial---ñ--->initial
+initial---o--->initial
+initial---s--->initial
+initial---)--->initial
+initial---:--->initial
+initial--- --->initial
+initial---L--->initial
+initial---o--->initial
+initial---s--->initial
+initial--- --->initial
+initial---j--->initial
+initial---a--->initial
+initial---p--->initial
+initial---o--->initial
+initial---n--->initial
+initial---e--->D0
+D0---s--->initial
+initial---e--->D0
+D0---s--->initial
+initial--- --->initial
+initial---c--->C0
+C0---o--->C1
+C1---m--->E0
+E0---i--->initial
+initial---e--->D0
+D0---n--->D1
+D1---z--->initial
+initial---a--->initial
+initial---n--->initial
+initial--- --->initial
+initial---l--->initial
+initial---a--->initial
+initial--- --->initial
+initial---m--->E0
+E0---a--->initial
+initial---s--->initial
+initial---a--->initial
+initial---c--->C0
+C0---r--->B0
+B0---e--->D0
+D0--- --->initial
+initial---d--->initial
+initial---e--->D0
+D0--- --->initial
+initial---N--->initial
+initial---a--->initial
+initial---n--->initial
+initial---k--->initial
+initial---í--->initial
+initial---n--->initial
+initial---,--->initial
+initial--- --->initial
+initial---e--->D0
+D0---n--->D1
+D1--- --->initial
+initial---l--->initial
+initial---a--->initial
+initial--- --->initial
+initial---q--->initial
+initial---u--->initial
+initial---e--->D0
+D0--- --->initial
+initial---m--->E0
+E0---u--->initial
+initial---e--->D0
+D0---r--->B0
+B0---e--->D0
+D0---n--->D1
+D1--- --->initial
+initial---c--->C0
+C0---i--->initial
+initial---e--->D0
+D0---n--->D1
+D1---t--->G0
+G0---o--->initial
+initial---s--->initial
+initial--- --->initial
+initial---d--->initial
+initial---e--->D0
+D0--- --->initial
+initial---m--->E0
+E0---i--->initial
+initial---l--->initial
+initial---e--->D0
+D0---s--->initial
+initial--- --->initial
+initial---d--->initial
+initial---e--->D0
+D0--- --->initial
+initial---c--->C0
+C0---h--->initial
+initial---i--->initial
+initial---n--->initial
+initial---o--->initial
+initial---s--->initial
+initial---.--->initial
+initial------>initial
+initial---
+--->initial
+initial---1--->initial
+initial---9--->initial
+initial---4--->initial
+initial---7--->initial
+initial--- --->initial
+initial---(--->initial
+initial---h--->initial
+initial---a--->initial
+initial---c--->C0
+C0---e--->D0
+D0--- --->initial
+initial---7--->initial
+initial---0--->initial
+initial--- --->initial
+initial---a--->initial
+initial---ñ--->initial
+initial---o--->initial
+initial---s--->initial
+initial---)--->initial
+initial---:--->initial
+initial--- --->initial
+initial---F--->F0
+F0---a--->F1
+F1---l--->F2
+F2---l--->initial
+initial---e--->D0
+D0---c--->C0
+C0---e--->D0
+D0--- --->initial
+initial---N--->initial
+initial---i--->initial
+initial---k--->initial
+initial---o--->initial
+initial---l--->initial
+initial---á--->initial
+initial---i--->initial
+initial--- --->initial
+initial---R--->B0
+B0---o--->B1
+B1---e--->D0
+D0---r--->B0
+B0---i--->initial
+initial---c--->C0
+C0---h--->initial
+initial---,--->initial
+initial--- --->initial
+initial---p--->initial
+initial---i--->initial
+initial---n--->initial
+initial---t--->G0
+G0---o--->initial
+initial---r--->B0
+B0--- --->initial
+initial---r--->B0
+B0---u--->initial
+initial---s--->initial
+initial---o--->initial
+initial--- --->initial
+initial---(--->initial
+initial---n--->initial
+initial---.--->initial
+initial--- --->initial
+initial---1--->initial
+initial---8--->initial
+initial---7--->initial
+initial---4--->initial
+initial---)--->initial
+initial---.--->initial
+initial------>initial
+initial---
+--->initial
+initial---2--->initial
+initial---0--->initial
+initial---0--->initial
+initial---7--->initial
+initial--- --->initial
+initial---(--->initial
+initial---h--->initial
+initial---a--->initial
+initial---c--->C0
+C0---e--->D0
+D0--- --->initial
+initial---1--->initial
+initial---0--->initial
+initial--- --->initial
+initial---a--->initial
+initial---ñ--->initial
+initial---o--->initial
+initial---s--->initial
+initial---)--->initial
+initial---:--->initial
+initial--- --->initial
+initial---F--->F0
+F0---a--->F1
+F1---l--->F2
+F2---l--->initial
+initial---e--->D0
+D0---c--->C0
+C0---e--->D0
+D0--- --->initial
+initial---V--->A0
+A0---í--->A1
+A1---c--->C0
+C0---t--->G0
+G0---o--->initial
+initial---r--->B0
+B0--- --->initial
+initial---S--->initial
+initial---u--->initial
+initial---e--->D0
+D0---i--->initial
+initial---r--->B0
+B0---o--->B1
+B1---,--->initial
+initial--- --->initial
+initial---p--->initial
+initial---e--->D0
+D0---r--->B0
+B0---i--->initial
+initial---o--->initial
+initial---d--->initial
+initial---i--->initial
+initial---s--->initial
+initial---t--->G0
+G0---a--->initial
+initial---,--->initial
+initial--- --->initial
+initial---e--->D0
+D0---s--->initial
+initial---c--->C0
+C0---r--->B0
+B0---i--->initial
+initial---t--->G0
+G0---o--->initial
+initial---r--->B0
+B0--- --->initial
+initial---y--->initial
+initial--- --->initial
+initial---p--->initial
+initial---r--->B0
+B0---e--->D0
+D0---s--->initial
+initial---e--->D0
+D0---n--->D1
+D1---t--->G0
+G0---a--->initial
+initial---d--->initial
+initial---o--->initial
+initial---r--->B0
+B0--- --->initial
+initial---a--->initial
+initial---r--->B0
+B0---g--->initial
+initial---e--->D0
+D0---n--->D1
+D1---t--->G0
+G0---i--->initial
+initial---n--->initial
+initial---o--->initial
+initial--- --->initial
+initial---(--->initial
+initial---n--->initial
+initial---.--->initial
+initial--- --->initial
+initial---1--->initial
+initial---9--->initial
+initial---4--->initial
+initial---3--->initial
+initial---)--->initial
+initial---.--->initial
+initial------>initial
+initial---
+--->initial
+initial---1--->initial
+initial---2--->initial
+initial--- --->initial
+initial---d--->initial
+initial---e--->D0
+D0--- --->initial
+initial---d--->initial
+initial---i--->initial
+initial---c--->C0
+C0---i--->initial
+initial---e--->D0
+D0---m--->E0
+E0---b--->initial
+initial---r--->B0
+B0---e--->D0
+D0--- --->initial
+initial---–--->initial
+initial--- --->initial
+initial---1--->initial
+initial---3--->initial
+initial--- --->initial
+initial---d--->initial
+initial---e--->D0
+D0--- --->initial
+initial---d--->initial
+initial---i--->initial
+initial---c--->C0
+C0---i--->initial
+initial---e--->D0
+D0---m--->E0
+E0---b--->initial
+initial---r--->B0
+B0---e--->D0
+D0--- --->initial
+initial---–--->initial
+initial--- --->initial
+initial---1--->initial
+initial---4--->initial
+initial--- --->initial
+initial---d--->initial
+initial---e--->D0
+D0--- --->initial
+initial---d--->initial
+initial---i--->initial
+initial---c--->C0
+C0---i--->initial
+initial---e--->D0
+D0---m--->E0
+E0---b--->initial
+initial---r--->B0
+B0---e--->D0
+D0------>initial
+initial---
+--->initial
+initial---O--->initial
+initial---t--->G0
+G0---r--->G1
+G1---o--->initial
+initial---s--->initial
+initial--- --->initial
+initial---p--->initial
+initial---r--->B0
+B0---o--->B1
+B1---y--->initial
+initial---e--->D0
+D0---c--->C0
+C0---t--->G0
+G0---o--->initial
+initial---s--->initial
+initial--- --->initial
+initial---d--->initial
+initial---e--->D0
+D0--- --->initial
+initial---l--->initial
+initial---a--->initial
+initial--- --->initial
+initial---F--->F0
+F0---u--->initial
+initial---n--->initial
+initial---d--->initial
+initial---a--->initial
+initial---c--->C0
+C0---i--->initial
+initial---ó--->initial
+initial---n--->initial
+initial--- --->initial
+initial---W--->initial
+initial---i--->initial
+initial---k--->initial
+initial---i--->initial
+initial---m--->E0
+E0---e--->E1
+E1---d--->initial
+initial---i--->initial
+initial---a--->initial
+initial------>initial
+initial---
+--->initial
+initial---W--->initial
+initial---i--->initial
+initial---k--->initial
+initial---i--->initial
+initial---m--->E0
+E0---e--->E1
+E1---d--->initial
+initial---i--->initial
+initial---a--->initial
+initial--- --->initial
+initial---C--->C0
+C0---o--->C1
+C1---m--->E0
+E0---m--->E0
+E0---o--->initial
+initial---n--->initial
+initial---s--->initial
+initial---	--->initial
+initial---C--->C0
+C0---o--->C1
+C1---m--->E0
+E0---m--->E0
+E0---o--->initial
+initial---n--->initial
+initial---s--->initial
+initial------>initial
+initial---
+--->initial
+initial---I--->initial
+initial---m--->E0
+E0---á--->initial
+initial---g--->initial
+initial---e--->D0
+D0---n--->D1
+D1---e--->D0
+D0---s--->initial
+initial--- --->initial
+initial---y--->initial
+initial--- --->initial
+initial---m--->E0
+E0---u--->initial
+initial---l--->initial
+initial---t--->G0
+G0---i--->initial
+initial---m--->E0
+E0---e--->E1
+E1---d--->initial
+initial---i--->initial
+initial---a--->initial
+initial------>initial
+initial---
+--->initial
+initial---W--->initial
+initial---i--->initial
+initial---k--->initial
+initial---c--->C0
+C0---i--->initial
+initial---o--->initial
+initial---n--->initial
+initial---a--->initial
+initial---r--->B0
+B0---i--->initial
+initial---o--->initial
+initial---	--->initial
+initial---W--->initial
+initial---i--->initial
+initial---k--->initial
+initial---c--->C0
+C0---i--->initial
+initial---o--->initial
+initial---n--->initial
+initial---a--->initial
+initial---r--->B0
+B0---i--->initial
+initial---o--->initial
+initial------>initial
+initial---
+--->initial
+initial---D--->initial
+initial---i--->initial
+initial---c--->C0
+C0---c--->C0
+C0---i--->initial
+initial---o--->initial
+initial---n--->initial
+initial---a--->initial
+initial---r--->B0
+B0---i--->initial
+initial---o--->initial
+initial--- --->initial
+initial---l--->initial
+initial---i--->initial
+initial---b--->initial
+initial---r--->B0
+B0---e--->D0
+D0------>initial
+initial---
+--->initial
+initial---W--->initial
+initial---i--->initial
+initial---k--->initial
+initial---i--->initial
+initial---s--->initial
+initial---o--->initial
+initial---u--->initial
+initial---r--->B0
+B0---c--->C0
+C0---e--->D0
+D0---	--->initial
+initial---W--->initial
+initial---i--->initial
+initial---k--->initial
+initial---i--->initial
+initial---s--->initial
+initial---o--->initial
+initial---u--->initial
+initial---r--->B0
+B0---c--->C0
+C0---e--->D0
+D0------>initial
+initial---
+--->initial
+initial---B--->initial
+initial---i--->initial
+initial---b--->initial
+initial---l--->initial
+initial---i--->initial
+initial---o--->initial
+initial---t--->G0
+G0---e--->D0
+D0---c--->C0
+C0---a--->initial
+initial--- --->initial
+initial---l--->initial
+initial---i--->initial
+initial---b--->initial
+initial---r--->B0
+B0---e--->D0
+D0------>initial
+initial---
+--->initial
+initial---W--->initial
+initial---i--->initial
+initial---k--->initial
+initial---i--->initial
+initial---n--->initial
+initial---o--->initial
+initial---t--->G0
+G0---i--->initial
+initial---c--->C0
+C0---i--->initial
+initial---a--->initial
+initial---s--->initial
+initial---	--->initial
+initial---W--->initial
+initial---i--->initial
+initial---k--->initial
+initial---i--->initial
+initial---n--->initial
+initial---o--->initial
+initial---t--->G0
+G0---i--->initial
+initial---c--->C0
+C0---i--->initial
+initial---a--->initial
+initial---s--->initial
+initial------>initial
+initial---
+--->initial
+initial---N--->initial
+initial---o--->initial
+initial---t--->G0
+G0---i--->initial
+initial---c--->C0
+C0---i--->initial
+initial---a--->initial
+initial---s--->initial
+initial--- --->initial
+initial---l--->initial
+initial---i--->initial
+initial---b--->initial
+initial---r--->B0
+B0---e--->D0
+D0---s--->initial
+initial------>initial
+initial---
+--->initial
+initial---W--->initial
+initial---i--->initial
+initial---k--->initial
+initial---i--->initial
+initial---l--->initial
+initial---i--->initial
+initial---b--->initial
+initial---r--->B0
+B0---o--->B1
+B1---s--->initial
+initial---	--->initial
+initial---W--->initial
+initial---i--->initial
+initial---k--->initial
+initial---i--->initial
+initial---l--->initial
+initial---i--->initial
+initial---b--->initial
+initial---r--->B0
+B0---o--->B1
+B1---s--->initial
+initial------>initial
+initial---
+--->initial
+initial---L--->initial
+initial---i--->initial
+initial---b--->initial
+initial---r--->B0
+B0---o--->B1
+B1---s--->initial
+initial--- --->initial
+initial---d--->initial
+initial---e--->D0
+D0--- --->initial
+initial---t--->G0
+G0---e--->D0
+D0---x--->initial
+initial---t--->G0
+G0---o--->initial
+initial--- --->initial
+initial---y--->initial
+initial--- --->initial
+initial---m--->E0
+E0---a--->initial
+initial---n--->initial
+initial---u--->initial
+initial---a--->initial
+initial---l--->initial
+initial---e--->D0
+D0---s--->initial
+initial------>initial
+initial---
+--->initial
+initial---W--->initial
+initial---i--->initial
+initial---k--->initial
+initial---i--->initial
+initial---q--->initial
+initial---u--->initial
+initial---o--->initial
+initial---t--->G0
+G0---e--->D0
+D0---	--->initial
+initial---W--->initial
+initial---i--->initial
+initial---k--->initial
+initial---i--->initial
+initial---q--->initial
+initial---u--->initial
+initial---o--->initial
+initial---t--->G0
+G0---e--->D0
+D0------>initial
+initial---
+--->initial
+initial---C--->C0
+C0---o--->C1
+C1---l--->initial
+initial---e--->D0
+D0---c--->C0
+C0---c--->C0
+C0---i--->initial
+initial---ó--->initial
+initial---n--->initial
+initial--- --->initial
+initial---d--->initial
+initial---e--->D0
+D0--- --->initial
+initial---c--->C0
+C0---i--->initial
+initial---t--->G0
+G0---a--->initial
+initial---s--->initial
+initial------>initial
+initial---
+--->initial
+initial---W--->initial
+initial---i--->initial
+initial---k--->initial
+initial---i--->initial
+initial---s--->initial
+initial---p--->initial
+initial---e--->D0
+D0---c--->C0
+C0---i--->initial
+initial---e--->D0
+D0---s--->initial
+initial---	--->initial
+initial---W--->initial
+initial---i--->initial
+initial---k--->initial
+initial---i--->initial
+initial---s--->initial
+initial---p--->initial
+initial---e--->D0
+D0---c--->C0
+C0---i--->initial
+initial---e--->D0
+D0---s--->initial
+initial------>initial
+initial---
+--->initial
+initial---D--->initial
+initial---i--->initial
+initial---r--->B0
+B0---e--->D0
+D0---c--->C0
+C0---t--->G0
+G0---o--->initial
+initial---r--->B0
+B0---i--->initial
+initial---o--->initial
+initial--- --->initial
+initial---d--->initial
+initial---e--->D0
+D0--- --->initial
+initial---e--->D0
+D0---s--->initial
+initial---p--->initial
+initial---e--->D0
+D0---c--->C0
+C0---i--->initial
+initial---e--->D0
+D0---s--->initial
+initial------>initial
+initial---
+--->initial
+initial---W--->initial
+initial---i--->initial
+initial---k--->initial
+initial---i--->initial
+initial---v--->A0
+A0---e--->D0
+D0---r--->B0
+B0---s--->initial
+initial---i--->initial
+initial---d--->initial
+initial---a--->initial
+initial---d--->initial
+initial---	--->initial
+initial---W--->initial
+initial---i--->initial
+initial---k--->initial
+initial---i--->initial
+initial---v--->A0
+A0---e--->D0
+D0---r--->B0
+B0---s--->initial
+initial---i--->initial
+initial---d--->initial
+initial---a--->initial
+initial---d--->initial
+initial------>initial
+initial---
+--->initial
+initial---R--->B0
+B0---e--->D0
+D0---c--->C0
+C0---u--->initial
+initial---r--->B0
+B0---s--->initial
+initial---o--->initial
+initial---s--->initial
+initial--- --->initial
+initial---d--->initial
+initial---e--->D0
+D0--- --->initial
+initial---a--->initial
+initial---p--->initial
+initial---r--->B0
+B0---e--->D0
+D0---n--->D1
+D1---d--->initial
+initial---i--->initial
+initial---z--->initial
+initial---a--->initial
+initial---j--->initial
+initial---e--->D0
+D0------>initial
+initial---
+--->initial
+initial---W--->initial
+initial---i--->initial
+initial---k--->initial
+initial---i--->initial
+initial---v--->A0
+A0---i--->A1
+A1---a--->initial
+initial---j--->initial
+initial---e--->D0
+D0---s--->initial
+initial---	--->initial
+initial---W--->initial
+initial---i--->initial
+initial---k--->initial
+initial---i--->initial
+initial---v--->A0
+A0---i--->A1
+A1---a--->initial
+initial---j--->initial
+initial---e--->D0
+D0---s--->initial
+initial------>initial
+initial---
+--->initial
+initial---G--->initial
+initial---u--->initial
+initial---í--->initial
+initial---a--->initial
+initial--- --->initial
+initial---d--->initial
+initial---e--->D0
+D0--- --->initial
+initial---v--->A0
+A0---i--->A1
+A1---a--->initial
+initial---j--->initial
+initial---e--->D0
+D0---s--->initial
+initial------>initial
+initial---
+--->initial
+initial---W--->initial
+initial---i--->initial
+initial---k--->initial
+initial---i--->initial
+initial---d--->initial
+initial---a--->initial
+initial---t--->G0
+G0---a--->initial
+initial---	--->initial
+initial---W--->initial
+initial---i--->initial
+initial---k--->initial
+initial---i--->initial
+initial---d--->initial
+initial---a--->initial
+initial---t--->G0
+G0---a--->initial
+initial------>initial
+initial---
+--->initial
+initial---B--->initial
+initial---a--->initial
+initial---s--->initial
+initial---e--->D0
+D0--- --->initial
+initial---d--->initial
+initial---e--->D0
+D0--- --->initial
+initial---d--->initial
+initial---a--->initial
+initial---t--->G0
+G0---o--->initial
+initial---s--->initial
+initial--- --->initial
+initial---l--->initial
+initial---i--->initial
+initial---b--->initial
+initial---r--->B0
+B0---e--->D0
+D0------>initial
+initial---
+--->initial
+initial---M--->E0
+E0---e--->E1
+E1---t--->G0
+G0---a--->initial
+initial------->initial
+initial---W--->initial
+initial---i--->initial
+initial---k--->initial
+initial---i--->initial
+initial--- --->initial
+initial--- --->initial
+initial---M--->E0
+E0---e--->E1
+E1---t--->G0
+G0---a--->initial
+initial------->initial
+initial---W--->initial
+initial---i--->initial
+initial---k--->initial
+initial---i--->initial
+initial--- --->initial
+initial---–--->initial
+initial--- --->initial
+initial---C--->C0
+C0---o--->C1
+C1---o--->initial
+initial---r--->B0
+B0---d--->initial
+initial---i--->initial
+initial---n--->initial
+initial---a--->initial
+initial---c--->C0
+C0---i--->initial
+initial---ó--->initial
+initial---n--->initial
+initial--- --->initial
+initial---d--->initial
+initial---e--->D0
+D0--- --->initial
+initial---p--->initial
+initial---r--->B0
+B0---o--->B1
+B1---y--->initial
+initial---e--->D0
+D0---c--->C0
+C0---t--->G0
+G0---o--->initial
+initial---s--->initial
+initial------>initial
+initial---
+--->initial
+initial---E--->D0
+D0---d--->initial
+initial---i--->initial
+initial---c--->C0
+C0---i--->initial
+initial---o--->initial
+initial---n--->initial
+initial---e--->D0
+D0---s--->initial
+initial--- --->initial
+initial---d--->initial
+initial---e--->D0
+D0--- --->initial
+initial---W--->initial
+initial---i--->initial
+initial---k--->initial
+initial---i--->initial
+initial---p--->initial
+initial---e--->D0
+D0---d--->initial
+initial---i--->initial
+initial---a--->initial
+initial--- --->initial
+initial---e--->D0
+D0---n--->D1
+D1--- --->initial
+initial---o--->initial
+initial---t--->G0
+G0---r--->G1
+G1---o--->initial
+initial---s--->initial
+initial--- --->initial
+initial---i--->initial
+initial---d--->initial
+initial---i--->initial
+initial---o--->initial
+initial---m--->E0
+E0---a--->initial
+initial---s--->initial
+initial------>initial
+initial---
+--->initial
+initial---L--->initial
+initial---a--->initial
+initial---s--->initial
+initial--- --->initial
+initial---d--->initial
+initial---i--->initial
+initial---e--->D0
+D0---z--->initial
+initial--- --->initial
+initial---c--->C0
+C0---o--->C1
+C1---n--->initial
+initial--- --->initial
+initial---m--->E0
+E0---á--->initial
+initial---s--->initial
+initial--- --->initial
+initial---a--->initial
+initial---r--->B0
+B0---t--->G0
+G0---í--->initial
+initial---c--->C0
+C0---u--->initial
+initial---l--->initial
+initial---o--->initial
+initial---s--->initial
+initial---:--->initial
+initial--- --->initial
+initial---E--->D0
+D0---n--->D1
+D1---g--->D2
+D2---l--->initial
+initial---i--->initial
+initial---s--->initial
+initial---h--->initial
+initial--- --->initial
+initial---(--->initial
+initial---i--->initial
+initial---n--->initial
+initial---g--->initial
+initial---l--->initial
+initial---é--->D0
+D0---s--->initial
+initial---)--->initial
+initial--- --->initial
+initial---•--->initial
+initial--- --->initial
+initial---S--->initial
+initial---i--->initial
+initial---n--->initial
+initial---u--->initial
+initial---g--->initial
+initial---b--->initial
+initial---o--->initial
+initial---a--->initial
+initial---n--->initial
+initial---o--->initial
+initial---n--->initial
+initial--- --->initial
+initial---(--->initial
+initial---c--->C0
+C0---e--->D0
+D0---b--->initial
+initial---u--->initial
+initial---a--->initial
+initial---n--->initial
+initial---o--->initial
+initial---)--->initial
+initial--- --->initial
+initial---•--->initial
+initial--- --->initial
+initial---S--->initial
+initial---v--->A0
+A0---e--->D0
+D0---n--->D1
+D1---s--->initial
+initial---k--->initial
+initial---a--->initial
+initial--- --->initial
+initial---(--->initial
+initial---s--->initial
+initial---u--->initial
+initial---e--->D0
+D0---c--->C0
+C0---o--->C1
+C1---)--->initial
+initial--- --->initial
+initial---•--->initial
+initial--- --->initial
+initial---D--->initial
+initial---e--->D0
+D0---u--->initial
+initial---t--->G0
+G0---s--->initial
+initial---c--->C0
+C0---h--->initial
+initial--- --->initial
+initial---(--->initial
+initial---a--->initial
+initial---l--->initial
+initial---e--->D0
+D0---m--->E0
+E0---á--->initial
+initial---n--->initial
+initial---)--->initial
+initial--- --->initial
+initial---•--->initial
+initial--- --->initial
+initial---N--->initial
+initial---e--->D0
+D0---d--->initial
+initial---e--->D0
+D0---r--->B0
+B0---l--->initial
+initial---a--->initial
+initial---n--->initial
+initial---d--->initial
+initial---s--->initial
+initial--- --->initial
+initial---(--->initial
+initial---n--->initial
+initial---e--->D0
+D0---e--->D0
+D0---r--->B0
+B0---l--->initial
+initial---a--->initial
+initial---n--->initial
+initial---d--->initial
+initial---é--->D0
+D0---s--->initial
+initial---)--->initial
+initial--- --->initial
+initial---•--->initial
+initial--- --->initial
+initial---F--->F0
+F0---r--->B0
+B0---a--->initial
+initial---n--->initial
+initial---ç--->initial
+initial---a--->initial
+initial---i--->initial
+initial---s--->initial
+initial--- --->initial
+initial---(--->initial
+initial---f--->F0
+F0---r--->B0
+B0---a--->initial
+initial---n--->initial
+initial---c--->C0
+C0---é--->D0
+D0---s--->initial
+initial---)--->initial
+initial--- --->initial
+initial---•--->initial
+initial--- --->initial
+initial---?--->initial
+initial---?--->initial
+initial---?--->initial
+initial---?--->initial
+initial---?--->initial
+initial---?--->initial
+initial---?--->initial
+initial--- --->initial
+initial---(--->initial
+initial---r--->B0
+B0---u--->initial
+initial---s--->initial
+initial---o--->initial
+initial---)--->initial
+initial--- --->initial
+initial---•--->initial
+initial--- --->initial
+initial---I--->initial
+initial---t--->G0
+G0---a--->initial
+initial---l--->initial
+initial---i--->initial
+initial---a--->initial
+initial---n--->initial
+initial---o--->initial
+initial--- --->initial
+initial---•--->initial
+initial--- --->initial
+initial---E--->D0
+D0---s--->initial
+initial---p--->initial
+initial---a--->initial
+initial---ñ--->initial
+initial---o--->initial
+initial---l--->initial
+initial--- --->initial
+initial---•--->initial
+initial--- --->initial
+initial---W--->initial
+initial---i--->initial
+initial---n--->initial
+initial---a--->initial
+initial---r--->B0
+B0---a--->initial
+initial---y--->initial
+initial--- --->initial
+initial---(--->initial
+initial---s--->initial
+initial---a--->initial
+initial---m--->E0
+E0---a--->initial
+initial---r--->B0
+B0---e--->D0
+D0---ñ--->initial
+initial---o--->initial
+initial---)--->initial
+initial------>initial
+initial---
+--->initial
+initial---I--->initial
+initial---d--->initial
+initial---i--->initial
+initial---o--->initial
+initial---m--->E0
+E0---a--->initial
+initial---s--->initial
+initial--- --->initial
+initial---r--->B0
+B0---e--->D0
+D0---l--->initial
+initial---a--->initial
+initial---c--->C0
+C0---i--->initial
+initial---o--->initial
+initial---n--->initial
+initial---a--->initial
+initial---d--->initial
+initial---o--->initial
+initial---s--->initial
+initial--- --->initial
+initial---c--->C0
+C0---o--->C1
+C1---n--->initial
+initial--- --->initial
+initial---e--->D0
+D0---l--->initial
+initial--- --->initial
+initial---e--->D0
+D0---s--->initial
+initial---p--->initial
+initial---a--->initial
+initial---ñ--->initial
+initial---o--->initial
+initial---l--->initial
+initial---:--->initial
+initial--- --->initial
+initial---Á--->initial
+initial---r--->B0
+B0---a--->initial
+initial---b--->initial
+initial---e--->D0
+D0--- --->initial
+initial---•--->initial
+initial--- --->initial
+initial---A--->initial
+initial---r--->B0
+B0---a--->initial
+initial---g--->initial
+initial---o--->initial
+initial---n--->initial
+initial---é--->D0
+D0---s--->initial
+initial--- --->initial
+initial---•--->initial
+initial--- --->initial
+initial---A--->initial
+initial---s--->initial
+initial---t--->G0
+G0---u--->initial
+initial---r--->B0
+B0---i--->initial
+initial---a--->initial
+initial---n--->initial
+initial---u--->initial
+initial--- --->initial
+initial---(--->initial
+initial---a--->initial
+initial---s--->initial
+initial---t--->G0
+G0---u--->initial
+initial---r--->B0
+B0---i--->initial
+initial---a--->initial
+initial---n--->initial
+initial---o--->initial
+initial---)--->initial
+initial--- --->initial
+initial---•--->initial
+initial--- --->initial
+initial---A--->initial
+initial---y--->initial
+initial---m--->E0
+E0---a--->initial
+initial---r--->B0
+B0--- --->initial
+initial---(--->initial
+initial---a--->initial
+initial---i--->initial
+initial---m--->E0
+E0---a--->initial
+initial---r--->B0
+B0---a--->initial
+initial---)--->initial
+initial--- --->initial
+initial---•--->initial
+initial--- --->initial
+initial---C--->C0
+C0---a--->initial
+initial---t--->G0
+G0---a--->initial
+initial---l--->initial
+initial---à--->initial
+initial--- --->initial
+initial---(--->initial
+initial---c--->C0
+C0---a--->initial
+initial---t--->G0
+G0---a--->initial
+initial---l--->initial
+initial---á--->initial
+initial---n--->initial
+initial---)--->initial
+initial--- --->initial
+initial---•--->initial
+initial--- --->initial
+initial---C--->C0
+C0---h--->initial
+initial---a--->initial
+initial---v--->A0
+A0---a--->initial
+initial---c--->C0
+C0---a--->initial
+initial---n--->initial
+initial---o--->initial
+initial--- --->initial
+initial---d--->initial
+initial---e--->D0
+D0--- --->initial
+initial---Z--->initial
+initial---a--->initial
+initial---m--->E0
+E0---b--->initial
+initial---o--->initial
+initial---a--->initial
+initial---n--->initial
+initial---g--->initial
+initial---a--->initial
+initial--- --->initial
+initial---(--->initial
+initial---c--->C0
+C0---h--->initial
+initial---a--->initial
+initial---b--->initial
+initial---a--->initial
+initial---c--->C0
+C0---a--->initial
+initial---n--->initial
+initial---o--->initial
+initial--- --->initial
+initial---d--->initial
+initial---e--->D0
+D0--- --->initial
+initial---Z--->initial
+initial---a--->initial
+initial---m--->E0
+E0---b--->initial
+initial---o--->initial
+initial---a--->initial
+initial---n--->initial
+initial---g--->initial
+initial---a--->initial
+initial---)--->initial
+initial--- --->initial
+initial---•--->initial
+initial--- --->initial
+initial---S--->initial
+initial---i--->initial
+initial---n--->initial
+initial---u--->initial
+initial---g--->initial
+initial---b--->initial
+initial---o--->initial
+initial---a--->initial
+initial---n--->initial
+initial---o--->initial
+initial---n--->initial
+initial--- --->initial
+initial---(--->initial
+initial---c--->C0
+C0---e--->D0
+D0---b--->initial
+initial---u--->initial
+initial---a--->initial
+initial---n--->initial
+initial---o--->initial
+initial---)--->initial
+initial--- --->initial
+initial---•--->initial
+initial--- --->initial
+initial---C--->C0
+C0---h--->initial
+initial---a--->initial
+initial---m--->E0
+E0---o--->initial
+initial---r--->B0
+B0---u--->initial
+initial--- --->initial
+initial---(--->initial
+initial---c--->C0
+C0---h--->initial
+initial---a--->initial
+initial---m--->E0
+E0---o--->initial
+initial---r--->B0
+B0---r--->B0
+B0---o--->B1
+B1---)--->initial
+initial--- --->initial
+initial---•--->initial
+initial--- --->initial
+initial---E--->D0
+D0---u--->initial
+initial---s--->initial
+initial---k--->initial
+initial---a--->initial
+initial---r--->B0
+B0---a--->initial
+initial--- --->initial
+initial---(--->initial
+initial---e--->D0
+D0---u--->initial
+initial---s--->initial
+initial---k--->initial
+initial---e--->D0
+D0---r--->B0
+B0---a--->initial
+initial---/--->initial
+initial---v--->A0
+A0---a--->initial
+initial---s--->initial
+initial---c--->C0
+C0---o--->C1
+C1---)--->initial
+initial--- --->initial
+initial---•--->initial
+initial--- --->initial
+initial---E--->D0
+D0---s--->initial
+initial---t--->G0
+G0---r--->G1
+G1---e--->D0
+D0---m--->E0
+E0---e--->E1
+E1---ñ--->initial
+initial---u--->initial
+initial--- --->initial
+initial---(--->initial
+initial---e--->D0
+D0---x--->initial
+initial---t--->G0
+G0---r--->G1
+G1---e--->D0
+D0---m--->E0
+E0---e--->E1
+E1---ñ--->initial
+initial---o--->initial
+initial---)--->initial
+initial--- --->initial
+initial---•--->initial
+initial--- --->initial
+initial---G--->initial
+initial---a--->initial
+initial---l--->initial
+initial---e--->D0
+D0---g--->initial
+initial---o--->initial
+initial--- --->initial
+initial---(--->initial
+initial---g--->initial
+initial---a--->initial
+initial---l--->initial
+initial---l--->initial
+initial---e--->D0
+D0---g--->initial
+initial---o--->initial
+initial---)--->initial
+initial--- --->initial
+initial---•--->initial
+initial--- --->initial
+initial---A--->initial
+initial---v--->A0
+A0---a--->initial
+initial---ñ--->initial
+initial---e--->D0
+D0---'--->initial
+initial---?--->initial
+initial--- --->initial
+initial---(--->initial
+initial---g--->initial
+initial---u--->initial
+initial---a--->initial
+initial---r--->B0
+B0---a--->initial
+initial---n--->initial
+initial---í--->initial
+initial---)--->initial
+initial--- --->initial
+initial---•--->initial
+initial--- --->initial
+initial---I--->initial
+initial---n--->initial
+initial---t--->G0
+G0---e--->D0
+D0---r--->B0
+B0---l--->initial
+initial---i--->initial
+initial---n--->initial
+initial---g--->initial
+initial---u--->initial
+initial---a--->initial
+initial--- --->initial
+initial---•--->initial
+initial--- --->initial
+initial---I--->initial
+initial---l--->initial
+initial---o--->initial
+initial---k--->initial
+initial---a--->initial
+initial---n--->initial
+initial---o--->initial
+initial--- --->initial
+initial---(--->initial
+initial---i--->initial
+initial---l--->initial
+initial---o--->initial
+initial---c--->C0
+C0---a--->initial
+initial---n--->initial
+initial---o--->initial
+initial---)--->initial
+initial--- --->initial
+initial---•--->initial
+initial--- --->initial
+initial---L--->initial
+initial---a--->initial
+initial---t--->G0
+G0---i--->initial
+initial---n--->initial
+initial---a--->initial
+initial--- --->initial
+initial---(--->initial
+initial---l--->initial
+initial---a--->initial
+initial---t--->G0
+G0---í--->initial
+initial---n--->initial
+initial---)--->initial
+initial--- --->initial
+initial---•--->initial
+initial--- --->initial
+initial---L--->initial
+initial---a--->initial
+initial---d--->initial
+initial---i--->initial
+initial---n--->initial
+initial---o--->initial
+initial--- --->initial
+initial---•--->initial
+initial--- --->initial
+initial---N--->initial
+initial---a--->initial
+initial---h--->initial
+initial---u--->initial
+initial---a--->initial
+initial---t--->G0
+G0---l--->initial
+initial--- --->initial
+initial---(--->initial
+initial---n--->initial
+initial---á--->initial
+initial---h--->initial
+initial---u--->initial
+initial---a--->initial
+initial---t--->G0
+G0---l--->initial
+initial---)--->initial
+initial--- --->initial
+initial---•--->initial
+initial--- --->initial
+initial---O--->initial
+initial---c--->C0
+C0---c--->C0
+C0---i--->initial
+initial---t--->G0
+G0---a--->initial
+initial---n--->initial
+initial--- --->initial
+initial---(--->initial
+initial---o--->initial
+initial---c--->C0
+C0---c--->C0
+C0---i--->initial
+initial---t--->G0
+G0---a--->initial
+initial---n--->initial
+initial---o--->initial
+initial---)--->initial
+initial--- --->initial
+initial---•--->initial
+initial--- --->initial
+initial---P--->initial
+initial---a--->initial
+initial---n--->initial
+initial---g--->initial
+initial---a--->initial
+initial---s--->initial
+initial---i--->initial
+initial---n--->initial
+initial---a--->initial
+initial---n--->initial
+initial--- --->initial
+initial---•--->initial
+initial--- --->initial
+initial---K--->initial
+initial---a--->initial
+initial---p--->initial
+initial---a--->initial
+initial---m--->E0
+E0---p--->initial
+initial---a--->initial
+initial---n--->initial
+initial---g--->initial
+initial---a--->initial
+initial---n--->initial
+initial--- --->initial
+initial---(--->initial
+initial---p--->initial
+initial---a--->initial
+initial---m--->E0
+E0---p--->initial
+initial---a--->initial
+initial---n--->initial
+initial---g--->initial
+initial---a--->initial
+initial---n--->initial
+initial---)--->initial
+initial--- --->initial
+initial---•--->initial
+initial--- --->initial
+initial---P--->initial
+initial---a--->initial
+initial---p--->initial
+initial---i--->initial
+initial---a--->initial
+initial---m--->E0
+E0---e--->E1
+E1---n--->E2
+E2---t--->E3
+E3---u--->initial
+initial--- --->initial
+initial---(--->initial
+initial---p--->initial
+initial---a--->initial
+initial---p--->initial
+initial---i--->initial
+initial---a--->initial
+initial---m--->E0
+E0---e--->E1
+E1---n--->E2
+E2---t--->E3
+E3---o--->initial
+initial---)--->initial
+initial--- --->initial
+initial---•--->initial
+initial--- --->initial
+initial---R--->B0
+B0---u--->initial
+initial---n--->initial
+initial---a--->initial
+initial--- --->initial
+initial---S--->initial
+initial---i--->initial
+initial---m--->E0
+E0---i--->initial
+initial--- --->initial
+initial---(--->initial
+initial---q--->initial
+initial---u--->initial
+initial---e--->D0
+D0---c--->C0
+C0---h--->initial
+initial---u--->initial
+initial---a--->initial
+initial---)--->initial
+initial--- --->initial
+initial---•--->initial
+initial--- --->initial
+initial---T--->G0
+G0---a--->initial
+initial---g--->initial
+initial---a--->initial
+initial---l--->initial
+initial---o--->initial
+initial---g--->initial
+initial--- --->initial
+initial---(--->initial
+initial---t--->G0
+G0---a--->initial
+initial---g--->initial
+initial---a--->initial
+initial---l--->initial
+initial---o--->initial
+initial---)--->initial
+initial--- --->initial
+initial---•--->initial
+initial--- --->initial
+initial---W--->initial
+initial---i--->initial
+initial---n--->initial
+initial---a--->initial
+initial---r--->B0
+B0---a--->initial
+initial---y--->initial
+initial--- --->initial
+initial---(--->initial
+initial---s--->initial
+initial---a--->initial
+initial---m--->E0
+E0---a--->initial
+initial---r--->B0
+B0---e--->D0
+D0---ñ--->initial
+initial---o--->initial
+initial---)--->initial
+initial---.--->initial
+initial------>initial
+initial---
+--->initial
+initial---L--->initial
+initial---i--->initial
+initial---s--->initial
+initial---t--->G0
+G0---a--->initial
+initial--- --->initial
+initial---c--->C0
+C0---o--->C1
+C1---m--->E0
+E0---p--->initial
+initial---l--->initial
+initial---e--->D0
+D0---t--->G0
+G0---a--->initial
+initial--- --->initial
+initial---—--->initial
+initial--- --->initial
+initial---C--->C0
+C0---o--->C1
+C1---o--->initial
+initial---r--->B0
+B0---d--->initial
+initial---i--->initial
+initial---n--->initial
+initial---a--->initial
+initial---c--->C0
+C0---i--->initial
+initial---ó--->initial
+initial---n--->initial
+initial--- --->initial
+initial---p--->initial
+initial---l--->initial
+initial---u--->initial
+initial---r--->B0
+B0---i--->initial
+initial---l--->initial
+initial---i--->initial
+initial---n--->initial
+initial---g--->initial
+initial---ü--->initial
+initial---e--->D0
+D0------>initial
+initial---
+--->initial
+initial---M--->E0
+E0---e--->E1
+E1---n--->E2
+E2---ú--->initial
+initial--- --->initial
+initial---d--->initial
+initial---e--->D0
+D0--- --->initial
+initial---n--->initial
+initial---a--->initial
+initial---v--->A0
+A0---e--->D0
+D0---g--->initial
+initial---a--->initial
+initial---c--->C0
+C0---i--->initial
+initial---ó--->initial
+initial---n--->initial
+initial------>initial
+initial---
+--->initial
+initial---N--->initial
+initial---o--->initial
+initial--- --->initial
+initial---h--->initial
+initial---a--->initial
+initial---s--->initial
+initial--- --->initial
+initial---i--->initial
+initial---n--->initial
+initial---i--->initial
+initial---c--->C0
+C0---i--->initial
+initial---a--->initial
+initial---d--->initial
+initial---o--->initial
+initial--- --->initial
+initial---s--->initial
+initial---e--->D0
+D0---s--->initial
+initial---i--->initial
+initial---ó--->initial
+initial---n--->initial
+initial---D--->initial
+initial---i--->initial
+initial---s--->initial
+initial---c--->C0
+C0---u--->initial
+initial---s--->initial
+initial---i--->initial
+initial---ó--->initial
+initial---n--->initial
+initial---C--->C0
+C0---o--->C1
+C1---n--->initial
+initial---t--->G0
+G0---r--->G1
+G1---i--->initial
+initial---b--->initial
+initial---u--->initial
+initial---c--->C0
+C0---i--->initial
+initial---o--->initial
+initial---n--->initial
+initial---e--->D0
+D0---s--->initial
+initial---C--->C0
+C0---r--->B0
+B0---e--->D0
+D0---a--->initial
+initial---r--->B0
+B0--- --->initial
+initial---u--->initial
+initial---n--->initial
+initial---a--->initial
+initial--- --->initial
+initial---c--->C0
+C0---u--->initial
+initial---e--->D0
+D0---n--->D1
+D1---t--->G0
+G0---a--->initial
+initial---A--->initial
+initial---c--->C0
+C0---c--->C0
+C0---e--->D0
+D0---d--->initial
+initial---e--->D0
+D0---r--->B0
+B0---P--->initial
+initial---o--->initial
+initial---r--->B0
+B0---t--->G0
+G0---a--->initial
+initial---d--->initial
+initial---a--->initial
+initial---D--->initial
+initial---i--->initial
+initial---s--->initial
+initial---c--->C0
+C0---u--->initial
+initial---s--->initial
+initial---i--->initial
+initial---ó--->initial
+initial---n--->initial
+initial---L--->initial
+initial---e--->D0
+D0---e--->D0
+D0---r--->B0
+B0---V--->A0
+A0---e--->D0
+D0---r--->B0
+B0--- --->initial
+initial---c--->C0
+C0---ó--->C1
+C1---d--->initial
+initial---i--->initial
+initial---g--->initial
+initial---o--->initial
+initial---V--->A0
+A0---e--->D0
+D0---r--->B0
+B0--- --->initial
+initial---h--->initial
+initial---i--->initial
+initial---s--->initial
+initial---t--->G0
+G0---o--->initial
+initial---r--->B0
+B0---i--->initial
+initial---a--->initial
+initial---l--->initial
+initial---B--->initial
+initial---u--->initial
+initial---s--->initial
+initial---c--->C0
+C0---a--->initial
+initial---r--->B0
+B0------>initial
+initial---
+--->initial
+initial------>initial
+initial---
+--->initial
+initial---B--->initial
+initial---u--->initial
+initial---s--->initial
+initial---c--->C0
+C0---a--->initial
+initial---r--->B0
+B0--- --->initial
+initial---e--->D0
+D0---n--->D1
+D1--- --->initial
+initial---W--->initial
+initial---i--->initial
+initial---k--->initial
+initial---i--->initial
+initial---p--->initial
+initial---e--->D0
+D0---d--->initial
+initial---i--->initial
+initial---a--->initial
+initial------>initial
+initial---
+--->initial
+initial---I--->initial
+initial---r--->B0
+B0------>initial
+initial---
+--->initial
+initial---P--->initial
+initial---o--->initial
+initial---r--->B0
+B0---t--->G0
+G0---a--->initial
+initial---d--->initial
+initial---a--->initial
+initial------>initial
+initial---
+--->initial
+initial---P--->initial
+initial---o--->initial
+initial---r--->B0
+B0---t--->G0
+G0---a--->initial
+initial---l--->initial
+initial--- --->initial
+initial---d--->initial
+initial---e--->D0
+D0--- --->initial
+initial---l--->initial
+initial---a--->initial
+initial--- --->initial
+initial---c--->C0
+C0---o--->C1
+C1---m--->E0
+E0---u--->initial
+initial---n--->initial
+initial---i--->initial
+initial---d--->initial
+initial---a--->initial
+initial---d--->initial
+initial------>initial
+initial---
+--->initial
+initial---A--->initial
+initial---c--->C0
+C0---t--->G0
+G0---u--->initial
+initial---a--->initial
+initial---l--->initial
+initial---i--->initial
+initial---d--->initial
+initial---a--->initial
+initial---d--->initial
+initial------>initial
+initial---
+--->initial
+initial---C--->C0
+C0---a--->initial
+initial---m--->E0
+E0---b--->initial
+initial---i--->initial
+initial---o--->initial
+initial---s--->initial
+initial--- --->initial
+initial---r--->B0
+B0---e--->D0
+D0---c--->C0
+C0---i--->initial
+initial---e--->D0
+D0---n--->D1
+D1---t--->G0
+G0---e--->D0
+D0---s--->initial
+initial------>initial
+initial---
+--->initial
+initial---P--->initial
+initial---á--->initial
+initial---g--->initial
+initial---i--->initial
+initial---n--->initial
+initial---a--->initial
+initial---s--->initial
+initial--- --->initial
+initial---n--->initial
+initial---u--->initial
+initial---e--->D0
+D0---v--->A0
+A0---a--->initial
+initial---s--->initial
+initial------>initial
+initial---
+--->initial
+initial---P--->initial
+initial---á--->initial
+initial---g--->initial
+initial---i--->initial
+initial---n--->initial
+initial---a--->initial
+initial--- --->initial
+initial---a--->initial
+initial---l--->initial
+initial---e--->D0
+D0---a--->initial
+initial---t--->G0
+G0---o--->initial
+initial---r--->B0
+B0---i--->initial
+initial---a--->initial
+initial------>initial
+initial---
+--->initial
+initial---A--->initial
+initial---y--->initial
+initial---u--->initial
+initial---d--->initial
+initial---a--->initial
+initial------>initial
+initial---
+--->initial
+initial---D--->initial
+initial---o--->initial
+initial---n--->initial
+initial---a--->initial
+initial---c--->C0
+C0---i--->initial
+initial---o--->initial
+initial---n--->initial
+initial---e--->D0
+D0---s--->initial
+initial------>initial
+initial---
+--->initial
+initial---I--->initial
+initial---m--->E0
+E0---p--->initial
+initial---r--->B0
+B0---i--->initial
+initial---m--->E0
+E0---i--->initial
+initial---r--->B0
+B0---/--->initial
+initial---e--->D0
+D0---x--->initial
+initial---p--->initial
+initial---o--->initial
+initial---r--->B0
+B0---t--->G0
+G0---a--->initial
+initial---r--->B0
+B0------>initial
+initial---
+--->initial
+initial---C--->C0
+C0---r--->B0
+B0---e--->D0
+D0---a--->initial
+initial---r--->B0
+B0--- --->initial
+initial---u--->initial
+initial---n--->initial
+initial--- --->initial
+initial---l--->initial
+initial---i--->initial
+initial---b--->initial
+initial---r--->B0
+B0---o--->B1
+B1------>initial
+initial---
+--->initial
+initial---D--->initial
+initial---e--->D0
+D0---s--->initial
+initial---c--->C0
+C0---a--->initial
+initial---r--->B0
+B0---g--->initial
+initial---a--->initial
+initial---r--->B0
+B0--- --->initial
+initial---c--->C0
+C0---o--->C1
+C1---m--->E0
+E0---o--->initial
+initial--- --->initial
+initial---P--->initial
+initial---D--->initial
+initial---F--->F0
+F0------>initial
+initial---
+--->initial
+initial---V--->A0
+A0---e--->D0
+D0---r--->B0
+B0---s--->initial
+initial---i--->initial
+initial---ó--->initial
+initial---n--->initial
+initial--- --->initial
+initial---p--->initial
+initial---a--->initial
+initial---r--->B0
+B0---a--->initial
+initial--- --->initial
+initial---i--->initial
+initial---m--->E0
+E0---p--->initial
+initial---r--->B0
+B0---i--->initial
+initial---m--->E0
+E0---i--->initial
+initial---r--->B0
+B0------>initial
+initial---
+--->initial
+initial---E--->D0
+D0---n--->D1
+D1--- --->initial
+initial---o--->initial
+initial---t--->G0
+G0---r--->G1
+G1---o--->initial
+initial---s--->initial
+initial--- --->initial
+initial---p--->initial
+initial---r--->B0
+B0---o--->B1
+B1---y--->initial
+initial---e--->D0
+D0---c--->C0
+C0---t--->G0
+G0---o--->initial
+initial---s--->initial
+initial------>initial
+initial---
+--->initial
+initial---W--->initial
+initial---i--->initial
+initial---k--->initial
+initial---i--->initial
+initial---m--->E0
+E0---e--->E1
+E1---d--->initial
+initial---i--->initial
+initial---a--->initial
+initial--- --->initial
+initial---C--->C0
+C0---o--->C1
+C1---m--->E0
+E0---m--->E0
+E0---o--->initial
+initial---n--->initial
+initial---s--->initial
+initial------>initial
+initial---
+--->initial
+initial---M--->E0
+E0---e--->E1
+E1---d--->initial
+initial---i--->initial
+initial---a--->initial
+initial---W--->initial
+initial---i--->initial
+initial---k--->initial
+initial---i--->initial
+initial------>initial
+initial---
+--->initial
+initial---M--->E0
+E0---e--->E1
+E1---t--->G0
+G0---a--->initial
+initial------->initial
+initial---W--->initial
+initial---i--->initial
+initial---k--->initial
+initial---i--->initial
+initial------>initial
+initial---
+--->initial
+initial---W--->initial
+initial---i--->initial
+initial---k--->initial
+initial---i--->initial
+initial---s--->initial
+initial---p--->initial
+initial---e--->D0
+D0---c--->C0
+C0---i--->initial
+initial---e--->D0
+D0---s--->initial
+initial------>initial
+initial---
+--->initial
+initial---W--->initial
+initial---i--->initial
+initial---k--->initial
+initial---i--->initial
+initial---l--->initial
+initial---i--->initial
+initial---b--->initial
+initial---r--->B0
+B0---o--->B1
+B1---s--->initial
+initial------>initial
+initial---
+--->initial
+initial---W--->initial
+initial---i--->initial
+initial---k--->initial
+initial---i--->initial
+initial---d--->initial
+initial---a--->initial
+initial---t--->G0
+G0---a--->initial
+initial------>initial
+initial---
+--->initial
+initial---W--->initial
+initial---i--->initial
+initial---k--->initial
+initial---i--->initial
+initial---n--->initial
+initial---o--->initial
+initial---t--->G0
+G0---i--->initial
+initial---c--->C0
+C0---i--->initial
+initial---a--->initial
+initial---s--->initial
+initial------>initial
+initial---
+--->initial
+initial---W--->initial
+initial---i--->initial
+initial---k--->initial
+initial---i--->initial
+initial---q--->initial
+initial---u--->initial
+initial---o--->initial
+initial---t--->G0
+G0---e--->D0
+D0------>initial
+initial---
+--->initial
+initial---W--->initial
+initial---i--->initial
+initial---k--->initial
+initial---i--->initial
+initial---s--->initial
+initial---o--->initial
+initial---u--->initial
+initial---r--->B0
+B0---c--->C0
+C0---e--->D0
+D0------>initial
+initial---
+--->initial
+initial---W--->initial
+initial---i--->initial
+initial---k--->initial
+initial---i--->initial
+initial---v--->A0
+A0---e--->D0
+D0---r--->B0
+B0---s--->initial
+initial---i--->initial
+initial---d--->initial
+initial---a--->initial
+initial---d--->initial
+initial------>initial
+initial---
+--->initial
+initial---W--->initial
+initial---i--->initial
+initial---k--->initial
+initial---i--->initial
+initial---v--->A0
+A0---i--->A1
+A1---a--->initial
+initial---j--->initial
+initial---e--->D0
+D0---s--->initial
+initial------>initial
+initial---
+--->initial
+initial---W--->initial
+initial---i--->initial
+initial---k--->initial
+initial---c--->C0
+C0---i--->initial
+initial---o--->initial
+initial---n--->initial
+initial---a--->initial
+initial---r--->B0
+B0---i--->initial
+initial---o--->initial
+initial------>initial
+initial---
+--->initial
+initial---H--->initial
+initial---e--->D0
+D0---r--->B0
+B0---r--->B0
+B0---a--->initial
+initial---m--->E0
+E0---i--->initial
+initial---e--->D0
+D0---n--->D1
+D1---t--->G0
+G0---a--->initial
+initial---s--->initial
+initial------>initial
+initial---
+--->initial
+initial---L--->initial
+initial---o--->initial
+initial--- --->initial
+initial---q--->initial
+initial---u--->initial
+initial---e--->D0
+D0--- --->initial
+initial---e--->D0
+D0---n--->D1
+D1---l--->initial
+initial---a--->initial
+initial---z--->initial
+initial---a--->initial
+initial--- --->initial
+initial---a--->initial
+initial---q--->initial
+initial---u--->initial
+initial---í--->initial
+initial------>initial
+initial---
+--->initial
+initial---C--->C0
+C0---a--->initial
+initial---m--->E0
+E0---b--->initial
+initial---i--->initial
+initial---o--->initial
+initial---s--->initial
+initial--- --->initial
+initial---e--->D0
+D0---n--->D1
+D1--- --->initial
+initial---e--->D0
+D0---n--->D1
+D1---l--->initial
+initial---a--->initial
+initial---z--->initial
+initial---a--->initial
+initial---d--->initial
+initial---a--->initial
+initial---s--->initial
+initial------>initial
+initial---
+--->initial
+initial---S--->initial
+initial---u--->initial
+initial---b--->initial
+initial---i--->initial
+initial---r--->B0
+B0--- --->initial
+initial---a--->initial
+initial---r--->B0
+B0---c--->C0
+C0---h--->initial
+initial---i--->initial
+initial---v--->A0
+A0---o--->initial
+initial------>initial
+initial---
+--->initial
+initial---P--->initial
+initial---á--->initial
+initial---g--->initial
+initial---i--->initial
+initial---n--->initial
+initial---a--->initial
+initial---s--->initial
+initial--- --->initial
+initial---e--->D0
+D0---s--->initial
+initial---p--->initial
+initial---e--->D0
+D0---c--->C0
+C0---i--->initial
+initial---a--->initial
+initial---l--->initial
+initial---e--->D0
+D0---s--->initial
+initial------>initial
+initial---
+--->initial
+initial---E--->D0
+D0---n--->D1
+D1---l--->initial
+initial---a--->initial
+initial---c--->C0
+C0---e--->D0
+D0--- --->initial
+initial---p--->initial
+initial---e--->D0
+D0---r--->B0
+B0---m--->E0
+E0---a--->initial
+initial---n--->initial
+initial---e--->D0
+D0---n--->D1
+D1---t--->G0
+G0---e--->D0
+D0------>initial
+initial---
+--->initial
+initial---I--->initial
+initial---n--->initial
+initial---f--->F0
+F0---o--->initial
+initial---r--->B0
+B0---m--->E0
+E0---a--->initial
+initial---c--->C0
+C0---i--->initial
+initial---ó--->initial
+initial---n--->initial
+initial--- --->initial
+initial---d--->initial
+initial---e--->D0
+D0--- --->initial
+initial---l--->initial
+initial---a--->initial
+initial--- --->initial
+initial---p--->initial
+initial---á--->initial
+initial---g--->initial
+initial---i--->initial
+initial---n--->initial
+initial---a--->initial
+initial------>initial
+initial---
+--->initial
+initial---E--->D0
+D0---l--->initial
+initial---e--->D0
+D0---m--->E0
+E0---e--->E1
+E1---n--->E2
+E2---t--->E3
+E3---o--->initial
+initial--- --->initial
+initial---d--->initial
+initial---e--->D0
+D0--- --->initial
+initial---W--->initial
+initial---i--->initial
+initial---k--->initial
+initial---i--->initial
+initial---d--->initial
+initial---a--->initial
+initial---t--->G0
+G0---a--->initial
+initial------>initial
+initial---
+--->initial
+initial---E--->D0
+D0---n--->D1
+D1--- --->initial
+initial---o--->initial
+initial---t--->G0
+G0---r--->G1
+G1---o--->initial
+initial---s--->initial
+initial--- --->initial
+initial---i--->initial
+initial---d--->initial
+initial---i--->initial
+initial---o--->initial
+initial---m--->E0
+E0---a--->initial
+initial---s--->initial
+initial------>initial
+initial---
+--->initial
+initial---?--->initial
+initial---?--->initial
+initial---?--->initial
+initial---?--->initial
+initial---?--->initial
+initial---?--->initial
+initial---?--->initial
+initial------>initial
+initial---
+--->initial
+initial---D--->initial
+initial---e--->D0
+D0---u--->initial
+initial---t--->G0
+G0---s--->initial
+initial---c--->C0
+C0---h--->initial
+initial------>initial
+initial---
+--->initial
+initial---E--->D0
+D0---n--->D1
+D1---g--->D2
+D2---l--->initial
+initial---i--->initial
+initial---s--->initial
+initial---h--->initial
+initial------>initial
+initial---
+--->initial
+initial---F--->F0
+F0---r--->B0
+B0---a--->initial
+initial---n--->initial
+initial---ç--->initial
+initial---a--->initial
+initial---i--->initial
+initial---s--->initial
+initial------>initial
+initial---
+--->initial
+initial---B--->initial
+initial---a--->initial
+initial---h--->initial
+initial---a--->initial
+initial---s--->initial
+initial---a--->initial
+initial--- --->initial
+initial---I--->initial
+initial---n--->initial
+initial---d--->initial
+initial---o--->initial
+initial---n--->initial
+initial---e--->D0
+D0---s--->initial
+initial---i--->initial
+initial---a--->initial
+initial------>initial
+initial---
+--->initial
+initial---B--->initial
+initial---a--->initial
+initial---h--->initial
+initial---a--->initial
+initial---s--->initial
+initial---a--->initial
+initial--- --->initial
+initial---M--->E0
+E0---e--->E1
+E1---l--->initial
+initial---a--->initial
+initial---y--->initial
+initial---u--->initial
+initial------>initial
+initial---
+--->initial
+initial---P--->initial
+initial---o--->initial
+initial---r--->B0
+B0---t--->G0
+G0---u--->initial
+initial---g--->initial
+initial---u--->initial
+initial---ê--->D0
+D0---s--->initial
+initial------>initial
+initial---
+--->initial
+initial---?--->initial
+initial---?--->initial
+initial---?--->initial
+initial---?--->initial
+initial---?--->initial
+initial---?--->initial
+initial---?--->initial
+initial------>initial
+initial---
+--->initial
+initial---?--->initial
+initial---?--->initial
+initial------>initial
+initial---
+--->initial
+initial---L--->initial
+initial---i--->initial
+initial---s--->initial
+initial---t--->G0
+G0---a--->initial
+initial--- --->initial
+initial---c--->C0
+C0---o--->C1
+C1---m--->E0
+E0---p--->initial
+initial---l--->initial
+initial---e--->D0
+D0---t--->G0
+G0---a--->initial
+initial------>initial
+initial---
+--->initial
+initial---5--->initial
+initial---3--->initial
+initial--- --->initial
+initial---m--->E0
+E0---á--->initial
+initial---s--->initial
+initial------>initial
+initial---
+--->initial
+initial---E--->D0
+D0---l--->initial
+initial--- --->initial
+initial---t--->G0
+G0---e--->D0
+D0---x--->initial
+initial---t--->G0
+G0---o--->initial
+initial--- --->initial
+initial---e--->D0
+D0---s--->initial
+initial---t--->G0
+G0---á--->initial
+initial--- --->initial
+initial---d--->initial
+initial---i--->initial
+initial---s--->initial
+initial---p--->initial
+initial---o--->initial
+initial---n--->initial
+initial---i--->initial
+initial---b--->initial
+initial---l--->initial
+initial---e--->D0
+D0--- --->initial
+initial---b--->initial
+initial---a--->initial
+initial---j--->initial
+initial---o--->initial
+initial--- --->initial
+initial---l--->initial
+initial---a--->initial
+initial--- --->initial
+initial---L--->initial
+initial---i--->initial
+initial---c--->C0
+C0---e--->D0
+D0---n--->D1
+D1---c--->C0
+C0---i--->initial
+initial---a--->initial
+initial--- --->initial
+initial---C--->C0
+C0---r--->B0
+B0---e--->D0
+D0---a--->initial
+initial---t--->G0
+G0---i--->initial
+initial---v--->A0
+A0---e--->D0
+D0--- --->initial
+initial---C--->C0
+C0---o--->C1
+C1---m--->E0
+E0---m--->E0
+E0---o--->initial
+initial---n--->initial
+initial---s--->initial
+initial--- --->initial
+initial---A--->initial
+initial---t--->G0
+G0---r--->G1
+G1---i--->initial
+initial---b--->initial
+initial---u--->initial
+initial---c--->C0
+C0---i--->initial
+initial---ó--->initial
+initial---n--->initial
+initial--- --->initial
+initial---C--->C0
+C0---o--->C1
+C1---m--->E0
+E0---p--->initial
+initial---a--->initial
+initial---r--->B0
+B0---t--->G0
+G0---i--->initial
+initial---r--->B0
+B0--- --->initial
+initial---I--->initial
+initial---g--->initial
+initial---u--->initial
+initial---a--->initial
+initial---l--->initial
+initial--- --->initial
+initial---3--->initial
+initial---.--->initial
+initial---0--->initial
+initial---;--->initial
+initial--- --->initial
+initial---p--->initial
+initial---u--->initial
+initial---e--->D0
+D0---d--->initial
+initial---e--->D0
+D0---n--->D1
+D1--- --->initial
+initial---a--->initial
+initial---p--->initial
+initial---l--->initial
+initial---i--->initial
+initial---c--->C0
+C0---a--->initial
+initial---r--->B0
+B0---s--->initial
+initial---e--->D0
+D0--- --->initial
+initial---c--->C0
+C0---l--->initial
+initial---á--->initial
+initial---u--->initial
+initial---s--->initial
+initial---u--->initial
+initial---l--->initial
+initial---a--->initial
+initial---s--->initial
+initial--- --->initial
+initial---a--->initial
+initial---d--->initial
+initial---i--->initial
+initial---c--->C0
+C0---i--->initial
+initial---o--->initial
+initial---n--->initial
+initial---a--->initial
+initial---l--->initial
+initial---e--->D0
+D0---s--->initial
+initial---.--->initial
+initial--- --->initial
+initial---A--->initial
+initial---l--->initial
+initial--- --->initial
+initial---u--->initial
+initial---s--->initial
+initial---a--->initial
+initial---r--->B0
+B0--- --->initial
+initial---e--->D0
+D0---s--->initial
+initial---t--->G0
+G0---e--->D0
+D0--- --->initial
+initial---s--->initial
+initial---i--->initial
+initial---t--->G0
+G0---i--->initial
+initial---o--->initial
+initial---,--->initial
+initial--- --->initial
+initial---u--->initial
+initial---s--->initial
+initial---t--->G0
+G0---e--->D0
+D0---d--->initial
+initial--- --->initial
+initial---a--->initial
+initial---c--->C0
+C0---e--->D0
+D0---p--->initial
+initial---t--->G0
+G0---a--->initial
+initial--- --->initial
+initial---n--->initial
+initial---u--->initial
+initial---e--->D0
+D0---s--->initial
+initial---t--->G0
+G0---r--->G1
+G1---o--->initial
+initial---s--->initial
+initial--- --->initial
+initial---t--->G0
+G0---é--->D0
+D0---r--->B0
+B0---m--->E0
+E0---i--->initial
+initial---n--->initial
+initial---o--->initial
+initial---s--->initial
+initial--- --->initial
+initial---d--->initial
+initial---e--->D0
+D0--- --->initial
+initial---u--->initial
+initial---s--->initial
+initial---o--->initial
+initial--- --->initial
+initial---y--->initial
+initial--- --->initial
+initial---n--->initial
+initial---u--->initial
+initial---e--->D0
+D0---s--->initial
+initial---t--->G0
+G0---r--->G1
+G1---a--->G2
+G2--- --->initial
+initial---p--->initial
+initial---o--->initial
+initial---l--->initial
+initial---í--->initial
+initial---t--->G0
+G0---i--->initial
+initial---c--->C0
+C0---a--->initial
+initial--- --->initial
+initial---d--->initial
+initial---e--->D0
+D0--- --->initial
+initial---p--->initial
+initial---r--->B0
+B0---i--->initial
+initial---v--->A0
+A0---a--->initial
+initial---c--->C0
+C0---i--->initial
+initial---d--->initial
+initial---a--->initial
+initial---d--->initial
+initial---.--->initial
+initial--- --->initial
+initial------>initial
+initial---
+--->initial
+initial---W--->initial
+initial---i--->initial
+initial---k--->initial
+initial---i--->initial
+initial---p--->initial
+initial---e--->D0
+D0---d--->initial
+initial---i--->initial
+initial---a--->initial
+initial---®--->initial
+initial--- --->initial
+initial---e--->D0
+D0---s--->initial
+initial--- --->initial
+initial---u--->initial
+initial---n--->initial
+initial---a--->initial
+initial--- --->initial
+initial---m--->E0
+E0---a--->initial
+initial---r--->B0
+B0---c--->C0
+C0---a--->initial
+initial--- --->initial
+initial---r--->B0
+B0---e--->D0
+D0---g--->initial
+initial---i--->initial
+initial---s--->initial
+initial---t--->G0
+G0---r--->G1
+G1---a--->G2
+G2---d--->initial
+initial---a--->initial
+initial--- --->initial
+initial---d--->initial
+initial---e--->D0
+D0--- --->initial
+initial---l--->initial
+initial---a--->initial
+initial--- --->initial
+initial---F--->F0
+F0---u--->initial
+initial---n--->initial
+initial---d--->initial
+initial---a--->initial
+initial---c--->C0
+C0---i--->initial
+initial---ó--->initial
+initial---n--->initial
+initial--- --->initial
+initial---W--->initial
+initial---i--->initial
+initial---k--->initial
+initial---i--->initial
+initial---m--->E0
+E0---e--->E1
+E1---d--->initial
+initial---i--->initial
+initial---a--->initial
+initial---,--->initial
+initial--- --->initial
+initial---I--->initial
+initial---n--->initial
+initial---c--->C0
+C0---.--->initial
+initial---,--->initial
+initial--- --->initial
+initial---u--->initial
+initial---n--->initial
+initial---a--->initial
+initial--- --->initial
+initial---o--->initial
+initial---r--->B0
+B0---g--->initial
+initial---a--->initial
+initial---n--->initial
+initial---i--->initial
+initial---z--->initial
+initial---a--->initial
+initial---c--->C0
+C0---i--->initial
+initial---ó--->initial
+initial---n--->initial
+initial--- --->initial
+initial---s--->initial
+initial---i--->initial
+initial---n--->initial
+initial--- --->initial
+initial---á--->initial
+initial---n--->initial
+initial---i--->initial
+initial---m--->E0
+E0---o--->initial
+initial--- --->initial
+initial---d--->initial
+initial---e--->D0
+D0--- --->initial
+initial---l--->initial
+initial---u--->initial
+initial---c--->C0
+C0---r--->B0
+B0---o--->B1
+B1---.--->initial
+initial------>initial
+initial---
+--->initial
+initial---N--->initial
+initial---o--->initial
+initial---r--->B0
+B0---m--->E0
+E0---a--->initial
+initial---t--->G0
+G0---i--->initial
+initial---v--->A0
+A0---a--->initial
+initial--- --->initial
+initial---d--->initial
+initial---e--->D0
+D0--- --->initial
+initial---p--->initial
+initial---r--->B0
+B0---i--->initial
+initial---v--->A0
+A0---a--->initial
+initial---c--->C0
+C0---i--->initial
+initial---d--->initial
+initial---a--->initial
+initial---d--->initial
+initial---A--->initial
+initial---c--->C0
+C0---e--->D0
+D0---r--->B0
+B0---c--->C0
+C0---a--->initial
+initial--- --->initial
+initial---d--->initial
+initial---e--->D0
+D0--- --->initial
+initial---W--->initial
+initial---i--->initial
+initial---k--->initial
+initial---i--->initial
+initial---p--->initial
+initial---e--->D0
+D0---d--->initial
+initial---i--->initial
+initial---a--->initial
+initial---L--->initial
+initial---i--->initial
+initial---m--->E0
+E0---i--->initial
+initial---t--->G0
+G0---a--->initial
+initial---c--->C0
+C0---i--->initial
+initial---ó--->initial
+initial---n--->initial
+initial--- --->initial
+initial---d--->initial
+initial---e--->D0
+D0--- --->initial
+initial---r--->B0
+B0---e--->D0
+D0---s--->initial
+initial---p--->initial
+initial---o--->initial
+initial---n--->initial
+initial---s--->initial
+initial---a--->initial
+initial---b--->initial
+initial---i--->initial
+initial---l--->initial
+initial---i--->initial
+initial---d--->initial
+initial---a--->initial
+initial---d--->initial
+initial---D--->initial
+initial---e--->D0
+D0---s--->initial
+initial---a--->initial
+initial---r--->B0
+B0---r--->B0
+B0---o--->B1
+B1---l--->initial
+initial---l--->initial
+initial---a--->initial
+initial---d--->initial
+initial---o--->initial
+initial---r--->B0
+B0---e--->D0
+D0---s--->initial
+initial---D--->initial
+initial---e--->D0
+D0---c--->C0
+C0---l--->initial
+initial---a--->initial
+initial---r--->B0
+B0---a--->initial
+initial---c--->C0
+C0---i--->initial
+initial---ó--->initial
+initial---n--->initial
+initial--- --->initial
+initial---d--->initial
+initial---e--->D0
+D0--- --->initial
+initial---c--->C0
+C0---o--->C1
+C1---o--->initial
+initial---k--->initial
+initial---i--->initial
+initial---e--->D0
+D0---s--->initial
+initial---V--->A0
+A0---e--->D0
+D0---r--->B0
+B0---s--->initial
+initial---i--->initial
+initial---ó--->initial
+initial---n--->initial
+initial--- --->initial
+initial---p--->initial
+initial---a--->initial
+initial---r--->B0
+B0---a--->initial
+initial--- --->initial
+initial---m--->E0
+E0---ó--->initial
+initial---v--->A0
+A0---i--->A1
+A1---l--->initial
+initial---e--->D0
+D0---s--->initial
+initial---W--->initial
+initial---i--->initial
+initial---k--->initial
+initial---i--->initial
+initial---m--->E0
+E0---e--->E1
+E1---d--->initial
+initial---i--->initial
+initial---a--->initial
+initial--- --->initial
+initial---F--->F0
+F0---o--->initial
+initial---u--->initial
+initial---n--->initial
+initial---d--->initial
+initial---a--->initial
+initial---t--->G0
+G0---i--->initial
+initial---o--->initial
+initial---n--->initial
+initial--- --->initial
+initial---P--->initial
+initial---o--->initial
+initial---w--->initial
+initial---e--->D0
+D0---r--->B0
+B0---e--->D0
+D0---d--->initial
+initial--- --->initial
+initial---b--->initial
+initial---y--->initial
+initial--- --->initial
+initial---M--->E0
+E0---e--->E1
+E1---d--->initial
+initial---i--->initial
+initial---a--->initial
+initial---W--->initial
+initial---i--->initial
+initial---k--->initial
+initial---i--->initial
+initial------>initial
+initial---
+--->initial
+initial---?--->initial
+initial---?--->initial

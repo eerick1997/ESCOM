@@ -1,0 +1,8 @@
+ENTITY dis IS
+    PORT (
+	clr : in std_logic  ; 
+	clk : in std_logic  ; 
+	conmuta : inout std_logic_vector (2 downto 0) ; 
+	display : inout std_logic_vector (6 downto 0)
+    ) ;
+END dis ;

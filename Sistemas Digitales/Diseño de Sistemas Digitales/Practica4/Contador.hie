@@ -1,0 +1,2 @@
+Contador.vhd #Entity allff 6
+Contador.vhd #Architecture a_allff allff 11

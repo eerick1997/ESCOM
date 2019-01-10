@@ -1,0 +1,19 @@
+Cypress Package: palce22v10-25pc/pi  PinOut File: REG.pin
+
+This file was created on 12/07/2017 at 00:15:56 
+by PLA2JED.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+==========
+clk gclk <> Enabled Normal 1 <> [Auto] 
+dato2(3) in <> Enabled Normal 2 <> [Auto] 
+dato2(2) in <> Enabled Normal 3 <> [Auto] 
+dato2(1) in <> Enabled Normal 4 <> [Auto] 
+dato2(0) in <> Enabled Normal 5 <> [Auto] 
+dato1(3) in <> Enabled Normal 6 <> [Auto] 
+dato1(2) in <> Enabled Normal 7 <> [Auto] 
+dato1(1) in <> Enabled Normal 8 <> [Auto] 
+dato1(0) in <> Enabled Normal 9 <> [Auto] 
+control in <> Enabled Normal 10 <> [Auto] 
+clr in <> Enabled Normal 11 <> [Auto] 
+b inout <> Enabled Normal 17 <> [Auto] 
+a inout <> Enabled Normal 20 <> [Auto] 

@@ -1,0 +1,7 @@
+ Compilation with file reorder...
+ File: E:\Archivos\ESCOM\Diseño de Sistemas Digitales\Practica4\Contador.vhd
+ Compile Entity "ALLFF"
+ Compile Architecture "a_ALLFF" of Entity "ALLFF"
+ Top-Level unit detected
+ Entity  =>   ALLFF
+ Compile success 0 Errors 0 Warnings  Analysis time :  4.0 [s]

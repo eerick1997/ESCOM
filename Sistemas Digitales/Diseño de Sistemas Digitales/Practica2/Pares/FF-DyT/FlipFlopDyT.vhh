@@ -1,0 +1,11 @@
+ENTITY ffdyt IS
+    PORT (
+	d : in std_logic  ; 
+	clk : in std_logic  ; 
+	pre : in std_logic  ; 
+	clr : in std_logic  ; 
+	sel : in std_logic  ; 
+	q : inout std_logic  ; 
+	nq : inout std_logic 
+    ) ;
+END ffdyt ;

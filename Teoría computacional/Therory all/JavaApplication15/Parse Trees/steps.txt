@@ -1,0 +1,9 @@
+Expression: ()()
+B
+(RB -> (RB
+) -> ()B
+(RB -> ()(RB
+) -> ()()B
+e -> ()() 
+Accepted 
+

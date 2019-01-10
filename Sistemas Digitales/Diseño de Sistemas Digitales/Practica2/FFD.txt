@@ -1,0 +1,32 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entuty FFD is port(
+	D, CLK, PRE, CLR; IN std_logic;
+	Q, NQ; OUT std_logic
+	);
+end FFD;
+
+architecture a_FFD of FFD is
+
+begin
+	process(PRE,CLR,D)
+	BEGIN
+	if(CLR='0') then
+	Q<='0';
+	NQ<='1';
+	elsif(CLK'EVENT AND CLK='1'') THEN
+	if(pre='1') then
+	Q<='1';
+	NQ<='0';
+	ELSIF(D='0') THEN
+	Q<='0';
+	NQ<='1';
+	ELSIF(D='1') THEN
+	Q<='1';
+	NQ<='0';
+	END IF;
+	END IF;
+END PROCESS
+END a_FFD;
+	

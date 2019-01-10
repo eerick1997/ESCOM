@@ -1,0 +1,8 @@
+ENTITY allff IS
+    PORT (
+	clk : in std_logic  ; 
+	clr : in std_logic  ; 
+	control : in std_logic  ; 
+	q : inout std_logic_vector (2 downto 0)
+    ) ;
+END allff ;

@@ -1,0 +1,11 @@
+Design: 09:35 a.m., Miércoles, 11 de Octubre de 2017
+Design: Opening design "E:\Diseño de Sistemas Digitales\Practica3_1_MaestraVersion\Uni\Uni.adf"
+Compilation with file reorder...
+File: E:\Diseño de Sistemas Digitales\Practica3_1_MaestraVersion\Uni.vhd
+Compile Entity "RegU"
+Compile Architecture "a_RegU" of Entity "RegU"
+Top-Level unit detected
+Entity  =>   RegU
+Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.0 [s].

@@ -1,0 +1,2 @@
+REG.VHD #Entity regu 6
+REG.VHD #Architecture a_regu regu 16

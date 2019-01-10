@@ -1,0 +1,7 @@
+ Compilation with file reorder...
+ File: E:\Diseño de Sistemas Digitales\Practica3_1_MaestraVersion\Uni.vhd
+ Compile Entity "RegU"
+ Compile Architecture "a_RegU" of Entity "RegU"
+ Top-Level unit detected
+ Entity  =>   RegU
+ Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]

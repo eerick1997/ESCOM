@@ -1,0 +1,6 @@
+ENTITY proyect IS
+    PORT (
+	a : in std_logic_vector (1 downto 0) ; 
+	d : inout std_logic_vector (7 downto 0)
+    ) ;
+END proyect ;

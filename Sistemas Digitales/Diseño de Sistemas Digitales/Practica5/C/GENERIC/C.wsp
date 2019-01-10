@@ -1,0 +1,15 @@
+[General]
+CurrentVersion=102
+[OPENDOC|OUTPUT.IGENERIC||]
+CmdLine=
+[OPENDOC|AVHDLEXTENSION.GENERIC||]
+CmdLine=
+[OPENDOC|HELPREF.GENERIC||]
+CmdLine=
+[OPENDOC|PROJECT.KGENERICC|F:\Archivos\ESCOM\Diseño de Sistemas Digitales\Practica5\C\C.adf|]
+CmdLine=
+Path=
+[OPENDOC|STIMMAN.STIMMANAGER||]
+CmdLine=
+[OPENDOC|VSIM.SHELL||]
+CmdLine=

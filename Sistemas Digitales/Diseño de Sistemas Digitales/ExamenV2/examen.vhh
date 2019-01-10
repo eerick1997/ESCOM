@@ -1,0 +1,8 @@
+ENTITY contdec IS
+    PORT (
+	clr : in std_logic  ; 
+	clk : in std_logic  ; 
+	control : in std_logic  ; 
+	display : inout std_logic_vector (6 downto 0)
+    ) ;
+END contdec ;

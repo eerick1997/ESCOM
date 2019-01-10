@@ -1,0 +1,11 @@
+ENTITY regu IS
+    PORT (
+	clk : in std_logic  ; 
+	clr : in std_logic  ; 
+	cd : in std_logic  ; 
+	ci : in std_logic  ; 
+	control : in std_logic_vector (1 downto 0) ; 
+	dato : in std_logic_vector (7 downto 0) ; 
+	q : inout std_logic_vector (7 downto 0)
+    ) ;
+END regu ;

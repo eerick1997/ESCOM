@@ -1,0 +1,16 @@
+Cypress Package: palce22v10-15pc  PinOut File: proyect.pin
+
+This file was created on 08/16/2017 at 09:56:41 
+by PLA2JED.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+==========
+a(1) in <> Enabled Normal 1 <> [Auto] 
+a(0) in <> Enabled Normal 2 <> [Auto] 
+d(6) out <> Enabled Normal 14 <> [Auto] 
+d(4) out <> Enabled Normal 15 <> [Auto] 
+d(2) out <> Enabled Normal 16 <> [Auto] 
+d(0) out <> Enabled Normal 17 <> [Auto] 
+d(7) inout <> Enabled Normal 20 <> [Auto] 
+d(1) out <> Enabled Normal 21 <> [Auto] 
+d(3) out <> Enabled Normal 22 <> [Auto] 
+d(5) out <> Enabled Normal 23 <> [Auto] 
