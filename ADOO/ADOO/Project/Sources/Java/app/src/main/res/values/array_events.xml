@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string-array name="opciones">
-        <item>Evento 01</item>
-        <item>Evento 02</item>
-        <item>Evento 03</item>
-        <item>Evento 04</item>
-    </string-array>
-</resources>
