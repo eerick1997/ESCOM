@@ -17,7 +17,6 @@ char *cipher(char *m, int k){
     strcpy(c, m);
     for(i = 0; i < size; i++){
         if(c[i] != ' '){
-            //printf("\n%d -> %c ", c[i], c[i]);
             if('a' <= c[i] && c[i] <= 'z'){
                 c[i] = ((c[i] + k) % ('z' + 1));
                 if( !('a' <= c[i] && c[i] <= 'z') ) 
@@ -28,11 +27,8 @@ char *cipher(char *m, int k){
                 if( !('A' <= c[i] && c[i] <= 'Z') ) 
                     c[i] = 'A' + c[i];
             }
-            //printf("%d -> %c", c[i], c[i]);
-            
         }
     }
-    //printf("\n--------------");
     text_cipher = malloc(sizeof(char)*size);
     strcpy(text_cipher, c);
     return text_cipher;   
@@ -52,7 +48,6 @@ char *decoder(char *c, int k){
     strcpy(m, c);
     for(i = 0; i < size; i++){
         if(m[i] != ' '){
-            //printf("\n%d -> %c ", m[i], m[i]);
             if('a' <= c[i] && c[i] <= 'z'){
                 m[i] = abs((m[i] - k) % ('z' + 1));
                 if( !('a' <= m[i] && m[i] <= 'z') ) 
@@ -62,12 +57,9 @@ char *decoder(char *c, int k){
                 if( !('A' <= m[i] && m[i] <= 'Z') ) 
                     m[i] = ('Z' + 1) - abs('A' - m[i]);
             }
-            //printf("%d -> %c", m[i], m[i]);
         }
     }
-    //printf("\n--------------\n");
     plain_text = malloc(sizeof(char)*size);
     strcpy(plain_text, m);
-    //printf("\n%s\n", m);
     return plain_text;   
 }
