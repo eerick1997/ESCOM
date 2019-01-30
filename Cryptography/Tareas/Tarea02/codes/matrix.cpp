@@ -27,11 +27,22 @@ vector<bool> get_elements(lli n, vector<lli> &eratosthenes_sieve){
     }
     elements[n] = true;
 
+    cout << " Prime factors = {";
+        for(int i = 1; i < size; i++)
+            if(elements[i])
+                cout << i << ( ( i == (size - 1 ) ) ? "" : "," );
+    cout << "}\n";
+
     for(int i = 2; i < size; i++)
         if(elements[i])
-            for(int j = i*i; j < size; j += i)
+            for(int j = i; j < size; j += i)
                 elements[j] = true;
-        
+
+    cout << "\n Zn = {";
+    for(int i = 1; i < size; i++)
+        if(!elements[i])
+            cout << i << ( ( i == (size - 1) ) ? "" : ",");
+    cout << "}\n";
     return elements;
 }
 
@@ -42,7 +53,7 @@ void palliZnStar(vector<bool> &elements){
         for(int j = 1; j < n; j++){
             flag = false;
             if(!elements[i] && !elements[j]){
-                cout << " " << (i * j) % n;
+                cout << "\t" << (i * j) % n;
                 flag = true;
             }
         }
