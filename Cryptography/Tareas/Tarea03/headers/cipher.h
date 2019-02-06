@@ -3,9 +3,11 @@
 using namespace std;
 typedef long long int lli;
 
-vector<int> build_sieve(int n);
-vector<bool> get_elements(int n, vector<int> &sieve);
-int get_inverse(int n, int a, vector<bool> &elements);
+const int alphabet[27] = { 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 
+                           'i', 'j', 'k', 'l', 'm', 'n', 241, 'o', 
+                           'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 
+                           'x', 'y', 'z' };
+
 string cipher(int a, int b, string str);
 string decoder(int a, int b, string str);
-int inverse(int a);
+int inv_a(int a, int m);
