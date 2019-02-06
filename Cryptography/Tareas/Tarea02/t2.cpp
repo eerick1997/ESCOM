@@ -11,6 +11,6 @@ int main(){
     cin >> n;
     eratosthenes_sieve = build_sieve(n);
     elements = get_elements(n, eratosthenes_sieve);
-    palliZnStar(elements);
+    paintZnStar(elements);
     return 0;
 }

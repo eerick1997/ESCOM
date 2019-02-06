@@ -4,6 +4,14 @@
 
 using namespace std;
 
+/**
+ * This function ciphes plain text using 
+ * (a*m[i] + b) mod 27
+ * @param: (int)a
+ * @param: (int)b
+ * @param: (string) plain text
+ * @return: (string)cipher text
+ * **/
 string cipher(int a, int b, string c){
     
     for(int i = 0; i < c.size(); i++){
@@ -16,6 +24,14 @@ string cipher(int a, int b, string c){
     return c;
 }
 
+/**
+ * This function decodes a cipher text using
+ * (a^(-1)*(m[i] - b)) mod 27
+ * @param: (int)a
+ * @param: (int)b
+ * @param: (string) cipher text
+ * @return: (string) plain text
+ * **/
 string decoder(int a, int b, string m){
     int s = 0, x = inv_a(a, 27);
     for(int i = 0; i < m.size(); i++){
@@ -30,6 +46,12 @@ string decoder(int a, int b, string m){
     return m;
 }
 
+/**
+ * This function gets the inverse of a mod m
+ * @param: (int) a
+ * @param: (int) m
+ * @return: (int) inverse of a mod m
+ * **/
 int inv_a(int a, int m){
     int b, x;
     for(b = 0; b < m; b++){

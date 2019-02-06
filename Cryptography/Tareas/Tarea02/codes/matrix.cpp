@@ -3,6 +3,11 @@
 
 using namespace std;
 
+/**
+ * This function build an eratosthenes sieve
+ * @param: (lli) n, max size of our sieve
+ * @return: (vector<lli>) a vector with our sieve
+ * **/
 vector<lli> build_sieve(lli n){
     int root = sqrt(n);
     vector<lli> sieve(n + 1);
@@ -18,6 +23,13 @@ vector<lli> build_sieve(lli n){
     return sieve;
 }
 
+/**
+ * This function gets all the elements of Zn* 
+ * @param: (int) n, max elements
+ * @param: (vector<lli>) our eratosthenes sieve
+ * @return: (vector<bool>) all the elements with a bool value
+ * if the value is true the element is not part of Zn*
+ * **/
 vector<bool> get_elements(lli n, vector<lli> &eratosthenes_sieve){
     vector<bool> elements(n, false);
     int size = n;
@@ -46,7 +58,7 @@ vector<bool> get_elements(lli n, vector<lli> &eratosthenes_sieve){
     return elements;
 }
 
-void palliZnStar(vector<bool> &elements){
+void paintZnStar(vector<bool> &elements){
     int n = elements.size();
     bool flag = false;
     for(int i = 1; i < n; i++){
