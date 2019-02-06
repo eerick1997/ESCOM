@@ -1,6 +1,6 @@
 #include <bits/stdc++.h>
 #include <locale.h>
-#include <windows.h>
+//#include <windows.h>
 #include "headers/cipher.h"
 
 using namespace std;
@@ -9,23 +9,53 @@ typedef long long int lli;
 
 string read();
 string helper(string str);
+void choose(int option);
 
 int main(){
+    int option;
     setlocale(LC_ALL, "spanish");
-    SetConsoleCP(1252);
-    SetConsoleOutputCP(1252);
-    lli a, b;
-    string str;
-    cin >> a >> b;
-    str = read();
-    str = helper(str);
-    str = cipher(a, b, str);
-    cout << "\ncipher text: " << str;
-    str = helper(str);
-    str = decoder(a, b, str);
-    cout << "\nplain text: " << str;
+    while(1){
+        cout << "\n - Please select an option - \n";
+        cout << "1. Ciphe plain text\n";
+        cout << "2. Decode ciphe text\n";
+        cout << "3. Exit\n";
+        cout << " -> ";
+        cin >> option;
+        choose(option);
+    }
 }
 
+void choose(int option){
+    string str;
+    int a, b;
+    cout << endl;
+    switch (option){
+        case 1:
+            cout << "Write a value b value and the str to ciphe -> ";
+            cin >> a >> b;
+            str = read();
+            str = helper(str);
+            str = cipher(a, b, str);
+            cout << "\nCipher text: " << str << endl; 
+            break;
+    
+        case 2:
+            cout << "Write a value b value and the str to ciphe -> ";
+            cin >> a >> b;
+            str = read();
+            str = helper(str);
+            str = decoder(a, b, str);
+            cout << "\nPlain text: " << str << endl;
+            break;
+
+        case 3: 
+            exit(0);
+            break;
+        default:
+            cout << "Option " << option << " doesn't exists" << endl;
+            break;
+    }
+}
 /**
  * This function allow us read a string white spaces
  * @param: none

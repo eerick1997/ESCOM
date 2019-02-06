@@ -32,5 +32,6 @@ int main(){
     cout << "GCD: (" << a << "," << b << ") = " << GCD << endl;
     cout << "x: " << x << " y: " << y << endl;
     cout << GCD << " = " << a << "(" << x << ") " << "mod (" << b << ")" << endl;
+    cout << "res -> " << abs(y + x) << endl;
     return 0;
 }
