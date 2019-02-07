@@ -1,7 +1,12 @@
+/**
+ * Author: Vargas Romero Erick Efraín
+ * Last modification: 06 Febraury 2019
+ * **/
 #include <bits/stdc++.h>
 
 using namespace std;
 
+//Functions definitions
 string cipher(string c, vector<int> &K);
 string decoder(string m, vector<int> &K);
 void choose(string str, vector<int> &K);
@@ -23,6 +28,12 @@ int main(){
     return 0;
 }
 
+/**
+ * This function creates a ciphertext
+ * @param: char* m, the plain text
+ * @param: int shift, our k value
+ * @return: char*, ciphertext
+ * **/
 string cipher(string c, vector<int> &K){
     string cipher_text = "";
     int size = c.size();
@@ -44,6 +55,12 @@ string cipher(string c, vector<int> &K){
     return c;
 }   
 
+/**
+ * This function decode ciphertext
+ * @param: char* m, the ciphertext
+ * @param: int shift, our k value
+ * @return: char*, plain text
+ * **/
 string decoder(string m, vector<int> &K){
     string plain_text = "";
     int size = m.size();
@@ -63,7 +80,11 @@ string decoder(string m, vector<int> &K){
     }
     return m;
 }   
-
+/**
+ * This function gets the content of a text file
+ * @param: none
+ * @return: (string) the content of our file in a string
+ * **/
 string read_file(){
     string file_name, str = "", line = "";
     ifstream input_file;
@@ -82,6 +103,12 @@ string read_file(){
     return str;
 }
 
+/**
+ * Main of our program
+ * @param: (string) str, the string to manipulate (code or decode)
+ * @param: (vector<int>) K, all the keys
+ * @return: nothing
+ * **/
 void choose(string str, vector<int> &K){
     int option;
     cout << "\n1. Ciphe" << endl;
