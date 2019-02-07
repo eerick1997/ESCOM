@@ -19,7 +19,7 @@ lli euclides_extendido(lli a, lli b, lli &x, lli &y, lli mod = 0){
         y = 0;
         return a;
     }
-    lli gcd = euclides_extendido(b, a % b, x, y, mod = 0);
+    lli gcd = euclides_extendido(b, a % b, x, y, mod);
     //Calculamos el valor de x
     x = (!mod) ? x - y * (a / b) : (mod + x - (y * (a / b)) % mod) % mod;
     //Antes de retornar el GCD de nuestra función, debemos de intercambiar el valor de x e y
@@ -31,13 +31,16 @@ int main(){
     lli x = 0, y = 0, a, b, GCD;
     cout << "a -> ";
     cin >> a;
-    cout << "\nb -> ";
+    cout << "b -> ";
     cin >> b;
     cout << endl;
     GCD = euclides_extendido(a, b, x, y);
     cout << "GCD: (" << a << "," << b << ") = " << GCD << endl;
     cout << "x: " << x << " y: " << y << endl;
     cout << GCD << " = " << a << "(" << x << ") " << "mod (" << b << ")" << endl;
-    cout << "inv(a) -> " << x << endl;
+    if(GCD == 1)
+        cout << "inv(a) -> " << ( (x < 0) ? (b + x) : x ) << endl;
+    else 
+        cout << "No existe el inv(a)" << endl;
     return 0;
 }
