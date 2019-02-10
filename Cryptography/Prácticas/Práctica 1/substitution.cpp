@@ -1,6 +1,6 @@
 /**
  * Author: Vargas Romero Erick Efraín
- * Last modification: 06 Febraury 2019
+ * Last modification: 09 Febraury 2019
  * **/
 #include <bits/stdc++.h>
 
@@ -10,6 +10,7 @@ using namespace std;
 string cipher(string c, vector<int> &K);
 string decoder(string m, vector<int> &K);
 void choose(string str, vector<int> &K);
+void out_file(string str, string file_name);
 string read_file();
 
 int main(){
@@ -104,6 +105,18 @@ string read_file(){
 }
 
 /**
+ * This function creates a file
+ * @param: (string) content file
+ * @param: (string) file name
+ * @return: nothing
+ * **/
+void out_file(string str, string file_name){
+    ofstream output_file(file_name);
+    output_file << str << endl;
+    output_file.close();
+}
+
+/**
  * Main of our program
  * @param: (string) str, the string to manipulate (code or decode)
  * @param: (vector<int>) K, all the keys
@@ -111,6 +124,7 @@ string read_file(){
  * **/
 void choose(string str, vector<int> &K){
     int option;
+    string content = "";
     cout << "\n1. Ciphe" << endl;
     cout << "2. Decode" << endl;
     cout << "3. Exit" << endl;
@@ -119,13 +133,17 @@ void choose(string str, vector<int> &K){
     {
         //Cipher
         case 1:
-            //cout << "str -> " << str << endl;
-            cout << cipher(str, K) << endl;
+            content = cipher(str, K);
+            cout << content << endl;
+            out_file(str, "plain_text.txt");
+            out_file(content, "cipher_text.txt");
             break;
         //Decode
         case 2:
-            //cout << "str -> " << str << endl;
-            cout << decoder(str, K) << endl;
+            content = decoder(str, K);
+            cout << content << endl;
+            out_file(content, "plain_text.txt");
+            out_file(str, "cipher_text.txt");
             break;
         default:
             cout << "Option " << option << " doesn't exists" << endl;
