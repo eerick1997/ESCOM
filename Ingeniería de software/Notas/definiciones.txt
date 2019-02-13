@@ -1,0 +1,48 @@
+1.- Escribir un verbo en infinitivo respetando la cohesión
+    Ejemplo: Registrar calificaciones por grupo
+    Es como nos imaginamos como estructuramos el negocio
+    Extend: A decisión del usuaio se puede ir a otro caso de uso 
+    Include: Forzosamente invoca el caso de uso para invocar una función
+    Regla de negocios: nos dice que se debe hacer
+
+----------------------------------------------------------------------------------------
+
+ARQUITECTURA:       Algo que dice como va a funcionar todo
+NEGOCIO:            Actividades que hace el cliente con o sin software
+PROCESOS BPMN:  
+MISIÓN:             El porque de que algo exista -> Ej. En el IPN satisfaces las necesidades técnicas de la nación
+ESTRATEGIAS:        Ej. En el IPN se divide en pequeños campus 
+    -Siempre lo idea el lider del negocio
+    -Expresada para asegurar condiciones ventajosas
+    -Largo plazo, amplio alcance
+TÁCTICAS:           En cada escuela hay ciertas carreras
+    -Corto plazo, corto alcance
+POLÍTICAS DEL NEGOCIO:  Directiva que directamente controla, influencía o regula las acciones de la empresa
+y las personas en ella
+    -Menos estructuradas, discretas, atómicas, menos alineadas al lenguaje del negocio
+    menos articuladas
+REGLAS DE NEGOCIO:  Regla bajo jurisdicción del negocio
+    -Una regla es una proposición que clama por una obligación o necesidad 
+    -Una regla siempre elimina cierto grado de libertad 
+    -Es una directiva individual que es PRACTICABLE: No requiere interpretación adicional
+    (A diferencia de las Estrategias o Tácticas)
+
+    "La persona que la entiende puede identificar una situación relevante y determinar si 
+    cumple o no con la regla"
+REGLAS DE ACCIÓN:   Sobre el comportamiento de las personas 
+REGLAS RELEVANTES:  Sobre evaluación de cálculos o desiciones
+METAS:              Primero debo de definir un Objetivo para alcanzar METAS
+REGLA DE NEGOCIO: Sentencia expresada por un directivo
+SENTENCIA DE FORMA NORMAL: Expresada bajo una "Convención de formalidad"
+DEDUCCIÓN: Define cómo deducir, calcular u obtener algo. Define el origen de algo.
+REAFIRMACIÓN ESTRUCTURAL: Define "Cómo son las cosas"
+REAFIRMACIÓN DE ACCIÓN: 
+    -Indica como se debe o puede ARQUITECTURA
+    -Indica como tomar desiciones
+
+POLÍTICAS RIGEN A LAS REGLAS
+
+IDENTIFICAR SI TIENE MATERIAS DESFASADAS:
+QUE ES UN ALUMNO:
+PERSONA INSCRITA EN ALGÚN PROGRAMA ACADÉMICO QUE SE IMPARTE EN CUALQUIER 
+NIVEL EDUCATIVO Y MODALIDAD EDUCATIVA DEL INSTITUTO POLITÉCNICO NACIONAL
