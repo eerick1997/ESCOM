@@ -37,7 +37,7 @@ SENTENCIA DE FORMA NORMAL: Expresada bajo una "Convención de formalidad"
 DEDUCCIÓN: Define cómo deducir, calcular u obtener algo. Define el origen de algo.
 REAFIRMACIÓN ESTRUCTURAL: Define "Cómo son las cosas"
 REAFIRMACIÓN DE ACCIÓN: 
-    -Indica como se debe o puede ARQUITECTURA
+    -Indica como se debe o puede ACTUAR
     -Indica como tomar desiciones
 
 POLÍTICAS RIGEN A LAS REGLAS
@@ -47,3 +47,63 @@ IDENTIFICAR SI TIENE MATERIAS DESFASADAS:
 QUE ES UN ALUMNO:
 PERSONA INSCRITA EN ALGÚN PROGRAMA ACADÉMICO QUE SE IMPARTE EN CUALQUIER 
 NIVEL EDUCATIVO Y MODALIDAD EDUCATIVA DEL INSTITUTO POLITÉCNICO NACIONAL
+
+----------------------------------------------------------------------------------------------------
+
+TIPO DE NEGOCIO
+
+-Tipo (Clase): Define categorías abstractas de cosas: carro, chocolate, persona, cliente, etc.
+
+-Literal (); Describe instancias de cosas o cosas concretas: 500, 5%, Carlos V dark, etc.
+
+-Sensor: Representa la existencia de algo que es capaz de detectar y reportar valores constantemente cambiantes
+de una propiedad del mundo exterior: termómetro, velocímetro, GPS, etc.
+
+-Reloj: Tipo especial de sensor que mide el tiempo, este solo puede reportar un valor a cada momento
+
+TÉRMINOS DE NEGOCIO
+
+ENTIDAD: describe un conjunto de cosas -> "cliente es toda persona que compra un producto"
+
+LITERAL: Describe un elemento de conjunto (en el ejemplo del conjunto producto)
+
+SENSOR: Describe la entidad especificando
+    -Propiedad que percibe
+    -Frecuencia
+    -Unidad de medida
+    -Precisión
+
+Hay dos tipos de relaciones estructurales -> Hechos y Términos
+
+TÉRMINOS DEL NEGOCIO: Son aquellos que tienen un significado específico dentro del negocio (Contexto)
+
+HECHOS: Son frases hechas sobre los Términos del Negocio, asociado dos o más en una frase.
+
+FRASE: Expresión de un hecho, un hecho puede expresarse de muchas formas, dependiendo del órden
+en que se vea-
+
+ROL DEL OBJETO: Se refiere al rol semántio que juega un término en un hecho.
+
+PERSPECTIVA: Orden o dirección en el que se observa un hecho
+
+UN término puede ser una generalización de otro
+
+PARTICIPACIÓN: UN término puede estar relacionado con otros de tal forma que tiene sentido
+para el negocio
+
+AGREGACIÓN: Un término se agrega o compone a otro
+
+ROL: UN término juega un papel con otro
+
+ASOCIACIÓN: CUalquier otro tipo de asociación
+
+----------------------------------------------------------------------
+
+1. Que hace el actor -> El usuario selecciona X para (registrar, calcular, bla, bla, bla)
+2. QUe hace el sistema -> OBtiene (INformación) muestra (Información, o algo)
+
+MARTES -> 
+
+----------------------------------------------------------------------
+
+
