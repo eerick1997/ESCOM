@@ -49,31 +49,41 @@ void Main(){
     {
         case 1:
         {
-            plain_text = read_file();
+            string name_file = "";
+            plain_text = read_file(name_file);
             Matrix matrix = get_matrix_file();
             matrix = validMatrixBySize(matrix, 3);
-            out_file_matrix(matrix, "Matrix.mt");
-            helper(plain_text);
-            cipher_text = cipher(matrix, plain_text, language);
-            cout << "\nCipher text: " << cipher_text << endl;
-            out_file(cipher_text, "cipher_text.hill");
+            lli det = mod(determinant(matrix), LAN_SIZ);
+            lli inv = inverse(det, LAN_SIZ);
+            if(validKey(det, inv)){
+                out_file_matrix(matrix, "Matrix.mt");
+                helper(plain_text);
+                cipher_text = cipher(matrix, plain_text, language);
+                cout << "\nCipher text: " << cipher_text << endl;
+                out_file(cipher_text, (name_file + ".hill"));
+            } else 
+                cout << "\nThis matrix is not a valid key" << endl;
         }
         break;
 
         case 2:
         {
-            cipher_text = read_file();
+            string name_file = "";
+            cipher_text = read_file(name_file);
             Matrix matrix = get_matrix_file();
             matrix = validMatrixBySize(matrix, 3);
             helper(cipher_text);
             lli det = mod(determinant(matrix), LAN_SIZ);
             lli inv = inverse(det, LAN_SIZ);
-            Matrix adjMatrix = getAdjMatrix(matrix);
-            Matrix toDecodeM = escalarMatrix(inv, adjMatrix);
-            out_file_matrix(toDecodeM, "Adjmatrix.mt");
-            plain_text = decoder(toDecodeM, cipher_text, language);
-            cout << "\nPlain text: " << plain_text << endl;
-            out_file(plain_text, "plain_text.hill");
+            if(validKey(det, inv)){
+                Matrix adjMatrix = getAdjMatrix(matrix);
+                Matrix toDecodeM = escalarMatrix(inv, adjMatrix);
+                out_file_matrix(toDecodeM, "Adjmatrix.mt");
+                plain_text = decoder(toDecodeM, cipher_text, language);
+                cout << "\nPlain text: " << plain_text << endl;
+                out_file(plain_text, (name_file + ".txt"));
+            } else  
+                cout << "\nThis matrix is not a valid key" << endl;
         }
         break;
         case 3:
@@ -86,6 +96,7 @@ void Main(){
                 inv = inverse(det, LAN_SIZ);
             } while(!validKey(det, inv));
             out_file_matrix(matrix, "random_matrix.mt");
+            print(matrix);
         }
         break;
 

@@ -11,12 +11,13 @@ using namespace std;
  * @param: none
  * @return: (string) the content of our file in a string
  * **/
-string read_file(){
+string read_file(string &name_file){
     string file_name, str = "", line = "";
     ifstream input_file;
     cin.ignore();
     cout << "Write the file path -> ";
     getline(cin, file_name);
+    name_file = file_name;
     input_file.open(file_name.c_str(), ios::in);
     if(input_file.is_open()){
         while(!input_file.eof()){

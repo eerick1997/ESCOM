@@ -11,7 +11,7 @@ void print(Matrix &matrix);
 lli determinant(Matrix &matrix);
 Matrix getTraMatrix(Matrix &matrix);
 Matrix getAdjMatrix(Matrix &matrix);
-bool validKey(lli determinant, lli gcd);
+bool validKey(lli determinant, lli inverse);
 Matrix escalarMatrix(lli escalar, Matrix matrix);
 Matrix validMatrixBySize(Matrix &matrix, int size);
 lli determinant(int k, int l, Matrix &matrix, bool cof);

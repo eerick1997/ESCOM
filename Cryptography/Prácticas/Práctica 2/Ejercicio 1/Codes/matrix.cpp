@@ -126,15 +126,15 @@ Matrix validMatrixBySize(Matrix &matrix, int size){
  * @param: (lli) gcd
  * @return: (bool) if has inverse return true
 */
-bool validKey(lli determinant, lli gcd){
-    return (determinant > 0 && gcd == 1);
+bool validKey(lli determinant, lli inverse){
+    return (determinant > 0 && inverse != 0);
 }
 
 void print(Matrix &matrix){
     for(int i = 0; i < matrix.size(); i++){
         cout << endl;
         for(int j = 0; j < matrix[i].size(); j++){
-            cout << /*"[" << i << "][" << j << "]" << " ";*/ matrix[i][j] << " - ";
+            cout << matrix[i][j] << "\t";
         }   
     }
     cout << endl;
