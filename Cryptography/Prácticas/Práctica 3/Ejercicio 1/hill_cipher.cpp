@@ -17,6 +17,7 @@ vector<char> language;
 void Main();
 void helper(string &str);
 lli inverse(lli a, lli b);
+void print_integer_values(string s);
 lli euclides(lli a, lli b, lli &x, lli &y, lli mod);
 
 int main(){
@@ -53,14 +54,31 @@ void Main(){
             plain_text = read_file(name_file);
             Matrix matrix = get_matrix_file();
             matrix = validMatrixBySize(matrix, 3);
+            cout << endl;
+            print(matrix);
+            cout << endl;
             lli det = mod(determinant(matrix), LAN_SIZ);
             lli inv = inverse(det, LAN_SIZ);
+            cout << "\ndeterminant -> " << det << endl;
+            cout << "\ninverse -> " << inv << endl; 
             if(validKey(det, inv)){
                 out_file_matrix(matrix, "matrix.mt");
+                cout << endl;
+                print_integer_values(plain_text);
+                cout << "\nIn out alphabet\n";
                 helper(plain_text);
+                cout << endl;
+                print_integer_values(plain_text);
+                cout << endl;
                 cipher_text = cipher(matrix, plain_text, language);
                 cout << "\nCipher text: " << cipher_text << endl;
                 out_file(cipher_text, (name_file + ".hill"));
+                cout << endl;
+                print_integer_values((cipher_text));
+                cout << "\nIn our alphabet\n";
+                helper(cipher_text);
+                print_integer_values((cipher_text));
+                cout << endl;
             } else 
                 cout << "\nThis matrix is not a valid key" << endl;
         }
@@ -75,9 +93,14 @@ void Main(){
             helper(cipher_text);
             lli det = mod(determinant(matrix), LAN_SIZ);
             lli inv = inverse(det, LAN_SIZ);
+            cout << "\ndeterminant -> " << det << endl;
+            cout << "\ninverse -> " << inv << endl;
             if(validKey(det, inv)){
                 Matrix adjMatrix = getAdjMatrix(matrix);
                 Matrix toDecodeM = escalarMatrix(inv, adjMatrix);
+                cout << endl;
+                print(toDecodeM);
+                cout << endl;
                 out_file_matrix(toDecodeM, "inverse_matrix.mt");
                 plain_text = decoder(toDecodeM, cipher_text, language);
                 cout << "\nPlain text: " << plain_text << endl;
@@ -176,4 +199,9 @@ void helper(string &str){
             str[i] = MAX_VAL + str[i];
         }
     }
+}
+
+void print_integer_values(string s){
+    for(char c: s)
+        cout << c << " -> " << (int)c << endl;
 }
