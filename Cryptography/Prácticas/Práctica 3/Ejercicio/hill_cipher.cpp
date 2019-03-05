@@ -1,6 +1,6 @@
 /**
  * Author: Vargas Romero Erick Efraín
- * Last modification: 17 Febraury 2018
+ * Last modification: 04 March 2018
  * Note: to compile this program you need to add external files
  * g++ hill_cipher.cpp Codes/cipher.cpp Codes/files.cpp Codes/matrix.cpp
  **/
