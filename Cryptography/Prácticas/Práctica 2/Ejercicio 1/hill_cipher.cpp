@@ -71,6 +71,7 @@ void Main(){
             string name_file = "";
             cipher_text = read_file(name_file);
             Matrix matrix = get_matrix_file();
+            print(matrix);
             matrix = validMatrixBySize(matrix, 3);
             helper(cipher_text);
             lli det = mod(determinant(matrix), LAN_SIZ);
