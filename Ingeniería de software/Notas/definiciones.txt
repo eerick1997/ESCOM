@@ -108,6 +108,11 @@ MARTES ->
 
 ANÁLISIS
 
+BPMN
+
+Pool = sistema
+LANE = ÁREAS
+
 
 
 
