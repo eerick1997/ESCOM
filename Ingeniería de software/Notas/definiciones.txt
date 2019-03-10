@@ -100,10 +100,53 @@ ASOCIACIÓN: CUalquier otro tipo de asociación
 ----------------------------------------------------------------------
 
 1. Que hace el actor -> El usuario selecciona X para (registrar, calcular, bla, bla, bla)
-2. QUe hace el sistema -> OBtiene (INformación) muestra (Información, o algo)
+2. QUe hace el sistema -> Obtiene (Información) muestra (Información, o algo)
 
 MARTES -> 
 
 ----------------------------------------------------------------------
+
+ANÁLISIS
+
+BPMN
+
+Pool = sistema
+LANE = ÁREAS
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
