@@ -1,14 +1,27 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package practica4;
 
-/**
- *
- * @author Erick
- */
+import java.io.File;
+import java.io.FileInputStream;
+import java.util.Scanner;
+
 public class Helper {
     
+    public byte[] readFile() throws Exception {
+        String path = "";
+        File file;
+        byte[] bytes;
+        FileInputStream fis;
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("\nWrite the file path -> ");
+        path = scanner.nextLine();
+        file = new File(path);
+        bytes = new byte[(int) file.length()];
+        fis = new FileInputStream(file);
+        fis.read(bytes);
+        fis.close();
+        return bytes;
+    }
+    
+    public void buildFile(){
+    }
 }
