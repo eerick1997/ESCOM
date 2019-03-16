@@ -7,7 +7,7 @@
 
 ----------------------------------------------------------------------------------------
 
-ARQUITECTURA:       Algo que dice como va a funcionar todo
+ARQUITECTURA:       Algo que dice como va a funcionar todo (Diseño que describe al diseño)
 NEGOCIO:            Actividades que hace el cliente con o sin software
 PROCESOS BPMN:  
 MISIÓN:             El porque de que algo exista -> Ej. En el IPN satisfaces las necesidades técnicas de la nación
@@ -113,9 +113,46 @@ BPMN
 Pool = sistema
 LANE = ÁREAS
 
+------------------------------------------------------------------------
+software:
+    -> programas
+    -> documentación
+    -> Estructuras de datos
 
+Tenemos un buen software si cumple con ciertas métricas (Valores de referencia)
+    -> Escalabilidad
+    -> Mantenibilidad
+    -> Baja cohesión Alto acoplamiento
 
+ESTANDARES: Existe la ISO 9001 y la ISO 12207
 
+ISO 12207
+    Proporcionar una estructura común para que los compradores, proveedores, desarrolladores, personal de mantenimiento, operadores,
+    genstores y técnicos involucrados en el desarrollo de software utilicen un lenguaje en comúb
+
+    Los objetivos de una empresa que busca la certificación con la norma ISO 12207:2008 son transportar a los clientes socios
+
+    PROCESOS: ayudan a operar de forma estandar.
+
+    PROCESOS DE ADQUISICIPON:
+        ->Iniciación
+        ->Solicitud de preparación de propuesta
+        ->Elaboración y actualización del contrato
+        ->Monitoreo del proveedor y 
+        ->Aceptación y finalización
+
+    PROCESO DE desarrollo
+        -> Implementación del proceso de análisis de requisitos del sistema,
+        -> El diseño del sistema 
+        -> Análisis de requerimientos de software 
+        -> Diseño detallado software 
+        -> Codificación 
+        -> Pruebas de software 
+        -> Integración del software 
+        -> Pruebas de calificación de software 
+        -> Integración de sistema, pruebas del sistema de calificación 
+        -> Instalación del software y 
+        -> El apoyo de aceptación del software 
 
 
 
