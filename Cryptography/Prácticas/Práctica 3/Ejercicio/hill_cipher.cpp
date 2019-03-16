@@ -128,7 +128,7 @@ void Main(){
             Matrix toDecodeM;
             int k = 0, l = 0;
             do{
-                k = 3;
+                k = l;
                 for(int i = 0; i < 3; i++){
                     for(int j = 0; j < 3; j++){
                         Y[i][j] = cipher_text[k];
@@ -144,6 +144,10 @@ void Main(){
                     cout << "We can't find a valid matrix " << endl;
                     exit(0);
                 }
+                cout << "Y" << endl;
+                print(Y);
+                cout << "X" << endl;
+                print(X);
             } while (!validKey(det, inv));
             k=0;
             toDecodeM = escalarMatrix(inv, adj_matrix);    
