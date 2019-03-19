@@ -7,12 +7,20 @@ import java.security.SecureRandom;
 
 import org.bouncycastle.crypto.BlockCipher;
 import org.bouncycastle.crypto.BufferedBlockCipher;
+import org.bouncycastle.crypto.CipherParameters;
 import org.bouncycastle.crypto.KeyGenerationParameters;
 import org.bouncycastle.crypto.engines.DESedeEngine;
+
 import org.bouncycastle.crypto.generators.DESedeKeyGenerator;
 import org.bouncycastle.crypto.modes.CBCBlockCipher;
+import org.bouncycastle.crypto.modes.OFBBlockCipher;
+import org.bouncycastle.crypto.modes.CFBBlockCipher;
 import org.bouncycastle.crypto.paddings.PaddedBufferedBlockCipher;
 import org.bouncycastle.crypto.params.DESedeParameters;
+
+import org.bouncycastle.crypto.params.ParametersWithIV;
+import org.bouncycastle.util.Arrays;
+
 import org.bouncycastle.crypto.params.KeyParameter;
 import org.bouncycastle.util.encoders.Hex;
 
@@ -21,18 +29,25 @@ public class TripleDES {
 	
 	private static final String EXTENSION_CIFRADO = "tripleencdes";
 	private static final String EXTENSION_CLAVE = "tripledeskey";
+        public final int blockSize=16;
 	BlockCipher engine = new DESedeEngine();
 
 	/**
 	 * Gestiona la creación de una clave 3 DES
 	 */
-	public void doGenerateKey() {
-		byte[] key = generateKey();
+	
+        public void doGenerateKey() {
+		byte[] key = generateKeyAndIV();
 		if (key != null) {
-			System.out.println("Clave generada:" + new String(Hex.encode(key)));
+			System.out.println("Clave generada:"
+					+ new String(Hex.encode(Arrays.copyOfRange(key, 0, 14))));
+			System.out.println("IV generado:"
+					+ new String(Hex.encode(Arrays.copyOfRange(key, 14,
+							blockSize + 14))));
 			Utils.instance().saveFile(EXTENSION_CLAVE, Hex.encode(key));
 		}
 	}
+
 
 	/**
 	 * Gestiona el cifrado de un archivo usando el algoritmo DES y una clave alamcenada también en otro archivo
@@ -46,7 +61,9 @@ public class TripleDES {
 					EXTENSION_CLAVE);
 			if (key != null) {
 				// La almacenamos en hexadecimal para que sea legible en el archivo
-				byte[] res = encrypt(Hex.decode(key),text);
+				byte[] res = encrypt(text,
+						Arrays.copyOfRange(Hex.decode(key), 0, 14),
+						Arrays.copyOfRange(Hex.decode(key), 14,14 + blockSize));
 				System.out.println("Texto cifrado (en hexadecimal):"
 						+ new String(Hex.encode(res)));
 				Utils.instance().saveFile(EXTENSION_CIFRADO, Hex.encode(res));
@@ -71,7 +88,9 @@ public class TripleDES {
 				EXTENSION_CLAVE);
 		if (key != null) {
 			// Desciframos el archivo
-			byte[] res = decrypt(Hex.decode(key), Hex.decode(fileContent));
+			byte[] res = decrypt(Hex.decode(fileContent),
+					Arrays.copyOfRange(Hex.decode(key), 0, 14),
+					Arrays.copyOfRange(Hex.decode(key), 14, blockSize + 14));
 			if (res != null) {
 				System.out.println("Texto en claro:"
 						+ new String(res));
@@ -86,16 +105,20 @@ public class TripleDES {
 	 * @param ptBytes Texto a cifrar
 	 * @return Texto cifrado
 	 */
-	protected byte[] encrypt(byte[] key, byte[] ptBytes) {
+	protected byte[] encrypt(byte[] plain, byte[] key,byte[] iv) {
 		// Creamos un cifrador de Bloque con Padding y con el modo de bloque CBC
+                
 		BufferedBlockCipher cipher = new PaddedBufferedBlockCipher(
-				new CBCBlockCipher(engine));
+				new CFBBlockCipher(engine,8));
+                CipherParameters ivAndKey = new ParametersWithIV(new KeyParameter(
+					key), iv);
 		// Lo inicializamos con la clave
-		cipher.init(true, new KeyParameter(key));
+		cipher.init(true, new KeyParameter(iv));
 		// Reservamos espacio para el texto cifrado
-		byte[] rv = new byte[cipher.getOutputSize(ptBytes.length)];
+		byte[] rv = new byte[cipher.getOutputSize(plain.length)];
+                
 		// Realizamos el procesamiento con DES
-		int tam = cipher.processBytes(ptBytes, 0, ptBytes.length, rv, 0);
+		int tam = cipher.processBytes(plain, 0, plain.length, rv, 0);
 		try {
 			// "flush" del cifrador
 			cipher.doFinal(rv, tam);
@@ -115,16 +138,18 @@ public class TripleDES {
 	 * @param ptBytes Texto a descifrar
 	 * @return Texto descifrado
 	 */
-	public byte[] decrypt(byte[] key, byte[] cipherText) {
+	public byte[] decrypt(byte[] ciphered, byte[] key, byte[] iv) {
 		// Creamos un cifrador de Bloque con Padding y con el modo de bloque CBC
 		BufferedBlockCipher cipher = new PaddedBufferedBlockCipher(
-				new CBCBlockCipher(engine));
+				new CFBBlockCipher(engine,8));
+                CipherParameters ivAndKey = new ParametersWithIV(new KeyParameter(
+					key), iv);
 		// Lo inicializamos con la clave
-		cipher.init(false, new KeyParameter(key));
+		cipher.init(false, ivAndKey);
 		// Reservamos espacio para el texto descifrado
-		byte[] rv = new byte[cipher.getOutputSize(cipherText.length)];
+		byte[] rv = new byte[cipher.getOutputSize(ciphered.length)];
 		// Realizamos el procesamiento con DES
-		int tam = cipher.processBytes(cipherText, 0, cipherText.length, rv, 0);
+		int tam = cipher.processBytes(ciphered, 0, ciphered.length, rv, 0);
 		try {
 			// "flush" del cifrador
 			cipher.doFinal(rv, tam);
@@ -141,32 +166,23 @@ public class TripleDES {
 	 * Genera una Clave para el cifrado 3 DES a partir de un número aleatorio
 	 * "seguro"
 	 * 
-	 * @return Clave generada con la longitud de DESedeParameters
+	 * @return 14+blockSize bytes (Clave+IV)
 	 */
-	public byte[] generateKey() {
-		// Creamos un generador de aleatorios "seguro"
+	
+	public byte[] generateKeyAndIV() {
+		// Usamos el generador de números aleatorios para criptografía
 		SecureRandom sr = null;
 		try {
 			sr = new SecureRandom();
+			// Lo inicializamos con una semilla
 			sr.setSeed("UCTresM.".getBytes());
 		} catch (Exception e) {
 			System.err
 					.println("Ha ocurrido un error generando el número aleatorio");
 			return null;
 		}
-		
-		// Generamos la clave 3 DES con la longitud necesaria para el algoritmo
-		KeyGenerationParameters kgp = new KeyGenerationParameters(sr,
-				(DESedeParameters.DES_EDE_KEY_LENGTH) * 8);
-
-		DESedeKeyGenerator kg = new DESedeKeyGenerator();
-		
-		kg.init(kgp);
-
-		/*
-		 * Third, and finally, generate the key
-		 */
-		byte[] key = kg.generateKey();
+		// Lo generamos del tamaño que necesitamos (24 bytes de clave + tamaño de bloque como IV)
+		byte[] key = sr.generateSeed(14 + blockSize+10);
 		return key;
 
 	}
