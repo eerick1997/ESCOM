@@ -39,7 +39,7 @@ public class TripleDES {
     private static final String CIPHER_EXTENSION="tresdes";
     private String filesPath = System.getProperty("user.dir") + "/files/";
     /*El tamaño de la llave para DES debe se de 16 bytes = 128 bits o de 24 bytes = 192 bits*/
-    public final int keySize = 24;
+    public final int keySize = 32;
     /*El tamaño de bloque para OFB, CTR, CFB*/
     public final int blockSize = 8;
 
@@ -98,7 +98,8 @@ public class TripleDES {
 
         byte[] iv = new byte[8];
         System.arraycopy(keyAndIV, keySize, iv, 0, 8);
-        //System.out.println("Key: " + Hex.toHexString(key));
+
+        System.out.println("Key: " + Hex.toHexString(key));
         //System.out.println("IV: " + Hex.toHexString(iv));
         byte[] res = encrypt(key, iv, plaintext, operationMode);
         //System.out.println("RES: " + Hex.toHexString(res));
@@ -107,6 +108,8 @@ public class TripleDES {
     }
 
     protected byte[] encrypt(byte[] key, byte[] iv, byte[] plain, BlockCipher operationMode) throws InvalidCipherTextException {
+        
+        long startTime = System.currentTimeMillis();
         PaddedBufferedBlockCipher cipher = new PaddedBufferedBlockCipher(operationMode, new PKCS7Padding());//Padding
         KeyParameter keyParameter = new KeyParameter(key);
         ParametersWithIV parametersWithIV = new ParametersWithIV(keyParameter, iv);
@@ -120,6 +123,8 @@ public class TripleDES {
         byte[] ciphertextWithIVBytes = new byte[iv.length + cipherText.length];
         System.arraycopy(iv, 0, ciphertextWithIVBytes, 0, iv.length);
         System.arraycopy(cipherText, 0, ciphertextWithIVBytes, iv.length, cipherText.length);
+        long endTime = System.currentTimeMillis() - startTime;
+        System.out.println("Tiempo " + endTime);
         return ciphertextWithIVBytes;
     }
 
