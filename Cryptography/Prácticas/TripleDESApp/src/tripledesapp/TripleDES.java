@@ -1,3 +1,8 @@
+/*
+@author: Esquivel Valdez Alberto
+@date: 18.03.19
+@program: Implementación de TripleDES utilizando la librería BouncyCastle con los
+modos de operación OFB,CTR,CFB y CBC con tamañs de llave de 16 o 24 bytes*/
 package tripledesapp;
 
 import java.io.BufferedInputStream;
@@ -5,17 +10,18 @@ import java.io.BufferedOutputStream;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
-import java.io.FileWriter;
+
 import java.io.FilenameFilter;
-import java.io.PrintWriter;
+
 import java.io.UnsupportedEncodingException;
 import java.security.SecureRandom;
-import java.util.Arrays;
+
 import java.util.Scanner;
 import org.bouncycastle.crypto.BlockCipher;
 import org.bouncycastle.crypto.DataLengthException;
 import org.bouncycastle.crypto.InvalidCipherTextException;
 import org.bouncycastle.crypto.engines.DESedeEngine;
+
 import org.bouncycastle.crypto.modes.CBCBlockCipher;
 import org.bouncycastle.crypto.modes.CFBBlockCipher;
 import org.bouncycastle.crypto.modes.OFBBlockCipher;
@@ -29,8 +35,8 @@ import static tripledesapp.TripleDESApp.scanner;
 
 public class TripleDES {
 
-    private static final String EXTENSION_CIFRADO = "tripleencdes";
-    private static final String EXTENSION_CLAVE = "tripledeskey";
+    private static final String KEY_EXTENSION="key";
+    private static final String CIPHER_EXTENSION="tresdes";
     private String filesPath = System.getProperty("user.dir") + "/files/";
     /*El tamaño de la llave para DES debe se de 16 bytes = 128 bits o de 24 bytes = 192 bits*/
     public final int keySize = 24;
@@ -83,8 +89,8 @@ public class TripleDES {
         //String plaintext = "HOLA ESTE ES UN MENSAJE DE PRUEBA";
         //System.out.println("Texto plano: " + plaintext);
         //byte[] pT = plaintext.getBytes("utf-8");//Texto plano a bytes
-        byte[] plaintext = doSelectFile("Seleccione un archivo", "txt");
-        byte[] keyAndIV = doSelectFile("Seleccione una llave", "key");
+        byte[] plaintext = doSelectFile("Seleccione un archivo", "");
+        byte[] keyAndIV = doSelectFile("Seleccione una llave", KEY_EXTENSION);
 
         //System.out.println("Key + IV: " + Hex.toHexString(keyAndIV));
         byte[] key = new byte[keySize - 8];
@@ -96,7 +102,7 @@ public class TripleDES {
         //System.out.println("IV: " + Hex.toHexString(iv));
         byte[] res = encrypt(key, iv, plaintext, operationMode);
         //System.out.println("RES: " + Hex.toHexString(res));
-        saveFile("tresdes", Hex.encode(res));
+        saveFile(CIPHER_EXTENSION, Hex.encode(res));
 
     }
 
@@ -127,11 +133,11 @@ public class TripleDES {
         else if(mode.equals("OFB")) operationMode = new OFBBlockCipher(engine,blockSize);
         else if(mode.equals("CTR")) operationMode = new SICBlockCipher(engine);
         else if(mode.equals("CFB")) operationMode = new CFBBlockCipher(engine,blockSize);
-        byte[] cifrado = doSelectFile("Seleccione una archivo cifrado", "tresdes");
-        byte[] keyAux = doSelectFile("Selecciona la llave", "key");
+        byte[] cifrado = doSelectFile("Seleccione una archivo cifrado", CIPHER_EXTENSION);
+        byte[] keyAux = doSelectFile("Selecciona la llave", KEY_EXTENSION);
         byte[] res = decrypt(keyAux, Hex.decode(cifrado), operationMode);
         //System.out.println("RES: " + new String(res));
-        saveFile("tresdes", res);
+        saveFile(CIPHER_EXTENSION, res);
     }
 
     protected byte[] decrypt(byte[] key, byte[] plain, BlockCipher operationMode) throws UnsupportedEncodingException, DataLengthException, InvalidCipherTextException {
