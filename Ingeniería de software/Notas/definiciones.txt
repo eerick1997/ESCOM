@@ -1,4 +1,4 @@
-1.- Escribir un verbo en infinitivo respetando la cohesión
+﻿1.- Escribir un verbo en infinitivo respetando la cohesión
     Ejemplo: Registrar calificaciones por grupo
     Es como nos imaginamos como estructuramos el negocio
     Extend: A decisión del usuaio se puede ir a otro caso de uso 
@@ -154,17 +154,28 @@ ISO 12207
         -> Instalación del software y 
         -> El apoyo de aceptación del software 
 
+---------------------------------------------------------------
+	PROCEOS PRIMARIOS: Los que ayudan a diseñar el proyecto
 
+DOCUMENTACIÓN
+	-> Análisis
+	-> Procesos
+	-> etc
 
+Proceso de documentación
+1.	Este es un proceso para registrarla información producida por un proceso de ciclo de vida
+2. 	El proceso define las actividades para planificar, diseñar, desarrollar, editar, distrubuir, mantener los documentos necesarios
+	por todos los interesados tales como gerentes, ingenieros y uduarios del sistema
+3.	Las cuatro actividades junto con sus tareas son: Implementación del proceso, diseño y desarrollo y producción y mantenimiento.
 
-
-
-
-
-
-
-
-
+Proceso de gestión de la configuración
+1.	Se emplea este proceso para identificar, definir y alinear la base de los elementos de software en un sistema
+2.	Para controlar las modificaciones y versiones de los elementos
+3.	Para registrar e informar el estado de los elementos y las peticiones de modificación
+4.	Para asegurar la integridad y exactitud de los elementos, y
+5.	Para controlar el almacenamiento, la manipulación y la entrega de los artículos
+6.	Este proceso consiste en: la ejecución de procesos, identificación de configuración, control de configuración, estado
+	de la configuracoón, la evaluación de configuración, y gestión y administración de liberación
 
 
 
