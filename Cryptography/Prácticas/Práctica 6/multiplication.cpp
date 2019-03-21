@@ -18,11 +18,10 @@ int mulltiply(int a, int b, int m){
         i++;
     }
 
-    if(ans > (pow(2, MSB + 1))){
+    if(ans >= (pow(2, MSB + 1))){
         ans ^= m;
     }
 
-    cout << MSB << endl;
     return ans;
 }
 

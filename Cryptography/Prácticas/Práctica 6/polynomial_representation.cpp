@@ -1,0 +1,29 @@
+#include<bits/stdc++.h>
+
+using namespace std;
+typedef long long int lli;
+
+string fromBinaryToPolynomial(string &s){
+    string ans = "";
+
+    for(int i = 0, j = s.size() - 1; i < s.size(); i++, j--){
+        string aux = std::to_string(i);
+        if(s[i] == '1'){
+            if( j == 0 )
+                ans += " 1 ";
+            else
+                ans += (" x^" + aux + " +");     
+        }
+    }
+
+    if(ans[ans.size() - 1] == '+')
+        ans[ans.size() - 1] = ' ';
+    return ans;
+}
+
+int main(){
+    string a;
+    cin >> a;
+    cout << fromBinaryToPolynomial(a);
+    return 0;
+}
