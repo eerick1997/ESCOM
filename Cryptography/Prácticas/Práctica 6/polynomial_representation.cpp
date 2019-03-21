@@ -7,7 +7,7 @@ string fromBinaryToPolynomial(string &s){
     string ans = "";
 
     for(int i = 0, j = s.size() - 1; i < s.size(); i++, j--){
-        string aux = std::to_string(i);
+        string aux = std::to_string(j);
         if(s[i] == '1'){
             if( j == 0 )
                 ans += " 1 ";
@@ -24,6 +24,6 @@ string fromBinaryToPolynomial(string &s){
 int main(){
     string a;
     cin >> a;
-    cout << fromBinaryToPolynomial(a);
+    cout << fromBinaryToPolynomial(a) << endl;
     return 0;
 }
