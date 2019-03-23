@@ -1,8 +1,26 @@
+/**
+ * Author: Vargas Romero Erick Efraín
+ * Last modification: 22 March 2019
+ **/
 #include<bits/stdc++.h>
 
 using namespace std;
 typedef long long int lli;
 
+string fromBinaryToPolynomial(string &s);
+
+int main(){
+    string a;
+    cin >> a;
+    cout << fromBinaryToPolynomial(a) << endl;
+    return 0;
+}
+
+/**
+ * This function makes a conversion from a binary string to a polynomial representation
+ * @param: string s, the binary string
+ * @return: string, the polynomial representation of s
+ **/
 string fromBinaryToPolynomial(string &s){
     string ans = "";
 
@@ -19,11 +37,4 @@ string fromBinaryToPolynomial(string &s){
     if(ans[ans.size() - 1] == '+')
         ans[ans.size() - 1] = ' ';
     return ans;
-}
-
-int main(){
-    string a;
-    cin >> a;
-    cout << fromBinaryToPolynomial(a) << endl;
-    return 0;
 }

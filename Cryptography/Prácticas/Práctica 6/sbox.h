@@ -2,8 +2,8 @@
 
 using namespace std;
 typedef long long int lli;
-
-const int inversos[256] = 
+typedef unsigned int uint;
+const short inversos[256] = 
 {
     0,1,141,246,203,82,123,209,232,79,41,192,176,225,229,199,
     116,180,170,75,153,43,96,95,88,63,253,204,255,64,238,178,
@@ -23,7 +23,9 @@ const int inversos[256] =
     91,35,56,52,104,70,3,140,221,156,125,160,205,26,65,28,
 };
 
-const int rows = {143, 199, 227, 241, 248, 124, 62, 31};
+const short rows = {143, 199, 227, 241, 248, 124, 62, 31};
+
+const int limit = 8;
 
 typedef vector<lli> Row;
 typedef vector< row > Matrix;
