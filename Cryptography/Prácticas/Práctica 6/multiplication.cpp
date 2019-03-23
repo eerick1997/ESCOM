@@ -55,7 +55,6 @@ int multiply(int a, int b, int m){
         i++;
     }
 
-    cout << (1 << MSB) << endl;
     if(ans >= (1 << (MSB))){
         ans ^= m;
         ans &= (int)(pow(2, MSB) - 1);
