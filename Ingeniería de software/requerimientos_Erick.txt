@@ -1,0 +1,21 @@
+Modificar plan de estudio
+
+Solicitar oficio (a coordinación de enlace y gestión técnica)
+
+Validar documentación (Desarrollo y Soporte Técnico)
+    -> Notificar al responsable (De la unidad académica)
+    -> Solicitar información faltante
+    -> Notificación de cancelación (Oficio, en caso de que no haya respuesta en la solicitud)
+    -> Recepción de oficio con información faltante
+    -> Notificación de eliminación de espacio
+    -> Respaldar espacio
+    -> Asignar espacio
+    
+Crear bitácora
+
+Solicitud de evaluación técnico pedagógica (A UPEV -> SUBDIRECCIÓN DE DISEÑO Y DESARROLLO)
+Produce dictamen técnico pedagogico.
+Presentar dictamen al consejo general consultivo
+Recepción del acta de aprobación (La envía consejo general consultivo)
+Notificación de aprobación (A la unidad académica)
+Solicitud de evaluación (Si es nivel medio superior)
