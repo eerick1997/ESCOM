@@ -178,6 +178,13 @@ Proceso de gestión de la configuración
 	de la configuracoón, la evaluación de configuración, y gestión y administración de liberación
 
 
+-----------------------------------------------------------------------------------------------------
+
+El sistema se considera exitoso si:
+    -> Se entrega en tiempo
+    -> Con el presupuesto que se estableció
+    -> 
+Complejidad ciclomática
 
 
 
