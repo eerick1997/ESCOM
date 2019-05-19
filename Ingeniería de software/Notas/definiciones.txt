@@ -186,12 +186,72 @@ El sistema se considera exitoso si:
     -> 
 Complejidad ciclomática
 
+--------------------------------------------------------------------------------------------------------------------------------------------------
+
+REQUERIMIENTOS
+
+Situaciones complejas a trabajar
+
+Tratar con la naturaleza del sistema y comprender su ambiente
+
+Encontrar los componentes y su interacción dentro del sistema
+
+Definir los servicios que el sistema debe ofrecer al usuario
+
+Definir las restricciones o limitantes del sistema
+
+----------------------------------------------------------------------------------------------------------------------------------------------------
+
+INGENIERIA DE REQUERIMIENTOS
+
+	-	Lo primero que analiza es el problema
+		-	Un problema debe tener implicito una variable o unas variables
+		*	Problema: Diferencia entre lo deseado y lo observado.
+		-	Todos los problemas tienen una cusa.
+		
+	Se analizan los requerimientos, se especifican y luego se validan.
+	Requerimiento = Verbo en infinitivo + sustantivo
+	
+	¿Como se obtienen los requerimientos?
+	1) Comprender el problema
+	2) Recolectar información
+	3) Definir límites
+	4) Identificar usuarios
+	5) Recolección de requerimientos
+	
+	Si todo lo anterior se cumple podemos realizar análisis
+	
+	Se deben priorizar los requerimientos
+	
+ANÁLISIS DE REQUERIMIENTOS
+	
+	1) Priorizar requerimientos
+	2) Etiquetar y encontrar dependencias
+	3) Negociar
+	4) Resolver conflictos
+	
+	Si todo esto se ha realizado pordemos ontemer las especificaciones para aprovechar los recursos al máximo	
+	
+ESPECIFICACIÓN DE REQUERIMIENTOS
+
+	1) Requerimientos funcionales y no funcionales
+	2) Definir estándar para el DER
+	3) Otros documentos
+	4) Modelos
+	5) Herramientas
 
 
-
-
-
-
+	Los requerimientos funcionales elevan el costo exponencialmente
+	
+VALIDAR EL DOCUMENTO
+	
+	1) Integridad
+	2) Realismo
+	3) Verificabilidad
+	4) Casos de prueba
+	5) Consistencia
+	6) Validez
+	
 
 
 
