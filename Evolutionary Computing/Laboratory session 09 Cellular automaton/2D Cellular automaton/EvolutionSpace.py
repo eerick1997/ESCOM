@@ -63,9 +63,8 @@ class EvolutionSpace(QWidget):
         cellSize = self.ca.cellSize
         iMin = self.iStart // cellSize
         jMin = self.jStart // cellSize
-        iMax = min(math.ceil(self.iEnd / cellSize), self.ca.height)
-        jMax = min(math.ceil(self.jEnd / cellSize), self.ca.width)
-
+        iMax = min(math.ceil(self.iEnd / cellSize) + iMin, self.ca.height)
+        jMax = min(math.ceil(self.jEnd / cellSize) + jMin, self.ca.width)
         for i in range(iMin, iMax):
             for j in range(jMin, jMax):
                 currCell = self.ca.evolutionSpace[i][j]
