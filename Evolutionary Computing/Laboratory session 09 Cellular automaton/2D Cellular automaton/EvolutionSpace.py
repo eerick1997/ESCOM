@@ -22,6 +22,9 @@ class EvolutionSpace(QWidget):
         self.gui.txtNumQ0Cells.setText("Q0 Cells: " + str(self.ca.countQ0Cells))
         self.gui.txtNumQ1Cells.setText("Q1 Cells: " + str(self.ca.countQ1Cells))
         self.gui.txtNumQ2Cells.setText("Q2 Cells: " + str(self.ca.countQ2Cells))
+        self.ca.countQ0Cells = 0
+        self.ca.countQ1Cells = 0
+        self.ca.countQ2Cells = 0
         self.update()      
         
     def generateRandomEvolutionSpace(self, probQ0, probQ1, probQ2):
