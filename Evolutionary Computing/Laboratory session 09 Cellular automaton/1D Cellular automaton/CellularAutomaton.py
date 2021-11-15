@@ -2,12 +2,13 @@ import random as rand
 
 class CellularAutomaton:
 
-    def __init__(self, rule=0, width=100, height=100, cellSize=5, spaceIsClosed=False):
+    def __init__(self, rule=0, width=200, height=200, cellSize=2, spaceIsClosed=False, isReverseRule=False):
         self.rule = rule
         self.width = width
         self.height = height
         self.cellSize = cellSize
         self.spaceIsClosed = spaceIsClosed
+        self.isReverseRule = isReverseRule
         self.evolutionSpace = self.createMatrix()
         self.bitmaskCodes = {}
         self.countQ0Cells = 0
@@ -56,8 +57,18 @@ class CellularAutomaton:
             bitmask = self.getBitmask(i)
             self.evolutionSpace[i][self.generation] = self.bitmaskCodes[bitmask]
             
-            if(self.evolutionSpace[self.generation][i] == 1):
+            #If we're looking for a reverse rule we make the normal process with the previous generation and
+            #We must make an xor operation with the row two generations before, in other words
+            #let's assume that we have the arrays with the cells for generations t - 1, t and t + 1
+            #To calculate the gen t + 1 we use the array t, but now to make a reversible array
+            #we use the i-th cell in t + 1 xor the i-th cell in t - 1
+            if self.isReverseRule and self.generation > 1:
+                self.evolutionSpace[i][self.generation] ^= self.evolutionSpace[i][self.generation - 2]
+            
+            if(self.evolutionSpace[i][self.generation] == 1):
                 self.countQ1Cells += 1
             else: 
                 self.countQ0Cells += 1
+                
         self.generation += 1
+        

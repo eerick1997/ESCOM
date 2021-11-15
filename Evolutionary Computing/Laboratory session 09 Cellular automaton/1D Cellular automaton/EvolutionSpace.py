@@ -17,7 +17,11 @@ class EvolutionSpace(QWidget):
         self.jEnd = 0
     
     def nextGeneration(self):
-        self.ca.nextGeneration()
+        
+        if self.ca.generation == self.ca.width:
+            return
+        
+        self.ca.nextGeneration()    
         self.gui.txtGeneration.setText("Generation: " + str(self.ca.generation - 1))
         self.gui.txtNumQ0Cells.setText("Q0 Cells: " + str(self.ca.countQ0Cells))
         self.gui.txtNumQ1Cells.setText("Q1 Cells: " + str(self.ca.countQ1Cells))

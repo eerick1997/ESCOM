@@ -156,7 +156,7 @@
        <number>100</number>
       </property>
       <property name="value">
-       <number>5</number>
+       <number>2</number>
       </property>
      </widget>
     </widget>
@@ -164,9 +164,9 @@
      <property name="geometry">
       <rect>
        <x>0</x>
-       <y>310</y>
+       <y>340</y>
        <width>181</width>
-       <height>371</height>
+       <height>341</height>
       </rect>
      </property>
      <property name="title">
@@ -178,7 +178,7 @@
         <x>10</x>
         <y>70</y>
         <width>171</width>
-        <height>291</height>
+        <height>261</height>
        </rect>
       </property>
       <property name="frameShape">
@@ -193,7 +193,7 @@
          <x>0</x>
          <y>0</y>
          <width>171</width>
-         <height>291</height>
+         <height>261</height>
         </rect>
        </property>
       </widget>
@@ -223,6 +223,19 @@
      </property>
      <property name="text">
       <string>Set rule</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="chkReverseRule">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>310</y>
+       <width>161</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Use reverse rule</string>
      </property>
     </widget>
    </widget>

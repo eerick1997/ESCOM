@@ -79,6 +79,10 @@ class Ui(QtWidgets.QMainWindow):
         self.txtRule = self.findChild(QtWidgets.QLineEdit, 'txtRule')
         self.txtRule.installEventFilter(self)
         
+        self.chkUseReverseRules = self.findChild(QtWidgets.QCheckBox, 'chkReverseRule') 
+        self.chkUseReverseRules.stateChanged.connect(self.chkUseReverseRulesChanged)
+        
+        
         self.probQ1 = 0.0
         
         self.evolutionSpace.iEnd = self.scrollArea.width()
@@ -87,6 +91,9 @@ class Ui(QtWidgets.QMainWindow):
         self.btnSetRule = self.findChild(QtWidgets.QPushButton, 'btnSetRule')
         self.btnSetRule.clicked.connect(self.setRule)
         self.show()
+    
+    def chkUseReverseRulesChanged(self):
+        self.evolutionSpace.ca.isReverseRule = self.chkUseReverseRules.isChecked()
     
     def setRule(self):
         self.evolutionSpace.ca.rule = int(self.txtRule.text())

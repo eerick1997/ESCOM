@@ -2,3 +2,4 @@
 /Cryptography/Prácticas/Practica4/build/
 /Cryptography/Prácticas/prueba/nbproject/private/
 /Cryptography/Prácticas/prueba/build/
+*.pyc
